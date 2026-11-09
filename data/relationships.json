@@ -181,6 +181,13 @@
           "relation": "attests",
           "claim": "Named among the children Rhea bore to Cronos",
           "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516",
+          "relation": "attests",
+          "claim": "Zeus is addressed as son of Cronos",
+          "verified": true
         }
       ]
     },
@@ -361,6 +368,13 @@
           "relation": "attests",
           "claim": "Hera is the last wife of Zeus in the list of his marriages",
           "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 544-567",
+          "relation": "attests",
+          "claim": "Zeus calls Hera his wife, and the two quarrel",
+          "verified": true
         }
       ]
     },
@@ -391,6 +405,13 @@
           "relation": "attests",
           "claim": "Leto bears Apollo and Artemis to Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 8-21",
+          "relation": "attests",
+          "claim": "Apollo is the son of Leto and Zeus",
+          "verified": true
         }
       ]
     },
@@ -405,6 +426,27 @@
           "locator": "ll. 918-920",
           "relation": "attests",
           "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 8-21",
+          "relation": "attests",
+          "claim": "Apollo is the son of Leto and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 33-42",
+          "relation": "attests",
+          "claim": "Apollo is the god whom Leto bore",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 770-779",
+          "relation": "attests",
+          "claim": "Leto bore Apollo on the seventh of the month",
           "verified": true
         }
       ]
@@ -555,6 +597,13 @@
           "locator": "ll. 924-929",
           "relation": "attests",
           "claim": "Hera bears Hephaestus without union with Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 568-583",
+          "relation": "attests",
+          "claim": "Hephaestus speaks of \"his dear mother\" Hera",
           "verified": true
         }
       ]
@@ -709,6 +758,13 @@
           "relation": "attests",
           "claim": "Zeus punishes Prometheus after the sacrifice trick and the theft of fire",
           "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 42-59",
+          "relation": "attests",
+          "claim": "Zeus hides fire, then punishes the theft by sending an evil to men",
+          "verified": true
         }
       ]
     },
@@ -770,6 +826,299 @@
           "claim": "The Dark-haired One lies with Medusa in a meadow",
           "verified": true,
           "note": "Evelyn-White's note on this line identifies the Dark-haired One as Poseidon."
+        }
+      ]
+    },
+    {
+      "id": "jason-spouse-of-medea",
+      "source": "jason",
+      "type": "spouse_of",
+      "target": "medea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "Jason brings Medea to Iolcus and makes her his wife",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aeetes-parent-of-medea",
+      "source": "aeetes",
+      "type": "parent_of",
+      "target": "medea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Medea is born to Aeetes and Idyia",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "circe-sibling-of-aeetes",
+      "source": "circe",
+      "type": "sibling_of",
+      "target": "aeetes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "odysseus-lover-of-circe",
+      "source": "odysseus",
+      "type": "lover_of",
+      "target": "circe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1016",
+          "relation": "attests",
+          "claim": "Circe loves Odysseus and bears him sons",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "odysseus-lover-of-calypso",
+      "source": "odysseus",
+      "type": "lover_of",
+      "target": "calypso",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1017-1018",
+          "relation": "attests",
+          "claim": "Calypso is joined to Odysseus and bears him sons",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27",
+          "relation": "attests",
+          "claim": "Calypso keeps Odysseus, wanting him as her husband",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-ally-of-jason",
+      "source": "heracles",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 122-132",
+          "relation": "attests",
+          "claim": "Heracles answers Jason's summons",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 341-347",
+          "relation": "attests",
+          "claim": "Heracles urges that Jason lead the expedition",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "athena-ally-of-jason",
+      "source": "athena",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 105-114",
+          "relation": "attests",
+          "claim": "Athena helps build the Argo",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 721-729",
+          "relation": "attests",
+          "claim": "Athena gave Jason a mantle",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "apollo-ally-of-jason",
+      "source": "apollo",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 402-424",
+          "relation": "attests",
+          "claim": "Jason prays to Apollo, who promised guidance",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "athena-ally-of-odysseus",
+      "source": "athena",
+      "type": "ally_of",
+      "target": "odysseus",
+      "sources": [
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Athena pleads for Odysseus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 80-95",
+          "relation": "attests",
+          "claim": "Athena proposes his return and goes to rouse Telemachus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-odysseus",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "odysseus",
+      "sources": [
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79",
+          "relation": "attests",
+          "claim": "Zeus says he has not forgotten Odysseus and proposes that the gods plan his return",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-rival-of-odysseus",
+      "source": "poseidon",
+      "type": "rival_of",
+      "target": "odysseus",
+      "sources": [
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79",
+          "relation": "attests",
+          "claim": "Poseidon rages because Odysseus blinded the Cyclops, his son",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27",
+          "relation": "attests",
+          "claim": "All the gods pity Odysseus except Poseidon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-rival-of-heracles",
+      "source": "hera",
+      "type": "rival_of",
+      "target": "heracles",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Hera nourishes the Hydra out of anger at Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 989-1011",
+          "relation": "attests",
+          "claim": "Hera raised the Earthborn as a trial for Heracles",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-rival-of-zeus",
+      "source": "hera",
+      "type": "rival_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 386-412",
+          "relation": "attests",
+          "claim": "Achilles reports that Hera, Poseidon and Athena once wished to bind Zeus",
+          "verified": true,
+          "note": "Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1."
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 536-567",
+          "relation": "attests",
+          "claim": "Hera and Zeus quarrel over his secret counsel with Thetis",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-rival-of-zeus",
+      "source": "poseidon",
+      "type": "rival_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 386-412",
+          "relation": "attests",
+          "claim": "Poseidon is named among the gods who wished to bind Zeus",
+          "verified": true,
+          "note": "Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1."
+        }
+      ]
+    },
+    {
+      "id": "athena-rival-of-zeus",
+      "source": "athena",
+      "type": "rival_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 386-412",
+          "relation": "attests",
+          "claim": "Athena is named among the gods who wished to bind Zeus",
+          "verified": true,
+          "note": "Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1."
+        }
+      ]
+    },
+    {
+      "id": "zeus-rival-of-hephaestus",
+      "source": "zeus",
+      "type": "rival_of",
+      "target": "hephaestus",
+      "sources": [
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 584-594",
+          "relation": "attests",
+          "claim": "Hephaestus recalls that Zeus hurled him from heaven when he tried to help Hera",
+          "verified": true,
+          "note": "Told by Hephaestus himself."
         }
       ]
     }

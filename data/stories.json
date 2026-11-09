@@ -133,7 +133,9 @@
         "prometheus",
         "zeus",
         "hephaestus",
-        "athena"
+        "athena",
+        "hermes",
+        "aphrodite"
       ],
       "sources": [
         {
@@ -145,10 +147,11 @@
         },
         {
           "source_id": "gr-works-and-days",
-          "locator": null,
+          "locator": "ll. 42-105",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Zeus hides fire, Prometheus steals it, and the first woman, Pandora, is made and sent with her jar of ills",
+          "verified": true,
+          "note": "Differs from the Theogony: Hermes and Aphrodite take part and the jar is described."
         }
       ]
     },

@@ -9,7 +9,7 @@ by = {}
 for fn in ('deities', 'creatures', 'heroes', 'stories', 'relationships'):
     for r in load(fn):
         for l in r['sources']: by.setdefault(l['source_id'], []).append((fn, r['id'], l))
-num = lambda loc: int(re.search(r'\d+', loc).group()) if loc and re.search(r'\d+', loc) else 10**9
+num = lambda loc: tuple(int(x) for x in re.findall(r'\d+', loc or '')) or (10**9,)
 def section(title, body): return f"## {title}\n{body}\n"
 for sid, s in sources.items():
     rows = by.get(sid, [])

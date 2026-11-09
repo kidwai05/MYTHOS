@@ -53,6 +53,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 270-294 | Perseus cuts off Medusa's head | `relationships:perseus-killer-of-medusa` |
 | ll. 270-294 | The Dark-haired One lies with Medusa in a meadow (Evelyn-White's note on this line identifies the Dark-haired One as Poseidon.) | `relationships:poseidon-lover-of-medusa` |
 | ll. 295-305 | Half nymph, half snake, living in a cave in Arima | `creatures:echidna` |
+| ll. 306-332 | Nourishes the Hydra, angry beyond measure at Heracles | `deities:hera` |
 | ll. 306-332 | Said to be the mate of Echidna (The Theogony uses Typhaon here and Typhoeus at l. 821; this database treats them as one figure (editorial identification).) | `creatures:typhon` |
 | ll. 306-332 | Mother of Orthus, Cerberus, the Hydra, the Chimaera, the Sphinx and the Nemean lion | `creatures:echidna` |
 | ll. 306-332 | Raised by Hera; destroyed by Heracles and Iolaus with Athena's help | `creatures:hydra` |
@@ -63,6 +64,8 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 306-332 | Typhaon is the mate of Echidna and father of her offspring (Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821).) | `relationships:typhon-parent-of-hydra` |
 | ll. 306-332 | Typhaon is the mate of Echidna and father of her offspring (Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821).) | `relationships:typhon-parent-of-cerberus` |
 | ll. 306-332 | Heracles and Iolaus destroy the Hydra | `relationships:heracles-killer-of-hydra` |
+| ll. 306-332 | Hera nourishes the Hydra out of anger at Heracles | `relationships:hera-rival-of-heracles` |
+| ll. 346-370 | Listed among the daughters of Ocean and Tethys | `deities:calypso` |
 | ll. 404-409 | Daughter of Phoebe and Coeus | `deities:leto` |
 | ll. 453-491 | Swallows his children to avoid being overthrown | `deities:cronus` |
 | ll. 453-491 | Mother of the first Olympians; hides the infant Zeus on Crete | `deities:rhea` |
@@ -72,7 +75,6 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 453-491 | Named among the children of Cronos and Rhea | `deities:hades` |
 | ll. 453-491 | Named among the children of Cronos and Rhea | `deities:demeter` |
 | ll. 453-491 | First-named child of Cronos and Rhea | `deities:hestia` |
-| ll. 453-506 | Cronos swallows his children; Rhea hides Zeus on Crete and gives Cronos a stone | `stories:birth-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-hera` |
@@ -85,6 +87,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-demeter` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-hestia` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-hestia` |
+| ll. 453-506 | Cronos swallows his children; Rhea hides Zeus on Crete and gives Cronos a stone | `stories:birth-of-zeus` |
 | ll. 492-506 | Is tricked into vomiting them up again | `deities:cronus` |
 | ll. 492-506 | Overcomes Cronos and receives the thunderbolt | `deities:zeus` |
 | ll. 492-506 | Cronos is bested by the arts and might of his own son Zeus | `relationships:zeus-rival-of-cronus` |
@@ -106,9 +109,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 820-868 | Zeus defeats the monster and throws him into Tartarus | `stories:typhonomachy` |
 | ll. 820-868 | Earth bears Typhoeus, her youngest, by Tartarus | `relationships:gaia-parent-of-typhon` |
 | ll. 820-868 | Zeus strikes Typhoeus down and casts him into Tartarus | `relationships:zeus-rival-of-typhon` |
-| ll. 886-929 | Marriages and children of Zeus | `deities:zeus` |
 | ll. 886-900 | Her mother Metis is swallowed by Zeus before the birth | `deities:athena` |
 | ll. 886-900 | Zeus swallows Metis to prevent a stronger child | `stories:birth-of-athena` |
+| ll. 886-929 | Marriages and children of Zeus | `deities:zeus` |
 | ll. 912-914 | Carries off Persephone | `deities:hades` |
 | ll. 912-914 | Bears Persephone to Zeus | `deities:demeter` |
 | ll. 912-914 | Daughter of Demeter and Zeus; carried off by Hades | `deities:persephone` |
@@ -126,11 +129,11 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 921-923 | Hera is the last wife of Zeus in the list of his marriages | `relationships:zeus-spouse-of-hera` |
 | ll. 921-923 | Hera bears Hebe, Ares and Eileithyia to Zeus | `relationships:zeus-parent-of-ares` |
 | ll. 921-923 | Hera bears Hebe, Ares and Eileithyia to Zeus | `relationships:hera-parent-of-ares` |
-| ll. 924-929 | Bears Hephaestus without Zeus | `deities:hera` |
 | ll. 924-928 | Born from Zeus's own head | `deities:athena` |
-| ll. 924-929 | Born to Hera without Zeus; the most skilled craftsman of the gods | `deities:hephaestus` |
 | ll. 924-928 | Athena is born from the head of Zeus | `stories:birth-of-athena` |
 | ll. 924-928 | Zeus gives birth to Athena from his own head | `relationships:zeus-parent-of-athena` |
+| ll. 924-929 | Bears Hephaestus without Zeus | `deities:hera` |
+| ll. 924-929 | Born to Hera without Zeus; the most skilled craftsman of the gods | `deities:hephaestus` |
 | ll. 924-929 | Hera bears Hephaestus without union with Zeus | `relationships:hera-parent-of-hephaestus` |
 | ll. 930-932 | Husband of Amphitrite and father of Triton | `deities:poseidon` |
 | ll. 933-937 | Father, with Aphrodite, of Panic, Fear and Harmonia | `deities:ares` |
@@ -144,9 +147,21 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 945-946 | Marries Aglaea, youngest of the Graces | `deities:hephaestus` |
 | ll. 947-949 | Marries Ariadne, who is made immortal | `deities:dionysus` |
 | ll. 950-955 | Marries Hebe after finishing his labours | `heroes:heracles` |
+| ll. 956-962 | Daughter of Aeetes and Idyia | `heroes:medea` |
+| ll. 956-962 | Son of Helios and Perseis; marries Idyia and fathers Medea | `heroes:aeetes` |
+| ll. 956-962 | Daughter of Helios and Perseis, sister of Aeetes | `heroes:circe` |
+| ll. 956-962 | Medea is born to Aeetes and Idyia | `relationships:aeetes-parent-of-medea` |
+| ll. 956-962 | Perseis bears Circe and Aeetes to Helios | `relationships:circe-sibling-of-aeetes` |
 | ll. 969-974 | Bears Plutus to Iasion on Crete | `deities:demeter` |
 | ll. 993-1002 | Takes Medea from Aeetes and brings her to Iolcus after the labours set by Pelias | `heroes:jason` |
+| ll. 993-1002 | Led away from Aeetes by Jason, who makes her his wife; she bears Medeus | `heroes:medea` |
+| ll. 993-1002 | The king from whom Jason takes Medea | `heroes:aeetes` |
+| ll. 993-1002 | Jason brings Medea to Iolcus and makes her his wife | `relationships:jason-spouse-of-medea` |
+| ll. 1011-1016 | Loves Odysseus and bears Agrius, Latinus and Telegonus | `heroes:circe` |
+| ll. 1011-1016 | Circe loves Odysseus and bears him sons | `relationships:odysseus-lover-of-circe` |
 | ll. 1011-1018 | Father of children by Circe and by Calypso | `heroes:odysseus` |
+| ll. 1017-1018 | Joined to Odysseus in love; bears Nausithous and Nausinous | `deities:calypso` |
+| ll. 1017-1018 | Calypso is joined to Odysseus and bears him sons | `relationships:odysseus-lover-of-calypso` |
 
 ## Records linked to this source
 - `creatures:cerberus` (verified)
@@ -166,6 +181,8 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:athena` (verified)
 - `deities:athena` (verified)
 - `deities:athena` (verified)
+- `deities:calypso` (verified)
+- `deities:calypso` (verified)
 - `deities:cronus` (verified)
 - `deities:cronus` (verified)
 - `deities:cronus` (verified)
@@ -184,6 +201,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:hephaestus` (verified)
 - `deities:hephaestus` (verified)
 - `deities:hephaestus` (verified)
+- `deities:hera` (verified)
 - `deities:hera` (verified)
 - `deities:hera` (verified)
 - `deities:hera` (verified)
@@ -207,13 +225,21 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
+- `heroes:aeetes` (verified)
+- `heroes:aeetes` (verified)
+- `heroes:circe` (verified)
+- `heroes:circe` (verified)
 - `heroes:heracles` (verified)
 - `heroes:heracles` (verified)
 - `heroes:heracles` (verified)
 - `heroes:heracles` (verified)
 - `heroes:jason` (verified)
+- `heroes:medea` (verified)
+- `heroes:medea` (verified)
 - `heroes:odysseus` (verified)
 - `heroes:perseus` (verified)
+- `relationships:aeetes-parent-of-medea` (verified)
+- `relationships:circe-sibling-of-aeetes` (verified)
 - `relationships:cronus-parent-of-demeter` (verified)
 - `relationships:cronus-parent-of-hades` (verified)
 - `relationships:cronus-parent-of-hera` (verified)
@@ -230,10 +256,14 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `relationships:gaia-parent-of-uranus` (verified)
 - `relationships:hera-parent-of-ares` (verified)
 - `relationships:hera-parent-of-hephaestus` (verified)
+- `relationships:hera-rival-of-heracles` (verified)
 - `relationships:heracles-ally-of-prometheus` (verified)
 - `relationships:heracles-killer-of-hydra` (verified)
+- `relationships:jason-spouse-of-medea` (verified)
 - `relationships:leto-parent-of-apollo` (verified)
 - `relationships:leto-parent-of-artemis` (verified)
+- `relationships:odysseus-lover-of-calypso` (verified)
+- `relationships:odysseus-lover-of-circe` (verified)
 - `relationships:perseus-killer-of-medusa` (verified)
 - `relationships:poseidon-lover-of-medusa` (verified)
 - `relationships:rhea-parent-of-demeter` (verified)

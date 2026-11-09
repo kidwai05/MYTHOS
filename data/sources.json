@@ -14,7 +14,11 @@
       "verified"
     ],
     "locator_convention": {
-      "gr-theogony": "Ranges follow the paragraph blocks of the Evelyn-White translation as numbered on Theoi: a block starts at its number and runs to the line before the next number. Check against the Greek text before quoting exact line ends."
+      "gr-theogony": "Ranges follow the paragraph blocks of the Evelyn-White translation as numbered on Theoi: a block starts at its number and runs to the line before the next number. Check against the Greek text before quoting exact line ends.",
+      "gr-argonautica": "Book 1 ranges follow the bracketed line numbers of the Seaton translation as numbered on Theoi. Only Book 1 and the Theogony have been read so far.",
+      "gr-odyssey": "Book 1 ranges follow the bracketed line numbers of the Murray translation as numbered on Theoi. Only Book 1 has been read so far.",
+      "gr-works-and-days": "Line ranges follow the bracketed numbers of the Evelyn-White translation as numbered on Theoi. The whole poem has been read.",
+      "gr-iliad": "Book 1 ranges follow the bracketed line numbers of the Murray translation as numbered on Theoi. Only Book 1 has been read so far."
     }
   },
   "records": [
@@ -64,7 +68,7 @@
       ],
       "edition_used": "Evelyn-White, H. G. (trans.), Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 57 (London: Heinemann, 1914)",
       "url": "https://www.theoi.com/Text/HesiodWorksDays.html",
-      "status": "edition-chosen",
+      "status": "verified",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/works-and-days.md"
@@ -90,7 +94,7 @@
       ],
       "edition_used": "Murray, A. T. (trans.), Homer: Iliad (Loeb Classical Library, 1924)",
       "url": "https://www.theoi.com/Text/HomerIliad1.html",
-      "status": "edition-chosen",
+      "status": "reading",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/iliad.md"
@@ -118,7 +122,7 @@
       ],
       "edition_used": "Murray, A. T. (trans.), Homer: Odyssey (Loeb Classical Library, 1919)",
       "url": "https://www.theoi.com/Text/HomerOdyssey1.html",
-      "status": "edition-chosen",
+      "status": "reading",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/odyssey.md"
@@ -196,7 +200,7 @@
       ],
       "edition_used": "Seaton, R. C. (trans.), Apollonius Rhodius: Argonautica (Loeb Classical Library, 1912)",
       "url": "https://www.theoi.com/Text/ApolloniusRhodius1.html",
-      "status": "edition-chosen",
+      "status": "reading",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/argonautica.md"

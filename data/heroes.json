@@ -81,6 +81,27 @@
           "relation": "attests",
           "claim": null,
           "verified": false
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 122-132",
+          "relation": "attests",
+          "claim": "Answers Jason's summons and joins the Argonauts",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 341-347",
+          "relation": "attests",
+          "claim": "Declines to lead and names Jason",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 989-1011",
+          "relation": "attests",
+          "claim": "Fights the Earthborn monsters that Hera raised as a trial for him",
+          "verified": true
         }
       ]
     },
@@ -130,18 +151,25 @@
           "verified": true
         },
         {
-          "source_id": "gr-argonautica",
+          "source_id": "gr-bibliotheca",
           "locator": null,
           "relation": "attests",
           "claim": null,
           "verified": false
         },
         {
-          "source_id": "gr-bibliotheca",
-          "locator": null,
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 5-17",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Pelias, warned by an oracle about a man with one sandal, sends Jason on the voyage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 341-347",
+          "relation": "attests",
+          "claim": "Chosen leader of the heroes after Heracles declines",
+          "verified": true
         }
       ]
     },
@@ -165,17 +193,147 @@
         },
         {
           "source_id": "gr-odyssey",
-          "locator": null,
+          "locator": "Book 1, ll. 1-10",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "The man of many devices whose comrades were lost on the way home",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27",
+          "relation": "attests",
+          "claim": "Held back by Calypso while Poseidon rages against him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Athena pleads for him before Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79",
+          "relation": "attests",
+          "claim": "Zeus recalls his sacrifices; Poseidon is angry over the blinding of the Cyclops",
+          "verified": true
         },
         {
           "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 130-146",
+          "relation": "attests",
+          "claim": "Agamemnon names him as a man whose prize he might seize, and as a possible commander of the ship",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 303-311",
+          "relation": "attests",
+          "claim": "Takes command of the ship returning Chryseis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 428-445",
+          "relation": "attests",
+          "claim": "Leads Chryseis to the altar and gives her back to her father",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "medea",
+      "name": "Medea",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Daughter of Aeetes and Idyia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "Led away from Aeetes by Jason, who makes her his wife; she bears Medeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
           "locator": null,
           "relation": "attests",
           "claim": null,
           "verified": false
+        }
+      ]
+    },
+    {
+      "id": "aeetes",
+      "name": "Aeetes",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "king"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Son of Helios and Perseis; marries Idyia and fathers Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "The king from whom Jason takes Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "circe",
+      "name": "Circe",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Daughter of Helios and Perseis, sister of Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1016",
+          "relation": "attests",
+          "claim": "Loves Odysseus and bears Agrius, Latinus and Telegonus",
+          "verified": true
         }
       ]
     }

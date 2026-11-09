@@ -65,7 +65,7 @@ All are older Loeb translations that are public domain in the US and are hosted 
 | `gr-bibliotheca` | Frazer, Loeb 121-122 (1921) |
 | `gr-argonautica` | Seaton, Loeb (1912) |
 
-Only the Theogony links are verified so far. Links to the other five have no locators yet and stay `verified: false`.
+Read and verified so far: the Theogony and *Works and Days* (whole poems), and Book 1 of the Iliad, Odyssey and Argonautica. Still unread, so their links stay `verified: false`: Apollodorus, the Homeric Hymns, the rest of the Iliad, Odyssey and Argonautica (Medea and Aeetes need Argonautica Books 3 and 4). Locator formats: `ll. 453-491` for the poems read whole, `Book 1, ll. 44-62` for the epics.
 
 ## 11. Locators and editorial identifications
 

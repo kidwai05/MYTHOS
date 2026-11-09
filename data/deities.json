@@ -305,6 +305,13 @@
           "relation": "attests",
           "claim": "Is tricked into vomiting them up again",
           "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516",
+          "relation": "attests",
+          "claim": "Zeus is addressed as his son",
+          "verified": true
         }
       ]
     },
@@ -402,6 +409,41 @@
           "relation": "attests",
           "claim": null,
           "verified": false
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79",
+          "relation": "attests",
+          "claim": "Says he has not forgotten Odysseus, who sacrificed beyond all mortals",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 1-10",
+          "relation": "attests",
+          "claim": "Praised in the opening hymn as the god who raises and humbles at will",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 54-68",
+          "relation": "attests",
+          "claim": "Plans the evil that is the price of fire and sets the gods to make it",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516",
+          "relation": "attests",
+          "claim": "Supplicated by Thetis; addressed as son of Cronos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 517-530",
+          "relation": "attests",
+          "claim": "Bows his head to Thetis, wary of a quarrel with Hera",
+          "verified": true
         }
       ]
     },
@@ -439,6 +481,48 @@
           "relation": "attests",
           "claim": "Bears Hephaestus without Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Nourishes the Hydra, angry beyond measure at Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 989-1011",
+          "relation": "attests",
+          "claim": "Raised the Earthborn monsters as a trial for Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 53-67",
+          "relation": "attests",
+          "claim": "Puts it in Achilles' heart to call the assembly, pitying the Danaans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 187-205",
+          "relation": "attests",
+          "claim": "Sends Athena to restrain Achilles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 536-567",
+          "relation": "attests",
+          "claim": "Confronts Zeus over his secret talk with Thetis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 568-583",
+          "relation": "attests",
+          "claim": "Hephaestus calls her his mother",
+          "verified": true
         }
       ]
     },
@@ -471,6 +555,21 @@
           "relation": "attests",
           "claim": "Husband of Amphitrite and father of Triton",
           "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79",
+          "relation": "attests",
+          "claim": "Rages against Odysseus for blinding his son the Cyclops Polyphemus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 386-412",
+          "relation": "attests",
+          "claim": "Named with Hera and Athena among the gods who wished to bind Zeus",
+          "verified": true,
+          "note": "Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1."
         }
       ]
     },
@@ -607,6 +706,48 @@
           "relation": "attests",
           "claim": "Dresses the first woman",
           "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 105-114",
+          "relation": "attests",
+          "claim": "Urges Tiphys to join and fashions the Argo with Argus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 721-729",
+          "relation": "attests",
+          "claim": "Gave Jason the purple mantle when the ship was begun",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Pleads for Odysseus before Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 80-95",
+          "relation": "attests",
+          "claim": "Proposes to send Hermes to Calypso and goes to Ithaca herself",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-82",
+          "relation": "attests",
+          "claim": "Ordered to teach the first woman needlework; clothes and adorns her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 187-221",
+          "relation": "attests",
+          "claim": "Sent by Hera to stay Achilles' sword, and he obeys",
+          "verified": true
         }
       ]
     },
@@ -639,6 +780,41 @@
           "relation": "attests",
           "claim": null,
           "verified": false
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 402-424",
+          "relation": "attests",
+          "claim": "Jason prays to him at the altar; he had promised guidance at Pytho",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 770-779",
+          "relation": "attests",
+          "claim": "Leto bore him on the seventh of the month",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 8-21",
+          "relation": "attests",
+          "claim": "Son of Leto and Zeus; sends a plague on the Achaeans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 43-52",
+          "relation": "attests",
+          "claim": "Comes down from Olympus and strikes the army with arrows",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 601-604",
+          "relation": "attests",
+          "claim": "Holds the lyre at the gods' feast",
+          "verified": true
         }
       ]
     },
@@ -690,6 +866,20 @@
           "relation": "attests",
           "claim": "Bears Apollo and Artemis to Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 770-779",
+          "relation": "attests",
+          "claim": "Bore Apollo on the seventh of the month",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 33-42",
+          "relation": "attests",
+          "claim": "Named as the mother of Apollo",
+          "verified": true
         }
       ]
     },
@@ -711,6 +901,20 @@
           "locator": "ll. 938-939",
           "relation": "attests",
           "claim": "Son of Maia and Zeus; herald of the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-68",
+          "relation": "attests",
+          "claim": "Ordered to give the first woman a shameless mind and a deceitful nature",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 83-89",
+          "relation": "attests",
+          "claim": "Sent to bring her to Epimetheus",
           "verified": true
         }
       ]
@@ -774,6 +978,13 @@
           "relation": "attests",
           "claim": "Bears Panic, Fear and Harmonia to Ares",
           "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-68",
+          "relation": "attests",
+          "claim": "Ordered to shed grace and cruel longing on the first woman's head",
+          "verified": true
         }
       ]
     },
@@ -812,6 +1023,27 @@
           "locator": "ll. 945-946",
           "relation": "attests",
           "claim": "Marries Aglaea, youngest of the Graces",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-82",
+          "relation": "attests",
+          "claim": "Ordered by Zeus to mould the first woman from earth and water, and fashions her from clay",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 568-600",
+          "relation": "attests",
+          "claim": "Son of Hera; recalls being hurled from heaven by Zeus; pours wine for the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 605-611",
+          "relation": "attests",
+          "claim": "Built a palace for each of the gods",
           "verified": true
         }
       ]
@@ -903,10 +1135,58 @@
         },
         {
           "source_id": "gr-works-and-days",
-          "locator": null,
+          "locator": "ll. 42-53",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Zeus hides fire because Prometheus deceived him; Prometheus steals it back in a fennel stalk",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 54-59",
+          "relation": "attests",
+          "claim": "Zeus answers by promising men an evil as the price of fire",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "calypso",
+      "name": "Calypso",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the daughters of Ocean and Tethys",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1017-1018",
+          "relation": "attests",
+          "claim": "Joined to Odysseus in love; bears Nausithous and Nausinous",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27",
+          "relation": "attests",
+          "claim": "Keeps Odysseus in her hollow caves, wanting him as her husband",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Described by Athena as the daughter of Atlas who holds Odysseus on her island",
+          "verified": true
         }
       ]
     }
