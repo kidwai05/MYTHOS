@@ -1,0 +1,777 @@
+{
+  "meta": {
+    "status": "seed+greek-milestone-1",
+    "note": "Greek records are verified against the Evelyn-White (1914) Theogony. Norse and Egyptian records are still seeds (verified=false, no locators). roles and domains are editorial tags, not individually cited."
+  },
+  "records": [
+    {
+      "id": "odin-parent-of-thor",
+      "source": "odin",
+      "type": "parent_of",
+      "target": "thor",
+      "sources": [
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "thor-rival-of-jormungandr",
+      "source": "thor",
+      "type": "rival_of",
+      "target": "jormungandr",
+      "sources": [
+        {
+          "source_id": "no-hymiskvida",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "osiris-spouse-of-isis",
+      "source": "osiris",
+      "type": "spouse_of",
+      "target": "isis",
+      "sources": [
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "osiris-parent-of-horus",
+      "source": "osiris",
+      "type": "parent_of",
+      "target": "horus",
+      "sources": [
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "isis-parent-of-horus",
+      "source": "isis",
+      "type": "parent_of",
+      "target": "horus",
+      "sources": [
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "horus-rival-of-set",
+      "source": "horus",
+      "type": "rival_of",
+      "target": "set",
+      "sources": [
+        {
+          "source_id": "eg-contendings-of-horus-and-seth",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-uranus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "uranus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Earth bears starry Heaven first, equal to herself",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-cronus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "cronus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Cronus and Rhea are among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-rhea",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "rhea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Cronus and Rhea are among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-cronus",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "cronus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Cronus and Rhea are among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-rhea",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "rhea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Cronus and Rhea are among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-zeus",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-zeus",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-hera",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "hera",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-hera",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "hera",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-poseidon",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "poseidon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-poseidon",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "poseidon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-hades",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "hades",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-hades",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "hades",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-demeter",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "demeter",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-demeter",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "demeter",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus-parent-of-hestia",
+      "source": "cronus",
+      "type": "parent_of",
+      "target": "hestia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea-parent-of-hestia",
+      "source": "rhea",
+      "type": "parent_of",
+      "target": "hestia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children Rhea bore to Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-spouse-of-hera",
+      "source": "zeus",
+      "type": "spouse_of",
+      "target": "hera",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera is the last wife of Zeus in the list of his marriages",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-athena",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "athena",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-928",
+          "relation": "attests",
+          "claim": "Zeus gives birth to Athena from his own head",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-apollo",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "apollo",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "leto-parent-of-apollo",
+      "source": "leto",
+      "type": "parent_of",
+      "target": "apollo",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-artemis",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "artemis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "leto-parent-of-artemis",
+      "source": "leto",
+      "type": "parent_of",
+      "target": "artemis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-hermes",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "hermes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 938-939",
+          "relation": "attests",
+          "claim": "Maia bears Hermes to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-dionysus",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "dionysus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "The mortal Semele bears Dionysus to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-heracles",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "heracles",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944",
+          "relation": "attests",
+          "claim": "Alcmene bears Heracles to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-persephone",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "persephone",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Demeter bears Persephone to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "demeter-parent-of-persephone",
+      "source": "demeter",
+      "type": "parent_of",
+      "target": "persephone",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Demeter bears Persephone to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-ares",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "ares",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Hebe, Ares and Eileithyia to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-parent-of-ares",
+      "source": "hera",
+      "type": "parent_of",
+      "target": "ares",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Hebe, Ares and Eileithyia to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-parent-of-hephaestus",
+      "source": "hera",
+      "type": "parent_of",
+      "target": "hephaestus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-929",
+          "relation": "attests",
+          "claim": "Hera bears Hephaestus without union with Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-aphrodite",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "aphrodite",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Aphrodite grows in the foam around the severed members of Heaven",
+          "verified": true,
+          "note": "Theogony version. Other sources give different parentage; compare the Iliad and the Bibliotheca before relying on this."
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-typhon",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "typhon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Earth bears Typhoeus, her youngest, by Tartarus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "echidna-parent-of-hydra",
+      "source": "echidna",
+      "type": "parent_of",
+      "target": "hydra",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears the Lernaean Hydra",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "echidna-parent-of-cerberus",
+      "source": "echidna",
+      "type": "parent_of",
+      "target": "cerberus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears Cerberus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "typhon-parent-of-hydra",
+      "source": "typhon",
+      "type": "parent_of",
+      "target": "hydra",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Typhaon is the mate of Echidna and father of her offspring",
+          "verified": true,
+          "note": "Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821)."
+        }
+      ]
+    },
+    {
+      "id": "typhon-parent-of-cerberus",
+      "source": "typhon",
+      "type": "parent_of",
+      "target": "cerberus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Typhaon is the mate of Echidna and father of her offspring",
+          "verified": true,
+          "note": "Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821)."
+        }
+      ]
+    },
+    {
+      "id": "cronus-rival-of-uranus",
+      "source": "cronus",
+      "type": "rival_of",
+      "target": "uranus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 163-206",
+          "relation": "attests",
+          "claim": "Cronos ambushes his father Heaven and castrates him",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-rival-of-cronus",
+      "source": "zeus",
+      "type": "rival_of",
+      "target": "cronus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506",
+          "relation": "attests",
+          "claim": "Cronos is bested by the arts and might of his own son Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-rival-of-typhon",
+      "source": "zeus",
+      "type": "rival_of",
+      "target": "typhon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Zeus strikes Typhoeus down and casts him into Tartarus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-rival-of-prometheus",
+      "source": "zeus",
+      "type": "rival_of",
+      "target": "prometheus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 545-616",
+          "relation": "attests",
+          "claim": "Zeus punishes Prometheus after the sacrifice trick and the theft of fire",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-killer-of-hydra",
+      "source": "heracles",
+      "type": "killer_of",
+      "target": "hydra",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Heracles and Iolaus destroy the Hydra",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "perseus-killer-of-medusa",
+      "source": "perseus",
+      "type": "killer_of",
+      "target": "medusa",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Perseus cuts off Medusa's head",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-ally-of-prometheus",
+      "source": "heracles",
+      "type": "ally_of",
+      "target": "prometheus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Heracles kills the eagle and frees Prometheus, with the will of Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-lover-of-medusa",
+      "source": "poseidon",
+      "type": "lover_of",
+      "target": "medusa",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "The Dark-haired One lies with Medusa in a meadow",
+          "verified": true,
+          "note": "Evelyn-White's note on this line identifies the Dark-haired One as Poseidon."
+        }
+      ]
+    }
+  ]
+}

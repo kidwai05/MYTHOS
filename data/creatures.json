@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "status": "seed+greek-milestone-1",
+    "note": "Greek records are verified against the Evelyn-White (1914) Theogony. Norse and Egyptian records are still seeds (verified=false, no locators). roles and domains are editorial tags, not individually cited."
+  },
+  "records": [
+    {
+      "id": "fenrir",
+      "name": "Fenrir",
+      "mythology": "norse",
+      "roles": [
+        "monster"
+      ],
+      "sources": [
+        {
+          "source_id": "no-voluspa",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "jormungandr",
+      "name": "Jörmungandr",
+      "mythology": "norse",
+      "roles": [
+        "monster"
+      ],
+      "sources": [
+        {
+          "source_id": "no-hymiskvida",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "apep",
+      "name": "Apep",
+      "mythology": "egyptian",
+      "roles": [
+        "monster"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-amduat",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-book-of-gates",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "typhon",
+      "name": "Typhon",
+      "mythology": "greek",
+      "aliases": [
+        "Typhoeus",
+        "Typhaon"
+      ],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Hundred-headed child of Earth and Tartarus, struck down by Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Said to be the mate of Echidna",
+          "verified": true,
+          "note": "The Theogony uses Typhaon here and Typhoeus at l. 821; this database treats them as one figure (editorial identification)."
+        }
+      ]
+    },
+    {
+      "id": "echidna",
+      "name": "Echidna",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 295-305",
+          "relation": "attests",
+          "claim": "Half nymph, half snake, living in a cave in Arima",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Mother of Orthus, Cerberus, the Hydra, the Chimaera, the Sphinx and the Nemean lion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hydra",
+      "name": "Lernaean Hydra",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Raised by Hera; destroyed by Heracles and Iolaus with Athena's help",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "cerberus",
+      "name": "Cerberus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [
+        "underworld"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Fifty-headed hound of Hades",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774",
+          "relation": "attests",
+          "claim": "A hound guards the halls of Hades and keeps the dead in",
+          "verified": true,
+          "note": "Cerberus is not named in this passage."
+        }
+      ]
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "The mortal Gorgon; Perseus beheads her, and Pegasus and Chrysaor spring from her",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

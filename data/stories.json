@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "status": "seed+greek-milestone-1",
+    "note": "Greek records are verified against the Evelyn-White (1914) Theogony. Norse and Egyptian records are still seeds (verified=false, no locators). roles and domains are editorial tags, not individually cited."
+  },
+  "records": [
+    {
+      "id": "ragnarok",
+      "title": "Ragnarök",
+      "mythology": "norse",
+      "participants": [
+        "odin",
+        "fenrir"
+      ],
+      "sources": [
+        {
+          "source_id": "no-voluspa",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "thor-and-the-serpent",
+      "title": "Thor's fishing for the World Serpent",
+      "mythology": "norse",
+      "participants": [
+        "thor",
+        "jormungandr"
+      ],
+      "sources": [
+        {
+          "source_id": "no-hymiskvida",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "contendings-of-horus-and-seth",
+      "title": "The Contendings of Horus and Seth",
+      "mythology": "egyptian",
+      "participants": [
+        "horus",
+        "set"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-contendings-of-horus-and-seth",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "castration-of-uranus",
+      "title": "The castration of Uranus",
+      "mythology": "greek",
+      "participants": [
+        "gaia",
+        "uranus",
+        "cronus",
+        "aphrodite"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-206",
+          "relation": "attests",
+          "claim": "Earth arms Cronos, who castrates Heaven; Aphrodite rises from the foam",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "birth-of-zeus",
+      "title": "The birth and hiding of Zeus",
+      "mythology": "greek",
+      "participants": [
+        "rhea",
+        "cronus",
+        "zeus",
+        "gaia"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-506",
+          "relation": "attests",
+          "claim": "Cronos swallows his children; Rhea hides Zeus on Crete and gives Cronos a stone",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "titanomachy",
+      "title": "The war of the gods and the Titans",
+      "mythology": "greek",
+      "participants": [
+        "zeus",
+        "cronus"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-735",
+          "relation": "attests",
+          "claim": "Ten years of war ended by Zeus with the hundred-handed brothers",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prometheus-and-the-first-woman",
+      "title": "Prometheus, the stolen fire and the first woman",
+      "mythology": "greek",
+      "participants": [
+        "prometheus",
+        "zeus",
+        "hephaestus",
+        "athena"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 545-616",
+          "relation": "attests",
+          "claim": "The sacrifice trick, the theft of fire, and the woman made as its price",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "birth-of-athena",
+      "title": "The birth of Athena",
+      "mythology": "greek",
+      "participants": [
+        "zeus",
+        "athena"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900",
+          "relation": "attests",
+          "claim": "Zeus swallows Metis to prevent a stronger child",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-928",
+          "relation": "attests",
+          "claim": "Athena is born from the head of Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "typhonomachy",
+      "title": "Zeus against Typhoeus",
+      "mythology": "greek",
+      "participants": [
+        "zeus",
+        "typhon",
+        "gaia"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Zeus defeats the monster and throws him into Tartarus",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

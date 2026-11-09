@@ -1,0 +1,1805 @@
+{
+  "meta": {
+    "id_scheme": "<gr|no|eg>-<slug>",
+    "tiers": [
+      "primary",
+      "supplementary",
+      "scholarly"
+    ],
+    "status_lifecycle": [
+      "catalogued",
+      "edition-chosen",
+      "reading",
+      "extracted",
+      "verified"
+    ],
+    "locator_convention": {
+      "gr-theogony": "Ranges follow the paragraph blocks of the Evelyn-White translation as numbered on Theoi: a block starts at its number and runs to the line before the next number. Check against the Greek text before quoting exact line ends."
+    }
+  },
+  "records": [
+    {
+      "id": "gr-theogony",
+      "title": "Theogony",
+      "author": "Hesiod",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Creation",
+        "primordial gods",
+        "Titans",
+        "Olympians",
+        "divine genealogy"
+      ],
+      "edition_used": "Evelyn-White, H. G. (trans.), Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 57 (London: Heinemann, 1914)",
+      "url": "https://www.theoi.com/Text/HesiodTheogony.html",
+      "status": "verified",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/theogony.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": "also https://www.gutenberg.org/ebooks/348"
+    },
+    {
+      "id": "gr-works-and-days",
+      "title": "Works and Days",
+      "author": "Hesiod",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Prometheus",
+        "Pandora",
+        "Ages of Man"
+      ],
+      "edition_used": "Evelyn-White, H. G. (trans.), Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 57 (London: Heinemann, 1914)",
+      "url": "https://www.theoi.com/Text/HesiodWorksDays.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/works-and-days.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": "also https://www.gutenberg.org/ebooks/348"
+    },
+    {
+      "id": "gr-iliad",
+      "title": "Iliad",
+      "author": "Homer",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "epic",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Olympian gods",
+        "Trojan War",
+        "divine intervention"
+      ],
+      "edition_used": "Murray, A. T. (trans.), Homer: Iliad (Loeb Classical Library, 1924)",
+      "url": "https://www.theoi.com/Text/HomerIliad1.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/iliad.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": null
+    },
+    {
+      "id": "gr-odyssey",
+      "title": "Odyssey",
+      "author": "Homer",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "epic",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Odysseus",
+        "Athena",
+        "Poseidon",
+        "Circe",
+        "Calypso"
+      ],
+      "edition_used": "Murray, A. T. (trans.), Homer: Odyssey (Loeb Classical Library, 1919)",
+      "url": "https://www.theoi.com/Text/HomerOdyssey1.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/odyssey.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": null
+    },
+    {
+      "id": "gr-homeric-hymns",
+      "title": "Homeric Hymns",
+      "author": "Various",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "hymn-collection",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Individual gods",
+        "divine origins",
+        "myths and worship"
+      ],
+      "edition_used": "Evelyn-White, H. G. (trans.), Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 57 (London: Heinemann, 1914)",
+      "url": "https://www.theoi.com/Text/HomericHymns1.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/homeric-hymns.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": "also https://www.gutenberg.org/ebooks/348"
+    },
+    {
+      "id": "gr-bibliotheca",
+      "title": "Library of Greek Mythology (Bibliotheca)",
+      "author": "Pseudo-Apollodorus",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "prose-compilation",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Genealogies",
+        "heroes",
+        "divine relationships and myths"
+      ],
+      "edition_used": "Frazer, J. G. (trans.), Apollodorus: The Library, Loeb Classical Library 121-122 (London: Heinemann, 1921)",
+      "url": "https://www.theoi.com/Text/Apollodorus1.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/bibliotheca.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": null
+    },
+    {
+      "id": "gr-argonautica",
+      "title": "Argonautica",
+      "author": "Apollonius of Rhodes",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "primary",
+      "kind": "epic",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Jason",
+        "Medea",
+        "Argonauts"
+      ],
+      "edition_used": "Seaton, R. C. (trans.), Apollonius Rhodius: Argonautica (Loeb Classical Library, 1912)",
+      "url": "https://www.theoi.com/Text/ApolloniusRhodius1.html",
+      "status": "edition-chosen",
+      "notes": null,
+      "research_notes": [
+        "research/greek/primary-sources/argonautica.md"
+      ],
+      "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
+      "edition_note": null
+    },
+    {
+      "id": "gr-metamorphoses",
+      "title": "Metamorphoses",
+      "author": "Ovid",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "supplementary",
+      "kind": "poem",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Transformations",
+        "gods",
+        "heroes and creation"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/supplementary-sources/metamorphoses.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-fabulae",
+      "title": "Fabulae",
+      "author": "Hyginus",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-compilation",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Mythological genealogies and summaries"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/supplementary-sources/fabulae.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-diodorus-bibliotheca-historica",
+      "title": "Bibliotheca Historica",
+      "author": "Diodorus Siculus",
+      "mythology": [
+        "greek",
+        "egyptian"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-history",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Mythological history and traditions",
+        "Mythological traditions and ancient cosmology",
+        "Egyptian creation and religious traditions"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Your list named this work twice for Greek (as \"Library\" and as \"Bibliotheca Historica\"). Treated as one source. Also cited for Egyptian material.",
+      "research_notes": [
+        "research/greek/supplementary-sources/diodorus-bibliotheca-historica.md",
+        "research/egyptian/supplementary-sources/diodorus-bibliotheca-historica.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-description-of-greece",
+      "title": "Description of Greece",
+      "author": "Pausanias",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-travelogue",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Local cults",
+        "temples",
+        "myths and regional traditions"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/supplementary-sources/description-of-greece.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-greek-tragedies",
+      "title": "Greek Tragedies",
+      "author": "Aeschylus, Sophocles, Euripides",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "supplementary",
+      "kind": "tragedy-collection",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Mythological characters and alternative narratives"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Catalogued as one source group. Split into one record per play when a record cites a specific play.",
+      "research_notes": [
+        "research/greek/supplementary-sources/greek-tragedies.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-oxford-classical-dictionary",
+      "title": "The Oxford Classical Dictionary",
+      "author": "Oxford University Press",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "scholarly",
+      "kind": "reference-work",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "General reference"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/scholarly-references/oxford-classical-dictionary.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-routledge-handbook",
+      "title": "The Routledge Handbook of Greek Mythology",
+      "author": "Robin Hard",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "scholarly",
+      "kind": "reference-work",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Handbook of Greek myth"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/scholarly-references/routledge-handbook.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-gods-of-the-greeks",
+      "title": "The Gods of the Greeks",
+      "author": "Károly Kerényi",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Greek gods"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/scholarly-references/gods-of-the-greeks.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-early-greek-myth",
+      "title": "Early Greek Myth",
+      "author": "Timothy Gantz",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "scholarly",
+      "kind": "reference-work",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Early Greek myth and its sources"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/greek/scholarly-references/early-greek-myth.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "gr-greek-mythology-guide",
+      "title": "Greek Mythology: A Guide to the Gods, Heroes, and Legends",
+      "author": "Various",
+      "mythology": [
+        "greek"
+      ],
+      "tier": "scholarly",
+      "kind": "guide",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Gods",
+        "heroes and legends"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "NEEDS IDENTIFICATION: your list says \"various scholarly editions\". Pick one specific edition and author before citing it.",
+      "research_notes": [
+        "research/greek/scholarly-references/greek-mythology-guide.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-voluspa",
+      "title": "Völuspá",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Creation",
+        "gods",
+        "Ragnarök",
+        "cosmic rebirth"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/voluspa.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-havamal",
+      "title": "Hávamál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Odin",
+        "wisdom",
+        "runes",
+        "social conduct"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/havamal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-vafthrudnismal",
+      "title": "Vafþrúðnismál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Cosmology",
+        "primordial history",
+        "fate"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/vafthrudnismal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-grimnismal",
+      "title": "Grímnismál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Yggdrasil",
+        "worlds",
+        "gods and their dwellings"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/grimnismal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-alvissmal",
+      "title": "Alvíssmál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Dwarves",
+        "cosmological knowledge"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/alvissmal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-lokasenna",
+      "title": "Lokasenna",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Loki and the gods"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/lokasenna.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-thrymskvida",
+      "title": "Þrymskviða",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Thor",
+        "Mjölnir and the giant Thrym"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/thrymskvida.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-hymiskvida",
+      "title": "Hymiskviða",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Thor",
+        "Hymir and the cosmic serpent"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/hymiskvida.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-baldrs-draumar",
+      "title": "Baldrs draumar",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Baldr's death and prophecy"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/baldrs-draumar.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-volundarkvida",
+      "title": "Völundarkviða",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Völund the smith"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/volundarkvida.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-rigsthula",
+      "title": "Rígsþula",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Social origins and Ríg"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/rigsthula.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-skirnismal",
+      "title": "Skírnismál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Freyr",
+        "Gerðr and Skírnir"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/skirnismal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-grottasongr",
+      "title": "Gróttasöngr",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "The magical mill and its giantesses"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/grottasongr.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-fjolsvinnsmal",
+      "title": "Fjölsvinnsmál",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "poetic-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Mythological beings and the world of Menglöð"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/fjolsvinnsmal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-prose-edda-prologue",
+      "title": "Prologue (Prose Edda)",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "prose",
+      "collection": "prose-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Prologue to Snorri's Edda"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Catalogued separately, as recommended.",
+      "research_notes": [
+        "research/norse/primary-sources/prose-edda-prologue.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-gylfaginning",
+      "title": "Gylfaginning",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "prose",
+      "collection": "prose-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Creation",
+        "Ymir",
+        "Odin",
+        "Thor",
+        "Loki",
+        "Yggdrasil",
+        "Ragnarök"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/gylfaginning.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-skaldskaparmal",
+      "title": "Skáldskaparmál",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "prose",
+      "collection": "prose-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Mythological stories",
+        "gods",
+        "giants",
+        "poetic kennings"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/skaldskaparmal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-hattatal",
+      "title": "Háttatal",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "primary",
+      "kind": "poem",
+      "collection": "prose-edda",
+      "period_or_origin": null,
+      "subjects": [
+        "Old Norse poetic structures and forms"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/primary-sources/hattatal.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-ynglinga-saga",
+      "title": "Ynglinga saga",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "saga",
+      "collection": "heimskringla",
+      "period_or_origin": null,
+      "subjects": [
+        "Early legendary kings and euhemerized gods"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Ynglinga saga opens Heimskringla. Both are catalogued as in your list; cite the section-level source where you can.",
+      "research_notes": [
+        "research/norse/supplementary-sources/ynglinga-saga.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-volsunga-saga",
+      "title": "Völsunga saga",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "saga",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Sigurd",
+        "Fafnir",
+        "Brynhild and heroic legends"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/supplementary-sources/volsunga-saga.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-hervarar-saga",
+      "title": "Hervarar saga",
+      "author": "Anonymous",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "saga",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Legendary kings",
+        "swords and heroic traditions"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/supplementary-sources/hervarar-saga.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-gesta-danorum",
+      "title": "Gesta Danorum",
+      "author": "Saxo Grammaticus",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-history",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Danish legendary history and Norse figures"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/supplementary-sources/gesta-danorum.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-heimskringla",
+      "title": "Heimskringla",
+      "author": "Snorri Sturluson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-history",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norwegian legendary history and traditions"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/supplementary-sources/heimskringla.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-skaldic-poetry",
+      "title": "Skáldic poetry",
+      "author": "Various skalds",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "supplementary",
+      "kind": "poem-corpus",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Gods",
+        "legendary events and mythological references"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/supplementary-sources/skaldic-poetry.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-viking-spirit",
+      "title": "The Viking Spirit",
+      "author": "Daniel McCoy",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Popular introduction. Use for orientation, not as evidence.",
+      "research_notes": [
+        "research/norse/scholarly-references/viking-spirit.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-norse-mythology-lindow",
+      "title": "Norse Mythology",
+      "author": "John Lindow",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/scholarly-references/norse-mythology-lindow.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-gods-and-myths-of-northern-europe",
+      "title": "Gods and Myths of Northern Europe",
+      "author": "H.R. Ellis Davidson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/scholarly-references/gods-and-myths-of-northern-europe.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-road-to-hel",
+      "title": "The Road to Hel",
+      "author": "H.R. Ellis Davidson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/scholarly-references/road-to-hel.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-norse-myths-crossley-holland",
+      "title": "The Norse Myths",
+      "author": "Kevin Crossley-Holland",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Retelling. Use for orientation, not as evidence.",
+      "research_notes": [
+        "research/norse/scholarly-references/norse-myths-crossley-holland.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "no-myths-and-symbols-in-pagan-europe",
+      "title": "Myths and Symbols in Pagan Europe",
+      "author": "H.R. Ellis Davidson",
+      "mythology": [
+        "norse"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Norse myth and religion"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/norse/scholarly-references/myths-and-symbols-in-pagan-europe.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-pyramid-texts",
+      "title": "Pyramid Texts",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "Old Kingdom",
+      "subjects": [
+        "Creation",
+        "royal afterlife",
+        "Osiris",
+        "Ra"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/pyramid-texts.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-coffin-texts",
+      "title": "Coffin Texts",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "Middle Kingdom",
+      "subjects": [
+        "Afterlife",
+        "transformations",
+        "cosmology"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/coffin-texts.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-book-of-the-dead",
+      "title": "Book of the Dead",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom and later",
+      "subjects": [
+        "Judgment",
+        "Osiris",
+        "Anubis",
+        "afterlife"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/book-of-the-dead.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-amduat",
+      "title": "Amduat",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom",
+      "subjects": [
+        "Ra's nocturnal journey through the underworld"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/amduat.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-book-of-gates",
+      "title": "Book of Gates",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom",
+      "subjects": [
+        "Underworld regions",
+        "gates",
+        "divine guardians"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/book-of-gates.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-book-of-caverns",
+      "title": "Book of Caverns",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom",
+      "subjects": [
+        "Underworld geography and divine judgment"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/book-of-caverns.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-book-of-the-heavenly-cow",
+      "title": "Book of the Heavenly Cow",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom",
+      "subjects": [
+        "Destruction of humanity",
+        "Ra",
+        "Hathor",
+        "Nut"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/book-of-the-heavenly-cow.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-book-of-the-earth",
+      "title": "Book of the Earth",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "text-collection",
+      "collection": null,
+      "period_or_origin": "New Kingdom",
+      "subjects": [
+        "Solar journey and cosmic regeneration"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/book-of-the-earth.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-great-hymn-to-the-aten",
+      "title": "Great Hymn to the Aten",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "hymn",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Aten",
+        "solar worship and Akhenaten"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/great-hymn-to-the-aten.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-great-hymn-to-osiris",
+      "title": "Great Hymn to Osiris",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "hymn",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Osiris",
+        "Isis and divine kingship"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/great-hymn-to-osiris.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-contendings-of-horus-and-seth",
+      "title": "Contendings of Horus and Seth",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "tale",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Horus",
+        "Seth",
+        "kingship and divine conflict"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/contendings-of-horus-and-seth.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-shipwrecked-sailor",
+      "title": "Story of the Shipwrecked Sailor",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "tale",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Serpents and supernatural encounters"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/shipwrecked-sailor.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-tale-of-the-two-brothers",
+      "title": "Tale of the Two Brothers",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "tale",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Anpu",
+        "Bata",
+        "transformation and divine intervention"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/tale-of-the-two-brothers.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-instruction-for-merikare",
+      "title": "The Instruction for Merikare",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "instruction",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Creation",
+        "divine order and kingship"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/instruction-for-merikare.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-dialogue-of-a-man-with-his-ba",
+      "title": "The Dialogue of a Man with His Ba",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "dialogue",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Soul",
+        "existence and death"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/primary-sources/dialogue-of-a-man-with-his-ba.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-memphite-theology",
+      "title": "Memphite Theology (Shabaka Stone)",
+      "author": "Anonymous",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "primary",
+      "kind": "inscription",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Ptah",
+        "creation through thought and speech"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Key source for the Memphite creation tradition. See research/egyptian/creation-traditions.md.",
+      "research_notes": [
+        "research/egyptian/primary-sources/memphite-theology.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-plutarch-on-isis-and-osiris",
+      "title": "On Isis and Osiris",
+      "author": "Plutarch",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-essay",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Osiris",
+        "Isis",
+        "Seth and Horus"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Later classical account, not a pharaonic primary source.",
+      "research_notes": [
+        "research/egyptian/supplementary-sources/plutarch-on-isis-and-osiris.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-herodotus-histories",
+      "title": "Histories",
+      "author": "Herodotus",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "supplementary",
+      "kind": "prose-history",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion",
+        "customs and gods"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": "Later classical account, not a pharaonic primary source.",
+      "research_notes": [
+        "research/egyptian/supplementary-sources/herodotus-histories.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-wilkinson-complete-gods-and-goddesses",
+      "title": "The Complete Gods and Goddesses of Ancient Egypt",
+      "author": "Richard H. Wilkinson",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/wilkinson-complete-gods-and-goddesses.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-shaw-egyptian-myths",
+      "title": "The Egyptian Myths: A Guide to the Ancient Gods and Legends",
+      "author": "Garry J. Shaw",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/shaw-egyptian-myths.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-teeter-religion-and-ritual",
+      "title": "Religion and Ritual in Ancient Egypt",
+      "author": "Emily Teeter",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/teeter-religion-and-ritual.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-allen-pyramid-texts",
+      "title": "The Ancient Egyptian Pyramid Texts",
+      "author": "James P. Allen",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/allen-pyramid-texts.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-faulkner-book-of-the-dead",
+      "title": "The Egyptian Book of the Dead (translations)",
+      "author": "Raymond O. Faulkner",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/faulkner-book-of-the-dead.md"
+      ],
+      "license": null,
+      "edition_note": null
+    },
+    {
+      "id": "eg-faulkner-coffin-texts",
+      "title": "The Egyptian Coffin Texts (translations and studies)",
+      "author": "R.O. Faulkner",
+      "mythology": [
+        "egyptian"
+      ],
+      "tier": "scholarly",
+      "kind": "monograph",
+      "collection": null,
+      "period_or_origin": null,
+      "subjects": [
+        "Egyptian religion and texts"
+      ],
+      "edition_used": null,
+      "url": null,
+      "status": "catalogued",
+      "notes": null,
+      "research_notes": [
+        "research/egyptian/scholarly-references/faulkner-coffin-texts.md"
+      ],
+      "license": null,
+      "edition_note": null
+    }
+  ]
+}

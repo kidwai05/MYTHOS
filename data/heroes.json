@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "status": "seed+greek-milestone-1",
+    "note": "Greek records are verified against the Evelyn-White (1914) Theogony. Norse and Egyptian records are still seeds (verified=false, no locators). roles and domains are editorial tags, not individually cited."
+  },
+  "records": [
+    {
+      "id": "sigurd",
+      "name": "Sigurd",
+      "mythology": "norse",
+      "roles": [
+        "hero"
+      ],
+      "sources": [
+        {
+          "source_id": "no-volsunga-saga",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "bata",
+      "name": "Bata",
+      "mythology": "egyptian",
+      "roles": [
+        "legendary-figure"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-tale-of-the-two-brothers",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "heracles",
+      "name": "Heracles",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944",
+          "relation": "attests",
+          "claim": "Son of Alcmene and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Marries Hebe after finishing his labours",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Destroys the Hydra with Iolaus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Kills the eagle and frees Prometheus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Cuts off Medusa's head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "jason",
+      "name": "Jason",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "Takes Medea from Aeetes and brings her to Iolcus after the labours set by Pelias",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "odysseus",
+      "name": "Odysseus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1018",
+          "relation": "attests",
+          "claim": "Father of children by Circe and by Calypso",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

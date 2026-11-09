@@ -1,0 +1,914 @@
+{
+  "meta": {
+    "status": "seed+greek-milestone-1",
+    "note": "Greek records are verified against the Evelyn-White (1914) Theogony. Norse and Egyptian records are still seeds (verified=false, no locators). roles and domains are editorial tags, not individually cited."
+  },
+  "records": [
+    {
+      "id": "odin",
+      "name": "Odin",
+      "mythology": "norse",
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "wisdom",
+        "runes",
+        "war"
+      ],
+      "sources": [
+        {
+          "source_id": "no-havamal",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-voluspa",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "mythology": "norse",
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "thunder"
+      ],
+      "sources": [
+        {
+          "source_id": "no-thrymskvida",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-hymiskvida",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "no-gylfaginning",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "mythology": "egyptian",
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "afterlife",
+        "kingship"
+      ],
+      "tradition": "heliopolitan",
+      "sources": [
+        {
+          "source_id": "eg-pyramid-texts",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-book-of-the-dead",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-great-hymn-to-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "isis",
+      "name": "Isis",
+      "mythology": "egyptian",
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "magic"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-great-hymn-to-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "horus",
+      "name": "Horus",
+      "mythology": "egyptian",
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "kingship",
+        "sky"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-contendings-of-horus-and-seth",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "set",
+      "name": "Set",
+      "mythology": "egyptian",
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "chaos",
+        "storms"
+      ],
+      "sources": [
+        {
+          "source_id": "eg-contendings-of-horus-and-seth",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        },
+        {
+          "source_id": "eg-plutarch-on-isis-and-osiris",
+          "locator": null,
+          "relation": "attests",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "gaia",
+      "name": "Gaia (Earth)",
+      "mythology": "greek",
+      "aliases": [
+        "Earth"
+      ],
+      "roles": [
+        "goddess",
+        "primordial"
+      ],
+      "domains": [
+        "earth"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Comes into being right after Chaos and bears Heaven, hills and Pontus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Mother, by Heaven, of the Titans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-175",
+          "relation": "attests",
+          "claim": "Plots the attack on Heaven and arms Cronos with the sickle",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus (Heaven)",
+      "mythology": "greek",
+      "aliases": [
+        "Heaven"
+      ],
+      "roles": [
+        "god",
+        "primordial"
+      ],
+      "domains": [
+        "sky"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Born from Earth as her equal, to cover her on every side",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Father of the Titans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Castrated by his son Cronos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cronus",
+      "name": "Cronus",
+      "mythology": "greek",
+      "aliases": [
+        "Cronos"
+      ],
+      "roles": [
+        "titan",
+        "king"
+      ],
+      "domains": [
+        "kingship"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Youngest and most terrible of Earth and Heaven's children",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 163-206",
+          "relation": "attests",
+          "claim": "Takes the sickle and castrates Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Swallows his children to avoid being overthrown",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506",
+          "relation": "attests",
+          "claim": "Is tricked into vomiting them up again",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan",
+        "goddess"
+      ],
+      "domains": [
+        "motherhood"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Listed among the Titans born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Mother of the first Olympians; hides the infant Zeus on Crete",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god",
+        "king"
+      ],
+      "domains": [
+        "sky",
+        "thunder",
+        "kingship"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Youngest child of Cronos and Rhea, hidden on Crete",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506",
+          "relation": "attests",
+          "claim": "Overcomes Cronos and receives the thunderbolt",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-735",
+          "relation": "attests",
+          "claim": "Leads the gods against the Titans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Defeats Typhoeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-929",
+          "relation": "attests",
+          "claim": "Marriages and children of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "hera",
+      "name": "Hera",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess",
+        "queen"
+      ],
+      "domains": [
+        "marriage"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children of Cronos and Rhea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Zeus's last wife; mother of Hebe, Ares and Eileithyia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-929",
+          "relation": "attests",
+          "claim": "Bears Hephaestus without Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "mythology": "greek",
+      "aliases": [
+        "Earth-Shaker"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sea",
+        "earthquakes"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children of Cronos and Rhea (as the Earth-Shaker)",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Husband of Amphitrite and father of Triton",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "mythology": "greek",
+      "aliases": [
+        "Aidoneus"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "underworld"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children of Cronos and Rhea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774",
+          "relation": "attests",
+          "claim": "Rules the halls of the underworld with Persephone",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Carries off Persephone",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "grain"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "Named among the children of Cronos and Rhea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Bears Persephone to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 969-974",
+          "relation": "attests",
+          "claim": "Bears Plutus to Iasion on Crete",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hestia",
+      "name": "Hestia",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "hearth"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491",
+          "relation": "attests",
+          "claim": "First-named child of Cronos and Rhea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "athena",
+      "name": "Athena",
+      "mythology": "greek",
+      "aliases": [
+        "Pallas Athene",
+        "Tritogeneia"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "wisdom",
+        "war"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900",
+          "relation": "attests",
+          "claim": "Her mother Metis is swallowed by Zeus before the birth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-928",
+          "relation": "attests",
+          "claim": "Born from Zeus's own head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 560-584",
+          "relation": "attests",
+          "claim": "Dresses the first woman",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "mythology": "greek",
+      "aliases": [
+        "Phoebus Apollo"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "music",
+        "prophecy"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Son of Leto and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "hunting"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Daughter of Leto and Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "leto",
+      "name": "Leto",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "motherhood"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Daughter of Phoebe and Coeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "messengers"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 938-939",
+          "relation": "attests",
+          "claim": "Son of Maia and Zeus; herald of the gods",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ares",
+      "name": "Ares",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "war"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Son of Hera and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Father, with Aphrodite, of Panic, Fear and Harmonia",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aphrodite",
+      "name": "Aphrodite",
+      "mythology": "greek",
+      "aliases": [
+        "Cytherea",
+        "Cyprogenes",
+        "Philommedes"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "love"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Rises from the foam around Heaven's severed members",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Bears Panic, Fear and Harmonia to Ares",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hephaestus",
+      "name": "Hephaestus",
+      "mythology": "greek",
+      "aliases": [
+        "the Lame One"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "crafts",
+        "fire"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-929",
+          "relation": "attests",
+          "claim": "Born to Hera without Zeus; the most skilled craftsman of the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 560-584",
+          "relation": "attests",
+          "claim": "Forms the first woman from earth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 945-946",
+          "relation": "attests",
+          "claim": "Marries Aglaea, youngest of the Graces",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dionysus",
+      "name": "Dionysus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "wine"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "Son of Zeus and the mortal Semele; now a god",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 947-949",
+          "relation": "attests",
+          "claim": "Marries Ariadne, who is made immortal",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "underworld"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Daughter of Demeter and Zeus; carried off by Hades",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774",
+          "relation": "attests",
+          "claim": "Queen of the underworld beside Hades",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [
+        "fire"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Son of Iapetus and Clymene; bound by Zeus, later freed by Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 545-616",
+          "relation": "attests",
+          "claim": "Tricks Zeus over the sacrifice, steals fire, and is punished",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": null,
+          "relation": "attests",
+          "claim": null,
+          "verified": false
+        }
+      ]
+    }
+  ]
+}
