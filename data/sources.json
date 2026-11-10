@@ -15,10 +15,12 @@
     ],
     "locator_convention": {
       "gr-theogony": "Ranges follow the paragraph blocks of the Evelyn-White translation as numbered on Theoi: a block starts at its number and runs to the line before the next number. Check against the Greek text before quoting exact line ends.",
-      "gr-argonautica": "Book 1 ranges follow the bracketed line numbers of the Seaton translation as numbered on Theoi. Only Book 1 and the Theogony have been read so far.",
+      "gr-argonautica": "Ranges follow the bracketed line numbers of the Seaton translation as numbered on Theoi. Read so far: Book 1 and Book 3 (Book 3 as far as line 1407). Books 2 and 4 are unread.",
       "gr-odyssey": "Book 1 ranges follow the bracketed line numbers of the Murray translation as numbered on Theoi. Only Book 1 has been read so far.",
       "gr-works-and-days": "Line ranges follow the bracketed numbers of the Evelyn-White translation as numbered on Theoi. The whole poem has been read.",
-      "gr-iliad": "Book 1 ranges follow the bracketed line numbers of the Murray translation as numbered on Theoi. Only Book 1 has been read so far."
+      "gr-iliad": "Book 1 ranges follow the bracketed line numbers of the Murray translation as numbered on Theoi. Only Book 1 has been read so far.",
+      "gr-bibliotheca": "Frazer chapter.section numbers as in the Perseus (CTS) edition. Read so far: 1.9.13-1.9.28, 2.4.2-2.4.8, 2.5.1-2.5.8. The text fetched has no visible section numbers inside a range, so a few ranges are deliberately conservative (for example 1.9.24-1.9.25).",
+      "gr-homeric-hymns": "Locators are \"Hymn N, ll. a-b\", following the bracketed line numbers of the Evelyn-White translation as numbered on Theoi. Read so far: Hymns 1 to 3 (Dionysus, Demeter, Apollo). Hymns 4 to 33 are unread."
     }
   },
   "records": [
@@ -148,7 +150,7 @@
       ],
       "edition_used": "Evelyn-White, H. G. (trans.), Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 57 (London: Heinemann, 1914)",
       "url": "https://www.theoi.com/Text/HomericHymns1.html",
-      "status": "edition-chosen",
+      "status": "reading",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/homeric-hymns.md"
@@ -174,13 +176,13 @@
       ],
       "edition_used": "Frazer, J. G. (trans.), Apollodorus: The Library, Loeb Classical Library 121-122 (London: Heinemann, 1921)",
       "url": "https://www.theoi.com/Text/Apollodorus1.html",
-      "status": "edition-chosen",
+      "status": "reading",
       "notes": null,
       "research_notes": [
         "research/greek/primary-sources/bibliotheca.md"
       ],
       "license": "Public domain in the US (published before 1931). Check your own country before redistributing. Link to the hosted text; do not mirror the host site.",
-      "edition_note": null
+      "edition_note": "Passages read through the Perseus Digital Library (Frazer, 1921) at https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/ ; Theoi also hosts this translation."
     },
     {
       "id": "gr-argonautica",

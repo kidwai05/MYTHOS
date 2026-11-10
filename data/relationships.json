@@ -323,6 +323,13 @@
           "relation": "attests",
           "claim": "Named among the children Rhea bore to Cronos",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 459-469",
+          "relation": "attests",
+          "claim": "Rhea calls Demeter \"my daughter\"",
+          "verified": true
         }
       ]
     },
@@ -375,6 +382,13 @@
           "relation": "attests",
           "claim": "Zeus calls Hera his wife, and the two quarrel",
           "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 919-926",
+          "relation": "attests",
+          "claim": "Hera is called the bride of Zeus",
+          "verified": true
         }
       ]
     },
@@ -389,6 +403,13 @@
           "locator": "ll. 924-928",
           "relation": "attests",
           "claim": "Zeus gives birth to Athena from his own head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310",
+          "relation": "attests",
+          "claim": "The Son of Cronos bore Athena in his head",
           "verified": true
         }
       ]
@@ -411,6 +432,13 @@
           "locator": "Book 1, ll. 8-21",
           "relation": "attests",
           "claim": "Apollo is the son of Leto and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 474-501",
+          "relation": "attests",
+          "claim": "Apollo says he is the son of Zeus",
           "verified": true
         }
       ]
@@ -448,6 +476,13 @@
           "relation": "attests",
           "claim": "Leto bore Apollo on the seventh of the month",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis",
+          "verified": true
         }
       ]
     },
@@ -463,6 +498,13 @@
           "relation": "attests",
           "claim": "Leto bears Apollo and Artemis to Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 133-139",
+          "relation": "attests",
+          "claim": "Delos beholds the child of Zeus and Leto",
+          "verified": true
         }
       ]
     },
@@ -477,6 +519,13 @@
           "locator": "ll. 918-920",
           "relation": "attests",
           "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis",
           "verified": true
         }
       ]
@@ -508,6 +557,13 @@
           "relation": "attests",
           "claim": "The mortal Semele bears Dionysus to Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16",
+          "relation": "attests",
+          "claim": "Semele bears Dionysus to Zeus, away from Hera",
+          "verified": true
         }
       ]
     },
@@ -522,6 +578,13 @@
           "locator": "ll. 943-944",
           "relation": "attests",
           "claim": "Alcmene bears Heracles to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Zeus takes Amphitryon's likeness and begets Heracles on Alcmena",
           "verified": true
         }
       ]
@@ -538,6 +601,20 @@
           "relation": "attests",
           "claim": "Demeter bears Persephone to Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Persephone is Demeter's daughter, whom Zeus gave to Hades",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades speaks of Zeus as father Zeus",
+          "verified": true
         }
       ]
     },
@@ -552,6 +629,13 @@
           "locator": "ll. 912-914",
           "relation": "attests",
           "claim": "Demeter bears Persephone to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Persephone is Demeter's trim-ankled daughter",
           "verified": true
         }
       ]
@@ -604,6 +688,13 @@
           "locator": "Book 1, ll. 568-583",
           "relation": "attests",
           "claim": "Hephaestus speaks of \"his dear mother\" Hera",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330",
+          "relation": "attests",
+          "claim": "Hera calls Hephaestus her son and tells how she cast him out",
           "verified": true
         }
       ]
@@ -780,6 +871,13 @@
           "relation": "attests",
           "claim": "Heracles and Iolaus destroy the Hydra",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Heracles, helped by Iolaus, kills the Hydra",
+          "verified": true
         }
       ]
     },
@@ -794,6 +892,13 @@
           "locator": "ll. 270-294",
           "relation": "attests",
           "claim": "Perseus cuts off Medusa's head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Perseus beheads Medusa as she sleeps",
           "verified": true
         }
       ]
@@ -826,6 +931,13 @@
           "claim": "The Dark-haired One lies with Medusa in a meadow",
           "verified": true,
           "note": "Evelyn-White's note on this line identifies the Dark-haired One as Poseidon."
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Pegasus and Chrysaor spring from Medusa, begotten by Poseidon",
+          "verified": true
         }
       ]
     },
@@ -841,6 +953,29 @@
           "relation": "attests",
           "claim": "Jason brings Medea to Iolcus and makes her his wife",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25",
+          "relation": "attests",
+          "claim": "Arete, wife of Alcinous, marries Medea to Jason among the Phaeacians",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.28",
+          "relation": "attests",
+          "claim": "Jason later marries Glauce and divorces Medea",
+          "verified": true,
+          "note": "The marriage ends: Medea kills Glauce and her own children by Jason (1.9.28)."
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1118-1130",
+          "relation": "attests",
+          "claim": "Jason promises Medea a place in his bridal chamber",
+          "verified": true,
+          "note": "A promise only; the marriage itself is narrated in Book 4 and in the Library (1.9.25)."
         }
       ]
     },
@@ -856,6 +991,20 @@
           "relation": "attests",
           "claim": "Medea is born to Aeetes and Idyia",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "Medea is the daughter of Aeetes and Idyia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Medea is one of the two daughters of Aeetes",
+          "verified": true
         }
       ]
     },
@@ -870,6 +1019,13 @@
           "locator": "ll. 956-962",
           "relation": "attests",
           "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 299-316",
+          "relation": "attests",
+          "claim": "Aeetes calls Circe his sister",
           "verified": true
         }
       ]
@@ -930,6 +1086,20 @@
           "relation": "attests",
           "claim": "Heracles urges that Jason lead the expedition",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Heracles is listed among the Argonauts",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.19",
+          "relation": "attests",
+          "claim": "Heracles is left behind in Mysia and the ship sails on without him",
+          "verified": true
         }
       ]
     },
@@ -952,6 +1122,20 @@
           "relation": "attests",
           "claim": "Athena gave Jason a mantle",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Athena advises on the building of the Argo and fits its speaking timber",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-35",
+          "relation": "attests",
+          "claim": "Athena joins Hera in planning help for the heroes",
+          "verified": true
         }
       ]
     },
@@ -966,6 +1150,13 @@
           "locator": "Book 1, ll. 402-424",
           "relation": "attests",
           "claim": "Jason prays to Apollo, who promised guidance",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.26",
+          "relation": "attests",
+          "claim": "Apollo lights the way to Anaphe, where the Argonauts found his altar",
           "verified": true
         }
       ]
@@ -1048,6 +1239,20 @@
           "relation": "attests",
           "claim": "Hera raised the Earthborn as a trial for Heracles",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Hera has Alcmena's labour delayed so Eurystheus is born first",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Hera sends two serpents to kill the infant Heracles",
+          "verified": true
         }
       ]
     },
@@ -1070,6 +1275,13 @@
           "locator": "Book 1, ll. 536-567",
           "relation": "attests",
           "claim": "Hera and Zeus quarrel over his secret counsel with Thetis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-361",
+          "relation": "attests",
+          "claim": "Hera is angry that Zeus bore Athena alone and swears to bear a rival son",
           "verified": true
         }
       ]
@@ -1119,6 +1331,373 @@
           "claim": "Hephaestus recalls that Zeus hurled him from heaven when he tried to help Hera",
           "verified": true,
           "note": "Told by Hephaestus himself."
+        }
+      ]
+    },
+    {
+      "id": "athena-ally-of-perseus",
+      "source": "athena",
+      "type": "ally_of",
+      "target": "perseus",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Athena guides Perseus and steadies his hand as he beheads Medusa",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.3",
+          "relation": "attests",
+          "claim": "Perseus gives her the Gorgon's head",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hermes-ally-of-perseus",
+      "source": "hermes",
+      "type": "ally_of",
+      "target": "perseus",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Hermes guides Perseus and gives him an adamantine sickle",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "athena-ally-of-heracles",
+      "source": "athena",
+      "type": "ally_of",
+      "target": "heracles",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.6",
+          "relation": "attests",
+          "claim": "Athena gives Heracles bronze castanets against the Stymphalian birds",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-ally-of-jason",
+      "source": "hera",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.22",
+          "relation": "attests",
+          "claim": "Hera helps the Argo through the Clashing Rocks",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "One reading has Hera prompting Jason's answer to Pelias",
+          "verified": true,
+          "note": "Apollodorus hedges: \"whether at haphazard or instigated by the angry Hera\"."
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Hera says she loves Jason and will see him home",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Hera spreads a mist so the heroes reach the palace unseen",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "circe-ally-of-jason",
+      "source": "circe",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25",
+          "relation": "attests",
+          "claim": "Circe purifies the Argonauts at Aeaea",
+          "verified": true,
+          "note": "She purifies the whole crew; Jason and Medea are the guilty parties in the murder of Apsyrtus."
+        }
+      ]
+    },
+    {
+      "id": "circe-ally-of-medea",
+      "source": "circe",
+      "type": "ally_of",
+      "target": "medea",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25",
+          "relation": "attests",
+          "claim": "Circe purifies the Argonauts, including Medea, at Aeaea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hephaestus-spouse-of-aphrodite",
+      "source": "hephaestus",
+      "type": "spouse_of",
+      "target": "aphrodite",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 36-54",
+          "relation": "attests",
+          "claim": "Aphrodite's husband, the lame god, built her palace when Zeus gave her to him as his wife",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hephaestus-ally-of-aeetes",
+      "source": "hephaestus",
+      "type": "ally_of",
+      "target": "aeetes",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Hephaestus made bulls and a plough for Aeetes, in thanks to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "athena-ally-of-aeetes",
+      "source": "athena",
+      "type": "ally_of",
+      "target": "aeetes",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1163-1190",
+          "relation": "attests",
+          "claim": "Athena gave Aeetes half of the dragon's teeth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aphrodite-ally-of-jason",
+      "source": "aphrodite",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera and Athena persuade Aphrodite to send Eros against Medea on Jason's behalf",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 540-554",
+          "relation": "attests",
+          "claim": "Phineus had said the return would come with the help of the Cyprian goddess",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aeetes-rival-of-jason",
+      "source": "aeetes",
+      "type": "rival_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 396-421",
+          "relation": "attests",
+          "claim": "Aeetes sets Jason a deadly contest",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 576-608",
+          "relation": "attests",
+          "claim": "Aeetes plots to burn the ship and its crew",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "Aeetes withholds the fleece and plans to burn the Argo",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "medea-ally-of-jason",
+      "source": "medea",
+      "type": "ally_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1008-1062",
+          "relation": "attests",
+          "claim": "Medea gives Jason the charm and instructions",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "Medea helps Jason win the fleece in return for his oath",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hades-spouse-of-persephone",
+      "source": "hades",
+      "type": "spouse_of",
+      "target": "persephone",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 74-89",
+          "relation": "attests",
+          "claim": "Zeus gave Persephone to Hades to be his wife",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades calls himself a fitting husband for her",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-sibling-of-hades",
+      "source": "zeus",
+      "type": "sibling_of",
+      "target": "hades",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades calls himself own brother to father Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 74-89",
+          "relation": "attests",
+          "claim": "Persephone's father's brother",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "demeter-sibling-of-hades",
+      "source": "demeter",
+      "type": "sibling_of",
+      "target": "hades",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 74-89",
+          "relation": "attests",
+          "claim": "Helios says Hades is Demeter's own brother, of the same stock",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "demeter-rival-of-zeus",
+      "source": "demeter",
+      "type": "rival_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 90-112",
+          "relation": "attests",
+          "claim": "Demeter is angry with the Son of Cronos and leaves Olympus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333",
+          "relation": "attests",
+          "claim": "She withholds the crops until Zeus yields",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-aphrodite",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "aphrodite",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206",
+          "relation": "variant",
+          "claim": "Aphrodite is called a daughter of Zeus",
+          "verified": true,
+          "note": "Differs from the Theogony (ll. 176-206), where she rises from the foam around the severed members of Heaven."
+        }
+      ]
+    },
+    {
+      "id": "hera-parent-of-typhon",
+      "source": "hera",
+      "type": "parent_of",
+      "target": "typhon",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "variant",
+          "claim": "Hera bears Typhaon without Zeus and gives him to the dragoness",
+          "verified": true,
+          "note": "Differs from the Theogony (ll. 820-868), where Earth bears Typhoeus. Typhaon and Typhoeus are treated as one figure here (editorial identification)."
+        }
+      ]
+    },
+    {
+      "id": "apollo-rival-of-typhon",
+      "source": "apollo",
+      "type": "rival_of",
+      "target": "typhon",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "attests",
+          "claim": "Apollo shoots the dragoness that fostered Typhaon",
+          "verified": true,
+          "note": "Apollo fights the dragoness, not Typhaon himself."
         }
       ]
     }

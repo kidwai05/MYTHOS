@@ -198,6 +198,192 @@
           "verified": true
         }
       ]
+    },
+    {
+      "id": "perseus-and-medusa",
+      "title": "Perseus and Medusa",
+      "mythology": "greek",
+      "participants": [
+        "perseus",
+        "medusa",
+        "athena",
+        "hermes",
+        "poseidon"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2-2.4.3",
+          "relation": "attests",
+          "claim": "Perseus, guided by Hermes and Athena, beheads Medusa; Pegasus and Chrysaor are born; the head goes to Athena",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Perseus cuts off the head of Medusa",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "the-lernaean-hydra",
+      "title": "Heracles and the Lernaean Hydra",
+      "mythology": "greek",
+      "participants": [
+        "heracles",
+        "hydra"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Heracles and Iolaus destroy the nine-headed Hydra at Lerna",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Heracles and Iolaus destroy the Hydra",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "quest-for-the-golden-fleece",
+      "title": "The quest for the Golden Fleece",
+      "mythology": "greek",
+      "participants": [
+        "jason",
+        "medea",
+        "aeetes",
+        "athena",
+        "hera",
+        "heracles",
+        "circe",
+        "aphrodite",
+        "hephaestus"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16-1.9.28",
+          "relation": "attests",
+          "claim": "From Pelias's command through Colchis and Medea's help to the return and the murder of Pelias",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 5-17",
+          "relation": "attests",
+          "claim": "Pelias sends Jason on the voyage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 341-347",
+          "relation": "attests",
+          "claim": "Jason is chosen leader",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1-1407",
+          "relation": "attests",
+          "claim": "Hera and Athena enlist Aphrodite, Jason meets Aeetes and Medea, and wins the contest with her charm",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "yoking-of-the-bronze-bulls",
+      "title": "The yoking of the bronze bulls",
+      "mythology": "greek",
+      "participants": [
+        "jason",
+        "medea",
+        "aeetes",
+        "hephaestus",
+        "hera",
+        "athena",
+        "aphrodite"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1246-1407",
+          "relation": "attests",
+          "claim": "Jason anoints himself, yokes the fire-breathing bulls, sows the teeth and cuts down the Earthborn",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "Jason yokes the bulls, sows the teeth and kills the armed men with Medea's advice",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "abduction-of-persephone",
+      "title": "The abduction of Persephone",
+      "mythology": "greek",
+      "participants": [
+        "persephone",
+        "demeter",
+        "hades",
+        "zeus",
+        "hermes",
+        "rhea"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-495",
+          "relation": "attests",
+          "claim": "Hades carries off Persephone with Zeus's leave; Demeter withholds the crops; Hermes fetches Persephone; she spends part of the year below",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Demeter bears Persephone to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "birth-of-apollo",
+      "title": "The birth of Apollo",
+      "mythology": "greek",
+      "participants": [
+        "leto",
+        "apollo",
+        "artemis",
+        "zeus",
+        "hera"
+      ],
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-135",
+          "relation": "attests",
+          "claim": "Leto wanders to Delos and bears Apollo while Hera keeps Eilithyia away",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "verified": true
+        }
+      ]
     }
   ]
 }

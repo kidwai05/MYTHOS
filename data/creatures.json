@@ -98,6 +98,14 @@
           "claim": "Said to be the mate of Echidna",
           "verified": true,
           "note": "The Theogony uses Typhaon here and Typhoeus at l. 821; this database treats them as one figure (editorial identification)."
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "variant",
+          "claim": "Called Typhaon: born to Hera without Zeus and fostered by a dragoness",
+          "verified": true,
+          "note": "Differs from the Theogony (ll. 820-868), where Earth bears Typhoeus."
         }
       ]
     },
@@ -148,10 +156,10 @@
         },
         {
           "source_id": "gr-bibliotheca",
-          "locator": null,
+          "locator": "Library 2.5.2",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Nine-headed beast bred in the swamp of Lerna, with one immortal head; killed by Heracles and Iolaus",
+          "verified": true
         }
       ]
     },
@@ -201,6 +209,13 @@
           "locator": "ll. 270-294",
           "relation": "attests",
           "claim": "The mortal Gorgon; Perseus beheads her, and Pegasus and Chrysaor spring from her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "The only mortal Gorgon; beheaded by Perseus, and Pegasus and Chrysaor spring from her, begotten by Poseidon",
           "verified": true
         }
       ]

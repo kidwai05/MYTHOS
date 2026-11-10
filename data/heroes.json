@@ -76,13 +76,6 @@
           "verified": true
         },
         {
-          "source_id": "gr-bibliotheca",
-          "locator": null,
-          "relation": "attests",
-          "claim": null,
-          "verified": false
-        },
-        {
           "source_id": "gr-argonautica",
           "locator": "Book 1, ll. 122-132",
           "relation": "attests",
@@ -101,6 +94,55 @@
           "locator": "Book 1, ll. 989-1011",
           "relation": "attests",
           "claim": "Fights the Earthborn monsters that Hera raised as a trial for him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Listed among the Argonauts as a son of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.19",
+          "relation": "attests",
+          "claim": "Left behind in Mysia when Hylas is carried off by nymphs",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Son of Zeus and Alcmena; as an infant strangles the serpents Hera sent",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "Performs the labours set by Eurystheus, beginning with the Nemean lion",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Kills the Lernaean Hydra with Iolaus; Eurystheus refuses to count the labour",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.6",
+          "relation": "attests",
+          "claim": "Receives bronze castanets from Athena to scare the Stymphalian birds",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1225-1245",
+          "relation": "attests",
+          "claim": "Has been left behind; he alone could have faced the spear of Aeetes",
           "verified": true
         }
       ]
@@ -125,10 +167,17 @@
         },
         {
           "source_id": "gr-bibliotheca",
-          "locator": null,
+          "locator": "Library 2.4.2",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Sent by Polydectes; guided by Hermes and Athena, he beheads the sleeping Medusa",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.3",
+          "relation": "attests",
+          "claim": "Gives the Gorgon's head to Athena, who sets it in her shield",
+          "verified": true
         }
       ]
     },
@@ -151,13 +200,6 @@
           "verified": true
         },
         {
-          "source_id": "gr-bibliotheca",
-          "locator": null,
-          "relation": "attests",
-          "claim": null,
-          "verified": false
-        },
-        {
           "source_id": "gr-argonautica",
           "locator": "Book 1, ll. 5-17",
           "relation": "attests",
@@ -169,6 +211,48 @@
           "locator": "Book 1, ll. 341-347",
           "relation": "attests",
           "claim": "Chosen leader of the heroes after Heracles declines",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Loses a sandal crossing the river and is sent by Pelias to fetch the Golden Fleece; Athena advises on building the Argo",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "Wins the fleece with Medea's help after Aeetes sets the task of yoking the bulls",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.28",
+          "relation": "attests",
+          "claim": "Marries Glauce at Corinth and divorces Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera loves him for carrying her across the Anaurus; she and Athena ask Aphrodite to help him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1008-1062",
+          "relation": "attests",
+          "claim": "Receives Medea's charm and her instructions",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1246-1407",
+          "relation": "attests",
+          "claim": "Anoints himself with the charm, yokes the bulls, sows the teeth and cuts down the Earthborn",
           "verified": true
         }
       ]
@@ -268,11 +352,46 @@
           "verified": true
         },
         {
-          "source_id": "gr-argonautica",
-          "locator": null,
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "Witch and daughter of Aeetes and Idyia; falls for Jason and helps him win the fleece",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27",
+          "relation": "attests",
+          "claim": "Persuades the daughters of Pelias to boil their father",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Daughter of Aeetes and priestess of Hecate; she and Chalciope are his two daughters",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 275-298",
+          "relation": "attests",
+          "claim": "Struck with love for Jason by Eros's arrow",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1008-1062",
+          "relation": "attests",
+          "claim": "Gives Jason the charm and tells him how to win the contest",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1131-1136",
+          "relation": "attests",
+          "claim": "Hera plans for her to come to Iolcus as a bane to Pelias",
+          "verified": true
         }
       ]
     },
@@ -302,11 +421,39 @@
           "verified": true
         },
         {
-          "source_id": "gr-argonautica",
-          "locator": null,
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
           "relation": "attests",
-          "claim": null,
-          "verified": false
+          "claim": "King of Colchis; keeper of the fleece, who sets Jason the task of yoking the bulls; father of Medea by Idyia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Lives in a palace with his queen Eidyia, daughter of Tethys and Oceanus; father of Apsyrtus, Chalciope and Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 396-421",
+          "relation": "attests",
+          "claim": "Promises Jason the fleece if he yokes the bronze-footed bulls and sows the teeth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 576-608",
+          "relation": "attests",
+          "claim": "Plots to burn the ship and kill the Argonauts",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1163-1190",
+          "relation": "attests",
+          "claim": "Receives half of the dragon's teeth from Athena",
+          "verified": true
         }
       ]
     },
@@ -333,6 +480,20 @@
           "locator": "ll. 1011-1016",
           "relation": "attests",
           "claim": "Loves Odysseus and bears Agrius, Latinus and Telegonus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25",
+          "relation": "attests",
+          "claim": "Purifies the Argonauts of the murder of Apsyrtus at Aeaea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 299-316",
+          "relation": "attests",
+          "claim": "Aeetes calls her his sister, carried west by their father Helios",
           "verified": true
         }
       ]

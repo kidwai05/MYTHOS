@@ -65,8 +65,27 @@ All are older Loeb translations that are public domain in the US and are hosted 
 | `gr-bibliotheca` | Frazer, Loeb 121-122 (1921) |
 | `gr-argonautica` | Seaton, Loeb (1912) |
 
-Read and verified so far: the Theogony and *Works and Days* (whole poems), and Book 1 of the Iliad, Odyssey and Argonautica. Still unread, so their links stay `verified: false`: Apollodorus, the Homeric Hymns, the rest of the Iliad, Odyssey and Argonautica (Medea and Aeetes need Argonautica Books 3 and 4). Locator formats: `ll. 453-491` for the poems read whole, `Book 1, ll. 44-62` for the epics.
+Every Greek link is now verified (373 of 373). What has been read, per source:
+
+| Source id | Read so far |
+|---|---|
+| `gr-theogony`, `gr-works-and-days` | Whole poems |
+| `gr-homeric-hymns` | Hymns 1 to 3 (Dionysus, Demeter, Apollo) |
+| `gr-iliad`, `gr-odyssey` | Book 1 of each |
+| `gr-argonautica` | Books 1 and 3 (Book 3 to line 1407) |
+| `gr-bibliotheca` | 1.9.13-1.9.28, 2.4.2-2.4.8, 2.5.1-2.5.8 |
+
+Everything else in those works is unread. Norse and Egyptian records are still unverified seeds. Locator formats: `ll. 453-491` for the Theogony and *Works and Days*, `Hymn 3, ll. 1-18`, `Book 1, ll. 44-62` for the epics, and `Library 2.4.2` for Apollodorus.
 
 ## 11. Locators and editorial identifications
 
 Theogony ranges follow the paragraph blocks of the Evelyn-White text as numbered on Theoi, so check the Greek before quoting exact line ends. Where this database identifies two names as one figure (Typhaon and Typhoeus) or follows a translator's note (the Dark-haired One as Poseidon), the link carries a `note`.
+
+## 12. Variants recorded so far
+
+Where sources disagree, each version is its own link with `relation: variant` and a `note`:
+
+- Aphrodite: born from the foam around Heaven's severed members (Theogony 176-206) or a daughter of Zeus (Hymn 3, ll. 182-206).
+- Typhon: son of Earth and Tartarus (Theogony 820-868) or son of Hera alone (Hymn 3, ll. 340-361).
+- The first woman: made by Hephaestus and Athena (Theogony 560-584), with Hermes and Aphrodite also taking part and a jar of ills (Works and Days 42-105).
+- Medea's marriage: promised in Argonautica 3.1118-1130, arranged by Arete in the Library (1.9.25).

@@ -50,6 +50,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 176-206 | Aphrodite grows in the foam around the severed members of Heaven (Theogony version. Other sources give different parentage; compare the Iliad and the Bibliotheca before relying on this.) | `relationships:uranus-parent-of-aphrodite` |
 | ll. 270-294 | The mortal Gorgon; Perseus beheads her, and Pegasus and Chrysaor spring from her | `creatures:medusa` |
 | ll. 270-294 | Cuts off Medusa's head | `heroes:perseus` |
+| ll. 270-294 | Perseus cuts off the head of Medusa | `stories:perseus-and-medusa` |
 | ll. 270-294 | Perseus cuts off Medusa's head | `relationships:perseus-killer-of-medusa` |
 | ll. 270-294 | The Dark-haired One lies with Medusa in a meadow (Evelyn-White's note on this line identifies the Dark-haired One as Poseidon.) | `relationships:poseidon-lover-of-medusa` |
 | ll. 295-305 | Half nymph, half snake, living in a cave in Arima | `creatures:echidna` |
@@ -59,6 +60,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 306-332 | Raised by Hera; destroyed by Heracles and Iolaus with Athena's help | `creatures:hydra` |
 | ll. 306-332 | Fifty-headed hound of Hades | `creatures:cerberus` |
 | ll. 306-332 | Destroys the Hydra with Iolaus | `heroes:heracles` |
+| ll. 306-332 | Heracles and Iolaus destroy the Hydra | `stories:the-lernaean-hydra` |
 | ll. 306-332 | Echidna bears the Lernaean Hydra | `relationships:echidna-parent-of-hydra` |
 | ll. 306-332 | Echidna bears Cerberus | `relationships:echidna-parent-of-cerberus` |
 | ll. 306-332 | Typhaon is the mate of Echidna and father of her offspring (Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821).) | `relationships:typhon-parent-of-hydra` |
@@ -115,11 +117,13 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 912-914 | Carries off Persephone | `deities:hades` |
 | ll. 912-914 | Bears Persephone to Zeus | `deities:demeter` |
 | ll. 912-914 | Daughter of Demeter and Zeus; carried off by Hades | `deities:persephone` |
+| ll. 912-914 | Demeter bears Persephone to Zeus | `stories:abduction-of-persephone` |
 | ll. 912-914 | Demeter bears Persephone to Zeus | `relationships:zeus-parent-of-persephone` |
 | ll. 912-914 | Demeter bears Persephone to Zeus | `relationships:demeter-parent-of-persephone` |
 | ll. 918-920 | Son of Leto and Zeus | `deities:apollo` |
 | ll. 918-920 | Daughter of Leto and Zeus | `deities:artemis` |
 | ll. 918-920 | Bears Apollo and Artemis to Zeus | `deities:leto` |
+| ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `stories:birth-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:zeus-parent-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:leto-parent-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:zeus-parent-of-artemis` |
@@ -289,11 +293,15 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `relationships:zeus-rival-of-prometheus` (verified)
 - `relationships:zeus-rival-of-typhon` (verified)
 - `relationships:zeus-spouse-of-hera` (verified)
+- `stories:abduction-of-persephone` (verified)
+- `stories:birth-of-apollo` (verified)
 - `stories:birth-of-athena` (verified)
 - `stories:birth-of-athena` (verified)
 - `stories:birth-of-zeus` (verified)
 - `stories:castration-of-uranus` (verified)
+- `stories:perseus-and-medusa` (verified)
 - `stories:prometheus-and-the-first-woman` (verified)
+- `stories:the-lernaean-hydra` (verified)
 - `stories:titanomachy` (verified)
 - `stories:typhonomachy` (verified)
 

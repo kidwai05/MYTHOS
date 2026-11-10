@@ -342,6 +342,13 @@
           "relation": "attests",
           "claim": "Mother of the first Olympians; hides the infant Zeus on Crete",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 441-469",
+          "relation": "attests",
+          "claim": "Sent by Zeus to Demeter, whom she calls her daughter",
+          "verified": true
         }
       ]
     },
@@ -397,20 +404,6 @@
           "verified": true
         },
         {
-          "source_id": "gr-homeric-hymns",
-          "locator": null,
-          "relation": "attests",
-          "claim": null,
-          "verified": false
-        },
-        {
-          "source_id": "gr-bibliotheca",
-          "locator": null,
-          "relation": "attests",
-          "claim": null,
-          "verified": false
-        },
-        {
           "source_id": "gr-odyssey",
           "locator": "Book 1, ll. 63-79",
           "relation": "attests",
@@ -443,6 +436,69 @@
           "locator": "Book 1, ll. 517-530",
           "relation": "attests",
           "claim": "Bows his head to Thetis, wary of a quarrel with Hera",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Declares that the descendant of Perseus about to be born will rule Mycenae",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Takes Amphitryon's likeness and begets Heracles on Alcmena",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24",
+          "relation": "attests",
+          "claim": "Sends a storm on the Argo, angry at the murder of Apsyrtus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16",
+          "relation": "attests",
+          "claim": "Father of Dionysus by Semele, who bore him secretly away from Hera; nods and makes Olympus reel",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Gave Persephone to Aidoneus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades says he is the brother of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333",
+          "relation": "attests",
+          "claim": "Sends Iris and then all the gods to win Demeter back",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Welcomes Apollo into his house; Leto sits beside him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310",
+          "relation": "attests",
+          "claim": "Bore Athena from his own head",
           "verified": true
         }
       ]
@@ -523,6 +579,76 @@
           "relation": "attests",
           "claim": "Hephaestus calls her his mother",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Said to have prompted Jason's answer to Pelias, so that Medea would prove a curse to him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.22",
+          "relation": "attests",
+          "claim": "Helps the Argo pass the Clashing Rocks",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Has the Ilithyias delay Alcmena's labour so that Eurystheus is born first",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Sends two serpents to kill the infant Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Pelias left her unhonoured; she loves Jason, who carried her across the river as an old woman",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Spreads a mist so the heroes reach the palace unseen",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1131-1136",
+          "relation": "attests",
+          "claim": "Arranges for Medea to go to Iolcus as a bane to Pelias",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-114",
+          "relation": "attests",
+          "claim": "Keeps Eilithyia on Olympus out of envy while Leto labours",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-339",
+          "relation": "attests",
+          "claim": "Angry that Zeus bore Athena alone; recalls casting out her lame son Hephaestus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "attests",
+          "claim": "Bears Typhaon without Zeus and gives him to the dragoness",
+          "verified": true
         }
       ]
     },
@@ -570,6 +696,20 @@
           "claim": "Named with Hera and Athena among the gods who wished to bind Zeus",
           "verified": true,
           "note": "Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1."
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Father of Pegasus and Chrysaor by Medusa",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27",
+          "relation": "attests",
+          "claim": "Jason dedicates the Argo to him at the Isthmus",
+          "verified": true
         }
       ]
     },
@@ -608,6 +748,27 @@
           "relation": "attests",
           "claim": "Carries off Persephone",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Carries off Persephone with the leave of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 74-89",
+          "relation": "attests",
+          "claim": "Helios calls him a fitting husband for her, as her father's brother and Demeter's brother",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Calls himself the brother of Zeus and a fitting husband for Persephone",
+          "verified": true
         }
       ]
     },
@@ -643,6 +804,34 @@
           "locator": "ll. 969-974",
           "relation": "attests",
           "claim": "Bears Plutus to Iasion on Crete",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Mother of Persephone, who was given to Hades by Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 90-112",
+          "relation": "attests",
+          "claim": "Angry with Zeus, she leaves Olympus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333",
+          "relation": "attests",
+          "claim": "Withholds the crops until Zeus yields",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 459-469",
+          "relation": "attests",
+          "claim": "Rhea calls her \"my daughter\" and brings Zeus's offer",
           "verified": true
         }
       ]
@@ -748,6 +937,55 @@
           "relation": "attests",
           "claim": "Sent by Hera to stay Achilles' sword, and he obeys",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Advises Argus on building the Argo and fits a speaking timber at its prow",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Guides Perseus's hand as he beheads Medusa",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.6",
+          "relation": "attests",
+          "claim": "Gives Heracles bronze castanets she had from Hephaestus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-35",
+          "relation": "attests",
+          "claim": "Confers with Hera on how to help the heroes, and goes with her to Aphrodite",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 317-366",
+          "relation": "attests",
+          "claim": "Fashioned the Argo, as Argus tells Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1163-1190",
+          "relation": "attests",
+          "claim": "Tore the dragon's teeth from its jaws and gave half to Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310",
+          "relation": "attests",
+          "claim": "Born from the head of Zeus, to the anger of Hera",
+          "verified": true
         }
       ]
     },
@@ -773,13 +1011,6 @@
           "relation": "attests",
           "claim": "Son of Leto and Zeus",
           "verified": true
-        },
-        {
-          "source_id": "gr-homeric-hymns",
-          "locator": null,
-          "relation": "attests",
-          "claim": null,
-          "verified": false
         },
         {
           "source_id": "gr-argonautica",
@@ -815,6 +1046,48 @@
           "relation": "attests",
           "claim": "Holds the lyre at the gods' feast",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.26",
+          "relation": "attests",
+          "claim": "Flashes lightning from the Melantian ridges; the Argonauts found an altar to Radiant Apollo at Anaphe",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Leto bears him and Artemis; the gods tremble before him, but Leto sits beside Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135",
+          "relation": "attests",
+          "claim": "Leto labours nine days on Delos while Hera keeps Eilithyia away; Apollo is born",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206",
+          "relation": "attests",
+          "claim": "Plays the lyre among the gods on Olympus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "attests",
+          "claim": "Shoots the dragoness who fostered Typhaon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 474-501",
+          "relation": "attests",
+          "claim": "Tells the Cretans he is the son of Zeus",
+          "verified": true
         }
       ]
     },
@@ -836,6 +1109,20 @@
           "locator": "ll. 918-920",
           "relation": "attests",
           "claim": "Daughter of Leto and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Twin of Apollo, born to Leto in Ortygia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206",
+          "relation": "attests",
+          "claim": "Sings among the gods; sister of Apollo",
           "verified": true
         }
       ]
@@ -880,6 +1167,20 @@
           "relation": "attests",
           "claim": "Named as the mother of Apollo",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18",
+          "relation": "attests",
+          "claim": "Mother of Apollo and Artemis, born on Delos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135",
+          "relation": "attests",
+          "claim": "Labours nine days on Delos while Hera keeps Eilithyia away",
+          "verified": true
         }
       ]
     },
@@ -915,6 +1216,34 @@
           "locator": "ll. 83-89",
           "relation": "attests",
           "claim": "Sent to bring her to Epimetheus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Guides Perseus and gives him an adamantine sickle",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 194-209",
+          "relation": "attests",
+          "claim": "Jason carries Hermes' wand",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1163-1190",
+          "relation": "attests",
+          "claim": "Father of the Argonaut Aethalides",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 334-374",
+          "relation": "attests",
+          "claim": "Sent by Zeus to Erebus to bring Persephone back to her mother",
           "verified": true
         }
       ]
@@ -985,6 +1314,28 @@
           "relation": "attests",
           "claim": "Ordered to shed grace and cruel longing on the first woman's head",
           "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera and Athena ask her to send Eros against Medea; she agrees to coax him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 36-54",
+          "relation": "attests",
+          "claim": "Wife of the lame god Hephaestus, who built her palace",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206",
+          "relation": "variant",
+          "claim": "Called a daughter of Zeus, dancing on Olympus",
+          "verified": true,
+          "note": "Differs from the Theogony (ll. 176-206), where she rises from the foam around the severed members of Heaven."
         }
       ]
     },
@@ -1045,6 +1396,27 @@
           "relation": "attests",
           "claim": "Built a palace for each of the gods",
           "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 36-54",
+          "relation": "attests",
+          "claim": "Husband of Aphrodite; built her palace and works at his forge",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Made the bronze-footed bulls and the plough for Aeetes, and the fountains in his palace",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330",
+          "relation": "attests",
+          "claim": "Hera's weakly, lame son whom she threw into the sea; raised by Thetis",
+          "verified": true
         }
       ]
     },
@@ -1074,6 +1446,13 @@
           "relation": "attests",
           "claim": "Marries Ariadne, who is made immortal",
           "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16",
+          "relation": "attests",
+          "claim": "Son of Zeus and Semele, born away from Hera",
+          "verified": true
         }
       ]
     },
@@ -1102,6 +1481,27 @@
           "locator": "ll. 767-774",
           "relation": "attests",
           "claim": "Queen of the underworld beside Hades",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3",
+          "relation": "attests",
+          "claim": "Demeter's daughter, carried off by Aidoneus with the leave of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades promises her honour as his wife and queen of the dead",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 405-433",
+          "relation": "attests",
+          "claim": "Tells her mother how she was taken and made to eat the pomegranate seed",
           "verified": true
         }
       ]
@@ -1145,6 +1545,20 @@
           "locator": "ll. 54-59",
           "relation": "attests",
           "claim": "Zeus answers by promising men an evil as the price of fire",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.4",
+          "relation": "attests",
+          "claim": "Offers himself to Zeus to take over Chiron's immortality, so that Chiron can die",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 828-890",
+          "relation": "attests",
+          "claim": "The plant used in the \"charm of Prometheus\" sprang from his blood as the eagle tore him on the Caucasus",
           "verified": true
         }
       ]
