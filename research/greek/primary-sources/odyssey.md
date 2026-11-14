@@ -36,8 +36,10 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Book 1, ll. 11-27 | All the gods pity Odysseus except Poseidon | `relationships:poseidon-rival-of-odysseus` |
 | Book 1, ll. 44-62 | Pleads for Odysseus before Zeus | `deities:athena` |
 | Book 1, ll. 44-62 | Described by Athena as the daughter of Atlas who holds Odysseus on her island | `deities:calypso` |
+| Book 1, ll. 44-62 | Athena calls him the father of Calypso (Differs from the Theogony, which lists Calypso among the daughters of Ocean.) | `deities:atlas` |
 | Book 1, ll. 44-62 | Athena pleads for him before Zeus | `heroes:odysseus` |
 | Book 1, ll. 44-62 | Athena pleads for Odysseus | `relationships:athena-ally-of-odysseus` |
+| Book 1, ll. 44-62 | Athena calls Calypso the daughter of Atlas (Differs from the Theogony (ll. 346-370), which lists Calypso among the daughters of Ocean.) | `relationships:atlas-parent-of-calypso` |
 | Book 1, ll. 63-79 | Says he has not forgotten Odysseus, who sacrificed beyond all mortals | `deities:zeus` |
 | Book 1, ll. 63-79 | Rages against Odysseus for blinding his son the Cyclops Polyphemus | `deities:poseidon` |
 | Book 1, ll. 63-79 | Zeus recalls his sacrifices; Poseidon is angry over the blinding of the Cyclops | `heroes:odysseus` |
@@ -49,6 +51,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 ## Records linked to this source
 - `deities:athena` (verified)
 - `deities:athena` (verified)
+- `deities:atlas` (verified)
 - `deities:calypso` (verified)
 - `deities:calypso` (verified)
 - `deities:poseidon` (verified)
@@ -59,6 +62,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `heroes:odysseus` (verified)
 - `relationships:athena-ally-of-odysseus` (verified)
 - `relationships:athena-ally-of-odysseus` (verified)
+- `relationships:atlas-parent-of-calypso` (verified)
 - `relationships:odysseus-lover-of-calypso` (verified)
 - `relationships:poseidon-rival-of-odysseus` (verified)
 - `relationships:poseidon-rival-of-odysseus` (verified)

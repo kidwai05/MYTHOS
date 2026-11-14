@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block page %}browse{% endblock %}
+{% block headersearch %}{% endblock %}
+{% block content %}
+<h1 class="page-title">Browse characters</h1>
+<form id="search-form" class="big-search" role="search" autocomplete="off">
+  <label class="sr" for="q">Search names, aliases and descriptions</label>
+  <input id="q" name="q" type="search" placeholder="Search names, aliases and what the sources say" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="q-list">
+  <ul id="q-list" class="suggest" role="listbox" hidden></ul>
+  <button type="submit">Search</button>
+</form>
+<div class="browse">
+  <details class="filters" id="filters" open>
+    <summary>Filters</summary>
+    <div id="facets" aria-busy="true"></div>
+    <button type="button" id="clear" class="btn ghost small">Clear filters</button>
+  </details>
+  <section aria-labelledby="results-h">
+    <div class="results-bar">
+      <h2 id="results-h" class="sr">Results</h2>
+      <p id="count" role="status" aria-live="polite">Loading…</p>
+      <label class="sort">Sort <select id="sort"><option value="name">Name A to Z</option><option value="-name">Name Z to A</option><option value="mythology">Mythology</option><option value="relevance">Relevance</option></select></label>
+    </div>
+    <div id="active" class="active"></div>
+    <div id="results" class="cards" aria-busy="true"></div>
+    <nav id="pager" class="pager" aria-label="Pagination"></nav>
+  </section>
+</div>
+{% endblock %}

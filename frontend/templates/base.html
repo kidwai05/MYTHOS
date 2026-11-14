@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%9B%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body data-page="{% block page %}{% endblock %}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="/" aria-label="Mythos home"><span class="brand-mark" aria-hidden="true">M</span> Mythos</a>
+      <nav aria-label="Main"><a href="/">Mythologies</a><a href="/characters">Browse</a><a href="/api/v1/mythologies" class="api-link">API</a></nav>
+      {% block headersearch %}
+      <form class="header-search" role="search" action="/characters" method="get" autocomplete="off">
+        <label class="sr" for="hs">Search characters</label>
+        <input id="hs" name="q" type="search" placeholder="Search gods, heroes, monsters" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="hs-list">
+        <ul id="hs-list" class="suggest" role="listbox" hidden></ul>
+      </form>
+      {% endblock %}
+    </div>
+  </header>
+  <main id="main" class="wrap">{% block content %}{% endblock %}</main>
+  <footer class="site-footer"><div class="wrap">
+    <p>Every claim on Mythos links to a passage in an ancient text. Greek records are checked against named public-domain translations; Norse and Egyptian records are still unchecked seeds.</p>
+    <p><a href="/api/v1/sources">All sources</a> · <a href="/api/v1/characters?per_page=100">Data as JSON</a></p>
+  </div></footer>
+  <script type="module" src="{{ url_for('static', filename='js/' ~ self.page() ~ '.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Flask>=3.0
+# Phase 4 and later:
+# SQLAlchemy>=2.0
+# pytest>=8.0

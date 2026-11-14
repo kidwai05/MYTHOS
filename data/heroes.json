@@ -145,6 +145,45 @@
           "claim": "Has been left behind; he alone could have faced the spear of Aeetes",
           "verified": true
         }
+      ],
+      "summary": "The son of Zeus and Alcmene. As an infant he strangles the serpents Hera sent against him. He performs the labours set by Eurystheus, including killing the Hydra with Iolaus, and kills the eagle that tormented Prometheus. He joins the Argonauts but is left behind in Mysia when Hylas is carried off by nymphs. The Theogony says he marries Hebe after his labours.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.19"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 122-132"
+        }
       ]
     },
     {
@@ -178,6 +217,21 @@
           "relation": "attests",
           "claim": "Gives the Gorgon's head to Athena, who sets it in her shield",
           "verified": true
+        }
+      ],
+      "summary": "Sent by Polydectes, he is guided by Hermes and Athena and beheads the sleeping Medusa. He then gives the Gorgon's head to Athena, who sets it in her shield.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.3"
         }
       ]
     },
@@ -255,6 +309,37 @@
           "claim": "Anoints himself with the charm, yokes the bulls, sows the teeth and cuts down the Earthborn",
           "verified": true
         }
+      ],
+      "summary": "Sent by Pelias to fetch the Golden Fleece after losing a sandal crossing a river, he is chosen leader of the Argonauts when Heracles declines. With Medea's charm he yokes the bulls of Aeetes and wins the fleece, and he takes Medea away as his wife. In Apollodorus he later marries Glauce and divorces her. Hera and Athena help him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.28"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 341-347"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1246-1407"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110"
+        }
       ]
     },
     {
@@ -323,6 +408,33 @@
           "relation": "attests",
           "claim": "Leads Chryseis to the altar and gives her back to her father",
           "verified": true
+        }
+      ],
+      "summary": "Called the man of many devices, he loses his comrades on the way home and is held back by Calypso while Poseidon rages against him for blinding the Cyclops. Athena pleads for him before Zeus. In the Iliad he takes command of the ship that returns Chryseis, and the Theogony names him as the father of children by Circe and Calypso.",
+      "summary_basis": [
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 1-10"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 303-311"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1018"
         }
       ]
     },
@@ -393,6 +505,37 @@
           "claim": "Hera plans for her to come to Iolcus as a bane to Pelias",
           "verified": true
         }
+      ],
+      "summary": "The daughter of Aeetes and Idyia, a witch and a priestess of Hecate. Struck with love for Jason by Eros's arrow, she gives him the charm that lets him win the fleece and goes away with him as his wife. Later she persuades the daughters of Pelias to boil their father.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 275-298"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1008-1062"
+        }
       ]
     },
     {
@@ -455,6 +598,29 @@
           "claim": "Receives half of the dragon's teeth from Athena",
           "verified": true
         }
+      ],
+      "summary": "The king of Colchis, a son of Helios and Perseis, keeper of the fleece and father of Medea by Idyia. He sets Jason the task of yoking the bronze-footed bulls and plots to burn the ship. Jason takes Medea from him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 396-421"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 576-608"
+        }
       ]
     },
     {
@@ -495,6 +661,694 @@
           "relation": "attests",
           "claim": "Aeetes calls her his sister, carried west by their father Helios",
           "verified": true
+        }
+      ],
+      "summary": "The daughter of Helios and Perseis and the sister of Aeetes. She loves Odysseus and bears him Agrius, Latinus and Telegonus, and she purifies the Argonauts of the murder of Apsyrtus at Aeaea.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1016"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 299-316"
+        }
+      ]
+    },
+    {
+      "id": "bellerophon",
+      "name": "Bellerophon",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "With Pegasus he slays the Chimaera",
+          "verified": true
+        }
+      ],
+      "summary": "A hero who, with Pegasus, slays the Chimaera.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        }
+      ]
+    },
+    {
+      "id": "peleus",
+      "name": "Peleus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "Thetis is subject to him and bears him Achilles",
+          "verified": true
+        }
+      ],
+      "summary": "A mortal to whom the sea goddess Thetis is subject; she bears him Achilles.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007"
+        }
+      ]
+    },
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "Son of Thetis and Peleus; the lion-hearted destroyer of men",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 53-67",
+          "relation": "attests",
+          "claim": "Hera puts it in his heart to call the assembly",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 187-221",
+          "relation": "attests",
+          "claim": "Athena, sent by Hera, stays his sword and he obeys",
+          "verified": true
+        }
+      ],
+      "summary": "The lion-hearted son of Peleus and the sea goddess Thetis, called a destroyer of men. In Book 1 of the Iliad Hera puts it in his heart to call the assembly, and Athena, sent by Hera, stays his sword and he obeys.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 53-67"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 187-221"
+        }
+      ]
+    },
+    {
+      "id": "aeneas",
+      "name": "Aeneas",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1008-1010",
+          "relation": "attests",
+          "claim": "Son of Aphrodite and the hero Anchises, born on the peaks of Ida",
+          "verified": true
+        }
+      ],
+      "summary": "The son of Aphrodite and the hero Anchises, born on the peaks of Mount Ida.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1008-1010"
+        }
+      ]
+    },
+    {
+      "id": "harmonia",
+      "name": "Harmonia",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Daughter of Ares and Aphrodite; Cadmus makes her his wife",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "Bears Ino, Semele, Agave, Autonoe and Polydorus to Cadmus",
+          "verified": true
+        }
+      ],
+      "summary": "The daughter of Ares and Aphrodite, whom Cadmus makes his wife. She bears him Ino, Semele, Agave, Autonoe and Polydorus.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978"
+        }
+      ]
+    },
+    {
+      "id": "cadmus",
+      "name": "Cadmus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "The high-spirited man who makes Harmonia his wife",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "Father of Semele",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "With Harmonia, father of Ino, Semele, Agave, Autonoe and Polydorus",
+          "verified": true
+        }
+      ],
+      "summary": "The high-spirited husband of Harmonia. Their children are Ino, Semele, Agave, Autonoe and Polydorus, and Semele becomes the mother of Dionysus.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978"
+        }
+      ]
+    },
+    {
+      "id": "semele",
+      "name": "Semele",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "A mortal daughter of Cadmus who bears Dionysus to Zeus; both are now gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "One of the daughters of Harmonia and Cadmus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16",
+          "relation": "attests",
+          "claim": "Bears Dionysus to Zeus, away from Hera",
+          "verified": true
+        }
+      ],
+      "summary": "A daughter of Cadmus and Harmonia, a mortal woman who bears Dionysus to Zeus away from Hera. The Theogony says that both she and her son are now gods.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16"
+        }
+      ]
+    },
+    {
+      "id": "alcmena",
+      "name": "Alcmena",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944",
+          "relation": "attests",
+          "claim": "Joined in love with Zeus, she bears Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Hera has the Ilithyias delay her labour so that Eurystheus is born first",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8",
+          "relation": "attests",
+          "claim": "Zeus takes Amphitryon's likeness and begets Heracles on her",
+          "verified": true
+        }
+      ],
+      "summary": "The mother of Heracles by Zeus. Apollodorus says Zeus came to her in the likeness of Amphitryon, and that Hera had her labour delayed so that Eurystheus was born first.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8"
+        }
+      ]
+    },
+    {
+      "id": "ariadne",
+      "name": "Ariadne",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 947-949",
+          "relation": "attests",
+          "claim": "Brown-haired daughter of Minos; Dionysus makes her his wife and Zeus makes her deathless and unageing",
+          "verified": true
+        }
+      ],
+      "summary": "The brown-haired daughter of Minos. Dionysus makes her his wife, and Zeus makes her deathless and unageing.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 947-949"
+        }
+      ]
+    },
+    {
+      "id": "hebe",
+      "name": "Hebe",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "A child of Hera and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Heracles makes her his wife after finishing his labours",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Hera and Zeus. Heracles makes her his wife after he has finished his labours.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955"
+        }
+      ]
+    },
+    {
+      "id": "eileithyia",
+      "name": "Eileithyia",
+      "mythology": "greek",
+      "aliases": [
+        "Eilithyia"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "childbirth"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "A child of Hera and Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135",
+          "relation": "attests",
+          "claim": "Hera keeps her on Olympus out of envy while Leto labours on Delos",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Hera and Zeus. In the Hymn to Apollo Hera keeps her on Olympus out of envy while Leto labours on Delos.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135"
+        }
+      ]
+    },
+    {
+      "id": "pelias",
+      "name": "Pelias",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "king"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "The overbearing king who puts grievous labours on Jason",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 5-17",
+          "relation": "attests",
+          "claim": "Warned by an oracle about a man with one sandal, he sends Jason on the voyage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Sends Jason to fetch the Golden Fleece after he loses a sandal",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Left Hera unhonoured",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27",
+          "relation": "attests",
+          "claim": "His daughters are persuaded by Medea to boil their father",
+          "verified": true
+        }
+      ],
+      "summary": "The overbearing king who sends Jason after the Golden Fleece, warned by an oracle about a man with one sandal. He had left Hera unhonoured. Medea later persuades his daughters to boil him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 5-17"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27"
+        }
+      ]
+    },
+    {
+      "id": "iolaus",
+      "name": "Iolaus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "hero"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Fights the Hydra together with Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Helps Heracles kill the Hydra; Eurystheus refuses to count the labour",
+          "verified": true
+        }
+      ],
+      "summary": "The warlike companion of Heracles. Together they destroy the Hydra, though Eurystheus refuses to count the labour.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2"
+        }
+      ]
+    },
+    {
+      "id": "eurystheus",
+      "name": "Eurystheus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "king"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Is born first because Hera has Alcmena's labour delayed",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "Sets Heracles the labours",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Refuses to count the killing of the Hydra as a labour",
+          "verified": true
+        }
+      ],
+      "summary": "The king who sets Heracles his labours. Hera has Alcmena's labour delayed so that he is born first, and he refuses to count the killing of the Hydra.",
+      "summary_basis": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2"
+        }
+      ]
+    },
+    {
+      "id": "idyia",
+      "name": "Idyia",
+      "mythology": "greek",
+      "aliases": [
+        "Eidyia"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the daughters of Ocean and Tethys",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "A daughter of Ocean who is given to Aeetes and bears Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Eidyia is queen in Aeetes's palace and mother of Apsyrtus, Chalciope and Medea",
+          "verified": true
+        }
+      ],
+      "summary": "A daughter of Ocean and Tethys who becomes the wife of Aeetes and the mother of Medea. In the Argonautica, where she is called Eidyia, she is queen in his palace.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267"
+        }
+      ]
+    },
+    {
+      "id": "perseis",
+      "name": "Perseis",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the daughters of Ocean and Tethys",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ],
+      "summary": "A daughter of Ocean and Tethys who bears Circe and Aeetes to Helios.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
         }
       ]
     }

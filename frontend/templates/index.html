@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block page %}home{% endblock %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">An encyclopedia of world mythology</p>
+  <h1>Gods, heroes and monsters,<br>with the passages that name them.</h1>
+  <form class="hero-search" role="search" action="/characters" method="get">
+    <label class="sr" for="hero-q">Search</label>
+    <input id="hero-q" name="q" type="search" placeholder="Try “Zeus”, “Cytherea” or “sea”">
+    <button type="submit">Search</button>
+  </form>
+  <p class="hero-actions"><a class="btn ghost" href="/characters">Browse everything</a> <button type="button" id="random" class="btn ghost">Random character</button></p>
+</section>
+<section aria-labelledby="myth-h">
+  <h2 id="myth-h">Mythologies</h2>
+  <div id="mythologies" class="myth-grid" aria-busy="true"><p class="muted">Loading…</p></div>
+</section>
+<section class="explain" aria-labelledby="how-h">
+  <h2 id="how-h">Sourced, not summarised</h2>
+  <div class="cols3">
+    <div><h3>Every link has a locator</h3><p>A profile does not just say Zeus is the son of Cronos. It points to the line range, the book or the section where the text says so.</p></div>
+    <div><h3>Checked or unchecked, always shown</h3><p>A link is marked checked only after the passage was read in a named edition. Unchecked links are shown as such, never hidden.</p></div>
+    <div><h3>Disagreements are kept</h3><p>When ancient sources contradict each other, each version is recorded with its source. Nothing is quietly averaged out.</p></div>
+  </div>
+  <p id="stats" class="stats muted"></p>
+</section>
+{% endblock %}

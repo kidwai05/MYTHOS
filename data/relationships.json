@@ -1700,6 +1700,2345 @@
           "note": "Apollo fights the dragoness, not Typhaon himself."
         }
       ]
+    },
+    {
+      "id": "chaos-parent-of-nyx",
+      "source": "chaos",
+      "type": "parent_of",
+      "target": "nyx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Black Night comes forth from Chaos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-pontus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "pontus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Earth bears Pontus without any union of love",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nyx-parent-of-hypnos",
+      "source": "nyx",
+      "type": "parent_of",
+      "target": "hypnos",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "Night bears Sleep",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nyx-parent-of-thanatos",
+      "source": "nyx",
+      "type": "parent_of",
+      "target": "thanatos",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "Night bears Death",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nyx-parent-of-moerae",
+      "source": "nyx",
+      "type": "parent_of",
+      "target": "moerae",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "Night bears the Fates, Clotho, Lachesis and Atropos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hypnos-sibling-of-thanatos",
+      "source": "hypnos",
+      "type": "sibling_of",
+      "target": "thanatos",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757",
+          "relation": "attests",
+          "claim": "Sleep is called the brother of Death",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 758-766",
+          "relation": "attests",
+          "claim": "Sleep and Death have their dwellings together",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tartarus-parent-of-typhon",
+      "source": "tartarus",
+      "type": "parent_of",
+      "target": "typhon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Earth bears Typhoeus of the love of Tartarus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aphrodite-ally-of-eros",
+      "source": "aphrodite",
+      "type": "ally_of",
+      "target": "eros",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Eros goes with Aphrodite at her birth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera and Athena ask Aphrodite to send Eros against Medea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pontus-parent-of-nereus",
+      "source": "pontus",
+      "type": "parent_of",
+      "target": "nereus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Sea begets Nereus, the eldest of his children",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pontus-parent-of-phorcys",
+      "source": "pontus",
+      "type": "parent_of",
+      "target": "phorcys",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Sea begets Phorcys and Ceto, mated with Earth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-phorcys",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "phorcys",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Phorcys and Ceto are born when Sea mates with Earth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pontus-parent-of-ceto",
+      "source": "pontus",
+      "type": "parent_of",
+      "target": "ceto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Sea begets Phorcys and Ceto, mated with Earth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-ceto",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "ceto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Phorcys and Ceto are born when Sea mates with Earth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "phorcys-lover-of-ceto",
+      "source": "phorcys",
+      "type": "lover_of",
+      "target": "ceto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Ceto bears the Graiae and the Gorgons to Phorcys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "phorcys-parent-of-medusa",
+      "source": "phorcys",
+      "type": "parent_of",
+      "target": "medusa",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Ceto bears the Gorgons, among them Medusa, to Phorcys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ceto-parent-of-medusa",
+      "source": "ceto",
+      "type": "parent_of",
+      "target": "medusa",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Ceto bears the Gorgons, among them Medusa, to Phorcys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nereus-parent-of-thetis",
+      "source": "nereus",
+      "type": "parent_of",
+      "target": "thetis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264",
+          "relation": "attests",
+          "claim": "Thetis is one of the fifty daughters of Nereus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "nereus-parent-of-amphitrite",
+      "source": "nereus",
+      "type": "parent_of",
+      "target": "amphitrite",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264",
+          "relation": "attests",
+          "claim": "Amphitrite is one of the fifty daughters of Nereus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-spouse-of-amphitrite",
+      "source": "poseidon",
+      "type": "spouse_of",
+      "target": "amphitrite",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Triton is born to Amphitrite and Poseidon, who live together in a golden house",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-parent-of-triton",
+      "source": "poseidon",
+      "type": "parent_of",
+      "target": "triton",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Triton is born to Amphitrite and Poseidon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "amphitrite-parent-of-triton",
+      "source": "amphitrite",
+      "type": "parent_of",
+      "target": "triton",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Triton is born to Amphitrite and Poseidon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-iris",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "iris",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806",
+          "relation": "attests",
+          "claim": "Zeus sends Iris to fetch the water of the Styx",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333",
+          "relation": "attests",
+          "claim": "Zeus sends Iris to win Demeter back",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-oceanus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "oceanus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-oceanus",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "oceanus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-tethys",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "tethys",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-tethys",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "tethys",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-hyperion",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "hyperion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-hyperion",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "hyperion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-theia",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "theia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-theia",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "theia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-themis",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "themis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-themis",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "themis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-mnemosyne",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "mnemosyne",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-mnemosyne",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "mnemosyne",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-coeus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "coeus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-coeus",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "coeus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-phoebe",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "phoebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-phoebe",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "phoebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-iapetus",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "iapetus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-iapetus",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "iapetus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "Named among the Titans born to Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-lover-of-tethys",
+      "source": "oceanus",
+      "type": "lover_of",
+      "target": "tethys",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 334-345",
+          "relation": "attests",
+          "claim": "Tethys bears Ocean the rivers",
+          "verified": true,
+          "note": "A union is implied rather than stated as a marriage."
+        }
+      ]
+    },
+    {
+      "id": "hyperion-lover-of-theia",
+      "source": "hyperion",
+      "type": "lover_of",
+      "target": "theia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia is subject in love to Hyperion and bears Helius, Selene and Eos",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "coeus-lover-of-phoebe",
+      "source": "coeus",
+      "type": "lover_of",
+      "target": "phoebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Phoebe comes to the embrace of Coeus and bears Leto and Asteria",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hyperion-parent-of-helios",
+      "source": "hyperion",
+      "type": "parent_of",
+      "target": "helios",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia bears Helius to Hyperion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "theia-parent-of-helios",
+      "source": "theia",
+      "type": "parent_of",
+      "target": "helios",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia bears Helius to Hyperion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hyperion-parent-of-eos",
+      "source": "hyperion",
+      "type": "parent_of",
+      "target": "eos",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia bears Eos to Hyperion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "theia-parent-of-eos",
+      "source": "theia",
+      "type": "parent_of",
+      "target": "eos",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia bears Eos to Hyperion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "coeus-parent-of-leto",
+      "source": "coeus",
+      "type": "parent_of",
+      "target": "leto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Phoebe bears Leto to Coeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "phoebe-parent-of-leto",
+      "source": "phoebe",
+      "type": "parent_of",
+      "target": "leto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Phoebe bears Leto to Coeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "iapetus-parent-of-atlas",
+      "source": "iapetus",
+      "type": "parent_of",
+      "target": "atlas",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Clymene bears Atlas to Iapetus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "iapetus-parent-of-epimetheus",
+      "source": "iapetus",
+      "type": "parent_of",
+      "target": "epimetheus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Clymene bears Epimetheus to Iapetus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "iapetus-parent-of-menoetius",
+      "source": "iapetus",
+      "type": "parent_of",
+      "target": "menoetius",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Clymene bears Menoetius to Iapetus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "iapetus-parent-of-prometheus",
+      "source": "iapetus",
+      "type": "parent_of",
+      "target": "prometheus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Clymene bears Prometheus to Iapetus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-parent-of-calypso",
+      "source": "oceanus",
+      "type": "parent_of",
+      "target": "calypso",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tethys-parent-of-calypso",
+      "source": "tethys",
+      "type": "parent_of",
+      "target": "calypso",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-parent-of-styx",
+      "source": "oceanus",
+      "type": "parent_of",
+      "target": "styx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tethys-parent-of-styx",
+      "source": "tethys",
+      "type": "parent_of",
+      "target": "styx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-parent-of-metis",
+      "source": "oceanus",
+      "type": "parent_of",
+      "target": "metis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tethys-parent-of-metis",
+      "source": "tethys",
+      "type": "parent_of",
+      "target": "metis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-parent-of-perseis",
+      "source": "oceanus",
+      "type": "parent_of",
+      "target": "perseis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tethys-parent-of-perseis",
+      "source": "tethys",
+      "type": "parent_of",
+      "target": "perseis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "oceanus-parent-of-idyia",
+      "source": "oceanus",
+      "type": "parent_of",
+      "target": "idyia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tethys-parent-of-idyia",
+      "source": "tethys",
+      "type": "parent_of",
+      "target": "idyia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the eldest daughters of Ocean and Tethys",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "atlas-parent-of-calypso",
+      "source": "atlas",
+      "type": "parent_of",
+      "target": "calypso",
+      "sources": [
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Athena calls Calypso the daughter of Atlas",
+          "verified": true,
+          "note": "Differs from the Theogony (ll. 346-370), which lists Calypso among the daughters of Ocean."
+        }
+      ]
+    },
+    {
+      "id": "zeus-rival-of-menoetius",
+      "source": "zeus",
+      "type": "rival_of",
+      "target": "menoetius",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Zeus strikes Menoetius with a thunderbolt and sends him to Erebus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "helios-lover-of-perseis",
+      "source": "helios",
+      "type": "lover_of",
+      "target": "perseis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "helios-parent-of-circe",
+      "source": "helios",
+      "type": "parent_of",
+      "target": "circe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "perseis-parent-of-circe",
+      "source": "perseis",
+      "type": "parent_of",
+      "target": "circe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "helios-parent-of-aeetes",
+      "source": "helios",
+      "type": "parent_of",
+      "target": "aeetes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "perseis-parent-of-aeetes",
+      "source": "perseis",
+      "type": "parent_of",
+      "target": "aeetes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Perseis bears Circe and Aeetes to Helios",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aeetes-spouse-of-idyia",
+      "source": "aeetes",
+      "type": "spouse_of",
+      "target": "idyia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Aeetes takes Idyia to wife",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Eidyia is queen in Aeetes's palace",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "idyia-parent-of-medea",
+      "source": "idyia",
+      "type": "parent_of",
+      "target": "medea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Idyia bears Medea to Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Eidyia is the mother of Medea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hecate-ally-of-medea",
+      "source": "hecate",
+      "type": "ally_of",
+      "target": "medea",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Medea is a priestess of Hecate",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-hecate",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "hecate",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 410-452",
+          "relation": "attests",
+          "claim": "Zeus honours Hecate above all",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-styx",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "styx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 383-403",
+          "relation": "attests",
+          "claim": "Zeus honours Styx and makes her the great oath of the gods",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-spouse-of-metis",
+      "source": "zeus",
+      "type": "spouse_of",
+      "target": "metis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900",
+          "relation": "attests",
+          "claim": "Zeus makes Metis his first wife",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "metis-parent-of-athena",
+      "source": "metis",
+      "type": "parent_of",
+      "target": "athena",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900",
+          "relation": "attests",
+          "claim": "Metis was about to bear Athena when Zeus swallowed her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 929a",
+          "relation": "attests",
+          "claim": "Metis conceives Athena and Zeus gives birth to her through his head",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-spouse-of-themis",
+      "source": "zeus",
+      "type": "spouse_of",
+      "target": "themis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906",
+          "relation": "attests",
+          "claim": "Zeus marries Themis, who bears the Hours and the Fates",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "themis-parent-of-moerae",
+      "source": "themis",
+      "type": "parent_of",
+      "target": "moerae",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906",
+          "relation": "attests",
+          "claim": "Themis bears the Fates to Zeus",
+          "verified": true,
+          "note": "Differs from ll. 211-225, where Night bears them."
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-moerae",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "moerae",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906",
+          "relation": "attests",
+          "claim": "Themis bears the Fates to Zeus",
+          "verified": true,
+          "note": "Differs from ll. 211-225, where Night bears them."
+        }
+      ]
+    },
+    {
+      "id": "zeus-lover-of-mnemosyne",
+      "source": "zeus",
+      "type": "lover_of",
+      "target": "mnemosyne",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74",
+          "relation": "attests",
+          "claim": "Zeus lies with Mnemosyne for nine nights",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917",
+          "relation": "attests",
+          "claim": "Zeus loves Mnemosyne",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mnemosyne-parent-of-muses",
+      "source": "mnemosyne",
+      "type": "parent_of",
+      "target": "muses",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74",
+          "relation": "attests",
+          "claim": "Mnemosyne bears the nine Muses",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917",
+          "relation": "attests",
+          "claim": "The nine Muses are born to Mnemosyne",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-muses",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "muses",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74",
+          "relation": "attests",
+          "claim": "The Muses are daughters of Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917",
+          "relation": "attests",
+          "claim": "The nine Muses are born to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "apollo-ally-of-muses",
+      "source": "apollo",
+      "type": "ally_of",
+      "target": "muses",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 75-103",
+          "relation": "attests",
+          "claim": "Through the Muses and Apollo there are singers and harpers on earth",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-lover-of-leto",
+      "source": "zeus",
+      "type": "lover_of",
+      "target": "leto",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920",
+          "relation": "attests",
+          "claim": "Leto is joined in love with Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-lover-of-demeter",
+      "source": "zeus",
+      "type": "lover_of",
+      "target": "demeter",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914",
+          "relation": "attests",
+          "claim": "Zeus comes to the bed of Demeter",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-lover-of-semele",
+      "source": "zeus",
+      "type": "lover_of",
+      "target": "semele",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "Semele is joined with Zeus in love",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-lover-of-alcmena",
+      "source": "zeus",
+      "type": "lover_of",
+      "target": "alcmena",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944",
+          "relation": "attests",
+          "claim": "Alcmena is joined in love with Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-hebe",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "hebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Hebe to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Hebe is the child of Zeus and Hera",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-parent-of-hebe",
+      "source": "hera",
+      "type": "parent_of",
+      "target": "hebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Hebe to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Hebe is the child of Zeus and Hera",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-parent-of-eileithyia",
+      "source": "zeus",
+      "type": "parent_of",
+      "target": "eileithyia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Eileithyia to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-parent-of-eileithyia",
+      "source": "hera",
+      "type": "parent_of",
+      "target": "eileithyia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923",
+          "relation": "attests",
+          "claim": "Hera bears Eileithyia to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135",
+          "relation": "attests",
+          "claim": "Hera keeps Eileithyia on Olympus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-rival-of-leto",
+      "source": "hera",
+      "type": "rival_of",
+      "target": "leto",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135",
+          "relation": "attests",
+          "claim": "Hera keeps Eileithyia away out of envy while Leto labours",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hephaestus-spouse-of-aglaea",
+      "source": "hephaestus",
+      "type": "spouse_of",
+      "target": "aglaea",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 945-946",
+          "relation": "attests",
+          "claim": "Hephaestus makes Aglaea his wife",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dionysus-spouse-of-ariadne",
+      "source": "dionysus",
+      "type": "spouse_of",
+      "target": "ariadne",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 947-949",
+          "relation": "attests",
+          "claim": "Dionysus makes Ariadne his wife and Zeus makes her deathless",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-spouse-of-hebe",
+      "source": "heracles",
+      "type": "spouse_of",
+      "target": "hebe",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Heracles makes Hebe his wife after his labours",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "semele-parent-of-dionysus",
+      "source": "semele",
+      "type": "parent_of",
+      "target": "dionysus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "Semele bears Dionysus to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16",
+          "relation": "attests",
+          "claim": "Semele bears Dionysus to Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "alcmena-parent-of-heracles",
+      "source": "alcmena",
+      "type": "parent_of",
+      "target": "heracles",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 943-944",
+          "relation": "attests",
+          "claim": "Alcmena bears Heracles to Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 950-955",
+          "relation": "attests",
+          "claim": "Heracles is the son of Alcmena",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ares-lover-of-aphrodite",
+      "source": "ares",
+      "type": "lover_of",
+      "target": "aphrodite",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Aphrodite bears Panic, Fear and Harmonia to Ares",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ares-parent-of-harmonia",
+      "source": "ares",
+      "type": "parent_of",
+      "target": "harmonia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Aphrodite bears Harmonia to Ares",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aphrodite-parent-of-harmonia",
+      "source": "aphrodite",
+      "type": "parent_of",
+      "target": "harmonia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Aphrodite bears Harmonia to Ares",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "Harmonia is the daughter of golden Aphrodite",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cadmus-spouse-of-harmonia",
+      "source": "cadmus",
+      "type": "spouse_of",
+      "target": "harmonia",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937",
+          "relation": "attests",
+          "claim": "Cadmus makes Harmonia his wife",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "harmonia-parent-of-semele",
+      "source": "harmonia",
+      "type": "parent_of",
+      "target": "semele",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "Harmonia bears Semele to Cadmus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cadmus-parent-of-semele",
+      "source": "cadmus",
+      "type": "parent_of",
+      "target": "semele",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942",
+          "relation": "attests",
+          "claim": "Semele is the daughter of Cadmus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 975-978",
+          "relation": "attests",
+          "claim": "Harmonia bears Semele to Cadmus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "aphrodite-parent-of-aeneas",
+      "source": "aphrodite",
+      "type": "parent_of",
+      "target": "aeneas",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1008-1010",
+          "relation": "attests",
+          "claim": "Aphrodite bears Aeneas to Anchises on Ida",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "peleus-lover-of-thetis",
+      "source": "peleus",
+      "type": "lover_of",
+      "target": "thetis",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "Thetis is subject to Peleus and bears Achilles",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "thetis-parent-of-achilles",
+      "source": "thetis",
+      "type": "parent_of",
+      "target": "achilles",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "Thetis bears Achilles to Peleus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "peleus-parent-of-achilles",
+      "source": "peleus",
+      "type": "parent_of",
+      "target": "achilles",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "Thetis bears Achilles to Peleus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "thetis-ally-of-hephaestus",
+      "source": "thetis",
+      "type": "ally_of",
+      "target": "hephaestus",
+      "sources": [
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330",
+          "relation": "attests",
+          "claim": "Thetis raises Hephaestus after Hera throws him into the sea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "medusa-parent-of-pegasus",
+      "source": "medusa",
+      "type": "parent_of",
+      "target": "pegasus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Pegasus springs from Medusa when Perseus cuts off her head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Pegasus springs from Medusa",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "medusa-parent-of-chrysaor",
+      "source": "medusa",
+      "type": "parent_of",
+      "target": "chrysaor",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Chrysaor springs from Medusa when Perseus cuts off her head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Chrysaor springs from Medusa",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-parent-of-pegasus",
+      "source": "poseidon",
+      "type": "parent_of",
+      "target": "pegasus",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Pegasus and Chrysaor are begotten by Poseidon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-parent-of-chrysaor",
+      "source": "poseidon",
+      "type": "parent_of",
+      "target": "chrysaor",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Pegasus and Chrysaor are begotten by Poseidon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pegasus-ally-of-zeus",
+      "source": "pegasus",
+      "type": "ally_of",
+      "target": "zeus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Pegasus lives in the house of Zeus and brings him thunder and lightning",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "chrysaor-parent-of-geryon",
+      "source": "chrysaor",
+      "type": "parent_of",
+      "target": "geryon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Chrysaor fathers three-headed Geryon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983",
+          "relation": "attests",
+          "claim": "Callirrhoe bears Geryon to Chrysaor",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-killer-of-geryon",
+      "source": "heracles",
+      "type": "killer_of",
+      "target": "geryon",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Heracles kills Geryon in Erythea for his oxen",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983",
+          "relation": "attests",
+          "claim": "Heracles kills Geryon for his shambling oxen",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-killer-of-orthus",
+      "source": "heracles",
+      "type": "killer_of",
+      "target": "orthus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Heracles kills Orthus, the hound of Geryon",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "echidna-parent-of-orthus",
+      "source": "echidna",
+      "type": "parent_of",
+      "target": "orthus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Orthus is the first offspring of Echidna",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "typhon-parent-of-orthus",
+      "source": "typhon",
+      "type": "parent_of",
+      "target": "orthus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Orthus is the first offspring of Echidna and Typhaon",
+          "verified": true,
+          "note": "Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821)."
+        }
+      ]
+    },
+    {
+      "id": "echidna-lover-of-orthus",
+      "source": "echidna",
+      "type": "lover_of",
+      "target": "orthus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna is subject in love to Orthus and bears the Sphinx and the Nemean lion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "orthus-parent-of-sphinx",
+      "source": "orthus",
+      "type": "parent_of",
+      "target": "sphinx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears the Sphinx and the Nemean lion by Orthus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "echidna-parent-of-sphinx",
+      "source": "echidna",
+      "type": "parent_of",
+      "target": "sphinx",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears the Sphinx and the Nemean lion by Orthus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "orthus-parent-of-nemean-lion",
+      "source": "orthus",
+      "type": "parent_of",
+      "target": "nemean-lion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears the Sphinx and the Nemean lion by Orthus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "echidna-parent-of-nemean-lion",
+      "source": "echidna",
+      "type": "parent_of",
+      "target": "nemean-lion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Echidna bears the Sphinx and the Nemean lion by Orthus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-ally-of-nemean-lion",
+      "source": "hera",
+      "type": "ally_of",
+      "target": "nemean-lion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Hera brings up the Nemean lion and makes it haunt the hills of Nemea",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-rival-of-nemean-lion",
+      "source": "heracles",
+      "type": "rival_of",
+      "target": "nemean-lion",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "The strength of Heracles overcomes the Nemean lion",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "The Nemean lion is the first of the labours",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pegasus-killer-of-chimaera",
+      "source": "pegasus",
+      "type": "killer_of",
+      "target": "chimaera",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Pegasus and Bellerophon slay the Chimaera",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "bellerophon-killer-of-chimaera",
+      "source": "bellerophon",
+      "type": "killer_of",
+      "target": "chimaera",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Pegasus and Bellerophon slay the Chimaera",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "bellerophon-ally-of-pegasus",
+      "source": "bellerophon",
+      "type": "ally_of",
+      "target": "pegasus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Pegasus and Bellerophon slay the Chimaera together",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "heracles-ally-of-iolaus",
+      "source": "heracles",
+      "type": "ally_of",
+      "target": "iolaus",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Heracles and Iolaus destroy the Hydra together",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Iolaus helps Heracles kill the Hydra",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "eurystheus-rival-of-heracles",
+      "source": "eurystheus",
+      "type": "rival_of",
+      "target": "heracles",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "Eurystheus sets Heracles the labours",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2",
+          "relation": "attests",
+          "claim": "Eurystheus refuses to count the Hydra as a labour",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-ally-of-eurystheus",
+      "source": "hera",
+      "type": "ally_of",
+      "target": "eurystheus",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5",
+          "relation": "attests",
+          "claim": "Hera has Alcmena's labour delayed so that Eurystheus is born first",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pelias-rival-of-jason",
+      "source": "pelias",
+      "type": "rival_of",
+      "target": "jason",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "Pelias puts grievous labours on Jason",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 5-17",
+          "relation": "attests",
+          "claim": "Pelias sends Jason on the voyage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.16",
+          "relation": "attests",
+          "claim": "Pelias sends Jason for the Golden Fleece",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hera-rival-of-pelias",
+      "source": "hera",
+      "type": "rival_of",
+      "target": "pelias",
+      "sources": [
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Pelias left Hera unhonoured",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1131-1136",
+          "relation": "attests",
+          "claim": "Hera arranges for Medea to go to Iolcus as a bane to Pelias",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "medea-rival-of-pelias",
+      "source": "medea",
+      "type": "rival_of",
+      "target": "pelias",
+      "sources": [
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27",
+          "relation": "attests",
+          "claim": "Medea persuades the daughters of Pelias to boil their father",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-cyclopes",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "cyclopes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146",
+          "relation": "attests",
+          "claim": "The Cyclopes gave Zeus the thunder and made the thunderbolt",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-cyclopes",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "cyclopes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146",
+          "relation": "attests",
+          "claim": "The Cyclopes are born of Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "gaia-parent-of-hundred-handers",
+      "source": "gaia",
+      "type": "parent_of",
+      "target": "hundred-handers",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162",
+          "relation": "attests",
+          "claim": "Cottus, Briareos and Gyes are born of Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-cyclopes",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "cyclopes",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146",
+          "relation": "attests",
+          "claim": "The Cyclopes are born of Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-parent-of-hundred-handers",
+      "source": "uranus",
+      "type": "parent_of",
+      "target": "hundred-handers",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162",
+          "relation": "attests",
+          "claim": "Cottus, Briareos and Gyes are born of Earth and Heaven",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "uranus-rival-of-hundred-handers",
+      "source": "uranus",
+      "type": "rival_of",
+      "target": "hundred-handers",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162",
+          "relation": "attests",
+          "claim": "Heaven hates the hundred-handers and hides them away as each is born",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "zeus-ally-of-hundred-handers",
+      "source": "zeus",
+      "type": "ally_of",
+      "target": "hundred-handers",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-653",
+          "relation": "attests",
+          "claim": "Zeus frees the hundred-handers and they promise to fight the Titans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735",
+          "relation": "attests",
+          "claim": "They bury the Titans and become warders of Zeus",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "poseidon-ally-of-hundred-handers",
+      "source": "poseidon",
+      "type": "ally_of",
+      "target": "hundred-handers",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 807-819",
+          "relation": "attests",
+          "claim": "Poseidon makes Briareos his son-in-law",
+          "verified": true
+        }
+      ]
     }
   ]
 }

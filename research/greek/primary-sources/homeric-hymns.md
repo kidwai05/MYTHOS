@@ -30,7 +30,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 |---|---|---|
 | Hymn 1, ll. 1-16 | Father of Dionysus by Semele, who bore him secretly away from Hera; nods and makes Olympus reel | `deities:zeus` |
 | Hymn 1, ll. 1-16 | Son of Zeus and Semele, born away from Hera | `deities:dionysus` |
+| Hymn 1, ll. 1-16 | Bears Dionysus to Zeus, away from Hera | `heroes:semele` |
 | Hymn 1, ll. 1-16 | Semele bears Dionysus to Zeus, away from Hera | `relationships:zeus-parent-of-dionysus` |
+| Hymn 1, ll. 1-16 | Semele bears Dionysus to Zeus | `relationships:semele-parent-of-dionysus` |
 | Hymn 2, ll. 1-3 | Gave Persephone to Aidoneus | `deities:zeus` |
 | Hymn 2, ll. 1-3 | Carries off Persephone with the leave of Zeus | `deities:hades` |
 | Hymn 2, ll. 1-3 | Mother of Persephone, who was given to Hades by Zeus | `deities:demeter` |
@@ -46,7 +48,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Hymn 2, ll. 90-112 | Demeter is angry with the Son of Cronos and leaves Olympus | `relationships:demeter-rival-of-zeus` |
 | Hymn 2, ll. 301-333 | Sends Iris and then all the gods to win Demeter back | `deities:zeus` |
 | Hymn 2, ll. 301-333 | Withholds the crops until Zeus yields | `deities:demeter` |
+| Hymn 2, ll. 301-333 | Zeus sends her to win Demeter back | `deities:iris` |
 | Hymn 2, ll. 301-333 | She withholds the crops until Zeus yields | `relationships:demeter-rival-of-zeus` |
+| Hymn 2, ll. 301-333 | Zeus sends Iris to win Demeter back | `relationships:zeus-ally-of-iris` |
 | Hymn 2, ll. 334-374 | Sent by Zeus to Erebus to bring Persephone back to her mother | `deities:hermes` |
 | Hymn 2, ll. 357-369 | Hades says he is the brother of Zeus | `deities:zeus` |
 | Hymn 2, ll. 357-369 | Calls himself the brother of Zeus and a fitting husband for Persephone | `deities:hades` |
@@ -68,6 +72,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Hymn 3, ll. 89-114 | Keeps Eilithyia on Olympus out of envy while Leto labours | `deities:hera` |
 | Hymn 3, ll. 89-135 | Leto labours nine days on Delos while Hera keeps Eilithyia away; Apollo is born | `deities:apollo` |
 | Hymn 3, ll. 89-135 | Labours nine days on Delos while Hera keeps Eilithyia away | `deities:leto` |
+| Hymn 3, ll. 89-135 | Hera keeps her on Olympus out of envy while Leto labours on Delos | `heroes:eileithyia` |
+| Hymn 3, ll. 89-135 | Hera keeps Eileithyia on Olympus | `relationships:hera-parent-of-eileithyia` |
+| Hymn 3, ll. 89-135 | Hera keeps Eileithyia away out of envy while Leto labours | `relationships:hera-rival-of-leto` |
 | Hymn 3, ll. 133-139 | Delos beholds the child of Zeus and Leto | `relationships:zeus-parent-of-artemis` |
 | Hymn 3, ll. 182-206 | Plays the lyre among the gods on Olympus | `deities:apollo` |
 | Hymn 3, ll. 182-206 | Sings among the gods; sister of Apollo | `deities:artemis` |
@@ -78,7 +85,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Hymn 3, ll. 300-310 | The Son of Cronos bore Athena in his head | `relationships:zeus-parent-of-athena` |
 | Hymn 3, ll. 300-339 | Angry that Zeus bore Athena alone; recalls casting out her lame son Hephaestus | `deities:hera` |
 | Hymn 3, ll. 311-330 | Hera's weakly, lame son whom she threw into the sea; raised by Thetis | `deities:hephaestus` |
+| Hymn 3, ll. 311-330 | Raised Hephaestus after Hera threw him into the sea | `deities:thetis` |
 | Hymn 3, ll. 311-330 | Hera calls Hephaestus her son and tells how she cast him out | `relationships:hera-parent-of-hephaestus` |
+| Hymn 3, ll. 311-330 | Thetis raises Hephaestus after Hera throws him into the sea | `relationships:thetis-ally-of-hephaestus` |
 | Hymn 3, ll. 311-361 | Hera is angry that Zeus bore Athena alone and swears to bear a rival son | `relationships:hera-rival-of-zeus` |
 | Hymn 3, ll. 340-361 | Bears Typhaon without Zeus and gives him to the dragoness | `deities:hera` |
 | Hymn 3, ll. 340-361 | Shoots the dragoness who fostered Typhaon | `deities:apollo` |
@@ -112,18 +121,22 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:hera` (verified)
 - `deities:hera` (verified)
 - `deities:hermes` (verified)
+- `deities:iris` (verified)
 - `deities:leto` (verified)
 - `deities:leto` (verified)
 - `deities:persephone` (verified)
 - `deities:persephone` (verified)
 - `deities:persephone` (verified)
 - `deities:rhea` (verified)
+- `deities:thetis` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
+- `heroes:eileithyia` (verified)
+- `heroes:semele` (verified)
 - `relationships:apollo-rival-of-typhon` (verified)
 - `relationships:demeter-parent-of-persephone` (verified)
 - `relationships:demeter-rival-of-zeus` (verified)
@@ -131,12 +144,17 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `relationships:demeter-sibling-of-hades` (verified)
 - `relationships:hades-spouse-of-persephone` (verified)
 - `relationships:hades-spouse-of-persephone` (verified)
+- `relationships:hera-parent-of-eileithyia` (verified)
 - `relationships:hera-parent-of-hephaestus` (verified)
 - `relationships:hera-parent-of-typhon` (verified)
+- `relationships:hera-rival-of-leto` (verified)
 - `relationships:hera-rival-of-zeus` (verified)
 - `relationships:leto-parent-of-apollo` (verified)
 - `relationships:leto-parent-of-artemis` (verified)
 - `relationships:rhea-parent-of-demeter` (verified)
+- `relationships:semele-parent-of-dionysus` (verified)
+- `relationships:thetis-ally-of-hephaestus` (verified)
+- `relationships:zeus-ally-of-iris` (verified)
 - `relationships:zeus-parent-of-aphrodite` (verified)
 - `relationships:zeus-parent-of-apollo` (verified)
 - `relationships:zeus-parent-of-artemis` (verified)

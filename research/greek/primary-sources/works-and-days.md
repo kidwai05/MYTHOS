@@ -39,6 +39,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 60-82 | Ordered to teach the first woman needlework; clothes and adorns her | `deities:athena` |
 | ll. 60-82 | Ordered by Zeus to mould the first woman from earth and water, and fashions her from clay | `deities:hephaestus` |
 | ll. 83-89 | Sent to bring her to Epimetheus | `deities:hermes` |
+| ll. 83-89 | The first woman is sent to him | `deities:epimetheus` |
 | ll. 770-779 | Leto bore him on the seventh of the month | `deities:apollo` |
 | ll. 770-779 | Bore Apollo on the seventh of the month | `deities:leto` |
 | ll. 770-779 | Leto bore Apollo on the seventh of the month | `relationships:leto-parent-of-apollo` |
@@ -47,6 +48,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:aphrodite` (verified)
 - `deities:apollo` (verified)
 - `deities:athena` (verified)
+- `deities:epimetheus` (verified)
 - `deities:hephaestus` (verified)
 - `deities:hermes` (verified)
 - `deities:hermes` (verified)

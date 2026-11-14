@@ -107,6 +107,21 @@
           "verified": true,
           "note": "Differs from the Theogony (ll. 820-868), where Earth bears Typhoeus."
         }
+      ],
+      "summary": "In the Theogony a hundred-headed child of Earth and Tartarus, struck down by Zeus, and the mate of Echidna. In the Hymn to Apollo he is called Typhaon and is instead born to Hera without Zeus and fostered by a dragoness.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361"
+        }
       ]
     },
     {
@@ -134,6 +149,17 @@
           "claim": "Mother of Orthus, Cerberus, the Hydra, the Chimaera, the Sphinx and the Nemean lion",
           "verified": true
         }
+      ],
+      "summary": "A half-nymph, half-snake who lives in a cave in Arima. Typhon is said to be her mate, and she is the mother of Orthus, Cerberus, the Hydra, the Chimaera, the Sphinx and the Nemean lion.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 295-305"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        }
       ]
     },
     {
@@ -160,6 +186,17 @@
           "relation": "attests",
           "claim": "Nine-headed beast bred in the swamp of Lerna, with one immortal head; killed by Heracles and Iolaus",
           "verified": true
+        }
+      ],
+      "summary": "A nine-headed beast bred in the swamp of Lerna, with one immortal head. The Theogony says Hera raised her out of anger at Heracles. Heracles and Iolaus destroy her, with Athena's help according to the Theogony.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.2"
         }
       ]
     },
@@ -191,6 +228,17 @@
           "verified": true,
           "note": "Cerberus is not named in this passage."
         }
+      ],
+      "summary": "The fifty-headed hound of Hades. Another passage describes a hound that guards the halls of Hades and keeps the dead in, though it does not name him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774"
+        }
       ]
     },
     {
@@ -217,6 +265,381 @@
           "relation": "attests",
           "claim": "The only mortal Gorgon; beheaded by Perseus, and Pegasus and Chrysaor spring from her, begotten by Poseidon",
           "verified": true
+        }
+      ],
+      "summary": "The only mortal Gorgon. Perseus beheads her, and Pegasus and Chrysaor spring from her; Apollodorus says Poseidon was their father.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        }
+      ]
+    },
+    {
+      "id": "pegasus",
+      "name": "Pegasus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Springs from Medusa when Perseus cuts off her head; flies to the gods and lives in Zeus's house, bringing him thunder and lightning",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Slays the Chimaera with Bellerophon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Begotten, with Chrysaor, by Poseidon",
+          "verified": true
+        }
+      ],
+      "summary": "A winged horse who springs from Medusa when Perseus cuts off her head; Apollodorus says Poseidon was his father. He flies to the gods, lives in the house of Zeus and brings him thunder and lightning. With Bellerophon he slays the Chimaera.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        }
+      ]
+    },
+    {
+      "id": "chrysaor",
+      "name": "Chrysaor",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Springs from Medusa when Perseus cuts off her head; joined to Callirrhoe, he fathers three-headed Geryon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983",
+          "relation": "attests",
+          "claim": "Father, by the Oceanid Callirrhoe, of Geryon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2",
+          "relation": "attests",
+          "claim": "Begotten, with Pegasus, by Poseidon",
+          "verified": true
+        }
+      ],
+      "summary": "He springs from Medusa when Perseus cuts off her head, and Apollodorus says Poseidon was his father. With the Oceanid Callirrhoe he fathers three-headed Geryon.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        }
+      ]
+    },
+    {
+      "id": "geryon",
+      "name": "Geryon",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Three-headed child of Chrysaor; Heracles kills him in Erythea for his oxen",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983",
+          "relation": "attests",
+          "claim": "The strongest of men; killed by Heracles for his shambling oxen",
+          "verified": true
+        }
+      ],
+      "summary": "A three-headed son of Chrysaor and Callirrhoe, called the strongest of men. Heracles kills him in Erythea for his oxen.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 979-983"
+        }
+      ]
+    },
+    {
+      "id": "orthus",
+      "name": "Orthus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "The hound of Geryon, killed by Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "The first offspring of Echidna and Typhaon; later, with Echidna, father of the Sphinx and the Nemean lion",
+          "verified": true
+        }
+      ],
+      "summary": "The hound of Geryon, killed by Heracles. He is the first offspring of Echidna and Typhaon, and with Echidna he later fathers the Sphinx and the Nemean lion.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        }
+      ]
+    },
+    {
+      "id": "chimaera",
+      "name": "The Chimaera",
+      "mythology": "greek",
+      "aliases": [
+        "Chimaera"
+      ],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "A fire-breathing monster with a lion's head, a dragon's hindpart and a goat's middle, killed by Pegasus and Bellerophon",
+          "verified": true
+        }
+      ],
+      "summary": "A fire-breathing monster with a lion's head, a goat's middle and a dragon's tail, killed by Pegasus and Bellerophon.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        }
+      ]
+    },
+    {
+      "id": "sphinx",
+      "name": "The Sphinx",
+      "mythology": "greek",
+      "aliases": [
+        "Sphinx"
+      ],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Born to Echidna by Orthus; destroys the Cadmeans",
+          "verified": true
+        }
+      ],
+      "summary": "A deadly monster born to Echidna by Orthus, who destroys the Cadmeans.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        }
+      ]
+    },
+    {
+      "id": "nemean-lion",
+      "name": "The Nemean Lion",
+      "mythology": "greek",
+      "aliases": [
+        "Nemean lion"
+      ],
+      "roles": [
+        "monster"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332",
+          "relation": "attests",
+          "claim": "Born to Echidna by Orthus; raised by Hera to plague the hills of Nemea; overcome by Heracles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "The first beast Heracles faces in the labours set by Eurystheus",
+          "verified": true
+        }
+      ],
+      "summary": "A lion born to Echidna by Orthus, raised by Hera to plague the hills of Nemea. Heracles overcomes it, and Apollodorus makes it the first of his labours.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1"
+        }
+      ]
+    },
+    {
+      "id": "cyclopes",
+      "name": "The Cyclopes",
+      "mythology": "greek",
+      "aliases": [
+        "Cyclopes"
+      ],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146",
+          "relation": "attests",
+          "claim": "Three one-eyed sons of Earth and Heaven, Brontes, Steropes and Arges, who gave Zeus the thunder and made the thunderbolt",
+          "verified": true
+        }
+      ],
+      "summary": "Three one-eyed sons of Earth and Heaven, Brontes, Steropes and Arges, who gave Zeus thunder and made his thunderbolt.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146"
+        }
+      ]
+    },
+    {
+      "id": "hundred-handers",
+      "name": "The Hundred-Handers",
+      "mythology": "greek",
+      "aliases": [
+        "Hecatoncheires",
+        "Cottus, Briareos and Gyes"
+      ],
+      "roles": [
+        "legendary-figure"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162",
+          "relation": "attests",
+          "claim": "Cottus, Briareos and Gyes, sons of Earth and Heaven with a hundred arms and fifty heads each, hidden away by their father",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-653",
+          "relation": "attests",
+          "claim": "Freed from their bonds under the earth on Earth's advice; Zeus feeds them nectar and they promise to fight the Titans",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735",
+          "relation": "attests",
+          "claim": "Bury the Titans under rocks and become their warders in Tartarus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 807-819",
+          "relation": "attests",
+          "claim": "Cottus and Gyes live on the foundations of Ocean; Poseidon makes Briareos his son-in-law",
+          "verified": true
+        }
+      ],
+      "summary": "Cottus, Briareos and Gyes, sons of Earth and Heaven, each with a hundred arms and fifty heads. Their father hides them away, and Zeus frees them to fight the Titans, whom they bury under rocks and then guard. Poseidon makes Briareos his son-in-law.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-653"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 807-819"
         }
       ]
     }

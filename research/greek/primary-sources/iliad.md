@@ -34,9 +34,11 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Book 1, ll. 33-42 | Apollo is the god whom Leto bore | `relationships:leto-parent-of-apollo` |
 | Book 1, ll. 43-52 | Comes down from Olympus and strikes the army with arrows | `deities:apollo` |
 | Book 1, ll. 53-67 | Puts it in Achilles' heart to call the assembly, pitying the Danaans | `deities:hera` |
+| Book 1, ll. 53-67 | Hera puts it in his heart to call the assembly | `heroes:achilles` |
 | Book 1, ll. 130-146 | Agamemnon names him as a man whose prize he might seize, and as a possible commander of the ship | `heroes:odysseus` |
 | Book 1, ll. 187-205 | Sends Athena to restrain Achilles | `deities:hera` |
 | Book 1, ll. 187-221 | Sent by Hera to stay Achilles' sword, and he obeys | `deities:athena` |
+| Book 1, ll. 187-221 | Athena, sent by Hera, stays his sword and he obeys | `heroes:achilles` |
 | Book 1, ll. 303-311 | Takes command of the ship returning Chryseis | `heroes:odysseus` |
 | Book 1, ll. 386-412 | Named with Hera and Athena among the gods who wished to bind Zeus (Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1.) | `deities:poseidon` |
 | Book 1, ll. 386-412 | Achilles reports that Hera, Poseidon and Athena once wished to bind Zeus (Reported by Achilles, quoting Thetis. The attempt itself is not narrated in Book 1.) | `relationships:hera-rival-of-zeus` |
@@ -45,6 +47,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Book 1, ll. 428-445 | Leads Chryseis to the altar and gives her back to her father | `heroes:odysseus` |
 | Book 1, ll. 493-516 | Zeus is addressed as his son | `deities:cronus` |
 | Book 1, ll. 493-516 | Supplicated by Thetis; addressed as son of Cronos | `deities:zeus` |
+| Book 1, ll. 493-516 | Supplicates Zeus | `deities:thetis` |
 | Book 1, ll. 493-516 | Zeus is addressed as son of Cronos | `relationships:cronus-parent-of-zeus` |
 | Book 1, ll. 517-530 | Bows his head to Thetis, wary of a quarrel with Hera | `deities:zeus` |
 | Book 1, ll. 536-567 | Confronts Zeus over his secret talk with Thetis | `deities:hera` |
@@ -71,8 +74,11 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:hera` (verified)
 - `deities:leto` (verified)
 - `deities:poseidon` (verified)
+- `deities:thetis` (verified)
 - `deities:zeus` (verified)
 - `deities:zeus` (verified)
+- `heroes:achilles` (verified)
+- `heroes:achilles` (verified)
 - `heroes:odysseus` (verified)
 - `heroes:odysseus` (verified)
 - `heroes:odysseus` (verified)

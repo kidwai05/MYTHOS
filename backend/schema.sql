@@ -57,6 +57,11 @@ CREATE TABLE source_link (
   claim TEXT, note TEXT, verified INTEGER NOT NULL DEFAULT 0,
   CHECK ((character_id IS NOT NULL) + (relationship_id IS NOT NULL) + (myth_id IS NOT NULL) = 1),
   CHECK (verified = 0 OR (locator IS NOT NULL AND claim IS NOT NULL)));
+-- The passages a character's summary rests on. Every row must point at a verified link of the same character.
+CREATE TABLE character_summary_basis (
+  character_id INTEGER NOT NULL REFERENCES character(id) ON DELETE CASCADE,
+  source_link_id INTEGER NOT NULL REFERENCES source_link(id) ON DELETE CASCADE,
+  PRIMARY KEY (character_id, source_link_id));
 CREATE TABLE app_user (
   id INTEGER PRIMARY KEY, email TEXT NOT NULL UNIQUE, password_hash TEXT NOT NULL,
   display_name TEXT, created_at TEXT DEFAULT CURRENT_TIMESTAMP);

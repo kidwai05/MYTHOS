@@ -46,6 +46,8 @@ The JSON files in `data/` are the source of truth. A loader (`seed/loader.py` in
 | `roles` | string[] | god, goddess, titan, monster, hero, legendary-figure |
 | `domains` | string[] | Deities |
 | `tradition` | string, optional | Egyptian creation tradition id |
+| `summary` | string, optional | 40 to 700 characters, plain prose written from the passages in `summary_basis` |
+| `summary_basis` | {source_id, locator}[] | Required with a summary. Each entry must match a verified link on the same record |
 | `sources` | SourceLink[] | At least one |
 
 These three files all load into the `character` table; `roles` map to `character_role`.
@@ -70,6 +72,7 @@ Unique on (`source`, `target`, `type`).
 | JSON | Table |
 |---|---|
 | `sources.json` | `source` |
+| `summary_basis` | `character_summary_basis` (links a character to the `source_link` rows its summary rests on) |
 | every `sources` array (characters, relationships, stories) | `source_link` (one table, exactly one of `character_id`, `relationship_id`, `myth_id` set) |
 | `relationships.json` | `relationship`, `relationship_type` |
 | `stories.json` | `myth`, `character_myth` |
@@ -85,4 +88,5 @@ The DDL is in `backend/schema.sql` and `backend/seed/loader.py` loads the JSON i
 5. Every `research_notes` path exists.
 6. Every source has the right folder for its tier.
 7. A verified link has a locator and a claim, and its source has `edition_used`.
-8. With `--require-verified greek`, every Greek character, story and relationship has at least one verified link, and the script reports which Greek characters are not yet connected in the graph.
+8. A summary needs a `summary_basis`, every basis entry is a verified link of that record, and a long summary rests on at least two passages. With `--require-summary greek`, every Greek character must have one.
+9. With `--require-verified greek`, every Greek character, story and relationship has at least one verified link, and the script reports which Greek characters are not yet connected in the graph.

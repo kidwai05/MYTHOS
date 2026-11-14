@@ -65,11 +65,11 @@ All are older Loeb translations that are public domain in the US and are hosted 
 | `gr-bibliotheca` | Frazer, Loeb 121-122 (1921) |
 | `gr-argonautica` | Seaton, Loeb (1912) |
 
-Every Greek link is now verified (373 of 373). What has been read, per source:
+Every Greek link is verified (684 of 684), across 93 characters. What has been read, per source:
 
 | Source id | Read so far |
 |---|---|
-| `gr-theogony`, `gr-works-and-days` | Whole poems |
+| `gr-theogony`, `gr-works-and-days` | Whole poems. Most of the Greek characters beyond the first 34 come straight from the Theogony's genealogies |
 | `gr-homeric-hymns` | Hymns 1 to 3 (Dionysus, Demeter, Apollo) |
 | `gr-iliad`, `gr-odyssey` | Book 1 of each |
 | `gr-argonautica` | Books 1 and 3 (Book 3 to line 1407) |
@@ -89,3 +89,21 @@ Where sources disagree, each version is its own link with `relation: variant` an
 - Typhon: son of Earth and Tartarus (Theogony 820-868) or son of Hera alone (Hymn 3, ll. 340-361).
 - The first woman: made by Hephaestus and Athena (Theogony 560-584), with Hermes and Aphrodite also taking part and a jar of ills (Works and Days 42-105).
 - Medea's marriage: promised in Argonautica 3.1118-1130, arranged by Arete in the Library (1.9.25).
+
+## 13. Writing summaries
+
+A summary is two to five sentences of plain prose for the top of a profile. Rules:
+
+1. Say only what the character's verified passages say. No outside knowledge, no tidying up of disagreements.
+2. List every passage the summary uses in `summary_basis`. The validator rejects a basis entry that is not a verified link of the same character, and the profile shows the list under "Based on".
+3. Name the source when a statement comes from one version only ("In the Theogony ...", "In the Hymn to Apollo ..."). Where versions disagree, say so in the summary, as for Aphrodite, Typhon, Hephaestus's wife and Calypso's father.
+4. When little has been read, say so ("The passages read so far say little else about her"). Do not pad.
+5. Write in your own words. Do not copy phrases from the translation.
+6. A character with no verified passages gets no summary. Norse and Egyptian characters have none yet.
+7. When a summary changes, or a passage it uses is corrected, re-check its basis. Summaries are part of the data, so they are reviewed like the links.
+
+All 93 Greek characters have summaries.
+
+## 14. Order of work for new Greek entities
+
+Add them from texts already read, so every link can be checked at once. The Theogony alone supplies a family tree from Chaos to the heroes, so it comes first. Add stories later, after the characters in them exist. Next candidates are the rest of the Theogony's catalogues (the Nereids, the rivers, the Hesperides) and the characters in the Iliad, Odyssey and Apollodorus passages not yet read.

@@ -28,7 +28,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Locator | What it attests | Record |
 |---|---|---|
 | Book 1, ll. 5-17 | Pelias, warned by an oracle about a man with one sandal, sends Jason on the voyage | `heroes:jason` |
+| Book 1, ll. 5-17 | Warned by an oracle about a man with one sandal, he sends Jason on the voyage | `heroes:pelias` |
 | Book 1, ll. 5-17 | Pelias sends Jason on the voyage | `stories:quest-for-the-golden-fleece` |
+| Book 1, ll. 5-17 | Pelias sends Jason on the voyage | `relationships:pelias-rival-of-jason` |
 | Book 1, ll. 105-114 | Urges Tiphys to join and fashions the Argo with Argus | `deities:athena` |
 | Book 1, ll. 105-114 | Athena helps build the Argo | `relationships:athena-ally-of-jason` |
 | Book 1, ll. 122-132 | Answers Jason's summons and joins the Argonauts | `heroes:heracles` |
@@ -48,21 +50,31 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Book 3, ll. 6-35 | Confers with Hera on how to help the heroes, and goes with her to Aphrodite | `deities:athena` |
 | Book 3, ll. 6-35 | Athena joins Hera in planning help for the heroes | `relationships:athena-ally-of-jason` |
 | Book 3, ll. 6-110 | Hera and Athena ask her to send Eros against Medea; she agrees to coax him | `deities:aphrodite` |
+| Book 3, ll. 6-110 | Hera and Athena ask Aphrodite to send him against Medea | `deities:eros` |
 | Book 3, ll. 6-110 | Hera loves him for carrying her across the Anaurus; she and Athena ask Aphrodite to help him | `heroes:jason` |
 | Book 3, ll. 6-110 | Hera and Athena persuade Aphrodite to send Eros against Medea on Jason's behalf | `relationships:aphrodite-ally-of-jason` |
+| Book 3, ll. 6-110 | Hera and Athena ask Aphrodite to send Eros against Medea | `relationships:aphrodite-ally-of-eros` |
 | Book 3, ll. 36-54 | Wife of the lame god Hephaestus, who built her palace | `deities:aphrodite` |
 | Book 3, ll. 36-54 | Husband of Aphrodite; built her palace and works at his forge | `deities:hephaestus` |
 | Book 3, ll. 36-54 | Aphrodite's husband, the lame god, built her palace when Zeus gave her to him as his wife | `relationships:hephaestus-spouse-of-aphrodite` |
 | Book 3, ll. 55-75 | Pelias left her unhonoured; she loves Jason, who carried her across the river as an old woman | `deities:hera` |
+| Book 3, ll. 55-75 | Left Hera unhonoured | `heroes:pelias` |
 | Book 3, ll. 55-75 | Hera says she loves Jason and will see him home | `relationships:hera-ally-of-jason` |
+| Book 3, ll. 55-75 | Pelias left Hera unhonoured | `relationships:hera-rival-of-pelias` |
 | Book 3, ll. 194-209 | Jason carries Hermes' wand | `deities:hermes` |
 | Book 3, ll. 210-267 | Spreads a mist so the heroes reach the palace unseen | `deities:hera` |
 | Book 3, ll. 210-267 | Made the bronze-footed bulls and the plough for Aeetes, and the fountains in his palace | `deities:hephaestus` |
+| Book 3, ll. 210-267 | Medea is her priestess | `deities:hecate` |
 | Book 3, ll. 210-267 | Daughter of Aeetes and priestess of Hecate; she and Chalciope are his two daughters | `heroes:medea` |
 | Book 3, ll. 210-267 | Lives in a palace with his queen Eidyia, daughter of Tethys and Oceanus; father of Apsyrtus, Chalciope and Medea | `heroes:aeetes` |
+| Book 3, ll. 210-267 | Eidyia is queen in Aeetes's palace and mother of Apsyrtus, Chalciope and Medea | `heroes:idyia` |
 | Book 3, ll. 210-267 | Medea is one of the two daughters of Aeetes | `relationships:aeetes-parent-of-medea` |
 | Book 3, ll. 210-267 | Hera spreads a mist so the heroes reach the palace unseen | `relationships:hera-ally-of-jason` |
 | Book 3, ll. 210-267 | Hephaestus made bulls and a plough for Aeetes, in thanks to Helios | `relationships:hephaestus-ally-of-aeetes` |
+| Book 3, ll. 210-267 | Eidyia is queen in Aeetes's palace | `relationships:aeetes-spouse-of-idyia` |
+| Book 3, ll. 210-267 | Eidyia is the mother of Medea | `relationships:idyia-parent-of-medea` |
+| Book 3, ll. 210-267 | Medea is a priestess of Hecate | `relationships:hecate-ally-of-medea` |
+| Book 3, ll. 275-298 | His arrow strikes Medea with love for Jason | `deities:eros` |
 | Book 3, ll. 275-298 | Struck with love for Jason by Eros's arrow | `heroes:medea` |
 | Book 3, ll. 299-316 | Aeetes calls her his sister, carried west by their father Helios | `heroes:circe` |
 | Book 3, ll. 299-316 | Aeetes calls Circe his sister | `relationships:circe-sibling-of-aeetes` |
@@ -80,6 +92,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Book 3, ll. 1118-1130 | Jason promises Medea a place in his bridal chamber (A promise only; the marriage itself is narrated in Book 4 and in the Library (1.9.25).) | `relationships:jason-spouse-of-medea` |
 | Book 3, ll. 1131-1136 | Arranges for Medea to go to Iolcus as a bane to Pelias | `deities:hera` |
 | Book 3, ll. 1131-1136 | Hera plans for her to come to Iolcus as a bane to Pelias | `heroes:medea` |
+| Book 3, ll. 1131-1136 | Hera arranges for Medea to go to Iolcus as a bane to Pelias | `relationships:hera-rival-of-pelias` |
 | Book 3, ll. 1163-1190 | Tore the dragon's teeth from its jaws and gave half to Aeetes | `deities:athena` |
 | Book 3, ll. 1163-1190 | Father of the Argonaut Aethalides | `deities:hermes` |
 | Book 3, ll. 1163-1190 | Receives half of the dragon's teeth from Athena | `heroes:aeetes` |
@@ -97,6 +110,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `deities:athena` (verified)
 - `deities:athena` (verified)
 - `deities:athena` (verified)
+- `deities:eros` (verified)
+- `deities:eros` (verified)
+- `deities:hecate` (verified)
 - `deities:hephaestus` (verified)
 - `deities:hephaestus` (verified)
 - `deities:hera` (verified)
@@ -115,6 +131,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `heroes:heracles` (verified)
 - `heroes:heracles` (verified)
 - `heroes:heracles` (verified)
+- `heroes:idyia` (verified)
 - `heroes:jason` (verified)
 - `heroes:jason` (verified)
 - `heroes:jason` (verified)
@@ -124,9 +141,13 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `heroes:medea` (verified)
 - `heroes:medea` (verified)
 - `heroes:medea` (verified)
+- `heroes:pelias` (verified)
+- `heroes:pelias` (verified)
 - `relationships:aeetes-parent-of-medea` (verified)
 - `relationships:aeetes-rival-of-jason` (verified)
 - `relationships:aeetes-rival-of-jason` (verified)
+- `relationships:aeetes-spouse-of-idyia` (verified)
+- `relationships:aphrodite-ally-of-eros` (verified)
 - `relationships:aphrodite-ally-of-jason` (verified)
 - `relationships:aphrodite-ally-of-jason` (verified)
 - `relationships:apollo-ally-of-jason` (verified)
@@ -135,15 +156,20 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `relationships:athena-ally-of-jason` (verified)
 - `relationships:athena-ally-of-jason` (verified)
 - `relationships:circe-sibling-of-aeetes` (verified)
+- `relationships:hecate-ally-of-medea` (verified)
 - `relationships:hephaestus-ally-of-aeetes` (verified)
 - `relationships:hephaestus-spouse-of-aphrodite` (verified)
 - `relationships:hera-ally-of-jason` (verified)
 - `relationships:hera-ally-of-jason` (verified)
 - `relationships:hera-rival-of-heracles` (verified)
+- `relationships:hera-rival-of-pelias` (verified)
+- `relationships:hera-rival-of-pelias` (verified)
 - `relationships:heracles-ally-of-jason` (verified)
 - `relationships:heracles-ally-of-jason` (verified)
+- `relationships:idyia-parent-of-medea` (verified)
 - `relationships:jason-spouse-of-medea` (verified)
 - `relationships:medea-ally-of-jason` (verified)
+- `relationships:pelias-rival-of-jason` (verified)
 - `relationships:zeus-spouse-of-hera` (verified)
 - `stories:quest-for-the-golden-fleece` (verified)
 - `stories:quest-for-the-golden-fleece` (verified)

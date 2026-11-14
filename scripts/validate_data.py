@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Check that data/ and research/ agree. Run from the repo root.
-Usage: python scripts/validate_data.py [--require-verified greek]"""
+Usage: python scripts/validate_data.py [--require-verified greek] [--require-summary greek]"""
 import json, os, sys
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 args = sys.argv[1:]
 require = args[args.index('--require-verified') + 1] if '--require-verified' in args else None
+require_summary = args[args.index('--require-summary') + 1] if '--require-summary' in args else None
 load = lambda n: json.load(open(os.path.join(root, 'data', n + '.json'), encoding='utf-8'))['records']
 errors, info = [], []
 sources = load('sources'); sid = {}
@@ -29,11 +30,24 @@ def check_links(name, r):
             if not l.get('locator'): errors.append(f"{name}:{r['id']} verified link to {l['source_id']} has no locator")
             if not l.get('claim'): errors.append(f"{name}:{r['id']} verified link to {l['source_id']} has no claim")
             if not s.get('edition_used'): errors.append(f"{name}:{r['id']} verified against {l['source_id']} but the source has no edition_used")
+def check_summary(r):
+    s, basis = r.get('summary'), r.get('summary_basis', [])
+    if require_summary and r.get('mythology') == require_summary and not s: errors.append(f"{r['id']} ({require_summary}) has no summary")
+    if not s:
+        if basis: errors.append(f"{r['id']} has summary_basis but no summary")
+        return
+    if not basis: errors.append(f"{r['id']} has a summary with no summary_basis")
+    verified = {(l['source_id'], l['locator']) for l in r['sources'] if l.get('verified')}
+    for b in basis:
+        if (b['source_id'], b['locator']) not in verified: errors.append(f"{r['id']}: summary basis {b['source_id']} {b['locator']} is not a verified link")
+    used = {(b['source_id'], b['locator']) for b in basis}
+    if len(used) < 2 and len(s) > 120: errors.append(f"{r['id']}: a long summary should rest on at least two passages")
+    if not (40 <= len(s) <= 700): errors.append(f"{r['id']}: summary length {len(s)} is outside 40-700 characters")
 def needs_verified(r):
     if require and r.get('mythology') == require and not any(l.get('verified') for l in r['sources']):
         errors.append(f"{r['id']} ({require}) has no verified source link")
 for f in ('deities', 'creatures', 'heroes'):
-    for r in load(f): check_links(f, r); needs_verified(r)
+    for r in load(f): check_links(f, r); needs_verified(r); check_summary(r)
 stories = load('stories')
 for r in stories:
     check_links('stories', r); needs_verified(r)

@@ -221,6 +221,21 @@
           "claim": "Plots the attack on Heaven and arms Cronos with the sickle",
           "verified": true
         }
+      ],
+      "summary": "Earth comes into being right after Chaos and bears Heaven, the hills and Pontus. By Heaven she becomes the mother of the Titans, and later she plots against him and arms her son Cronus with the sickle.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-175"
+        }
       ]
     },
     {
@@ -259,6 +274,21 @@
           "relation": "attests",
           "claim": "Castrated by his son Cronos",
           "verified": true
+        }
+      ],
+      "summary": "Heaven is born from Earth as her equal, to cover her on every side, and fathers the Titans with her. His own son Cronus castrates him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206"
         }
       ]
     },
@@ -313,6 +343,29 @@
           "claim": "Zeus is addressed as his son",
           "verified": true
         }
+      ],
+      "summary": "The youngest and most dreaded of the Titans, the children of Earth and Heaven. He takes the sickle and castrates his father, then swallows his own children to avoid being overthrown, until he is tricked into vomiting them up again. The Iliad addresses Zeus as his son.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 163-206"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516"
+        }
       ]
     },
     {
@@ -349,6 +402,21 @@
           "relation": "attests",
           "claim": "Sent by Zeus to Demeter, whom she calls her daughter",
           "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven, and the mother of the first Olympians. She hides the infant Zeus on Crete. In the Hymn to Demeter Zeus sends her to Demeter, whom she calls her daughter.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 441-469"
         }
       ]
     },
@@ -501,6 +569,41 @@
           "claim": "Bore Athena from his own head",
           "verified": true
         }
+      ],
+      "summary": "The youngest child of Cronus and Rhea, hidden on Crete as an infant. He overcomes his father, receives the thunderbolt, leads the gods against the Titans and defeats Typhoeus. The Theogony lists his marriages and children, and other poems name him as father of Dionysus, Heracles and Athena, whom he bears from his own head.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 617-735"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-929"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8"
+        }
       ]
     },
     {
@@ -650,6 +753,37 @@
           "claim": "Bears Typhaon without Zeus and gives him to the dragoness",
           "verified": true
         }
+      ],
+      "summary": "A daughter of Cronus and Rhea and the last wife of Zeus in the Theogony's list, mother of Hebe, Ares and Eileithyia, and of Hephaestus, whom she bears without Zeus. She is hostile to Heracles: she raises the Hydra against him, sends two serpents to his cradle and has his birth delayed. She helps Jason, whom she loves for carrying her across a river.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-929"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 306-332"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.5"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.8"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75"
+        }
       ]
     },
     {
@@ -711,6 +845,25 @@
           "claim": "Jason dedicates the Argo to him at the Isthmus",
           "verified": true
         }
+      ],
+      "summary": "A child of Cronus and Rhea, called the Earth-Shaker, husband of Amphitrite and father of Triton. Apollodorus makes him the father of Pegasus and Chrysaor by Medusa. In the Odyssey he rages against Odysseus for blinding his son, the Cyclops Polyphemus.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 63-79"
+        }
       ]
     },
     {
@@ -769,6 +922,25 @@
           "relation": "attests",
           "claim": "Calls himself the brother of Zeus and a fitting husband for Persephone",
           "verified": true
+        }
+      ],
+      "summary": "A child of Cronus and Rhea who rules the halls of the underworld. He carries off Persephone with the leave of Zeus. In the Hymn to Demeter he calls himself the brother of Zeus and a fitting husband for her.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369"
         }
       ]
     },
@@ -834,6 +1006,33 @@
           "claim": "Rhea calls her \"my daughter\" and brings Zeus's offer",
           "verified": true
         }
+      ],
+      "summary": "A child of Cronus and Rhea. She bears Persephone to Zeus and Plutus to Iasion on Crete. When Zeus gives Persephone to Hades, she leaves Olympus in anger and withholds the crops until Zeus yields.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 969-974"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 90-112"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333"
+        }
       ]
     },
     {
@@ -855,6 +1054,13 @@
           "relation": "attests",
           "claim": "First-named child of Cronos and Rhea",
           "verified": true
+        }
+      ],
+      "summary": "The first-named child of Cronus and Rhea. The passages read so far say little else about her.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 453-491"
         }
       ]
     },
@@ -987,6 +1193,41 @@
           "claim": "Born from the head of Zeus, to the anger of Hera",
           "verified": true
         }
+      ],
+      "summary": "Born from the head of Zeus after he swallows her mother Metis, to the anger of Hera. She teaches and dresses the first woman, helps build the Argo, pleads for Odysseus before Zeus, guides Perseus's hand against Medusa, and gives Heracles bronze castanets against the Stymphalian birds.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-928"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 560-584"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 105-114"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.6"
+        }
       ]
     },
     {
@@ -1089,6 +1330,33 @@
           "claim": "Tells the Cretans he is the son of Zeus",
           "verified": true
         }
+      ],
+      "summary": "The son of Leto and Zeus, born on Delos after Hera keeps Eilithyia away from Leto's labour. In the Iliad he sends a plague on the Achaeans. He plays the lyre among the gods, and in the Hymn to Apollo he shoots the dragoness that fostered Typhaon. Jason prays to him before the voyage of the Argo.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 8-21"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 1, ll. 402-424"
+        }
       ]
     },
     {
@@ -1124,6 +1392,21 @@
           "relation": "attests",
           "claim": "Sings among the gods; sister of Apollo",
           "verified": true
+        }
+      ],
+      "summary": "The daughter of Leto and Zeus and the twin of Apollo, born in Ortygia. She sings among the gods on Olympus in the Hymn to Apollo.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 1-18"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206"
         }
       ]
     },
@@ -1181,6 +1464,21 @@
           "relation": "attests",
           "claim": "Labours nine days on Delos while Hera keeps Eilithyia away",
           "verified": true
+        }
+      ],
+      "summary": "The daughter of Phoebe and Coeus, and the mother of Apollo and Artemis by Zeus. She labours for nine days on Delos while Hera keeps Eilithyia away.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 918-920"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-135"
         }
       ]
     },
@@ -1246,6 +1544,29 @@
           "claim": "Sent by Zeus to Erebus to bring Persephone back to her mother",
           "verified": true
         }
+      ],
+      "summary": "The son of Maia and Zeus and herald of the gods. He is ordered to give the first woman a deceitful nature and sent to bring her to Epimetheus, is sent by Zeus to bring Persephone back from the underworld, and guides Perseus and gives him an adamantine sickle.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 938-939"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-68"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 83-89"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 334-374"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.2"
+        }
       ]
     },
     {
@@ -1274,6 +1595,17 @@
           "relation": "attests",
           "claim": "Father, with Aphrodite, of Panic, Fear and Harmonia",
           "verified": true
+        }
+      ],
+      "summary": "The son of Hera and Zeus, and the father, with Aphrodite, of Panic, Fear and Harmonia. The passages read so far say little else about him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 921-923"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937"
         }
       ]
     },
@@ -1336,6 +1668,29 @@
           "claim": "Called a daughter of Zeus, dancing on Olympus",
           "verified": true,
           "note": "Differs from the Theogony (ll. 176-206), where she rises from the foam around the severed members of Heaven."
+        }
+      ],
+      "summary": "In the Theogony she rises from the foam around the severed members of Heaven, while the Hymn to Apollo calls her a daughter of Zeus. She bears Panic, Fear and Harmonia to Ares. In the Argonautica she is the wife of Hephaestus and agrees to send Eros against Medea when Hera and Athena ask.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 933-937"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 182-206"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 36-54"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110"
         }
       ]
     },
@@ -1418,6 +1773,41 @@
           "claim": "Hera's weakly, lame son whom she threw into the sea; raised by Thetis",
           "verified": true
         }
+      ],
+      "summary": "Born to Hera without Zeus and the most skilled craftsman of the gods. He forms the first woman from clay, built a palace for each god and made bronze-footed bulls for Aeetes. In the Iliad he recalls being hurled from heaven by Zeus, and in the Hymn to Apollo Hera tells how she cast him out. His wife is Aglaea in the Theogony and Aphrodite in the Argonautica.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 924-929"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 945-946"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-82"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 568-600"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 605-611"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 36-54"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267"
+        }
       ]
     },
     {
@@ -1453,6 +1843,21 @@
           "relation": "attests",
           "claim": "Son of Zeus and Semele, born away from Hera",
           "verified": true
+        }
+      ],
+      "summary": "The son of Zeus and the mortal Semele, born away from Hera and now a god. He marries Ariadne, who is made immortal.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 940-942"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 947-949"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 1, ll. 1-16"
         }
       ]
     },
@@ -1503,6 +1908,29 @@
           "relation": "attests",
           "claim": "Tells her mother how she was taken and made to eat the pomegranate seed",
           "verified": true
+        }
+      ],
+      "summary": "The daughter of Demeter and Zeus, carried off by Hades with the leave of Zeus. She becomes queen of the underworld beside him, and tells her mother how she was taken and made to eat the pomegranate seed.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 912-914"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 767-774"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 1-3"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 405-433"
         }
       ]
     },
@@ -1561,6 +1989,33 @@
           "claim": "The plant used in the \"charm of Prometheus\" sprang from his blood as the eagle tore him on the Caucasus",
           "verified": true
         }
+      ],
+      "summary": "A Titan, the son of Iapetus and Clymene. He tricks Zeus over the sacrifice and steals fire. Zeus punishes him by binding him and by sending an evil to mankind as the price of fire, and Heracles later kills the eagle and frees him. Apollodorus has him take over Chiron's immortality, and a plant used in Medea's charm springs from his blood.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 545-616"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 42-53"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 54-59"
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.4"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 828-890"
+        }
       ]
     },
     {
@@ -1601,6 +2056,1583 @@
           "relation": "attests",
           "claim": "Described by Athena as the daughter of Atlas who holds Odysseus on her island",
           "verified": true
+        }
+      ],
+      "summary": "Listed among the daughters of Ocean and Tethys, though Athena calls her the daughter of Atlas. She keeps Odysseus on her island, wanting him as her husband, and in the Theogony bears him two sons, Nausithous and Nausinous.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1017-1018"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 11-27"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62"
+        }
+      ]
+    },
+    {
+      "id": "chaos",
+      "name": "Chaos",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "primordial"
+      ],
+      "domains": [],
+      "gender": null,
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "The first thing to come into being, before Earth; Erebus and Night come forth from it",
+          "verified": true
+        }
+      ],
+      "summary": "The first thing to come into being in the Theogony, before Earth. Erebus and black Night come forth from it.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        }
+      ]
+    },
+    {
+      "id": "tartarus",
+      "name": "Tartarus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "primordial"
+      ],
+      "domains": [
+        "underworld"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Comes into being in the depths of the wide-pathed Earth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735",
+          "relation": "attests",
+          "claim": "The defeated Titans are bound beneath the earth as far down as Tartarus, behind a bronze fence and a triple line of night",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868",
+          "relation": "attests",
+          "claim": "Father of Typhoeus by Earth; Zeus hurls the monster into wide Tartarus",
+          "verified": true
+        }
+      ],
+      "summary": "A dim region deep in the earth that comes into being early in the Theogony. The defeated Titans are bound there behind a bronze fence, and Zeus hurls Typhoeus into it. Tartarus is also named as the father of Typhoeus, by Earth.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 820-868"
+        }
+      ]
+    },
+    {
+      "id": "eros",
+      "name": "Eros (Love)",
+      "mythology": "greek",
+      "aliases": [
+        "Love"
+      ],
+      "roles": [
+        "god",
+        "primordial"
+      ],
+      "domains": [
+        "love"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Among the first to come into being; the fairest of the deathless gods, who overcomes the mind and counsel of gods and men",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Goes with Aphrodite at her birth and joins the assembly of the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera and Athena ask Aphrodite to send him against Medea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 275-298",
+          "relation": "attests",
+          "claim": "His arrow strikes Medea with love for Jason",
+          "verified": true
+        }
+      ],
+      "summary": "One of the first beings to come into being, called the fairest of the deathless gods, who overcomes the minds of gods and men. He goes with Aphrodite at her birth. In the Argonautica Hera and Athena ask Aphrodite to send him against Medea, and his arrow strikes her with love for Jason.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 275-298"
+        }
+      ]
+    },
+    {
+      "id": "nyx",
+      "name": "Nyx (Night)",
+      "mythology": "greek",
+      "aliases": [
+        "Night"
+      ],
+      "roles": [
+        "goddess",
+        "primordial"
+      ],
+      "domains": [
+        "night"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Comes from Chaos; with Erebus she bears Aether and Day",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "Bears Doom, Fate, Death, Sleep and the Dreams, and, though she lay with none, Blame, Woe, the Hesperides, the Fates and Nemesis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757",
+          "relation": "attests",
+          "claim": "Her house stands where Night and Day pass each other at the bronze threshold; she holds Sleep in her arms",
+          "verified": true
+        }
+      ],
+      "summary": "Black Night comes from Chaos and, with Erebus, bears Aether and Day. She bears Doom, Fate, Death, Sleep and the Dreams, and, though she lay with none, Blame, Woe, the Hesperides, the Fates and Nemesis. Her house stands where Night and Day pass each other at a bronze threshold.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757"
+        }
+      ]
+    },
+    {
+      "id": "pontus",
+      "name": "Pontus (Sea)",
+      "mythology": "greek",
+      "aliases": [
+        "Sea"
+      ],
+      "roles": [
+        "god",
+        "primordial"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133",
+          "relation": "attests",
+          "claim": "Earth bears him, the barren raging sea, without any union of love",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "Fathers Nereus, the eldest, and with Earth also Thaumas, Phorcys, Ceto and Eurybia",
+          "verified": true
+        }
+      ],
+      "summary": "The barren, raging sea, borne by Earth without any union of love. He fathers Nereus, the eldest of his children, and with Earth also Thaumas, Phorcys, Ceto and Eurybia.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 116-133"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239"
+        }
+      ]
+    },
+    {
+      "id": "thanatos",
+      "name": "Thanatos (Death)",
+      "mythology": "greek",
+      "aliases": [
+        "Death"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "death"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "A child of Night",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757",
+          "relation": "attests",
+          "claim": "Sleep is called his brother",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 758-766",
+          "relation": "attests",
+          "claim": "Lives with Sleep where the sun never looks; has a heart of iron, holds fast whomever he seizes, and is hateful even to the gods",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Night who lives with his brother Sleep in the dark where the sun never looks. He has a heart of iron, and whomever he has seized he holds fast. Even the gods hate him.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 758-766"
+        }
+      ]
+    },
+    {
+      "id": "hypnos",
+      "name": "Hypnos (Sleep)",
+      "mythology": "greek",
+      "aliases": [
+        "Sleep"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sleep"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "A child of Night",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757",
+          "relation": "attests",
+          "claim": "Called the brother of Death; Night holds him in her arms",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 758-766",
+          "relation": "attests",
+          "claim": "Roams peacefully over earth and sea and is kind to men",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Night and the brother of Death. He roams peacefully over the earth and the sea and is kind to men.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 758-766"
+        }
+      ]
+    },
+    {
+      "id": "oceanus",
+      "name": "Oceanus",
+      "mythology": "greek",
+      "aliases": [
+        "Ocean"
+      ],
+      "roles": [
+        "titan"
+      ],
+      "domains": [
+        "water"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 334-345",
+          "relation": "attests",
+          "claim": "Tethys bears him the rivers",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "With Tethys the father of three thousand daughters, among them Styx, Metis, Calypso, Idyia and Perseis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806",
+          "relation": "attests",
+          "claim": "A branch of his stream feeds the Styx, whose water is the gods' great oath",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. Tethys bears him the rivers and three thousand daughters, among them Styx, Metis, Calypso, Idyia and Perseis. A branch of his stream feeds the Styx, whose water is the gods' great oath.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 334-345"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806"
+        }
+      ]
+    },
+    {
+      "id": "tethys",
+      "name": "Tethys",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [
+        "water"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 334-345",
+          "relation": "attests",
+          "claim": "Bears Ocean the rivers",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "With Ocean the mother of three thousand daughters, the eldest of them named in a long list",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. She bears Ocean the rivers and, with him, three thousand daughters.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 334-345"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        }
+      ]
+    },
+    {
+      "id": "hyperion",
+      "name": "Hyperion",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Theia bears him Helius, Selene and Eos",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. With Theia he is the father of the Sun, the Moon and Dawn.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374"
+        }
+      ]
+    },
+    {
+      "id": "theia",
+      "name": "Theia",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Subject in love to Hyperion, she bears Helius, Selene and Eos",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. With Hyperion she is the mother of the Sun, the Moon and Dawn.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374"
+        }
+      ]
+    },
+    {
+      "id": "themis",
+      "name": "Themis",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan",
+        "goddess"
+      ],
+      "domains": [
+        "justice"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906",
+          "relation": "attests",
+          "claim": "Zeus marries her; she bears the Hours and the Fates",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. Zeus marries her, and she bears the Hours and the Fates.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906"
+        }
+      ]
+    },
+    {
+      "id": "mnemosyne",
+      "name": "Mnemosyne (Memory)",
+      "mythology": "greek",
+      "aliases": [
+        "Memory"
+      ],
+      "roles": [
+        "titan",
+        "goddess"
+      ],
+      "domains": [
+        "memory"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74",
+          "relation": "attests",
+          "claim": "Bears the nine Muses to Zeus in Pieria after nine nights",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917",
+          "relation": "attests",
+          "claim": "Zeus loves her and the nine Muses are born",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven, who reigns over the hills of Eleuther. Zeus lies with her for nine nights and she bears the nine Muses.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917"
+        }
+      ]
+    },
+    {
+      "id": "coeus",
+      "name": "Coeus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Phoebe comes to his embrace and bears Leto and Asteria",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. With Phoebe he is the father of Leto and Asteria.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409"
+        }
+      ]
+    },
+    {
+      "id": "phoebe",
+      "name": "Phoebe",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409",
+          "relation": "attests",
+          "claim": "Comes to the embrace of Coeus and bears Leto and Asteria",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. With Coeus she is the mother of Leto and Asteria.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 404-409"
+        }
+      ]
+    },
+    {
+      "id": "iapetus",
+      "name": "Iapetus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138",
+          "relation": "attests",
+          "claim": "A Titan, born to Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Marries Clymene; their sons are Atlas, Menoetius, Prometheus and Epimetheus",
+          "verified": true
+        }
+      ],
+      "summary": "A Titan, born to Earth and Heaven. He marries Clymene, and their sons are Atlas, Menoetius, Prometheus and Epimetheus.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 134-138"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Son of Iapetus and Clymene; by Zeus's assignment he holds up the wide heaven at the edge of the earth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757",
+          "relation": "attests",
+          "claim": "Stands before the house of Night holding up heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 938-939",
+          "relation": "attests",
+          "claim": "Father of Maia",
+          "verified": true
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62",
+          "relation": "attests",
+          "claim": "Athena calls him the father of Calypso",
+          "verified": true,
+          "note": "Differs from the Theogony, which lists Calypso among the daughters of Ocean."
+        }
+      ],
+      "summary": "A son of Iapetus and Clymene who, by Zeus's assignment, holds up the wide heaven at the edge of the earth. Maia is his daughter. In the Odyssey Athena calls Calypso his daughter, where the Theogony lists her among the daughters of Ocean.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 744-757"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 938-939"
+        },
+        {
+          "source_id": "gr-odyssey",
+          "locator": "Book 1, ll. 44-62"
+        }
+      ]
+    },
+    {
+      "id": "epimetheus",
+      "name": "Epimetheus",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Son of Iapetus; from the first a mischief to men, since he was the first to take from Zeus the woman he had formed",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 83-89",
+          "relation": "attests",
+          "claim": "The first woman is sent to him",
+          "verified": true
+        }
+      ],
+      "summary": "A son of Iapetus and Clymene and brother of Prometheus. He is called a mischief to men because he was the first to take the woman Zeus had formed, whom Hermes brings to him in Works and Days.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 83-89"
+        }
+      ]
+    },
+    {
+      "id": "menoetius",
+      "name": "Menoetius",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "titan"
+      ],
+      "domains": [],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544",
+          "relation": "attests",
+          "claim": "Son of Iapetus; Zeus strikes him with a thunderbolt and sends him down to Erebus for his presumption",
+          "verified": true
+        }
+      ],
+      "summary": "A son of Iapetus and Clymene. Zeus strikes him with a thunderbolt and sends him down to Erebus for his presumption.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 507-544"
+        }
+      ]
+    },
+    {
+      "id": "helios",
+      "name": "Helios (Sun)",
+      "mythology": "greek",
+      "aliases": [
+        "Helius",
+        "Sun"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sun"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Born to Hyperion and Theia, with Selene and Eos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962",
+          "relation": "attests",
+          "claim": "Father of Circe and Aeetes by Perseis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1016",
+          "relation": "attests",
+          "claim": "Circe is called the daughter of Helius, Hyperion's son",
+          "verified": true
+        }
+      ],
+      "summary": "The Sun, born to Hyperion and Theia with the Moon and Dawn. By Perseis he is the father of Circe and Aeetes.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 956-962"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1011-1016"
+        }
+      ]
+    },
+    {
+      "id": "eos",
+      "name": "Eos (Dawn)",
+      "mythology": "greek",
+      "aliases": [
+        "Dawn",
+        "Erigenia"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "dawn"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374",
+          "relation": "attests",
+          "claim": "Born to Hyperion and Theia; she shines on all on earth and on the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 378-382",
+          "relation": "attests",
+          "claim": "Bears the winds Zephyrus, Boreas and Notus, and the star Eosphorus, to Astraeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 984-991",
+          "relation": "attests",
+          "claim": "Bears Memnon and Emathion to Tithonus and Phaethon to Cephalus",
+          "verified": true
+        }
+      ],
+      "summary": "Dawn, born to Hyperion and Theia, who shines on all on earth and on the gods. She bears the winds Zephyrus, Boreas and Notus to Astraeus, and sons to the mortals Tithonus and Cephalus.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 371-374"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 378-382"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 984-991"
+        }
+      ]
+    },
+    {
+      "id": "hecate",
+      "name": "Hecate",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 410-452",
+          "relation": "attests",
+          "claim": "Zeus honours her above all and gives her a share of earth, sea and heaven; she favours kings in judgement, warriors, athletes, horsemen and fishermen, and nurses the young",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Medea is her priestess",
+          "verified": true
+        }
+      ],
+      "summary": "A goddess whom Zeus honours above all, giving her a share of earth, sea and heaven. She aids those she favours in judgement, battle, games and at sea, and is a nurse of the young. In the Argonautica Medea is her priestess.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 410-452"
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267"
+        }
+      ]
+    },
+    {
+      "id": "styx",
+      "name": "Styx",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "oaths"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "The chiefest of the daughters of Ocean and Tethys",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 383-403",
+          "relation": "attests",
+          "claim": "Bears Zelus, Nike, Cratos and Bia to Pallas; first to Olympus to back Zeus against the Titans, and Zeus makes her the great oath of the gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806",
+          "relation": "attests",
+          "claim": "Lives apart in a rock-vaulted house; Iris fetches her water for the gods' oath, and a god who swears falsely is cut off from the others for years",
+          "verified": true
+        }
+      ],
+      "summary": "The eldest daughter of Ocean. She is the first to join Zeus on Olympus against the Titans, and he makes her the great oath of the gods. Iris fetches her water for the oath, and a god who swears falsely is cut off from the others for years.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 383-403"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806"
+        }
+      ]
+    },
+    {
+      "id": "metis",
+      "name": "Metis",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "wisdom"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370",
+          "relation": "attests",
+          "claim": "Listed among the daughters of Ocean and Tethys",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900",
+          "relation": "attests",
+          "claim": "Zeus's first wife and the wisest of gods and mortals; he swallows her before she bears Athena, on the advice of Earth and Heaven",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 929a",
+          "relation": "attests",
+          "claim": "She conceives Pallas Athene and stays inside Zeus, who gives birth to Athena through his head",
+          "verified": true
+        }
+      ],
+      "summary": "A daughter of Ocean and the first wife of Zeus, wisest among gods and mortals. Because Earth and Heaven advise that her children would threaten Zeus, he swallows her before she bears Athena, and Athena is later born from his head.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 346-370"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 886-900"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 929a"
+        }
+      ]
+    },
+    {
+      "id": "aglaea",
+      "name": "Aglaea",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 907-911",
+          "relation": "attests",
+          "claim": "One of the three Graces, daughters of Zeus and Eurynome",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 945-946",
+          "relation": "attests",
+          "claim": "The youngest of the Graces; Hephaestus makes her his wife",
+          "verified": true
+        }
+      ],
+      "summary": "The youngest of the three Graces, daughters of Zeus and Eurynome. Hephaestus makes her his wife.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 907-911"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 945-946"
+        }
+      ]
+    },
+    {
+      "id": "muses",
+      "name": "The Muses",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "poetry",
+        "music"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74",
+          "relation": "attests",
+          "claim": "Nine daughters of Zeus and Mnemosyne, born in Pieria",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 75-103",
+          "relation": "attests",
+          "claim": "Named as Cleio, Euterpe, Thaleia, Melpomene, Terpsichore, Erato, Polyhymnia, Urania and Calliope; with Apollo they make singers and harpers, and they favour princes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917",
+          "relation": "attests",
+          "claim": "Born from Zeus and Mnemosyne",
+          "verified": true
+        }
+      ],
+      "summary": "Nine daughters of Zeus and Mnemosyne, born in Pieria, named as Cleio, Euterpe, Thaleia, Melpomene, Terpsichore, Erato, Polyhymnia, Urania and Calliope. Through them and Apollo there are singers and harpers on earth, and they favour wise princes.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 53-74"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 75-103"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 915-917"
+        }
+      ]
+    },
+    {
+      "id": "moerae",
+      "name": "The Fates (Moerae)",
+      "mythology": "greek",
+      "aliases": [
+        "Fates",
+        "Destinies"
+      ],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "fate"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225",
+          "relation": "attests",
+          "claim": "Born of Night: Clotho, Lachesis and Atropos, who give men good and evil at birth and punish the transgressions of men and gods",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906",
+          "relation": "variant",
+          "claim": "Also said to be born of Zeus and Themis, who gives them the greatest honour",
+          "verified": true,
+          "note": "Differs from ll. 211-225, where Night bears them."
+        }
+      ],
+      "summary": "Clotho, Lachesis and Atropos, who give men both good and evil at their birth and pursue the transgressions of men and gods. The Theogony says in one place that Night bore them and in another that Zeus and Themis did.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 211-225"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 901-906"
+        }
+      ]
+    },
+    {
+      "id": "nereus",
+      "name": "Nereus",
+      "mythology": "greek",
+      "aliases": [
+        "Old Man of the Sea"
+      ],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "The eldest child of Sea; truthful and gentle, called the Old Man",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264",
+          "relation": "attests",
+          "claim": "Father, by Doris, of fifty daughters",
+          "verified": true
+        }
+      ],
+      "summary": "The eldest child of Sea, called the Old Man because he is truthful and gentle. With Doris he is the father of fifty daughters, among them Amphitrite and Thetis.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264"
+        }
+      ]
+    },
+    {
+      "id": "thetis",
+      "name": "Thetis",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264",
+          "relation": "attests",
+          "claim": "One of the fifty daughters of Nereus and Doris",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007",
+          "relation": "attests",
+          "claim": "The silver-shod goddess, subject to Peleus, bears Achilles",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330",
+          "relation": "attests",
+          "claim": "Raised Hephaestus after Hera threw him into the sea",
+          "verified": true
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516",
+          "relation": "attests",
+          "claim": "Supplicates Zeus",
+          "verified": true
+        }
+      ],
+      "summary": "One of the fifty daughters of Nereus. She bears Achilles to the mortal Peleus, and in the Iliad she supplicates Zeus. In the Hymn to Apollo she raises Hephaestus after Hera throws him into the sea.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 1003-1007"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330"
+        },
+        {
+          "source_id": "gr-iliad",
+          "locator": "Book 1, ll. 493-516"
+        }
+      ]
+    },
+    {
+      "id": "amphitrite",
+      "name": "Amphitrite",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264",
+          "relation": "attests",
+          "claim": "One of the daughters of Nereus; with Cymodoce she calms the waves",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Wife of Poseidon and mother of Triton",
+          "verified": true
+        }
+      ],
+      "summary": "One of the daughters of Nereus, who with Cymodoce calms the waves. She is the wife of Poseidon and the mother of Triton.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 240-264"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932"
+        }
+      ]
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932",
+          "relation": "attests",
+          "claim": "Son of Amphitrite and Poseidon; owns the depths of the sea and lives with his parents in a golden house",
+          "verified": true
+        }
+      ],
+      "summary": "The son of Amphitrite and Poseidon, who owns the depths of the sea and lives with his parents in a golden house.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 930-932"
+        }
+      ]
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "messengers"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 265-269",
+          "relation": "attests",
+          "claim": "The swift daughter of Thaumas and Electra, and sister of the Harpies",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806",
+          "relation": "attests",
+          "claim": "Zeus sends her to fetch the water of the Styx in a golden jug",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333",
+          "relation": "attests",
+          "claim": "Zeus sends her to win Demeter back",
+          "verified": true
+        }
+      ],
+      "summary": "The swift daughter of Thaumas and Electra and sister of the Harpies. Zeus sends her as messenger, to fetch the water of the Styx for the gods' oath and, in the Hymn to Demeter, to call Demeter back.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 265-269"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 775-806"
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-333"
+        }
+      ]
+    },
+    {
+      "id": "phorcys",
+      "name": "Phorcys",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "god"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "m",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "A child of Sea, born when Sea mated with Earth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Father, by Ceto, of the Graiae and the Gorgons, among them Medusa",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Sea and Earth. With Ceto he is the father of the Graiae and the Gorgons, among them Medusa.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
+        }
+      ]
+    },
+    {
+      "id": "ceto",
+      "name": "Ceto",
+      "mythology": "greek",
+      "aliases": [],
+      "roles": [
+        "goddess"
+      ],
+      "domains": [
+        "sea"
+      ],
+      "gender": "f",
+      "sources": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239",
+          "relation": "attests",
+          "claim": "A child of Sea, born when Sea mated with Earth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294",
+          "relation": "attests",
+          "claim": "Mother, by Phorcys, of the Graiae and the Gorgons, among them Medusa",
+          "verified": true
+        }
+      ],
+      "summary": "A child of Sea and Earth. With Phorcys she is the mother of the Graiae and the Gorgons, among them Medusa.",
+      "summary_basis": [
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 233-239"
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 270-294"
         }
       ]
     }
