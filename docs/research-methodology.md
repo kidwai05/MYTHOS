@@ -19,9 +19,26 @@ Modern retellings are useful for orientation. Cite the Eddas, Hesiod, the Pyrami
 5. At least one linked source for a core fact should be primary or supplementary. A scholarly source alone is not enough.
 6. The back-link also lives in each source note, under "Records linked to this source".
 
-## 3. Source status lifecycle
+## 3. Source status lifecycle vs passage verification
 
-`catalogued` (listed, not read) → `edition-chosen` (edition, URL and licence recorded) → `reading` → `extracted` (passages logged in the note) → `verified` (records linked with locators). Set `status` in `sources.json`.
+MYTHOS maintains a rigorous distinction between the research status of an entire source work and the verification status of an individual passage:
+
+- **Source-level status** (`sources.json` and `source.status`):
+  `catalogued` (listed, not read) → `edition-chosen` (edition, URL and licence recorded) → `reading` → `extracted` (passages logged in the note) → `verified` (thoroughly read and linked).
+- **Passage-level verification** (`source_passage.verified` and `source_link.verified`):
+  Indicates whether that specific passage has been directly consulted and checked in the chosen translation or critical text.
+- **Integrity Rule**: An entire ancient text is never marked as `verified` merely because a subset of passages from it have been extracted.
+
+## 3.1 Relationship taxonomy and grounding
+
+Relationships must be grounded in recorded textual evidence or qualified scholarly comparative analysis:
+- **Genealogical**: `parent_of`, `child_of`, `ancestor_of`, `descendant_of`, `sibling_of`.
+- **Social**: `spouse_of`, `lover_of`, `ally_of`, `enemy_of`, `rival_of`, `mentor_of`.
+- **Narrative**: `creates`, `defeats`, `killer_of`, `rescues`, `transforms_into`, `gives_birth_to`, `born_from`.
+- **Divine and symbolic**: `associated_with`, `worshipped_by`, `embodies`, `represents`, `shares_cult_with`.
+- **Cross-cultural**: `equivalent_to` (formal historical syncretism or direct equation), `syncretized_with` (historical Hellenistic/Roman blending), `parallels` (typological motif similarity), `similar_in_function_to` (structural role similarity without genetic link).
+
+Never treat functional similarity as proof of historical equivalence. All relationships require supporting citation links.
 
 ## 4. Workflow for adding a character
 

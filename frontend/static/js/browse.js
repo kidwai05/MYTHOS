@@ -1,7 +1,7 @@
 import { api, h, label, plural, characterCard, autocomplete } from './common.js';
 
-const DIMS = ['mythology', 'role', 'domain', 'gender'];
-const DIM_TITLE = { mythology: 'Mythology', role: 'Role', domain: 'Domain', gender: 'Gender' };
+const DIMS = ['mythology', 'tradition', 'role', 'domain', 'gender'];
+const DIM_TITLE = { mythology: 'Mythology', tradition: 'Tradition', role: 'Role', domain: 'Domain', gender: 'Gender' };
 const PER_PAGE = 12;
 const $ = (id) => document.getElementById(id);
 let state = readUrl(), facets = null, token = 0;
@@ -48,7 +48,7 @@ async function load() {
 function renderFacets() {
   const root = $('facets');
   root.replaceChildren(...DIMS.map((d) => {
-    const rows = [...facets[d]];
+    const rows = [...(facets[d] || [])];
     for (const v of state[d]) if (!rows.some((r) => r.value === v)) rows.push({ value: v, label: label(v), count: 0 });
     if (!rows.length) return null;
     return h('fieldset', {}, h('legend', {}, DIM_TITLE[d]), rows.map((r) => {
@@ -65,7 +65,7 @@ function renderActive() {
   const chips = [];
   if (state.q) chips.push(h('button', { type: 'button', 'aria-label': `Remove search ${state.q}`, onclick: () => change({ q: '' }) }, `Search: ${state.q} ×`));
   for (const d of DIMS) for (const v of state[d]) {
-    const name = (facets[d].find((r) => r.value === v) || {}).label || label(v);
+    const name = ((facets[d] || []).find((r) => r.value === v) || {}).label || label(v);
     chips.push(h('button', { type: 'button', 'aria-label': `Remove filter ${name}`, onclick: () => change({ [d]: state[d].filter((x) => x !== v) }) }, `${name} ×`));
   }
   $('active').replaceChildren(...chips);
@@ -83,7 +83,7 @@ function renderPager(data) {
 
 $('search-form').addEventListener('submit', (e) => { e.preventDefault(); change({ q: $('q').value.trim(), sort: '' }); });
 $('sort').addEventListener('change', (e) => change({ sort: e.target.value }));
-$('clear').addEventListener('click', () => change({ q: '', sort: '', mythology: [], role: [], domain: [], gender: [] }));
+$('clear').addEventListener('click', () => change({ q: '', sort: '', mythology: [], tradition: [], role: [], domain: [], gender: [] }));
 autocomplete($('q'), $('q-list'), (it) => { location.href = `/characters/${it.slug}`; });
 addEventListener('popstate', () => { state = readUrl(); load(); });
 if (matchMedia('(max-width: 860px)').matches) $('filters').open = false;

@@ -8,28 +8,52 @@ require = args[args.index('--require-verified') + 1] if '--require-verified' in 
 require_summary = args[args.index('--require-summary') + 1] if '--require-summary' in args else None
 load = lambda n: json.load(open(os.path.join(root, 'data', n + '.json'), encoding='utf-8'))['records']
 errors, info = [], []
+
+VALID_MYTHOLOGIES = {'greek', 'norse', 'egyptian'}
+VALID_TRADITIONS = {
+    'egyptian': {'heliopolitan', 'hermopolitan', 'memphite', 'theban', 'esna'},
+    'greek': {'hesiodic', 'homeric', 'orphic', 'eleusinian'},
+    'norse': {'eddic', 'skaldic'}
+}
+
 sources = load('sources'); sid = {}
 tier_dir = {'primary': 'primary-sources', 'supplementary': 'supplementary-sources', 'scholarly': 'scholarly-references'}
+source_cites = {s['id']: 0 for s in sources}
+
 for s in sources:
     if s['id'] in sid: errors.append(f"duplicate source id {s['id']}")
     sid[s['id']] = s
+    for m in s.get('mythology', []):
+        if m not in VALID_MYTHOLOGIES: errors.append(f"{s['id']}: invalid mythology '{m}'")
     for p in s['research_notes']:
         if not os.path.exists(os.path.join(root, p)): errors.append(f"{s['id']}: missing note {p}")
         elif tier_dir[s['tier']] not in p: errors.append(f"{s['id']}: {p} is in the wrong tier folder")
+
 chars = {}
 for f in ('deities', 'creatures', 'heroes'):
     for r in load(f):
         if r['id'] in chars: errors.append(f"duplicate character id {r['id']}")
         chars[r['id']] = r
+        m = r.get('mythology')
+        if m not in VALID_MYTHOLOGIES: errors.append(f"{f}:{r['id']} has invalid mythology '{m}'")
+        trad = r.get('tradition')
+        if trad and m in VALID_TRADITIONS and trad not in VALID_TRADITIONS[m]:
+            errors.append(f"{f}:{r['id']} unknown tradition '{trad}' for {m}")
+
 def check_links(name, r):
     if not r.get('sources'): errors.append(f"{name}:{r['id']} has no sources")
     for l in r.get('sources', []):
-        s = sid.get(l['source_id'])
-        if not s: errors.append(f"{name}:{r['id']} cites unknown source {l['source_id']}"); continue
+        source_id = l.get('source_id')
+        s = sid.get(source_id)
+        if not s:
+            errors.append(f"{name}:{r['id']} cites unknown source {source_id}")
+            continue
+        source_cites[source_id] = source_cites.get(source_id, 0) + 1
         if l.get('verified'):
-            if not l.get('locator'): errors.append(f"{name}:{r['id']} verified link to {l['source_id']} has no locator")
-            if not l.get('claim'): errors.append(f"{name}:{r['id']} verified link to {l['source_id']} has no claim")
-            if not s.get('edition_used'): errors.append(f"{name}:{r['id']} verified against {l['source_id']} but the source has no edition_used")
+            if not l.get('locator'): errors.append(f"{name}:{r['id']} verified link to {source_id} has no locator")
+            if not l.get('claim'): errors.append(f"{name}:{r['id']} verified link to {source_id} has no claim")
+            if not s.get('edition_used'): errors.append(f"{name}:{r['id']} verified against {source_id} but the source has no edition_used")
+
 def check_summary(r):
     s, basis = r.get('summary'), r.get('summary_basis', [])
     if require_summary and r.get('mythology') == require_summary and not s: errors.append(f"{r['id']} ({require_summary}) has no summary")
@@ -43,16 +67,26 @@ def check_summary(r):
     used = {(b['source_id'], b['locator']) for b in basis}
     if len(used) < 2 and len(s) > 120: errors.append(f"{r['id']}: a long summary should rest on at least two passages")
     if not (40 <= len(s) <= 700): errors.append(f"{r['id']}: summary length {len(s)} is outside 40-700 characters")
+
 def needs_verified(r):
     if require and r.get('mythology') == require and not any(l.get('verified') for l in r['sources']):
         errors.append(f"{r['id']} ({require}) has no verified source link")
+
 for f in ('deities', 'creatures', 'heroes'):
     for r in load(f): check_links(f, r); needs_verified(r); check_summary(r)
+
 stories = load('stories')
 for r in stories:
     check_links('stories', r); needs_verified(r)
-    for p in r['participants']:
-        if p not in chars: errors.append(f"stories:{r['id']} unknown participant {p}")
+    m = r.get('mythology')
+    if m not in VALID_MYTHOLOGIES: errors.append(f"stories:{r['id']} has invalid mythology '{m}'")
+    trad = r.get('tradition')
+    if trad and m in VALID_TRADITIONS and trad not in VALID_TRADITIONS[m]:
+        errors.append(f"stories:{r['id']} unknown tradition '{trad}' for {m}")
+    for p in r.get('participants', []):
+        p_id = p.get('character_id') or p.get('id') or p.get('character') if isinstance(p, dict) else p
+        if p_id not in chars: errors.append(f"stories:{r['id']} unknown participant {p_id}")
+
 seen, edges = set(), {}
 for r in load('relationships'):
     check_links('relationships', r)
@@ -67,6 +101,7 @@ for r in load('relationships'):
         ms = {chars[r[k]]['mythology'] for k in ('source', 'target') if r[k] in chars}
         if require in ms and not any(l.get('verified') for l in r['sources']):
             errors.append(f"relationships:{r['id']} has no verified source link")
+
 if require:
     ids = [i for i, c in chars.items() if c['mythology'] == require]
     left, comps = set(ids), []
@@ -79,6 +114,11 @@ if require:
     comps.sort(key=len, reverse=True)
     info.append(f"{require}: {len(ids)} characters in {len(comps)} connected group(s); largest has {len(comps[0])}")
     for c in comps[1:]: info.append(f"  not yet connected: {', '.join(c)}")
+
+uncited = [sid for sid, c in source_cites.items() if c == 0]
+if uncited:
+    info.append(f"Note: {len(uncited)} sources currently catalogued without direct link in data/*.json (seed corpus).")
+
 print(f"{len(sources)} sources, {len(chars)} characters, {len(stories)} stories, {len(seen)} relationships")
 print('\n'.join(info))
 if errors:

@@ -1,6 +1,6 @@
 # REST API (v1, read-only)
 
-Base path `/api/v1`. All responses are JSON. Lists return `{items, page, per_page, total}`. Errors return `{"error": {"code": "...", "message": "..."}}` with status 400, 404 or 500.
+Base path `/api/v1`. All responses are JSON. Lists return `{items, page, per_page, total}`. Errors return `{"error": {"code": "...", "message": "..."}}` with HTTP status 400, 404, or 500.
 
 ## Characters
 
@@ -8,36 +8,74 @@ Base path `/api/v1`. All responses are JSON. Lists return `{items, page, per_pag
 
 | Parameter | Meaning |
 |---|---|
-| `q` | Free text. Matches names, aliases, summaries and the text of the source claims, ignores accents, tolerates one or two typos. Every word must match |
-| `mythology`, `role`, `domain`, `gender` | Filters. Comma-separate or repeat to allow several values (OR). Different filters combine with AND. Unknown values give 400 |
+| `q` | Free text. Matches names, aliases, summaries, traditions, and claims. Ignores accents and tolerates minor typos. Every word must match |
+| `mythology`, `tradition`, `role`, `domain`, `gender` | Filters. Comma-separate or repeat to allow several values (OR). Different filters combine with AND. Unknown values return 400 |
 | `sort` | `name` (default), `-name`, `mythology`, `relevance` (default when `q` is set) |
 | `page`, `per_page` | Default 1 and 20. `per_page` is at most 100 |
-| `fields` | Comma list from `slug,name,mythology,gender,roles,domains,aliases,sources,match` |
-| `include=facets` | Adds counts for each filter value. Each dimension is counted with the other filters applied, so options never disappear when you pick one |
+| `fields` | Comma list from `slug,name,mythology,tradition,gender,roles,domains,aliases,sources,match` |
+| `include=facets` | Adds count facets for each filter dimension |
 
-Each item has `summary` (or null when the character's sources are not checked yet) and `sources: {total, verified}`. When `q` is set, `match` says what matched: `{on: name|alias|text, text, score}`.
+`GET /characters/{slug}`
+Returns the full profile: `slug`, `name`, `mythology`, `tradition` (slug and name), `gender`, `summary`, `summary_basis`, `aliases`, `roles`, `domains`, `sources` (passages with source, locator, claim, relation, note, verified), `relationships` (categorized groups with supporting source passages), `stories` (with participant narrative roles), `counts`.
 
-`GET /characters/{slug}` returns the full profile: `summary`, `summary_basis` (the verified passages the summary rests on), `aliases`, `roles`, `domains`, `sources` (every passage with `source`, `locator`, `claim`, `relation`, `note`, `verified`), `relationships` (grouped as Parents, Children, Spouses, Siblings, Lovers, Allies, Rivals, Slayer of, Slain by, each item with its own source passages), `stories`, `equivalents` (empty until Phase 5) and `counts`.
+`GET /characters/{slug}/relationships`
+Returns character relationship groups with directionality, inverse labels, and citation links.
 
-`GET /characters/{slug}/relationships` returns just the relationship groups.
+`GET /characters/{slug}/graph`
+Returns structured node and edge data centered on the character for graph visualization.
+- **Query parameters**:
+  - `depth`: integer (1 to 3, default 1).
+  - `category`: comma-separated relationship categories (`genealogical`, `social`, `narrative`, `divine_symbolic`, `cross_cultural`, etc.).
+  - `tradition`: filter neighbors by tradition slug.
+  - `include_stories`: boolean (default true).
+  - `include_sources`: boolean (default false).
+  - `include_passages`: boolean (default false).
+- **Response**: `{root, nodes, edges, counts}` where nodes contain entity types (`deity`, `hero`, `creature`, `story`, `source`, `passage`), degrees, and summaries, and edges contain categories, typed labels, directionality, and supporting source evidence.
 
-`GET /search/suggest?q=` gives up to 8 name or alias matches for autocomplete (needs at least 2 characters).
+`GET /graph`
+General graph query endpoint taking `root` parameter (delegates to `/characters/{root}/graph`).
 
-## Other endpoints
+## Sources & Passages
+
+`GET /sources`
+Lists every catalogued source with author, tier, kind, collection, research status, passage count, and verified link count.
+
+`GET /sources/{slug}`
+Returns full source metadata, publication period, edition used, license, research status lifecycle, all recorded passages, characters mentioned, stories documented, and relationships supported.
+
+`GET /sources/{slug}/passages`
+Returns all unique `source_passage` records for this text, including locators, translation edition, notes, verification status, and supported entities.
+
+`GET /passages/{id}`
+Returns a specific passage locator, source edition metadata, excerpt, notes, and the full list of characters, relationships, and stories grounded in this passage.
+
+## Traditions
+
+`GET /traditions`
+Lists all theological and regional traditions across mythologies with character and story counts.
+
+`GET /traditions/{slug}`
+Returns tradition details, mythology, description, associated deities/characters, and associated stories.
+
+## Stories
+
+`GET /stories`
+Lists all narratives and myths with mythology, tradition, summary, and participant count.
+
+`GET /stories/{slug}`
+Returns story details: title, summary, mythology, tradition, supporting textual citations, and participants with explicit narrative roles (`protagonist`, `antagonist`, `victim`, `creator`, `participant`).
+
+## Multi-Entity Search & Autocomplete
+
+`GET /search?q={query}`
+Unified multi-category search returning `{characters: [...], stories: [...], sources: [...], total: ...}`.
+
+`GET /search/suggest?q={query}`
+Fast autocomplete suggestions matching names and aliases.
+
+## Vocabularies
 
 | Path | Returns |
 |---|---|
-| `/mythologies`, `/mythologies/{slug}` | Counts, role breakdown, how many sources of each tier are cited |
-| `/roles`, `/domains`, `/relationship-types` | Vocabularies with usage counts |
-| `/sources` | Every catalogued source with edition, licence and how many links are verified |
-| `/stories`, `/stories/{slug}` | Stories with participants and source passages |
-
-## Meaning of the source fields
-
-- `locator`: where in the text, for example `ll. 453-491`, `Book 3, ll. 36-54` or `Library 2.4.2`.
-- `verified`: true only if the passage was read in the named `edition_used`.
-- `relation`: `attests`, `mentions`, `context` or `variant` (a version that differs from other sources).
-
-## Notes on the implementation
-
-Filtering, facets and search run in memory over a catalogue loaded from the database at start-up (`backend/app/catalog.py`, `search.py`). That is comfortable for a few thousand characters. For more, swap `search.py` for SQLite FTS5 or PostgreSQL trigram search behind the same functions. Profile and vocabulary endpoints use SQL directly (`repository.py`).
+| `/mythologies`, `/mythologies/{slug}` | Counts, role breakdown, traditions, and sources cited |
+| `/roles`, `/domains`, `/relationship-types` | Vocabularies with active usage counts |

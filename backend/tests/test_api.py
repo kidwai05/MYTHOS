@@ -180,7 +180,8 @@ class NewEntityTests(ApiTest):
 
 class PageTests(ApiTest):
     def test_pages_render(self):
-        for url in ('/', '/characters', '/characters/zeus', '/mythologies/greek'):
+        for url in ('/', '/characters', '/characters/zeus', '/mythologies/greek',
+                    '/sources', '/sources/gr-theogony', '/stories', '/stories/birth-of-zeus', '/graph'):
             self.assertEqual(self.c.get(url).status_code, 200, url)
     def test_clean_url_has_meta(self):
         html = self.c.get('/characters/zeus').get_data(as_text=True)
@@ -188,6 +189,8 @@ class PageTests(ApiTest):
     def test_missing_page_404(self):
         self.assertEqual(self.c.get('/characters/nobody').status_code, 404)
         self.assertEqual(self.c.get('/mythologies/atlantis').status_code, 404)
+        self.assertEqual(self.c.get('/sources/nobody').status_code, 404)
+        self.assertEqual(self.c.get('/stories/nobody').status_code, 404)
 
 class SearchUnitTests(unittest.TestCase):
     def test_norm(self): self.assertEqual(norm('Völuspá'), 'voluspa'); self.assertEqual(norm('Þrymskviða'), 'thrymskvida')

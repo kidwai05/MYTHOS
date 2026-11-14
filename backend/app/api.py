@@ -6,7 +6,7 @@ from .catalog import Catalog, DIMENSIONS, GENDER_LABELS
 from .search import norm
 
 bp = Blueprint('api', __name__)
-CHAR_FIELDS = ('slug', 'name', 'mythology', 'gender', 'summary', 'roles', 'domains', 'aliases', 'sources', 'match')
+CHAR_FIELDS = ('slug', 'name', 'mythology', 'tradition', 'gender', 'summary', 'roles', 'domains', 'aliases', 'sources', 'match')
 SORTS = ('relevance', 'name', '-name', 'mythology')
 MAX_PER_PAGE = 100
 
@@ -31,6 +31,11 @@ def int_param(name, default, lo, hi):
     if v < lo or v > hi: raise ApiError(400, 'invalid_parameter', f'{name} must be between {lo} and {hi}')
     return v
 
+def bool_param(name, default):
+    raw = request.args.get(name)
+    if raw is None or raw == '': return default
+    return raw.lower() in ('1', 'true', 'yes', 'on')
+
 def list_param(name):
     vals = []
     for raw in request.args.getlist(name):
@@ -38,8 +43,12 @@ def list_param(name):
     return vals
 
 def shape(c, score, on, txt, fields, with_match):
-    full = {'slug': c['slug'], 'name': c['name'], 'mythology': c['mythology'], 'gender': c['gender'], 'summary': c['summary'], 'roles': c['roles'], 'domains': c['domains'],
-            'aliases': c['aliases'], 'sources': c['sources']}
+    full = {
+        'slug': c['slug'], 'name': c['name'], 'mythology': c['mythology'],
+        'tradition': c.get('tradition'),
+        'gender': c['gender'], 'summary': c['summary'], 'roles': c['roles'], 'domains': c['domains'],
+        'aliases': c['aliases'], 'sources': c['sources']
+    }
     if with_match: full['match'] = {'on': on, 'text': txt, 'score': round(score, 3)}
     return {k: full[k] for k in fields if k in full}
 
@@ -85,6 +94,37 @@ def character_relationships(slug):
     if p is None: raise ApiError(404, 'not_found', f"Character '{slug}' does not exist")
     return jsonify(p)
 
+@bp.get('/characters/<slug>/graph')
+def character_graph(slug):
+    depth = int_param('depth', 1, 1, 3)
+    categories = list_param('category') or None
+    tradition = (request.args.get('tradition') or '').strip() or None
+    include_stories = bool_param('include_stories', True)
+    include_sources = bool_param('include_sources', False)
+    include_passages = bool_param('include_passages', False)
+
+    g = repo.character_graph(
+        get_db(), catalog(), slug,
+        depth=depth, categories=categories, tradition=tradition,
+        include_stories=include_stories, include_sources=include_sources, include_passages=include_passages
+    )
+    if g is None: raise ApiError(404, 'not_found', f"Character '{slug}' does not exist")
+    return jsonify(g)
+
+@bp.get('/graph')
+def graph():
+    root_slug = (request.args.get('root') or '').strip()
+    if not root_slug:
+        raise ApiError(400, 'missing_parameter', "Parameter 'root' (character slug) is required")
+    return character_graph(root_slug)
+
+@bp.get('/search')
+def unified_search():
+    q = (request.args.get('q') or '').strip()
+    limit = int_param('limit', 15, 1, 50)
+    res = catalog().search_all(q, limit=limit)
+    return jsonify(res)
+
 @bp.get('/search/suggest')
 def suggest():
     q = (request.args.get('q') or '').strip()
@@ -104,6 +144,16 @@ def mythology(slug):
     if m is None: raise ApiError(404, 'not_found', f"Mythology '{slug}' does not exist")
     return jsonify(m)
 
+@bp.get('/traditions')
+def traditions():
+    return jsonify({'items': repo.traditions_list(get_db())})
+
+@bp.get('/traditions/<slug>')
+def tradition(slug):
+    t = repo.tradition_detail(get_db(), slug)
+    if t is None: raise ApiError(404, 'not_found', f"Tradition '{slug}' does not exist")
+    return jsonify(t)
+
 @bp.get('/roles')
 def roles(): return jsonify({'items': repo.vocab(get_db(), 'role')})
 
@@ -115,6 +165,24 @@ def relationship_types(): return jsonify({'items': repo.vocab(get_db(), 'relatio
 
 @bp.get('/sources')
 def sources(): return jsonify({'items': repo.sources_list(get_db())})
+
+@bp.get('/sources/<slug>')
+def source(slug):
+    s = repo.source_detail(get_db(), slug)
+    if s is None: raise ApiError(404, 'not_found', f"Source '{slug}' does not exist")
+    return jsonify(s)
+
+@bp.get('/sources/<slug>/passages')
+def source_passages(slug):
+    sp = repo.source_passages(get_db(), slug)
+    if sp is None: raise ApiError(404, 'not_found', f"Source '{slug}' does not exist")
+    return jsonify(sp)
+
+@bp.get('/passages/<int:id>')
+def passage(id):
+    p = repo.passage_detail(get_db(), id)
+    if p is None: raise ApiError(404, 'not_found', f"Passage '{id}' does not exist")
+    return jsonify(p)
 
 @bp.get('/stories')
 def stories(): return jsonify({'items': repo.stories_list(get_db())})

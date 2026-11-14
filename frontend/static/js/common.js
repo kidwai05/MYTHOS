@@ -34,12 +34,16 @@ export const plural = (n, one, many) => `${n} ${n === 1 ? one : many || one + 's
 export function characterCard(c) {
   const hit = c.match && c.match.on !== 'name' ? (c.match.on === 'alias' ? `Also known as ${c.match.text}` : 'Matches the sources text') : null;
   const sourced = c.sources.verified ? `${plural(c.sources.verified, 'checked source link')}` : 'No checked sources yet';
+  const metaParts = [c.mythology.name];
+  if (c.tradition) metaParts.push(c.tradition.name);
+  if (c.roles && c.roles.length) metaParts.push(...c.roles.slice(0, 2).map(label));
+
   return h('a', { class: 'card', href: `/characters/${c.slug}`, 'data-myth': c.mythology.slug },
     h('span', { class: 'mono', 'aria-hidden': 'true' }, c.name[0]),
     h('span', {},
       h('h3', {}, c.name),
-      h('span', { class: 'meta' }, [c.mythology.name, ...c.roles.slice(0, 2).map(label)].join(' · ')),
-      c.summary ? h('span', { class: 'blurb' }, c.summary) : (c.domains.length ? h('span', { class: 'meta' }, h('br'), c.domains.slice(0, 3).map(label).join(', ')) : null),
+      h('span', { class: 'meta' }, metaParts.join(' · ')),
+      c.summary ? h('span', { class: 'blurb' }, c.summary) : (c.domains && c.domains.length ? h('span', { class: 'meta' }, h('br'), c.domains.slice(0, 3).map(label).join(', ')) : null),
       h('span', { class: 'meta' }, h('br'), sourced),
       hit ? h('div', { class: 'hit' }, hit) : null));
 }

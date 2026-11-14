@@ -16,8 +16,9 @@ if (box) {
     items.forEach((m, i) => { nums[i].dataset.n = m.character_count; seen.observe(nums[i]); });
     const { items: srcs } = await api('/sources');
     const links = srcs.reduce((a, s) => a + s.links, 0), ok = srcs.reduce((a, s) => a + s.verified_links, 0);
+    const passages = srcs.reduce((a, s) => a + (s.passages || 0), 0);
     const stats = document.getElementById('stats');
-    if (stats) stats.textContent = `${ok} of ${links} source links are checked against a named edition. ${srcs.length} sources are catalogued.`;
+    if (stats) stats.textContent = `${ok} of ${links} citations are verified against named translations across ${passages} distinct passages. ${srcs.length} sources are catalogued.`;
   } catch (e) { box.replaceChildren(h('p', { class: 'error' }, `Could not load mythologies: ${e.message}`)); }
 }
 const random = document.getElementById('random');

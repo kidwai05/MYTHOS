@@ -24,7 +24,14 @@
         <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor"><circle cx="24" cy="24" r="22" stroke-width="1.2"/><circle class="spin-slow" cx="24" cy="24" r="18.5" stroke-width="1" stroke-dasharray="1.2 3"/><path d="M24 7l3.8 13.2L41 24l-13.2 3.8L24 41l-3.8-13.2L7 24l13.2-3.8z" fill="currentColor" stroke="none"/><circle cx="24" cy="24" r="2.6" fill="var(--bg)" stroke="none"/></svg>
         <span class="brand-word">Mythos</span>
       </a>
-      <nav aria-label="Main"><a href="/">Mythologies</a><a href="/characters">Browse</a><a href="/api/v1/mythologies" class="api-link">API</a></nav>
+      <nav aria-label="Main">
+        <a href="/">Mythologies</a>
+        <a href="/characters">Browse</a>
+        <a href="/stories">Stories</a>
+        <a href="/sources">Sources</a>
+        <a href="/graph">Graph</a>
+        <a href="/api/v1/mythologies" class="api-link">API</a>
+      </nav>
       {% block headersearch %}
       <form class="header-search" role="search" action="/characters" method="get" autocomplete="off">
         <label class="sr" for="hs">Search characters</label>
@@ -43,7 +50,13 @@
   <footer class="site-footer"><div class="wrap">
     <div class="orn" aria-hidden="true"><span></span><i></i><span></span></div>
     <p class="foot-line">Every claim on Mythos links to a passage in an ancient text. Greek records are checked against named public-domain translations; Norse and Egyptian records are still unchecked seeds.</p>
-    <p class="foot-links"><a href="/api/v1/sources">All sources</a><i aria-hidden="true"></i><a href="/api/v1/characters?per_page=100">Data as JSON</a></p>
+    <p class="foot-links">
+      <a href="/characters">All characters</a><i aria-hidden="true"></i>
+      <a href="/stories">Stories</a><i aria-hidden="true"></i>
+      <a href="/sources">Sources</a><i aria-hidden="true"></i>
+      <a href="/graph">Graph explorer</a><i aria-hidden="true"></i>
+      <a href="/api/v1/characters?per_page=100">Data as JSON</a>
+    </p>
   </div></footer>
   <script type="module" src="{{ url_for('static', filename='js/' ~ self.page() ~ '.js') }}"></script>
 </body>

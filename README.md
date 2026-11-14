@@ -20,11 +20,13 @@ Each mythology is researched from its original texts first, then linked to the o
 
 ## β &nbsp;Explore
 
-- **Search and browse** characters by name, alias, source text, mythology, role and domain. Sort results, use filter facets and follow name suggestions.
-- **Open character profiles** with summaries, roles, domains, stories and sourced relationships.
-- **Inspect citations** including the source edition, passage locator, claim and whether the passage has been checked.
-- **Browse mythology pages** for an overview of each tradition and its catalogued material.
-- **Use the read-only JSON API** for characters, relationships, stories, sources, vocabularies and mythologies.
+- **Search and browse** characters by name, alias, source text, mythology, tradition, role and domain. Sort results, use filter facets and follow name suggestions.
+- **Open character profiles** with verified summaries, roles, domains, stories, and sourced relationships.
+- **Explore the interactive knowledge graph** to visualize genealogical trees, social ties, conflicts, stories, and source evidence with progressive expansion and path-finding.
+- **Inspect primary sources and passages** with full provenance, passage locators, translations, and supported claims.
+- **Explore mythological stories** and trace participant narrative roles (protagonist, antagonist, creator, victim, witness).
+- **Browse mythology & tradition pages** for cultural context, internal theological traditions (Heliopolitan, Hermopolitan, Memphite, etc.), and source coverage.
+- **Use the read-only JSON API** for characters, graph data, relationships, stories, sources, passages, traditions, and unified search.
 
 ## γ &nbsp;Research status
 
