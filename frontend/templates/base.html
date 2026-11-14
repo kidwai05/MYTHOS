@@ -1,34 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#09070f">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%9B%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+  <script>try{var t=localStorage.getItem('mythos-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="preload" href="{{ url_for('static', filename='fonts/eb-garamond-latin-400-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ url_for('static', filename='fonts/cinzel-latin-600-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body data-page="{% block page %}{% endblock %}">
   <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
   <header class="site-header">
     <div class="wrap bar">
-      <a class="brand" href="/" aria-label="Mythos home"><span class="brand-mark" aria-hidden="true">M</span> Mythos</a>
+      <a class="brand" href="/" aria-label="Mythos home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor"><circle cx="24" cy="24" r="22" stroke-width="1.2"/><circle class="spin-slow" cx="24" cy="24" r="18.5" stroke-width="1" stroke-dasharray="1.2 3"/><path d="M24 7l3.8 13.2L41 24l-13.2 3.8L24 41l-3.8-13.2L7 24l13.2-3.8z" fill="currentColor" stroke="none"/><circle cx="24" cy="24" r="2.6" fill="var(--bg)" stroke="none"/></svg>
+        <span class="brand-word">Mythos</span>
+      </a>
       <nav aria-label="Main"><a href="/">Mythologies</a><a href="/characters">Browse</a><a href="/api/v1/mythologies" class="api-link">API</a></nav>
       {% block headersearch %}
       <form class="header-search" role="search" action="/characters" method="get" autocomplete="off">
         <label class="sr" for="hs">Search characters</label>
+        <svg class="s-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
         <input id="hs" name="q" type="search" placeholder="Search gods, heroes, monsters" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="hs-list">
         <ul id="hs-list" class="suggest" role="listbox" hidden></ul>
       </form>
       {% endblock %}
+      <button type="button" class="theme-toggle" id="theme" aria-label="Switch to parchment theme" aria-pressed="false">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/></svg>
+      </button>
     </div>
   </header>
   <main id="main" class="wrap">{% block content %}{% endblock %}</main>
   <footer class="site-footer"><div class="wrap">
-    <p>Every claim on Mythos links to a passage in an ancient text. Greek records are checked against named public-domain translations; Norse and Egyptian records are still unchecked seeds.</p>
-    <p><a href="/api/v1/sources">All sources</a> · <a href="/api/v1/characters?per_page=100">Data as JSON</a></p>
+    <div class="orn" aria-hidden="true"><span></span><i></i><span></span></div>
+    <p class="foot-line">Every claim on Mythos links to a passage in an ancient text. Greek records are checked against named public-domain translations; Norse and Egyptian records are still unchecked seeds.</p>
+    <p class="foot-links"><a href="/api/v1/sources">All sources</a><i aria-hidden="true"></i><a href="/api/v1/characters?per_page=100">Data as JSON</a></p>
   </div></footer>
   <script type="module" src="{{ url_for('static', filename='js/' ~ self.page() ~ '.js') }}"></script>
 </body>

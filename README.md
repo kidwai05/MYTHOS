@@ -18,28 +18,19 @@ Each mythology is researched from its original texts first, then linked to the o
 
 <br/>
 
-## β &nbsp;What it will do
+## β &nbsp;Explore
 
-**A profile for every entity.** Each deity, creature, hero or place gets its own page with:
-- a **summary**
-- **connections within** its own mythology (family, allies, rivals, associations)
-- **connections beyond** it (parallels and counterparts in other traditions)
-- **every story and mention**, each with a proper citation
+- **Search and browse** characters by name, alias, source text, mythology, role and domain. Sort results, use filter facets and follow name suggestions.
+- **Open character profiles** with summaries, roles, domains, stories and sourced relationships.
+- **Inspect citations** including the source edition, passage locator, claim and whether the passage has been checked.
+- **Browse mythology pages** for an overview of each tradition and its catalogued material.
+- **Use the read-only JSON API** for characters, relationships, stories, sources, vocabularies and mythologies.
 
-**A branching connection graph.** Start from any entity and explore outward to the other entities and sources linked to it, within one mythology or across several.
+## γ &nbsp;Research status
 
-<br/>
+Greek mythology is the most developed corpus: its character summaries and links are grounded in the cited passages, and Greek records are marked verified. Norse and Egyptian records are catalogued as research seeds; their links have not yet been verified. Cross-mythology equivalents are not yet implemented.
 
-## γ &nbsp;Roadmap
-
-| | Stage |
-|---|---|
-| ✅ | **Greek:** primary-source research and connections within the corpus |
-| 🔨 | **Greek:** UI/UX (entity profiles, source citations, connection graph) |
-| ⬜ | **Roman:** research and UI |
-| ⬜ | **Greek ↔ Roman:** cross-mythology connections |
-| ⬜ | **Norse** and **Egyptian** |
-| ⬜ | More mythologies, each added to the shared comparison graph |
+MYTHOS keeps primary sources distinct from supplementary ancient accounts and modern scholarly references. When sources disagree, their variants are recorded rather than merged into a single account. See the [research methodology](docs/research-methodology.md) for verification rules and current coverage.
 
 <br/>
 
@@ -47,29 +38,66 @@ Each mythology is researched from its original texts first, then linked to the o
 
 ```text
 MYTHOS/
-├── backend/     data services and API
-├── data/        researched entities, stories, sources and connections
-├── docs/        documentation, including the source bibliography
-├── research/    working research notes
-└── scripts/     helpers for building and checking the data
+├── backend/     Flask app, JSON API, SQLite schema and tests
+├── data/        characters, stories, sources and relationships (JSON)
+├── docs/        API, schema, methodology and source bibliography
+├── frontend/    Flask templates, styles, fonts and browser scripts
+├── research/    source notes organized by mythology and tier
+└── scripts/     research-note and data-validation helpers
 ```
 
 <br/>
 
-## ε &nbsp;Sources
+## δ &nbsp;Sources
 
-All material is based on primary texts. The full list of editions and translations is in [`docs/source-bibliography.md`](docs/source-bibliography.md).
+The data is grounded in primary texts, with supplementary ancient accounts and scholarly works clearly identified. The full list of sources, editions and translations is in [`docs/source-bibliography.md`](docs/source-bibliography.md).
 
 <br/>
 
-## ζ &nbsp;Getting started
+## ε &nbsp;Run locally
 
 ```bash
 git clone https://github.com/kidwai05/MYTHOS.git
 cd MYTHOS
+python -m venv .venv
 ```
 
-<!-- TODO: backend + frontend install and run steps -->
+Activate the environment, then install the backend dependency:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+On macOS or Linux, activate with `source .venv/bin/activate` instead. Then run:
+
+```bash
+pip install -r backend/requirements.txt
+python backend/run.py
+```
+
+Open <http://127.0.0.1:5000>. On first startup, MYTHOS builds `mythos.db` in the repository root from the JSON files in `data/`. Set `MYTHOS_DB` to use a different database path. The development server uses port `5000` by default; set `PORT` to change it.
+
+## ζ &nbsp;Check the project
+
+Run the API and UI tests from the repository root:
+
+```bash
+python -m unittest discover -s backend/tests -t .
+```
+
+Validate the research data and its source-note links:
+
+```bash
+python scripts/validate_data.py
+python scripts/validate_data.py --require-verified greek --require-summary greek
+```
+
+## η &nbsp;Documentation
+
+- [API reference](docs/api.md)
+- [Database and JSON schema](docs/database-schema.md)
+- [Research methodology](docs/research-methodology.md)
+- [Source bibliography](docs/source-bibliography.md)
 
 <br/>
 

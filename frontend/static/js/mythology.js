@@ -1,4 +1,4 @@
-import { api, h, label, plural, characterCard } from './common.js';
+import { api, h, label, plural, characterCard, sigil } from './common.js';
 
 const root = document.getElementById('myth'), slug = root.dataset.slug;
 try {
@@ -9,10 +9,10 @@ try {
   const tiers = Object.entries(m.sources_cited).map(([t, n]) => `${plural(n, t + ' source')}`).join(', ');
   root.replaceChildren(
     h('p', { class: 'crumbs' }, h('a', { href: '/' }, 'Mythologies'), h('span', { class: 'crumb-sep' }, '›'), m.name),
-    h('h1', {}, `${m.name} mythology`),
-    h('p', { class: 'muted' }, `${plural(m.character_count, 'character')}, ${m.verified_characters} with checked sources. Draws on ${tiers || 'no sources yet'}.`),
+    h('div', { class: 'myth-title' }, sigil(slug), h('h1', {}, `${m.name} mythology`)),
+    h('p', { class: 'myth-intro' }, `${plural(m.character_count, 'character')}, ${m.verified_characters} with checked sources. Draws on ${tiers || 'no sources yet'}.`),
     h('div', { class: 'chips' }, m.roles.map((r) => h('a', { class: 'chip accent', href: `/characters?mythology=${slug}&role=${r.slug}` }, `${label(r.name)} · ${r.count}`))),
-    h('h2', {}, 'Characters'),
+    h('h2', { class: 'sec-title myth-sec' }, 'Characters'),
     h('div', { class: 'cards' }, list.items.map(characterCard)));
   document.title = `${m.name} mythology | Mythos`;
 } catch (e) { root.replaceChildren(h('p', { class: 'error' }, `Could not load: ${e.message}`)); }

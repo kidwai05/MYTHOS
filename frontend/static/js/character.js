@@ -1,9 +1,10 @@
-import { api, h, label, plural } from './common.js';
+import { api, h, label, plural, icon, sigil } from './common.js';
 
 const root = document.getElementById('profile'), slug = root.dataset.slug;
 const TIER = { primary: 'Primary source', supplementary: 'Supplementary source', scholarly: 'Scholarly reference' };
 
-const checked = (l) => l.verified ? h('span', { class: 'badge ok', title: 'The passage was read in the named edition' }, '✓ checked')
+const checkedBadge = (title) => h('span', { class: 'badge ok', title: title || 'The passage was read in the named edition' }, icon('check'), 'checked');
+const checked = (l) => l.verified ? checkedBadge()
   : h('span', { class: 'badge no', title: 'Listed but the passage has not been read yet' }, 'unchecked');
 const badge = (l) => h('span', { class: 'badges' }, checked(l),
   l.relation === 'variant' ? h('span', { class: 'badge var', title: 'A version that differs from other sources' }, 'variant') : null);
@@ -36,7 +37,7 @@ function relationshipsSection(p) {
       h('ul', { class: 'rel-list' }, g.items.map((i) => h('li', {},
         h('a', { href: `/characters/${i.other.slug}` }, i.other.name), ' ',
         h('span', { class: 'chip' }, i.other.mythology.name), ' ',
-        i.verified ? h('span', { class: 'badge ok' }, '✓ checked') : h('span', { class: 'badge no' }, 'unchecked'),
+        i.verified ? checkedBadge() : h('span', { class: 'badge no' }, 'unchecked'),
         h('details', {}, h('summary', {}, `${plural(i.sources.length, 'source passage')}`),
           h('ul', {}, i.sources.map((l) => h('li', {}, h('span', { class: 'loc' }, `${l.source.title} ${l.locator || ''}`), ' ', l.claim || '', l.relation === 'variant' ? ' (variant)' : '', l.note ? h('span', { class: 'note' }, l.note) : null))))))))));
 }
@@ -69,6 +70,7 @@ try {
   document.body.dataset.myth = p.mythology.slug;
   document.title = `${p.name} (${p.mythology.name}) | Mythos`;
   root.replaceChildren(
+    sigil(p.mythology.slug, 'profile-sigil'),
     h('p', { class: 'crumbs' }, h('a', { href: '/' }, 'Mythologies'), h('span', { class: 'crumb-sep' }, '›'), h('a', { href: `/mythologies/${p.mythology.slug}` }, p.mythology.name), h('span', { class: 'crumb-sep' }, '›'), p.name),
     h('div', { class: 'profile-head' }, h('span', { class: 'mono', 'aria-hidden': 'true' }, p.name[0]),
       h('div', {}, h('h1', {}, p.name), p.aliases.length ? h('p', { class: 'aka' }, 'Also called ', p.aliases.join(', ')) : null)),

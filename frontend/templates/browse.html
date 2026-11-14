@@ -2,7 +2,10 @@
 {% block page %}browse{% endblock %}
 {% block headersearch %}{% endblock %}
 {% block content %}
-<h1 class="page-title">Browse characters</h1>
+<header class="page-head">
+  <p class="eyebrow">The Index</p>
+  <h1 class="page-title">Browse characters</h1>
+</header>
 <form id="search-form" class="big-search" role="search" autocomplete="off">
   <label class="sr" for="q">Search names, aliases and descriptions</label>
   <input id="q" name="q" type="search" placeholder="Search names, aliases and what the sources say" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-controls="q-list">

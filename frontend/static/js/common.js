@@ -1,4 +1,6 @@
 // Shared helpers: API client, DOM builder, autocomplete.
+import { sigil } from './fx.js';
+export { sigil, icon, countUp } from './fx.js';
 export function h(tag, attrs, ...kids) {
   const el = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs || {})) {

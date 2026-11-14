@@ -2,21 +2,36 @@
 {% block page %}home{% endblock %}
 {% block content %}
 <section class="hero">
+  <svg class="armillary" viewBox="0 0 800 800" aria-hidden="true" fill="none" stroke="currentColor">
+    <defs>
+      <g id="node"><path d="M400 22l7 12-7 12-7-12z" fill="currentColor" stroke="none"/><circle cx="400" cy="60" r="3" fill="currentColor" stroke="none"/></g>
+    </defs>
+    <g class="ring ring-a"><circle cx="400" cy="400" r="384" stroke-width="1"/><circle cx="400" cy="400" r="374" stroke-width="10" stroke-dasharray="1.2 31.9" opacity=".7"/><circle cx="400" cy="400" r="364" stroke-width=".8"/></g>
+    <g class="ring ring-b"><circle cx="400" cy="400" r="340" stroke-width=".8" stroke-dasharray="3 7"/>
+      <g stroke="none"><use href="#node"/><use href="#node" transform="rotate(30 400 400)"/><use href="#node" transform="rotate(60 400 400)"/><use href="#node" transform="rotate(90 400 400)"/><use href="#node" transform="rotate(120 400 400)"/><use href="#node" transform="rotate(150 400 400)"/><use href="#node" transform="rotate(180 400 400)"/><use href="#node" transform="rotate(210 400 400)"/><use href="#node" transform="rotate(240 400 400)"/><use href="#node" transform="rotate(270 400 400)"/><use href="#node" transform="rotate(300 400 400)"/><use href="#node" transform="rotate(330 400 400)"/></g></g>
+    <g class="ring ring-c"><circle cx="400" cy="400" r="296" stroke-width="1.2"/><circle cx="400" cy="400" r="288" stroke-width=".7" stroke-dasharray="14 6 2 6"/>
+      <path d="M400 140L660 400 400 660 140 400Z" stroke-width="1"/><path d="M216 216H584V584H216Z" stroke-width="1"/></g>
+    <g class="ring ring-d"><circle cx="400" cy="400" r="196" stroke-width="1"/>
+      <path d="M400 216L559.4 492H240.6Z" stroke-width="1"/><path d="M400 584L559.4 308H240.6Z" stroke-width="1"/>
+      <circle cx="400" cy="400" r="130" stroke-width=".8" stroke-dasharray="1 5"/></g>
+    <g class="ring ring-e"><circle cx="400" cy="400" r="74" stroke-width="1"/><path d="M400 326V474M326 400H474M348 348L452 452M452 348L348 452" stroke-width=".7" opacity=".7"/><circle cx="400" cy="400" r="10" fill="currentColor" stroke="none"/></g>
+  </svg>
   <p class="eyebrow">An encyclopedia of world mythology</p>
-  <h1>Gods, heroes and monsters,<br>with the passages that name them.</h1>
+  <h1><span class="line">Gods, heroes and monsters,</span> <span class="line">with the passages that name them.</span></h1>
   <form class="hero-search" role="search" action="/characters" method="get">
     <label class="sr" for="hero-q">Search</label>
-    <input id="hero-q" name="q" type="search" placeholder="Try “Zeus”, “Cytherea” or “sea”">
+    <input id="hero-q" name="q" type="search" placeholder="Try &ldquo;Zeus&rdquo;, &ldquo;Cytherea&rdquo; or &ldquo;sea&rdquo;">
     <button type="submit">Search</button>
   </form>
   <p class="hero-actions"><a class="btn ghost" href="/characters">Browse everything</a> <button type="button" id="random" class="btn ghost">Random character</button></p>
+  <a class="scroll-cue" href="#myth-h" aria-label="Scroll to mythologies"><span></span></a>
 </section>
-<section aria-labelledby="myth-h">
-  <h2 id="myth-h">Mythologies</h2>
-  <div id="mythologies" class="myth-grid" aria-busy="true"><p class="muted">Loading…</p></div>
+<section aria-labelledby="myth-h" class="sec">
+  <h2 id="myth-h" class="sec-title">Mythologies</h2>
+  <div id="mythologies" class="myth-grid" aria-busy="true"><p class="loading"><span class="spin"></span>Loading&hellip;</p></div>
 </section>
-<section class="explain" aria-labelledby="how-h">
-  <h2 id="how-h">Sourced, not summarised</h2>
+<section class="explain sec" aria-labelledby="how-h">
+  <h2 id="how-h" class="sec-title">Sourced, not summarised</h2>
   <div class="cols3">
     <div><h3>Every link has a locator</h3><p>A profile does not just say Zeus is the son of Cronos. It points to the line range, the book or the section where the text says so.</p></div>
     <div><h3>Checked or unchecked, always shown</h3><p>A link is marked checked only after the passage was read in a named edition. Unchecked links are shown as such, never hidden.</p></div>
