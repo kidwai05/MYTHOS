@@ -70,7 +70,9 @@ function storiesSection(p) {
     h('h2', { id: 'story-head' }, 'Narrative Appearances'),
     h('ul', { class: 'stories-list' }, p.stories.map((s) => h('li', { class: 'story-item' },
       h('a', { href: `/stories/${s.slug}`, class: 'story-link' }, s.title),
-      s.role ? h('span', { class: 'chip sm' }, label(s.role)) : null
+      s.role ? h('span', { class: 'chip sm' }, label(s.role)) : null,
+      s.status === 'written' ? h('span', { class: 'badge ok' }, 'told in full') : h('span', { class: 'badge no' }, 'not yet written'),
+      s.status === 'written' && s.summary ? h('p', { class: 'blurb' }, s.summary) : null
     ))));
 }
 

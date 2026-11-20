@@ -72,18 +72,181 @@
       "title": "The castration of Uranus",
       "mythology": "greek",
       "participants": [
-        "gaia",
-        "uranus",
-        "cronus",
-        "aphrodite"
+        {
+          "character_id": "gaia",
+          "role": "instigator",
+          "notes": "Makes the sickle and plans the attack on Heaven."
+        },
+        {
+          "character_id": "uranus",
+          "role": "victim",
+          "notes": "Hides his children inside the earth and is castrated by Cronus."
+        },
+        {
+          "character_id": "cronus",
+          "role": "protagonist",
+          "notes": "The youngest Titan, who ambushes his father with the sickle."
+        },
+        {
+          "character_id": "aphrodite",
+          "role": "offspring",
+          "notes": "Rises from the foam around the severed parts."
+        },
+        {
+          "character_id": "eros",
+          "role": "companion",
+          "notes": "Goes with Aphrodite at her birth."
+        },
+        {
+          "character_id": "cyclopes",
+          "role": "offspring",
+          "notes": "One-eyed sons of Earth and Heaven, who will later give Zeus his thunder."
+        },
+        {
+          "character_id": "hundred-handers",
+          "role": "victim",
+          "notes": "Hidden inside the earth at birth by their father."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
-          "locator": "ll. 147-206",
+          "locator": "ll. 134-138",
           "relation": "attests",
-          "claim": "Earth arms Cronos, who castrates Heaven; Aphrodite rises from the foam",
+          "claim": "Earth and Heaven bear the Titans, Cronus the youngest and most terrible, who hates his father",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 139-146",
+          "relation": "attests",
+          "claim": "The Cyclopes, one-eyed sons of Earth and Heaven, who gave Zeus the thunder and made the thunderbolt",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 147-162",
+          "relation": "attests",
+          "claim": "Cottus, Briareos and Gyes are hated by their father, who hides each one inside the earth at birth; Earth, straitened, makes a flint sickle and tells her sons her plan; Earth, straitened by the hidden children, makes a flint sickle and tells her sons her plan",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 163-166",
+          "relation": "attests",
+          "claim": "Earth urges her sons to punish their father for his shameful outrage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 167-172",
+          "relation": "attests",
+          "claim": "Fear silences the Titans, but Cronus volunteers to do the deed",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 173-175",
+          "relation": "attests",
+          "claim": "Earth hides Cronus in ambush, gives him the sickle and tells him the plot",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 176-206",
+          "relation": "attests",
+          "claim": "Cronus castrates Heaven; from the blood Earth bears the Erinyes, the Giants and the Meliae; Aphrodite rises from the foam around the severed parts",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 207-210",
+          "relation": "attests",
+          "claim": "Heaven names his sons the Titans in reproach and says vengeance will follow",
+          "verified": true
+        }
+      ],
+      "summary": "Earth bears Heaven and, with him, the Titans, but Heaven hates his own children and hides the most terrible of them inside the earth. Earth arms Cronus with a sickle, and the wound he deals gives birth to the Erinyes, the Giants and Aphrodite.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Cythera",
+        "Cyprus"
+      ],
+      "body": [
+        {
+          "text": "Earth had first borne starry Heaven to cover her on every side. Then she lay with him, and she bore the Titans: deep-swirling Oceanus, Coeus, Crius, Hyperion, Iapetus, Theia, Rhea, Themis, Mnemosyne, gold-crowned Phoebe and lovely Tethys. Last of all came Cronus the cunning, the youngest and most dreadful of her children, and he hated his vigorous father.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 134-138"
+            }
+          ]
+        },
+        {
+          "text": "She bore other sons too. There were the Cyclopes, overbearing in spirit, Brontes, Steropes and stubborn Arges, each with a single eye set in the middle of his forehead; they would one day give Zeus his thunder and make his thunderbolt. And there were three more, Cottus, Briareos and Gyes, each with a hundred arms and fifty heads on his shoulders, the most terrible of all the children of Earth and Heaven. Their father hated them from the first. As each one was born he hid it away in a secret place inside the earth and would not let it come up into the light, and Heaven took pleasure in his evil deed.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 139-146"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 147-162"
+            }
+          ]
+        },
+        {
+          "text": "Earth groaned inside, crowded and in pain. She made grey flint into a great sickle with jagged teeth and told her plan to her dear sons. She spoke to cheer them, though her heart was vexed: they were the children of a sinful father, she said, and if they would obey her they should punish the vile outrage of their father, for he had been the first to think of shameful deeds.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 147-162"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 163-166"
+            }
+          ]
+        },
+        {
+          "text": "Fear seized them all and none of them said a word. Only great Cronus the wily took courage. He answered his mother that he would do the deed, for he had no reverence for a father of such a name, who had been the first to think of shameful things. Earth rejoiced greatly in her spirit. She hid him in an ambush, put a jagged sickle in his hands and revealed the whole plot to him.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 167-172"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 173-175"
+            }
+          ]
+        },
+        {
+          "text": "Heaven came, bringing the night and longing for love, and spread himself over Earth. Then Cronus stretched out his left hand from the ambush, took the great sickle in his right, and swiftly cut off his father's genitals and threw them away behind him. They did not fall in vain. Earth received every bloody drop that gushed out, and as the seasons went round she bore the strong Erinyes, the great Giants in gleaming armour holding long spears, and the nymphs called the Meliae, all over the boundless earth.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 176-206"
+            }
+          ]
+        },
+        {
+          "text": "The severed parts, which he had cast from the land into the surging sea, were carried over the water for a long time, and a white foam spread around the immortal flesh. In it a maiden grew. She came first to holy Cythera, and from there to sea-girt Cyprus, an awesome and lovely goddess, and grass grew up around her feet. Gods and men call her Aphrodite, the foam-born, and Hesiod gives the reasons for her other names: Cytherea for Cythera, Cyprogenes for the Cyprus where she was born, and a third name from the parts she sprang from. Eros went with her, and Desire followed her when she was born and when she went to the assembly of the gods. From the beginning her portion among gods and men has been the whispers of girls, smiles, deceits, sweet delight, love and graciousness.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 176-206"
+            }
+          ]
+        },
+        {
+          "text": "Heaven called these sons of his the Titans, the Strainers, as a reproach. He said they had strained and boldly done a fearful deed, and that vengeance for it would come afterwards.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 207-210"
+            }
+          ]
         }
       ]
     },
@@ -92,18 +255,145 @@
       "title": "The birth and hiding of Zeus",
       "mythology": "greek",
       "participants": [
-        "rhea",
-        "cronus",
-        "zeus",
-        "gaia"
+        {
+          "character_id": "rhea",
+          "role": "protagonist",
+          "notes": "Hides the infant Zeus on Crete and gives Cronus a stone to swallow."
+        },
+        {
+          "character_id": "cronus",
+          "role": "antagonist",
+          "notes": "Swallows his children to avoid being overthrown by a son."
+        },
+        {
+          "character_id": "zeus",
+          "role": "protagonist",
+          "notes": "Hidden as an infant, he grows up and forces Cronus to bring up his siblings."
+        },
+        {
+          "character_id": "gaia",
+          "role": "helper",
+          "notes": "Takes the child from Rhea and hides him in a cave on Mount Aegeum."
+        },
+        {
+          "character_id": "uranus",
+          "role": "adviser",
+          "notes": "With Earth, tells Rhea what is fated for Cronus."
+        },
+        {
+          "character_id": "hestia",
+          "role": "offspring",
+          "notes": "Swallowed by Cronus and later brought up again."
+        },
+        {
+          "character_id": "demeter",
+          "role": "offspring",
+          "notes": "Swallowed by Cronus and later brought up again."
+        },
+        {
+          "character_id": "hera",
+          "role": "offspring",
+          "notes": "Swallowed by Cronus and later brought up again."
+        },
+        {
+          "character_id": "hades",
+          "role": "offspring",
+          "notes": "Swallowed by Cronus and later brought up again."
+        },
+        {
+          "character_id": "poseidon",
+          "role": "offspring",
+          "notes": "Swallowed by Cronus and later brought up again."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
-          "locator": "ll. 453-506",
+          "locator": "ll. 453-491",
           "relation": "attests",
-          "claim": "Cronos swallows his children; Rhea hides Zeus on Crete and gives Cronos a stone",
+          "claim": "Rhea bears Hestia, Demeter, Hera, Hades, Poseidon and Zeus to Cronus, who swallows each child; Rhea hides the infant Zeus on Crete and Cronus swallows a stone",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 492-506",
+          "relation": "attests",
+          "claim": "Zeus forces Cronus to bring up his children, sets the swallowed stone at Pytho, frees the brothers of his father and receives thunder and the thunderbolt",
+          "verified": true
+        }
+      ],
+      "summary": "Cronus swallows each of his children at birth, because he has learned that a son of his is fated to overcome him. Rhea, with the help of Earth and Heaven, hides the youngest, Zeus, in Crete and gives Cronus a stone to swallow instead.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Crete",
+        "Lyctus",
+        "Mount Aegeum",
+        "Pytho",
+        "Parnassus"
+      ],
+      "body": [
+        {
+          "text": "Rhea lay with Cronus and bore splendid children: Hestia, Demeter, gold-sandalled Hera, strong Hades, pitiless in heart, who lives under the earth, the loud-crashing Earth-Shaker Poseidon, and wise Zeus, father of gods and men, by whose thunder the wide earth is shaken. Cronus swallowed each of them as it came from the womb to its mother's knees.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 453-491"
+            }
+          ]
+        },
+        {
+          "text": "He did it so that no other proud son of Heaven should hold the kingly office among the deathless gods. He had learned from Earth and starry Heaven that he was fated to be overcome by his own son, strong though he was. So he kept a careful watch, and swallowed his children as they came, and unceasing grief seized Rhea.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 453-491"
+            }
+          ]
+        },
+        {
+          "text": "When she was about to bear Zeus, she begged her own dear parents, Earth and starry Heaven, to devise a plan with her. The birth of her child must be hidden, and retribution must overtake crafty Cronus, both for what he had done to his own father and for the children he had swallowed. They listened and obeyed, and told her everything that was fated to happen to Cronus the king and his stout-hearted son. They sent her to Lyctus in the rich land of Crete, when she was ready to bear Zeus, the youngest of her children.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 453-491"
+            }
+          ]
+        },
+        {
+          "text": "Vast Earth took the child from Rhea in wide Crete to nurse and raise. She carried him swiftly through the black night to Lyctus, took him in her arms and hid him in a remote cave beneath the secret places of the holy earth, on thickly wooded Mount Aegeum. To the mighty ruler, the earlier king of the gods, she gave a great stone wrapped in swaddling clothes.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 453-491"
+            }
+          ]
+        },
+        {
+          "text": "Cronus took it in his hands and pushed it down into his belly. Fool! He did not know that his son had been left behind in the stone's place, unconquered and untroubled, and that the boy would soon overcome him by force and might and drive him from his honours, to rule over the deathless gods himself.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 453-491"
+            }
+          ]
+        },
+        {
+          "text": "The prince's strength and glorious limbs grew quickly. As the years went round, Cronus the wily was beguiled by the deep suggestions of Earth, and he brought up his offspring again, defeated by the arts and might of his own son. The stone, which he had swallowed last, he vomited up first. Zeus set it fast in the wide-pathed earth at goodly Pytho, under the glens of Parnassus, to be a sign and a marvel to mortals from then on.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 492-506"
+            }
+          ]
+        },
+        {
+          "text": "He also set free from their deadly bonds the brothers of his father, sons of Heaven whom their father had foolishly bound. They remembered to be grateful for his kindness and gave him thunder, the glowing thunderbolt and lightning, which huge Earth had hidden until then. Trusting in these, Zeus rules over mortals and immortals.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 492-506"
+            }
+          ]
         }
       ]
     },
@@ -112,16 +402,181 @@
       "title": "The war of the gods and the Titans",
       "mythology": "greek",
       "participants": [
-        "zeus",
-        "cronus"
+        {
+          "character_id": "zeus",
+          "role": "protagonist",
+          "notes": "Frees the Hundred-Handers and wins the war with thunder and lightning."
+        },
+        {
+          "character_id": "cronus",
+          "role": "mentioned",
+          "notes": "Father of the gods who fight the Titans."
+        },
+        {
+          "character_id": "rhea",
+          "role": "mentioned",
+          "notes": "Mother of the gods who fight the Titans."
+        },
+        {
+          "character_id": "gaia",
+          "role": "adviser",
+          "notes": "Tells the gods that the Hundred-Handers will bring them victory."
+        },
+        {
+          "character_id": "uranus",
+          "role": "instigator",
+          "notes": "Had bound the Hundred-Handers beneath the earth out of jealousy."
+        },
+        {
+          "character_id": "hundred-handers",
+          "role": "helper",
+          "notes": "Freed from prison, they bury the Titans under hurled rocks and become their warders."
+        },
+        {
+          "character_id": "tartarus",
+          "role": "setting",
+          "notes": "The place beneath the earth where the defeated Titans are bound."
+        },
+        {
+          "character_id": "poseidon",
+          "role": "helper",
+          "notes": "Fixes the bronze gates of the Titans' prison."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
-          "locator": "ll. 617-735",
+          "locator": "ll. 617-653",
           "relation": "attests",
-          "claim": "Ten years of war ended by Zeus with the hundred-handed brothers",
+          "claim": "The Hundred-Handers are freed from their bonds beneath the earth on Earth's advice; Zeus feeds them nectar and ambrosia and they promise to fight the Titans",
+          "verified": true,
+          "note": "The text says \"their father\" was vexed with the Hundred-Handers. This is read as Heaven, who hides them at ll. 147-162."
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 654-663",
+          "relation": "attests",
+          "claim": "Cottus answers for the Hundred-Handers and promises to fight the Titans for Zeus",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 664-686",
+          "relation": "attests",
+          "claim": "The gods and the Hundred-Handers face the Titans; sea, earth, heaven and Olympus shake and the quake reaches Tartarus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 687-712",
+          "relation": "attests",
+          "claim": "Zeus joins the battle with thunder and lightning; the earth, the sea and Ocean seethe and the Titans are scorched and blinded",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 713-735",
+          "relation": "attests",
+          "claim": "The Hundred-Handers bury the Titans beneath the earth as far as Tartarus; Poseidon fixes gates of bronze and the Hundred-Handers become warders",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 881-885",
+          "relation": "attests",
+          "claim": "After the Titans are beaten, the gods urge Zeus to rule, at Earth's prompting, and he divides their honours",
+          "verified": true
+        }
+      ],
+      "summary": "Zeus and the gods born of Cronus fight the Titans for ten years without a result, until Earth tells them to free the Hundred-Handers from their prison beneath the earth. With them Zeus wins, and the Titans are buried in Tartarus.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Othrys",
+        "Olympus",
+        "Tartarus",
+        "Erebus"
+      ],
+      "body": [
+        {
+          "text": "Long before, Heaven had become vexed with Obriareus, Cottus and Gyes. He was jealous of their great size, their strength and their good looks, so he bound them in cruel bonds and made them live beneath the wide-pathed earth, at the very edge of it, where they suffered for a long time in bitter anguish.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 617-653"
+            }
+          ]
+        },
+        {
+          "text": "Zeus and the other gods whom rich-haired Rhea bore to Cronus brought them back up into the light, at Earth's advice. She told the gods everything: with these three they would win the victory and a glorious boast. For the Titan gods and all who sprang from Cronus had long been fighting a stubborn war, the lordly Titans from high Othrys, the gods who give good things from Olympus. For ten full years they fought with bitter wrath, and the hard strife had no end for either side. The outcome hung evenly balanced.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 617-653"
+            }
+          ]
+        },
+        {
+          "text": "Zeus gave the three everything they needed, nectar and ambrosia, the food the gods themselves eat, and when their proud spirits had revived he spoke to them. A long while now, he said, the children of Cronus and the Titan gods had fought every day for victory. They should show their great might and unconquerable strength and face the Titans in bitter strife, remembering the kindness that had brought them back to the light from their cruel bondage under misty gloom.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 617-653"
+            }
+          ]
+        },
+        {
+          "text": "Blameless Cottus answered. Zeus was telling them what they knew well, he said: his wisdom and understanding were beyond measure, and he had become a defender of the deathless ones from chill doom. Through his plans they had come back from the murky gloom and from their merciless bonds, beyond all hope. So now, with fixed purpose and careful counsel, they would aid his power in the dreadful strife and fight the Titans in hard battle.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 654-663"
+            }
+          ]
+        },
+        {
+          "text": "The gods applauded, and their spirits longed for war even more than before. That day all of them, male and female, stirred up hated battle: the Titan gods on one side, and on the other the children of Cronus together with the mighty ones whom Zeus had brought up from Erebus beneath the earth. A hundred arms sprang from the shoulders of each of these, and fifty heads grew on their stout limbs, and they stood against the Titans holding huge rocks in their hands. The Titans eagerly strengthened their ranks. The boundless sea rang terribly and the earth crashed; wide Heaven was shaken and groaned, high Olympus reeled from its foundation, and a heavy quaking reached dim Tartarus.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 664-686"
+            }
+          ]
+        },
+        {
+          "text": "Then Zeus no longer held back. His heart filled with fury and he showed all his strength. He came from Heaven and from Olympus, hurling lightning, and the bolts flew thick and fast from his strong hand with thunder and lightning, whirling an awesome flame. The life-giving earth crashed around in burning and the vast forest crackled with fire. All the land seethed, and the streams of Ocean and the unfruitful sea. Hot vapour lapped around the earthborn Titans, unspeakable flame rose to the bright upper air, and the flashing glare of the thunderbolt blinded the eyes even of the strong.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 687-712"
+            }
+          ]
+        },
+        {
+          "text": "In the front rank Cottus, Briareos and Gyes, insatiable for war, raised a fierce fight. They launched three hundred rocks, one on top of another, from their strong hands, and overshadowed the Titans with their missiles. They buried the Titans beneath the wide-pathed earth and bound them in bitter chains, as far below the earth as Tartarus. A bronze anvil falling from heaven would take nine nights and days to reach the earth and arrive on the tenth. Falling from the earth it would take the same time to reach Tartarus. A fence of bronze runs round that place and night spreads in a triple line about it, while above grow the roots of the earth and the unfruitful sea.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 713-735"
+            }
+          ]
+        },
+        {
+          "text": "There, by the counsel of cloud-driving Zeus, the Titan gods are hidden under misty gloom in a dank place at the ends of the huge earth. They cannot get out, for Poseidon fixed gates of bronze upon it, and a wall runs all around. Gyes, Cottus and great-souled Obriareus live there as the trusty warders of Zeus.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 713-735"
+            }
+          ]
+        },
+        {
+          "text": "When the blessed gods had finished their toil and settled their struggle for honours with the Titans by force, they urged far-seeing Olympian Zeus, at Earth's prompting, to reign and rule over them. So he divided their dignities among them.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 881-885"
+            }
+          ]
         }
       ]
     },
@@ -130,28 +585,310 @@
       "title": "Prometheus, the stolen fire and the first woman",
       "mythology": "greek",
       "participants": [
-        "prometheus",
-        "zeus",
-        "hephaestus",
-        "athena",
-        "hermes",
-        "aphrodite"
+        {
+          "character_id": "prometheus",
+          "role": "protagonist",
+          "notes": "Tricks Zeus at Mecone, steals fire, and is chained until Heracles frees him."
+        },
+        {
+          "character_id": "zeus",
+          "role": "antagonist",
+          "notes": "Sees through the trick, withholds fire, and makes the first woman as the price of fire."
+        },
+        {
+          "character_id": "hephaestus",
+          "role": "helper",
+          "notes": "Forms the first woman from earth at the will of Zeus."
+        },
+        {
+          "character_id": "athena",
+          "role": "helper",
+          "notes": "Clothes and adorns the first woman."
+        },
+        {
+          "character_id": "hermes",
+          "role": "helper",
+          "notes": "In Works and Days, gives her lies and speech, and brings her to Epimetheus."
+        },
+        {
+          "character_id": "aphrodite",
+          "role": "helper",
+          "notes": "In Works and Days, is told to pour grace and longing upon her."
+        },
+        {
+          "character_id": "epimetheus",
+          "role": "victim",
+          "notes": "Takes the woman despite his brother's warning."
+        },
+        {
+          "character_id": "heracles",
+          "role": "helper",
+          "notes": "Kills the eagle and frees Prometheus."
+        },
+        {
+          "character_id": "iapetus",
+          "role": "parent",
+          "notes": "Father of Atlas, Menoetius, Prometheus and Epimetheus."
+        },
+        {
+          "character_id": "menoetius",
+          "role": "mentioned",
+          "notes": "Struck by a thunderbolt and sent to Erebus."
+        },
+        {
+          "character_id": "atlas",
+          "role": "mentioned",
+          "notes": "Made by Zeus to hold up the sky."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
-          "locator": "ll. 545-616",
+          "locator": "ll. 507-544",
           "relation": "attests",
-          "claim": "The sacrifice trick, the theft of fire, and the woman made as its price",
+          "claim": "Clymene bears Atlas, Menoetius, Prometheus and Epimetheus to Iapetus; Zeus strikes down Menoetius, makes Atlas hold up the sky, chains Prometheus, and lets Heracles kill the eagle and free him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 545-557",
+          "relation": "attests",
+          "claim": "At Mecone Prometheus divides an ox, hiding flesh under the paunch and bones under fat, to trick Zeus; Zeus sees through it but takes the fat",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 558-559",
+          "relation": "attests",
+          "claim": "Zeus rebukes Prometheus for his cunning",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 560-584",
+          "relation": "attests",
+          "claim": "Zeus withholds fire; Prometheus steals it in a fennel stalk; as the price of fire Hephaestus forms a maiden from earth and Athena clothes and adorns her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 585-589",
+          "relation": "attests",
+          "claim": "The gods and men marvel at the beautiful evil made as the price for fire",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 590-612",
+          "relation": "attests",
+          "claim": "Hesiod draws his lesson that women are an evil made by Zeus as the price of fire, whether a man marries or not",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 613-616",
+          "relation": "attests",
+          "claim": "No one can deceive Zeus; even Prometheus was held by strong bands",
           "verified": true
         },
         {
           "source_id": "gr-works-and-days",
-          "locator": "ll. 42-105",
+          "locator": "ll. 42-53",
           "relation": "attests",
-          "claim": "Zeus hides fire, Prometheus steals it, and the first woman, Pandora, is made and sent with her jar of ills",
-          "verified": true,
-          "note": "Differs from the Theogony: Hermes and Aphrodite take part and the jar is described."
+          "claim": "Zeus, angry at being deceived, hides the means of life and fire; Prometheus steals fire back in a hollow fennel stalk",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 54-59",
+          "relation": "attests",
+          "claim": "Zeus answers Prometheus: he will give men an evil as the price of fire",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 60-68",
+          "relation": "attests",
+          "claim": "Zeus laughs and orders Hephaestus to mould a maiden, Athena to teach her weaving, Aphrodite to give her grace and longing, and Hermes to give her a shameless mind",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 69-82",
+          "relation": "attests",
+          "claim": "The gods make the maiden: Hephaestus moulds her, Athena dresses her, the Graces and Hours adorn her, Hermes gives her lies and speech and names her Pandora",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 83-89",
+          "relation": "attests",
+          "claim": "Hermes brings Pandora to Epimetheus, who ignores Prometheus's warning and takes her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 90-105",
+          "relation": "attests",
+          "claim": "Pandora lifts the lid of the jar and scatters its evils; only Hope stays inside; diseases wander silently among men",
+          "verified": true
+        }
+      ],
+      "summary": "Prometheus tries to trick Zeus over the sacrificial meat and then steals fire for mankind. Zeus answers by having the gods fashion the first woman as the price of fire, and by chaining Prometheus until Heracles frees him.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Mecone",
+        "Erebus"
+      ],
+      "body": [
+        {
+          "text": "Prometheus was one of four sons whom Clymene, daughter of Ocean, bore to Iapetus. The others were stout-hearted Atlas, glorious Menoetius and scatter-brained Epimetheus, who from the first was a mischief to men who eat bread, for it was he who first took from Zeus the woman Zeus had formed. Menoetius was outrageous, and far-seeing Zeus struck him with a lurid thunderbolt and sent him down to Erebus for his mad presumption and exceeding pride. Atlas has to hold up the wide heaven with unwearying head and arms, standing at the borders of the earth, for this was the lot wise Zeus assigned to him.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 507-544"
+            }
+          ]
+        },
+        {
+          "text": "The quarrel began at Mecone, where gods and mortal men were in dispute. Prometheus cut up a great ox and set out portions before them, trying to befool the mind of Zeus. In front he put flesh and fat-rich inner parts on the hide, covered over with the ox's stomach. For Zeus he arranged the white bones, dressed up with cunning art and covered with shining fat. The father of gods and men said to him that he had divided the portions very unfairly.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 545-557"
+            }
+          ]
+        },
+        {
+          "text": "Prometheus answered with a soft smile, not forgetting his trick, and told Zeus to take whichever portion his heart bade him. Zeus, whose wisdom never ends, saw the trick and understood it, and in his heart he planned mischief against mortal men, which was to be fulfilled. He took up the white fat with both hands, and was angry at heart when he saw the white bones craftily dressed up. This, says Hesiod, is why the tribes of men on earth burn white bones for the deathless gods on fragrant altars.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 545-557"
+            }
+          ]
+        },
+        {
+          "text": "Zeus, driver of clouds, was greatly vexed. He told Prometheus that he had not yet forgotten his cunning arts. From then on he always remembered the trick, and he would not give the power of tireless fire to the race of mortal men on earth. But the noble son of Iapetus outwitted him and stole the far-seen gleam of the tireless fire, carrying it in a hollow fennel stalk. Zeus thundered on high and was stung to the spirit, and his dear heart was angry when he saw the bright ray of fire among men.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 558-559"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 560-584"
+            }
+          ]
+        },
+        {
+          "text": "At once he made an evil thing for men as the price of fire. At the will of the son of Cronus, the very famous Limping God, Hephaestus, shaped from earth the likeness of a shy maiden. Bright-eyed Athena belted and clothed her in silvery raiment and spread a embroidered veil down from her head, a wonder to see, and set lovely garlands of fresh flowers about it. Upon her head she also put a golden crown, which the Limping God himself had made with his own hands as a favour to his father Zeus. It was wrought with much curious work, a wonder to see: most of the creatures that land and sea rear were set on it, like living things with voices, and great beauty shone from it.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 560-584"
+            }
+          ]
+        },
+        {
+          "text": "When he had made this beautiful evil as the price for the blessing, he led her out, delighting in the finery that the bright-eyed daughter of a mighty father had given her, to where the other gods and men were. Wonder seized the deathless gods and mortal men when they saw her, for she was sheer guile, and men could not withstand it.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 585-589"
+            }
+          ]
+        },
+        {
+          "text": "Here Hesiod draws his own bitter lesson. From her, he says, comes the race of women, a deadly tribe who live among mortal men to their great trouble, no helpers in hateful poverty but only in wealth. They are like drones, which eat what the busy bees have gathered. Zeus made women an evil to mortal men, with a nature to do evil. He also gave men a second evil as the price of the good they had: whoever avoids marriage reaches deadly old age with no one to look after him, and his kinsfolk divide his goods when he dies, while whoever marries, even a good wife, finds evil always contending with good. A man with mischievous children lives in unceasing grief, a grief that cannot be healed.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 590-612"
+            }
+          ]
+        },
+        {
+          "text": "So Zeus's will cannot be deceived or got round. Not even Prometheus escaped his heavy anger. For all the wiles he knew, strong bands of necessity held him. Zeus bound ready-witted Prometheus in inextricable bonds, cruel chains, and drove a shaft through his middle, and set on him a long-winged eagle, which ate his immortal liver; but by night the liver grew back by as much as the bird had eaten in a whole day.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 507-544"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 613-616"
+            }
+          ]
+        },
+        {
+          "text": "Heracles, the valiant son of neat-ankled Alcmene, killed that bird and freed the son of Iapetus from the cruel plague, and released him from his affliction. He did it not without the will of Olympian Zeus, who wished the glory of Theban-born Heracles to be greater than before on the plenteous earth. So Zeus honoured his famous son, and ceased from the wrath he had felt, because Prometheus had matched his wit against the almighty son of Cronus.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 507-544"
+            }
+          ]
+        },
+        {
+          "text": "Hesiod tells the quarrel a second time in Works and Days, with different emphasis. This time there is no sacrifice trick. Zeus, angry because crafty Prometheus had deceived him, hid the means of life from men, and he hid fire. But the noble son of Iapetus stole it again for men from Zeus the counsellor, in a hollow fennel stalk, so that Zeus, who delights in thunder, did not see it.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 42-53"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Then Zeus, gatherer of clouds, spoke to him in anger. Son of Iapetus, he said, you are cleverer than anyone and glad that you have outwitted me and stolen fire. It will be a great plague to you and to the men who come after. As the price of fire I will give men an evil thing, and they will all be glad of heart while they embrace their own destruction.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 54-59"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "So the father of men and gods spoke, and laughed aloud. He told famous Hephaestus to make haste and mix earth with water, to put into it the voice and strength of human kind, and to fashion a sweet, lovely maiden's shape with a face like the immortal goddesses. Athena was to teach her needlework and the weaving of the varied web. Golden Aphrodite was to pour grace upon her head, with cruel longing and cares that wear out the limbs. And Hermes the guide, the slayer of Argus, was to put a shameless mind and a deceitful nature in her.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 60-68"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "They obeyed lord Zeus. The famous lame god moulded clay in the likeness of a modest maiden, as the son of Cronus had planned. Bright-eyed Athena dressed her and gave her a girdle. The divine Graces and queenly Persuasion put golden necklaces on her, and the rich-haired Hours crowned her head with spring flowers. Pallas Athena arranged every kind of adornment on her body. And Hermes, the guide, the slayer of Argus, put lies, wheedling words and a deceitful nature in her at the will of loud-thundering Zeus, and gave her speech. He named her Pandora, All-Endowed, because every god on Olympus had given her a gift, a plague to men who eat bread.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 69-82"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "When he had finished the sheer, hopeless snare, the Father sent glorious Hermes, the swift messenger of the gods, to bring it to Epimetheus as a gift. Epimetheus did not remember what Prometheus had told him, never to accept a gift from Olympian Zeus but to send it back, in case it should prove harmful to men. He took the gift, and only afterwards, when the evil was already his, did he understand.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 83-89"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Until then the tribes of men had lived on earth apart from ills, hard toil and the grievous sicknesses that bring the Fates upon men, for in misery men age quickly. But the woman took the great lid off a jar with her hands and scattered its contents, and her thought brought sorrow and mischief to men. Only Hope stayed inside, in an unbreakable home under the rim of the great jar. She did not fly out of the door, for the lid stopped her first, by the will of aegis-holding Zeus. The rest, countless plagues, wander among men, for the earth is full of evils and so is the sea. Diseases come upon men of themselves, by day and by night, bringing harm in silence, because wise Zeus took speech away from them. So there is no way to escape the will of Zeus.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 90-105"
+            }
+          ],
+          "kind": "variant"
         }
       ]
     },
@@ -160,23 +897,180 @@
       "title": "The birth of Athena",
       "mythology": "greek",
       "participants": [
-        "zeus",
-        "athena"
+        {
+          "character_id": "zeus",
+          "role": "protagonist",
+          "notes": "Swallows Metis, then gives birth to Athena from his own head."
+        },
+        {
+          "character_id": "metis",
+          "role": "victim",
+          "notes": "Swallowed by Zeus before Athena is born."
+        },
+        {
+          "character_id": "athena",
+          "role": "offspring",
+          "notes": "Born from the head of Zeus."
+        },
+        {
+          "character_id": "hera",
+          "role": "antagonist",
+          "notes": "Answers Zeus by bearing Hephaestus alone; in the Hymn to Apollo she threatens to bear a stronger son."
+        },
+        {
+          "character_id": "hephaestus",
+          "role": "offspring",
+          "notes": "Born to Hera without Zeus."
+        },
+        {
+          "character_id": "gaia",
+          "role": "adviser",
+          "notes": "With Heaven, advises Zeus to swallow Metis."
+        },
+        {
+          "character_id": "uranus",
+          "role": "adviser",
+          "notes": "With Earth, advises Zeus to swallow Metis."
+        },
+        {
+          "character_id": "thetis",
+          "role": "helper",
+          "notes": "In the Hymn to Apollo, takes in and cares for the cast-out Hephaestus."
+        },
+        {
+          "character_id": "typhon",
+          "role": "offspring",
+          "notes": "In the Hymn to Apollo, Hera bears him alone."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
           "locator": "ll. 886-900",
           "relation": "attests",
-          "claim": "Zeus swallows Metis to prevent a stronger child",
+          "claim": "Zeus makes Metis his first wife and swallows her before she bears Athena, on the advice of Earth and Heaven",
           "verified": true
         },
         {
           "source_id": "gr-theogony",
-          "locator": "ll. 924-928",
+          "locator": "ll. 924-929",
           "relation": "attests",
-          "claim": "Athena is born from the head of Zeus",
+          "claim": "Zeus gives birth to Athena from his own head; Hera, quarrelling with Zeus, bears Hephaestus without him",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 929a",
+          "relation": "attests",
+          "claim": "In a longer recension, Zeus swallows Metis, who has already conceived Athena, and gives birth to Athena through his head by the river Trito, arrayed in arms",
+          "verified": true,
+          "note": "The lines are restored from a quotation by Chrysippus and are not in the main manuscripts."
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310",
+          "relation": "attests",
+          "claim": "Hera is angered when Zeus bears Athena in his head",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 311-330",
+          "relation": "attests",
+          "claim": "Hera complains that Zeus has dishonoured her, recalls casting out Hephaestus, whom Thetis raised, and threatens to bear a son greater than Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 331-339",
+          "relation": "attests",
+          "claim": "Hera prays to Earth, Heaven and the Titans to let her bear a child as much stronger than Zeus as Zeus is than Cronus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "attests",
+          "claim": "Hera strikes the earth, stays from Zeus's bed for a year, then bears Typhaon and gives him to the dragoness; Apollo later kills the dragoness",
+          "verified": true
+        }
+      ],
+      "summary": "Zeus marries Metis, the wisest of the gods, and swallows her before she can bear Athena, on the advice of Earth and Heaven. Athena is then born from his own head. Hera answers by bearing Hephaestus without Zeus.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Trito"
+      ],
+      "body": [
+        {
+          "text": "Zeus, king of the gods, made Metis his first wife, and she was the wisest among gods and mortal men. But when she was about to bring forth bright-eyed Athena, Zeus deceived her with cunning words and put her inside his own belly, as Earth and starry Heaven advised him. They advised him so that no one else should hold royal power over the eternal gods in Zeus's place. Very wise children were fated to be born of Metis. First would come the bright-eyed maiden Tritogeneia, equal to her father in strength and wise understanding. Afterwards she was to bear a son of overbearing spirit, who would be king of gods and men. So Zeus put her into his own belly first, so that the goddess might devise good and evil for him.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 886-900"
+            }
+          ]
+        },
+        {
+          "text": "Then Zeus himself gave birth, from his own head, to bright-eyed Tritogeneia. Hesiod calls her the awful, the strife-stirring, the leader of hosts, the unwearying, the queen, who delights in tumults and wars and battles.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 924-929"
+            }
+          ]
+        },
+        {
+          "text": "Hera, very angry and quarrelling with her mate, answered in kind. Without union with Zeus she bore famous Hephaestus, who was more skilled in crafts than any of the sons of Heaven.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 924-929"
+            }
+          ]
+        },
+        {
+          "text": "Another recension of the poem, quoted by a later writer, tells the same event at greater length. Zeus seizes Metis with his hands and puts her in his belly, for fear that she might bring forth something stronger than his thunderbolt, and he swallows her down at once. But she had already conceived Pallas Athena, and the father of men and gods gave birth to her through his head, on the banks of the river Trito. Metis, Athena's mother, who works righteousness and was wiser than gods and mortal men, stayed hidden beneath the inward parts of Zeus. And Zeus gave Athena birth dressed in the arms of war.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 929a"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Hera tells it differently. In the Hymn to Apollo, when the Son of Cronus bore all-glorious Athena in his head, queenly Hera was angry and spoke among the assembled gods. Cloud-gathering Zeus was dishonouring her wantonly, she said, though he had made her his true-hearted wife; apart from her he had given birth to bright-eyed Athena, who was foremost among all the blessed gods. Her own son Hephaestus, whom she had borne, was weakly and shrivelled of foot, a shame and disgrace to her in heaven, so she had taken him in her hands and cast him out, and he fell in the great sea. Silver-shod Thetis, daughter of Nereus, took him and cared for him with her sisters. Now Hera threatened Zeus: she would contrive that a son be born to her who would be foremost among the undying gods, without casting shame on the holy bond of wedlock between them, and she would not come to his bed again but would keep company with the blessed gods far from him.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 300-310"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 311-330"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Then she went apart from the gods, very angry, and prayed, striking the ground flatly with her hand. She called on Earth and wide Heaven above, and on the Titan gods who live beneath the earth around great Tartarus, from whom both gods and men are sprung, to grant that she might bear a child apart from Zeus, no less than him in strength, or even as much stronger than Zeus as all-seeing Zeus is than Cronus.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 331-339"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Her prayer was answered in her own way. She struck the earth with her strong hand and the life-giving earth moved, and Hera was glad, thinking it would be fulfilled. For a full year she did not come to the bed of wise Zeus, or sit in her carved chair to plan wise counsel for him, but stayed in her temples and enjoyed her offerings. When the months and days were fulfilled, she bore Typhaon, who was like neither the gods nor mortal men, a fell, cruel plague for men. At once she took him and gave him to a dragoness, bringing one evil to another such, and the dragoness received him.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 340-361"
+            }
+          ],
+          "kind": "variant"
         }
       ]
     },
@@ -185,17 +1079,158 @@
       "title": "Zeus against Typhoeus",
       "mythology": "greek",
       "participants": [
-        "zeus",
-        "typhon",
-        "gaia"
+        {
+          "character_id": "zeus",
+          "role": "protagonist",
+          "notes": "Notices the danger in time, defeats Typhoeus and hurls him into Tartarus."
+        },
+        {
+          "character_id": "typhon",
+          "role": "antagonist",
+          "notes": "A hundred-headed monster who would have ruled gods and men."
+        },
+        {
+          "character_id": "gaia",
+          "role": "parent",
+          "notes": "Bears Typhoeus, her youngest child."
+        },
+        {
+          "character_id": "tartarus",
+          "role": "parent",
+          "notes": "Typhoeus is born of his love."
+        },
+        {
+          "character_id": "aphrodite",
+          "role": "helper",
+          "notes": "Her help is named in the begetting of Typhoeus."
+        },
+        {
+          "character_id": "hades",
+          "role": "witness",
+          "notes": "Trembles below at the fighting."
+        },
+        {
+          "character_id": "hera",
+          "role": "parent",
+          "notes": "In the Hymn to Apollo, bears Typhaon alone."
+        },
+        {
+          "character_id": "apollo",
+          "role": "mentioned",
+          "notes": "In the Hymn to Apollo, shoots the dragoness who raised Typhaon."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-theogony",
           "locator": "ll. 820-868",
           "relation": "attests",
-          "claim": "Zeus defeats the monster and throws him into Tartarus",
+          "claim": "Earth bears the hundred-headed Typhoeus by Tartarus; Zeus fights and defeats him with thunder and lightning and throws him into Tartarus",
           "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 869-880",
+          "relation": "attests",
+          "claim": "The harmful winds come from Typhoeus; Notus, Boreas and Zephyr are a blessing to men",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 881-885",
+          "relation": "attests",
+          "claim": "After the Titans are beaten, the gods urge Zeus to rule, at Earth's prompting, and he divides their honours",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 300-310",
+          "relation": "attests",
+          "claim": "A bloated she-dragon at the spring received Typhaon from Hera and brought him up, to the harm of men",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 340-361",
+          "relation": "attests",
+          "claim": "Hera bears Typhaon alone and gives him to the dragoness; Apollo shoots the dragoness",
+          "verified": true
+        }
+      ],
+      "summary": "After the Titans are beaten, Earth bears one last monster, Typhoeus, who would have taken the rule from Zeus if Zeus had not noticed in time. Zeus fights and defeats him and hurls him into Tartarus; some of the harmful winds come from him.",
+      "tradition": "hesiodic",
+      "locations": [
+        "Olympus",
+        "Tartarus"
+      ],
+      "body": [
+        {
+          "text": "When Zeus had driven the Titans out of heaven, huge Earth bore her youngest child, Typhoeus, from the love of Tartarus and with the help of golden Aphrodite. His hands were strong in everything they did, and the feet of the strong god never tired. A hundred snake heads grew from his shoulders, a fearsome dragon with dark, flickering tongues, and fire flashed from the eyes under the brows of those marvellous heads, and fire burned from them when he glared.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 820-868"
+            }
+          ]
+        },
+        {
+          "text": "Voices rose from all his dreadful heads and uttered every kind of sound beyond description. At one time they spoke so that the gods understood. At another they bellowed like a bull in proud, ungovernable fury, or roared like a relentless lion, or yelped like puppies, a wonder to hear, or hissed so that the high mountains echoed.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 820-868"
+            }
+          ]
+        },
+        {
+          "text": "A thing past help would have happened that day, and Typhoeus would have come to rule over mortals and immortals, had the father of men and gods not been quick to notice. Zeus thundered hard and mightily. The earth resounded terribly, and the wide heaven above, and the sea, and Ocean's streams, and the nether parts of the earth. Great Olympus reeled beneath the divine feet of the king as he rose, and the earth groaned. Heat from the thunder and lightning, from the monster's fire, from the scorching winds and the blazing thunderbolt took hold of the dark-blue sea. The whole earth seethed, and sky and sea, and long waves raged along the beaches at the rush of the deathless gods. There was an endless shaking. Hades trembled where he rules over the dead below, and so did the Titans beneath Tartarus who live with Cronus, at the unending clamour and the fearful strife.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 820-868"
+            }
+          ]
+        },
+        {
+          "text": "So Zeus gathered his strength and seized his arms, thunder and lightning and the lurid thunderbolt. He leapt from Olympus and struck, and burned all the marvellous heads of the monster about him. When he had conquered him and lashed him with blows, Typhoeus was hurled down, a maimed wreck, and the huge earth groaned. Flame shot from the thunder-struck lord in the dim rugged glens of the mountain where he was smitten. A great part of the earth was scorched by the terrible vapour and melted, as tin melts when men heat it in their crucibles, or as iron, hardest of all things, softens in glowing fire in the mountain glens and melts in the divine earth through the strength of Hephaestus. And in the bitterness of his anger Zeus cast Typhoeus into wide Tartarus.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 820-868"
+            }
+          ]
+        },
+        {
+          "text": "From Typhoeus come the boisterous winds that blow damply, though not Notus, Boreas and clear Zephyr, which are a god-sent kind and a great blessing to men. The others blow fitfully on the seas. Some rush upon the misty sea and do great harm to men with their evil, raging blasts, scattering ships and destroying sailors, and men who meet them at sea have no help against the mischief. Others spoil the fair fields of men on the boundless flowering earth, filling them with dust and cruel uproar.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 869-880"
+            }
+          ]
+        },
+        {
+          "text": "When the blessed gods had finished their toil and settled by force their struggle for honours with the Titans, they urged Zeus to reign and rule over them, at Earth's prompting. So he divided their dignities among them.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 881-885"
+            }
+          ]
+        },
+        {
+          "text": "The Hymn to Apollo gives Typhon a different mother. There he is called Typhaon, and Earth does not bear him. Hera does, alone, out of anger at Zeus after the birth of Athena, and she gives him to a she-dragon to raise. The dragoness, who had received him from Hera, did great mischief to men and their flocks until Apollo shot her with a strong arrow beside a spring, at the place that became Pytho. The hymn does not say that Zeus ever fought Typhaon.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 300-310"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 340-361"
+            }
+          ],
+          "kind": "variant"
         }
       ]
     },
@@ -204,26 +1239,182 @@
       "title": "Perseus and Medusa",
       "mythology": "greek",
       "participants": [
-        "perseus",
-        "medusa",
-        "athena",
-        "hermes",
-        "poseidon"
+        {
+          "character_id": "perseus",
+          "role": "protagonist",
+          "notes": "Sent for the Gorgon's head, he beheads Medusa and later turns his enemies to stone with it."
+        },
+        {
+          "character_id": "medusa",
+          "role": "victim",
+          "notes": "The one mortal Gorgon, beheaded while she sleeps."
+        },
+        {
+          "character_id": "athena",
+          "role": "helper",
+          "notes": "Guides Perseus and his hand; receives the head for her shield."
+        },
+        {
+          "character_id": "hermes",
+          "role": "helper",
+          "notes": "Guides Perseus and gives him an adamantine sickle."
+        },
+        {
+          "character_id": "poseidon",
+          "role": "parent",
+          "notes": "Said to be the father of Pegasus and Chrysaor by Medusa; also sends the monster that threatens Andromeda."
+        },
+        {
+          "character_id": "pegasus",
+          "role": "offspring",
+          "notes": "Springs from Medusa when she is beheaded."
+        },
+        {
+          "character_id": "chrysaor",
+          "role": "offspring",
+          "notes": "Springs from Medusa when she is beheaded."
+        },
+        {
+          "character_id": "phorcys",
+          "role": "parent",
+          "notes": "Father, with Ceto, of the Gorgons."
+        },
+        {
+          "character_id": "ceto",
+          "role": "parent",
+          "notes": "Mother, with Phorcys, of the Gorgons."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-bibliotheca",
-          "locator": "Library 2.4.2-2.4.3",
+          "locator": "Library 2.4.2",
           "relation": "attests",
-          "claim": "Perseus, guided by Hermes and Athena, beheads Medusa; Pegasus and Chrysaor are born; the head goes to Athena",
+          "claim": "Polydectes of Seriphus, in love with Danae, tricks Perseus into promising to fetch the Gorgon's head; Guided by Hermes and Athena, Perseus takes the one eye and tooth of the Phorcides and makes them show him the way to the nymphs; The nymphs give Perseus winged sandals, the kibisis and the cap of Hades, and Hermes gives him an adamantine sickle; Perseus finds the Gorgons asleep; only Medusa is mortal; Athena guides his hand as he beheads her, looking at her image in a bronze shield; Pegasus and Chrysaor spring from the beheaded Gorgon; she had them by Poseidon",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 2.4.3",
+          "relation": "attests",
+          "claim": "Perseus escapes the Gorgons under the cap, finds Andromeda exposed to a sea monster sent by Poseidon, and wins her by killing it; Perseus turns Phineus and his fellow conspirators to stone with the Gorgon's head; Perseus turns Polydectes and his friends to stone on Seriphus, makes Dictys king, returns his gear through Hermes and gives the head to Athena for her shield; Some say Medusa was beheaded for Athena's sake because she wished to rival the goddess in beauty",
           "verified": true
         },
         {
           "source_id": "gr-theogony",
           "locator": "ll. 270-294",
           "relation": "attests",
-          "claim": "Perseus cuts off the head of Medusa",
+          "claim": "The Gorgons, daughters of Ceto and Phorcys, live beyond Ocean; Medusa is mortal; the Dark-haired One lies with her; Pegasus and Chrysaor spring from her when Perseus beheads her; Chrysaor fathers Geryon",
           "verified": true
+        }
+      ],
+      "summary": "King Polydectes sends Perseus to fetch the head of Medusa, the only mortal Gorgon. Guided by Hermes and Athena, Perseus gets the nymphs' sandals, wallet and cap, cuts off her head while she sleeps, and afterwards uses it to turn his enemies to stone.",
+      "locations": [
+        "Seriphus",
+        "Ethiopia"
+      ],
+      "body": [
+        {
+          "text": "Polydectes, brother of Dictys, was king of Seriphus and fell in love with Danae, but he could not get near her, because her son Perseus had grown to manhood. So he gathered his friends, Perseus among them, on the pretext of collecting contributions for a wedding gift to Hippodamia, daughter of Oenomaus. Perseus declared that he would not shrink even from the Gorgon's head. Polydectes then demanded horses from the others, and when he got none from Perseus, he ordered him to bring the Gorgon's head instead.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.2"
+            }
+          ]
+        },
+        {
+          "text": "Guided by Hermes and Athena, Perseus made his way to the three daughters of Phorcys and Ceto, Enyo, Pephredo and Dino. They were sisters of the Gorgons and had been old women from their birth. The three shared a single eye and a single tooth, passing them from one to another in turn. Perseus got hold of the eye and the tooth, and when they begged for them back, he said he would return them if they showed him the way to the nymphs.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.2"
+            }
+          ]
+        },
+        {
+          "text": "The nymphs had winged sandals and the wallet called the kibisis, and they also had the cap of Hades. When the daughters of Phorcys had shown him the way, he gave back the tooth and the eye, went to the nymphs, and got what he wanted. He slung the wallet around him, fitted the sandals to his ankles and put the cap on his head. While he wore it he could see anyone he pleased, but nobody could see him. Hermes also gave him a sickle of adamant.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.2"
+            }
+          ]
+        },
+        {
+          "text": "He flew to the ocean and found the Gorgons asleep. They were Stheno, Euryale and Medusa, and only Medusa was mortal, which was why Perseus had been sent for her head. The Gorgons had heads twined with the scales of dragons, great tusks like those of swine, brazen hands and golden wings with which they flew, and they turned to stone anyone who looked at them. Perseus stood over them as they slept. Athena guided his hand, and he looked away, watching the Gorgon's image in a bronze shield, and cut off Medusa's head.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.2"
+            }
+          ]
+        },
+        {
+          "text": "When her head was cut off, the winged horse Pegasus and Chrysaor, the father of Geryon, sprang out of the Gorgon. She had conceived them by Poseidon.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.2"
+            }
+          ]
+        },
+        {
+          "text": "Perseus put Medusa's head into the wallet and turned back. The Gorgons woke and chased him, but they could not see him because of the cap that hid him. In Ethiopia, where Cepheus was king, he found the king's daughter Andromeda exposed as prey for a sea monster. Her mother Cassiepea had boasted that she was more beautiful than all the Nereids, so the Nereids were angry, and Poseidon, sharing their wrath, had sent a flood and a monster against the land. Ammon had said that the country would be delivered if Andromeda were offered to the monster, and the Ethiopians forced Cepheus to do it. When Perseus saw her he loved her, and promised Cepheus to kill the monster if he would give him the rescued girl as his wife. When they had sworn to it, Perseus faced the monster, killed it and freed Andromeda.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.3"
+            }
+          ]
+        },
+        {
+          "text": "Phineus, a brother of Cepheus, to whom Andromeda had first been betrothed, plotted against him. But Perseus found out, and by showing him the Gorgon's head he turned Phineus and his fellow conspirators to stone at once.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.3"
+            }
+          ]
+        },
+        {
+          "text": "Perseus then went on to Seriphus, where he found his mother and Dictys sitting at the altars for safety from the violence of Polydectes. He entered the palace, where Polydectes had gathered his friends, and with his face turned away he held up the Gorgon's head. Everyone who looked at it was turned to stone, each in whatever pose he happened to have struck. Perseus made Dictys king of Seriphus. He gave the sandals, the wallet and the cap back to Hermes, who returned them to the nymphs, and he gave the Gorgon's head to Athena, who set it in the middle of her shield.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.3"
+            }
+          ]
+        },
+        {
+          "text": "Some say that Medusa was beheaded for Athena's sake, because the Gorgon had wanted to match herself with the goddess even in beauty.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.4.3"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Hesiod makes Medusa one of the three Gorgons, daughters of Ceto and Phorcys, who live beyond glorious Ocean in the frontier land towards Night, where the clear-voiced Hesperides are. Her sisters Sthenno and Euryale were undying and never grew old, but Medusa was mortal, and she suffered a woeful fate. The Dark-haired One, whom the translator identifies as Poseidon, lay with her in a soft meadow among spring flowers.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 270-294"
+            }
+          ],
+          "kind": "note"
+        },
+        {
+          "text": "Hesiod tells what came of the beheading. When Perseus cut off Medusa's head, great Chrysaor and the horse Pegasus sprang out, Pegasus named for the springs of Ocean where he was born. Pegasus flew away from the earth and came to the deathless gods, and he lives in the house of Zeus, bringing wise Zeus the thunder and lightning. Chrysaor was joined in love to Callirrhoe, daughter of glorious Ocean, and fathered three-headed Geryon, whom mighty Heracles later killed in sea-girt Erythea for the sake of his oxen.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 270-294"
+            }
+          ],
+          "kind": "note"
         }
       ]
     },
@@ -232,23 +1423,158 @@
       "title": "Heracles and the Lernaean Hydra",
       "mythology": "greek",
       "participants": [
-        "heracles",
-        "hydra"
+        {
+          "character_id": "heracles",
+          "role": "protagonist",
+          "notes": "Sent by Eurystheus, he fights the Hydra and cuts off its immortal head."
+        },
+        {
+          "character_id": "hydra",
+          "role": "antagonist",
+          "notes": "A nine-headed beast with one immortal head."
+        },
+        {
+          "character_id": "iolaus",
+          "role": "helper",
+          "notes": "Burns the stumps of the heads with brands so they cannot grow back."
+        },
+        {
+          "character_id": "eurystheus",
+          "role": "instigator",
+          "notes": "Sets the labour, then refuses to count it."
+        },
+        {
+          "character_id": "nemean-lion",
+          "role": "mentioned",
+          "notes": "The beast of Heracles's first labour."
+        },
+        {
+          "character_id": "echidna",
+          "role": "parent",
+          "notes": "The Hydra's mother in Hesiod's genealogy."
+        },
+        {
+          "character_id": "typhon",
+          "role": "parent",
+          "notes": "Said to be the mate of Echidna; begot the Nemean lion."
+        },
+        {
+          "character_id": "hera",
+          "role": "mentioned",
+          "notes": "In Hesiod, raised the Hydra out of anger at Heracles."
+        },
+        {
+          "character_id": "athena",
+          "role": "helper",
+          "notes": "In Hesiod, her plans help Heracles destroy the Hydra."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-bibliotheca",
+          "locator": "Library 2.5.1",
+          "relation": "attests",
+          "claim": "Heracles serves Eurystheus; the first labour is the skin of the invulnerable Nemean lion, begotten by Typhon, which he strangles; Eurystheus forbids him the city and sends orders by a herald",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
           "locator": "Library 2.5.2",
           "relation": "attests",
-          "claim": "Heracles and Iolaus destroy the nine-headed Hydra at Lerna",
+          "claim": "Eurystheus orders Heracles to kill the Lernaean Hydra, a nine-headed beast bred in the swamp of Lerna with one immortal head; Heracles and Iolaus overcome it and Eurystheus refuses to count the labour",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 295-305",
+          "relation": "attests",
+          "claim": "Echidna, half nymph and half snake, lives in a cave in Arima",
           "verified": true
         },
         {
           "source_id": "gr-theogony",
           "locator": "ll. 306-332",
           "relation": "attests",
-          "claim": "Heracles and Iolaus destroy the Hydra",
+          "claim": "Echidna and Typhaon have Orthus, Cerberus and the Hydra of Lerna, whom Hera raised in anger at Heracles; Heracles and Iolaus destroy her with Athena's help",
           "verified": true
+        }
+      ],
+      "summary": "Eurystheus sets Heracles the labour of killing the Lernaean Hydra, a nine-headed beast with one immortal head. With Iolaus burning the stumps, Heracles cuts off the immortal head and buries it, but Eurystheus refuses to count the labour.",
+      "locations": [
+        "Lerna",
+        "Tiryns",
+        "Cleonae",
+        "Mycenae"
+      ],
+      "body": [
+        {
+          "text": "When Heracles heard what he must do, he went to Tiryns and did as Eurystheus bid him. The first order was to bring the skin of the Nemean lion, an invulnerable beast begotten by Typhon. Heracles shot an arrow at it, and when he saw that it was unharmed, he heaved up his club and went after it. The lion took refuge in a cave with two mouths, so he built up one entrance and came in by the other, put his arm round its neck and held it until it was choked. He carried it to Cleonae, and then to Mycenae. Eurystheus was amazed at his manhood and forbade him ever again to enter the city, ordering him to show the fruits of his labours before the gates. They say that in his fear he even had a bronze jar made to hide in under the earth, and that he sent his orders for the labours through a herald, Copreus.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.5.1"
+            }
+          ]
+        },
+        {
+          "text": "As a second labour Eurystheus ordered him to kill the Lernaean hydra. That creature, bred in the swamp of Lerna, used to go out onto the plain and ravage both the cattle and the country. It had a huge body with nine heads, eight of them mortal and the middle one immortal.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.5.2"
+            }
+          ]
+        },
+        {
+          "text": "Heracles mounted a chariot driven by Iolaus and came to Lerna. He halted his horses and found the hydra on a hill beside the springs of the Amymone, where its den was. By pelting it with fiery shafts he forced it to come out, and as it did he seized it and held it fast. But the hydra wound itself around one of his feet and clung to him. Smashing its heads with his club did him no good, for as fast as one head was smashed, two grew up. A huge crab also came to the hydra's help and bit his foot.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.5.2"
+            }
+          ]
+        },
+        {
+          "text": "So Heracles killed the crab, and in his turn called for help on Iolaus. Iolaus set fire to a piece of the neighbouring wood and burned the roots of the heads with the brands, which stopped them from sprouting. Having got the better of the sprouting heads, Heracles chopped off the immortal head, buried it, and put a heavy rock on top of it beside the road that leads through Lerna to Elaeus. The body of the hydra he slit open, and he dipped his arrows in its gall.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.5.2"
+            }
+          ]
+        },
+        {
+          "text": "But Eurystheus said that this labour should not be reckoned among the ten, because Heracles had not got the better of the hydra by himself but with the help of Iolaus.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 2.5.2"
+            }
+          ]
+        },
+        {
+          "text": "In Hesiod's genealogy the Hydra belongs to a family of monsters. Her mother was Echidna, a creature half glancing-eyed nymph and half huge speckled snake, who eats raw flesh in a cave under a hollow rock in Arima, far from gods and mortal men. Men say Typhaon was her mate. Echidna's first offspring was Orthus, the hound of Geryon, and her second was Cerberus, the fifty-headed, brazen-voiced hound of Hades. The third was the evil-minded Hydra of Lerna.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 295-305"
+            },
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 306-332"
+            }
+          ],
+          "kind": "note"
+        },
+        {
+          "text": "Hesiod gives the Hydra's end in a single sentence. The white-armed goddess Hera had nourished her, being angry beyond measure with mighty Heracles. Heracles, the son of Zeus, of the house of Amphitryon, together with warlike Iolaus, destroyed her with the pitiless sword, through the plans of Athena the spoil-driver.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 306-332"
+            }
+          ],
+          "kind": "note"
         }
       ]
     },
@@ -257,44 +1583,522 @@
       "title": "The quest for the Golden Fleece",
       "mythology": "greek",
       "participants": [
-        "jason",
-        "medea",
-        "aeetes",
-        "athena",
-        "hera",
-        "heracles",
-        "circe",
-        "aphrodite",
-        "hephaestus"
+        {
+          "character_id": "jason",
+          "role": "protagonist",
+          "notes": "Sent by Pelias after the fleece; leads the Argonauts and wins it with Medea's help."
+        },
+        {
+          "character_id": "pelias",
+          "role": "antagonist",
+          "notes": "Sends Jason on the quest and later is killed through Medea's trick."
+        },
+        {
+          "character_id": "medea",
+          "role": "helper",
+          "notes": "Helps Jason win the fleece, then murders her brother and, later, her own sons."
+        },
+        {
+          "character_id": "aeetes",
+          "role": "antagonist",
+          "notes": "Keeper of the fleece, who sets the test and plots to burn the Argo."
+        },
+        {
+          "character_id": "hera",
+          "role": "helper",
+          "notes": "Helps the Argo through the Clashing Rocks and summons Thetis to steer it past the Wandering Rocks."
+        },
+        {
+          "character_id": "athena",
+          "role": "helper",
+          "notes": "Advises on building the Argo and fits a speaking timber at its prow."
+        },
+        {
+          "character_id": "heracles",
+          "role": "companion",
+          "notes": "An Argonaut, left behind in Mysia when Hylas is taken by nymphs."
+        },
+        {
+          "character_id": "circe",
+          "role": "helper",
+          "notes": "Purifies the Argonauts of the murder of Apsyrtus."
+        },
+        {
+          "character_id": "apollo",
+          "role": "helper",
+          "notes": "Flashes lightning to show the island of Anaphe, where an altar of Radiant Apollo is founded."
+        },
+        {
+          "character_id": "aphrodite",
+          "role": "mentioned",
+          "notes": "Afflicts the Lemnian women who did not honour her, and carries off Butes from the Sirens."
+        },
+        {
+          "character_id": "zeus",
+          "role": "antagonist",
+          "notes": "Sends a storm on the Argo, angry at the murder of Apsyrtus."
+        },
+        {
+          "character_id": "poseidon",
+          "role": "mentioned",
+          "notes": "Pelias sacrifices to him; the Argo is dedicated to him."
+        },
+        {
+          "character_id": "hephaestus",
+          "role": "mentioned",
+          "notes": "Said to have given Aeetes his bronze bulls, and to have given Talos to Minos."
+        },
+        {
+          "character_id": "thetis",
+          "role": "helper",
+          "notes": "With the Nereids, steers the Argo through the Wandering Rocks."
+        },
+        {
+          "character_id": "helios",
+          "role": "mentioned",
+          "notes": "Gives Medea a chariot drawn by winged dragons for her flight."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-bibliotheca",
-          "locator": "Library 1.9.16-1.9.28",
+          "locator": "Library 1.9.16",
           "relation": "attests",
-          "claim": "From Pelias's command through Colchis and Medea's help to the return and the murder of Pelias",
+          "claim": "Pelias, warned by an oracle to beware of the man with one sandal, sees Jason arrive after losing a sandal in the Anaurus and sends him for the Golden Fleece; Jason and Argus build the Argo on Athena's advice, with a speaking timber from the oak of Dodona; the god gives leave to gather the nobles of Greece; The heroes assemble, among them Heracles, Peleus, Castor and Pollux, and sons of Poseidon, Hermes, Hephaestus and the Sun, with Jason as admiral",
           "verified": true
         },
         {
           "source_id": "gr-argonautica",
           "locator": "Book 1, ll. 5-17",
           "relation": "attests",
-          "claim": "Pelias sends Jason on the voyage",
+          "claim": "Pelias, warned by an oracle about a man with one sandal, sends Jason on the voyage",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Pelias left Hera unhonoured; she loves Jason, who carried her across the river as an old woman",
           "verified": true
         },
         {
           "source_id": "gr-argonautica",
           "locator": "Book 1, ll. 341-347",
           "relation": "attests",
-          "claim": "Jason is chosen leader",
+          "claim": "Heracles declines to lead and urges Jason, who is chosen leader",
           "verified": true
         },
         {
           "source_id": "gr-argonautica",
-          "locator": "Book 3, ll. 1-1407",
+          "locator": "Book 1, ll. 122-132",
           "relation": "attests",
-          "claim": "Hera and Athena enlist Aphrodite, Jason meets Aeetes and Medea, and wins the contest with her charm",
+          "claim": "Heracles answers Jason's summons and joins the Argonauts",
           "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.17",
+          "relation": "attests",
+          "claim": "At Lemnos, ruled by Hypsipyle after the women murdered the men for dishonouring Aphrodite, the Argonauts lie with the women and Hypsipyle bears Jason two sons",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.18",
+          "relation": "attests",
+          "claim": "The Argonauts are received kindly by Cyzicus of the Doliones, blown back by night, fight them in mutual ignorance and kill Cyzicus, then bury him with honour",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.19",
+          "relation": "attests",
+          "claim": "Hylas is carried off by nymphs in Mysia; Heracles and Polyphemus search for him and the ship sails without them; Other writers disagree about Heracles: he did not sail at all (Herodorus), was left at Aphetae because the Argo could not bear his weight (Pherecydes), or sailed to Colchis or even led the expedition (Demaratus, Dionysius)",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.20",
+          "relation": "attests",
+          "claim": "In the land of the Bebryces, Pollux boxes King Amycus, son of Poseidon, and kills him; the Argonauts rout the Bebryces",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.21",
+          "relation": "attests",
+          "claim": "At Salmydessus the blind seer Phineus is plagued by the Harpies and offers the Argonauts advice if they rid him of them; Zetes and Calais chase the Harpies away; Apollodorus notes that in the Argonautica the Harpies are pursued to the Strophades unharmed after swearing not to wrong Phineus again",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.22",
+          "relation": "attests",
+          "claim": "Phineus advises the Argonauts about the Clashing Rocks; they test them with a dove, and with Hera's help the Argo passes through, after which the rocks stand still",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.23",
+          "relation": "attests",
+          "claim": "The Argonauts lose Idmon and Tiphys among the Mariandynians, sail on to the Phasis in Colchis, and Jason asks Aeetes for the fleece; Aeetes sets Jason the task of yoking the bronze-footed bulls Hephaestus gave him and sowing Athena's dragon's teeth; Medea, in love, gives him a drug and a trick; he succeeds, but Aeetes still plans to burn the Argo",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 576-608",
+          "relation": "attests",
+          "claim": "Aeetes plots to burn the ship and kill the Argonauts",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24",
+          "relation": "attests",
+          "claim": "Aeetes pursues the Argo; Medea murders her brother Apsyrtus and throws the pieces into the sea so that Aeetes is delayed; Zeus sends a storm in anger, and the ship tells them to be purified by Circe",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.24-1.9.25",
+          "relation": "attests",
+          "claim": "Circe purifies the Argonauts of the murder of Apsyrtus at Aeaea; Orpheus counters the Sirens; Thetis and the Nereids steer the Argo past the Wandering Rocks at Hera's summons; the Argo reaches the Phaeacians; Arete marries Medea to Jason among the Phaeacians before the Colchians can reclaim her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.26",
+          "relation": "attests",
+          "claim": "In a storm Apollo flashes lightning to show the island of Anaphe, where the Argonauts found an altar of Radiant Apollo; Talos keeps them from Crete and Medea brings about his death; the Argo reaches Iolcus after four months",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.27",
+          "relation": "attests",
+          "claim": "Pelias kills Jason's family; Jason gives up the fleece, dedicates the Argo to Poseidon, and Medea persuades the daughters of Pelias to boil their father; Acastus drives Jason and Medea out",
+          "verified": true
+        },
+        {
+          "source_id": "gr-bibliotheca",
+          "locator": "Library 1.9.28",
+          "relation": "attests",
+          "claim": "At Corinth Jason marries Glauce and divorces Medea, who kills Glauce and Creon with a poisoned robe, kills her sons by Jason, and flees to Athens, where she marries Aegeus; she later restores Aeetes to the throne of Colchis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-theogony",
+          "locator": "ll. 993-1002",
+          "relation": "attests",
+          "claim": "Jason, by the will of the gods, takes Medea from Aeetes after the labours set by Pelias, brings her to Iolcus and makes her his wife; she bears Medeus, raised by Cheiron",
+          "verified": true
+        }
+      ],
+      "summary": "Pelias, king of Iolcus, sends Jason to fetch the Golden Fleece from Colchis. Jason builds the Argo, gathers the heroes of Greece, and sails; on the way they are drawn into Lemnos, a night battle with the Doliones, the loss of Heracles in Mysia, and a boxing match with King Amycus.",
+      "locations": [
+        "Iolcus",
+        "Colchis",
+        "Lemnos",
+        "Salmydessus",
+        "Mysia",
+        "Corcyra",
+        "Aeaea",
+        "Anaphe",
+        "Crete",
+        "Corinth",
+        "Athens"
+      ],
+      "body": [
+        {
+          "text": "Jason was the son of Aeson, and he lived in Iolcus, where Pelias was king. Pelias consulted the oracle about his kingdom, and the god warned him to beware of the man with a single sandal. At first the king did not understand the oracle, but afterwards he did. He was offering a sacrifice to Poseidon at the sea, and he sent for many people to take part, Jason among them. Jason loved farming and lived in the country, but he hurried to the sacrifice, and in crossing the river Anaurus he lost a sandal in the stream, so that he arrived with only one.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.16"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 1, ll. 5-17"
+            }
+          ]
+        },
+        {
+          "text": "When Pelias saw him, he remembered the oracle. He went up to Jason and asked him what he would do, supposing he had the power, if he had received an oracle that one of the citizens would murder him. Jason answered, whether at haphazard or because the angry Hera put the words in his mouth, so that Medea would prove a curse to Pelias, who did not honour Hera: he would command that man to bring the Golden Fleece. As soon as Pelias heard that, he told Jason to go and fetch it. The fleece was in Colchis, in a grove of Ares, hanging on an oak and guarded by a sleepless dragon.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.16"
+            }
+          ]
+        },
+        {
+          "text": "The Argonautica spells out Hera's grudge. Pelias had left her unhonoured, and she loved Jason, who had carried her across a river when she appeared to him as an old woman.",
+          "basis": [
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 55-75"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Sent to fetch the fleece, Jason called in the help of Argus, son of Phrixus. By Athena's advice Argus built a ship of fifty oars and named it Argo, after its builder. At the prow Athena fitted a speaking timber from the oak of Dodona. When the ship was built, Jason consulted the oracle, and the god gave him leave to assemble the nobles of Greece and sail away.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.16"
+            }
+          ]
+        },
+        {
+          "text": "Those who assembled included Tiphys, who steered the ship, and Orpheus, and Zetes and Calais, the sons of Boreas. There were Castor and Pollux, sons of Zeus, Telamon and Peleus, sons of Aeacus, and Heracles, son of Zeus. There were Theseus, Meleager, the huntress Atalanta and Admetus, Euphemus, son of Poseidon, Autolycus, son of Hermes, Palaemon, son of Hephaestus or of Aetolus, and Augeas, son of the Sun. With Jason as their admiral they put to sea.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.16"
+            }
+          ]
+        },
+        {
+          "text": "The Argonautica says how Jason came to lead. Heracles declined the command and urged that Jason lead the expedition, and the heroes chose Jason.",
+          "basis": [
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 1, ll. 341-347"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 1, ll. 122-132"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "They put in first at Lemnos, which at that time had no men and was ruled by a queen, Hypsipyle, daughter of Thoas. The Lemnian women had not honoured Aphrodite, and she had afflicted them with a foul smell, so their husbands took captive women from the neighbouring country of Thrace and slept with them. Dishonoured, the Lemnian women murdered their fathers and their husbands, but Hypsipyle saved her father Thoas by hiding him. The Argonauts had intercourse with the women, and Hypsipyle slept with Jason and bore him two sons, Euneus and Nebrophonus.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.17"
+            }
+          ]
+        },
+        {
+          "text": "After Lemnos they landed among the Doliones, whose king was Cyzicus, and he received them kindly. But when they put out to sea again by night, contrary winds made them lose their way, and they landed among the Doliones a second time. The Doliones, who were constantly harassed by Pelasgians, took them for a Pelasgian army and fought them in the night, neither side knowing the other. The Argonauts killed many, and among them Cyzicus. When day came and they saw what they had done, they mourned, cut off their hair and gave Cyzicus a costly burial, and then sailed away and touched at Mysia.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.18"
+            }
+          ]
+        },
+        {
+          "text": "There they left Heracles and Polyphemus behind. Hylas, the son of Thiodamas and a favourite of Heracles, had been sent to draw water, and nymphs carried him off for his beauty. Polyphemus heard him cry out, drew his sword and gave chase, believing that robbers were carrying him off. He met Heracles and told him, and while the two were searching for Hylas, the ship put to sea. Polyphemus founded the city of Cius in Mysia and reigned there as king, and Heracles returned to Argos.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.19"
+            }
+          ]
+        },
+        {
+          "text": "Other writers tell it differently. Herodorus says that Heracles did not sail with the Argonauts at all at that time, but was serving as a slave at the court of Omphale. Pherecydes says that he was left behind at Aphetae in Thessaly, because the Argo declared in a human voice that she could not bear his weight. Demaratus records that Heracles sailed all the way to Colchis, and Dionysius even says that he was the leader of the Argonauts.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.19"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "From Mysia they went on to the land of the Bebryces, which was ruled by King Amycus, a son of Poseidon and a Bithynian nymph. He was a doughty man, and he forced any strangers who landed to box with him, and in that way he made an end of them. He came down to the Argo, as he usually did, and challenged the best man of the crew to a boxing match. Pollux undertook to box him and killed him with a blow on the elbow. When the Bebryces rushed at Pollux, the chiefs snatched up their arms and put them to flight with great slaughter.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.20"
+            }
+          ]
+        },
+        {
+          "text": "From there they put to sea and came to land at Salmydessus in Thrace, where Phineus lived, a seer who had lost the sight of both eyes. Writers give different reasons. Some say the gods blinded him for foretelling the future to men. Others say that Boreas and the Argonauts did it, because he had blinded his own sons at the urging of their stepmother, and others that Poseidon did, because he had told the children of Phrixus how they could sail from Colchis to Greece. The gods had also sent the Harpies to him. These were winged female creatures, and whenever a table was laid for Phineus they flew down from the sky and snatched up most of the food, and what little they left stank so badly that nobody could touch it. When the Argonauts wanted to ask him about the voyage, he said he would advise them if they rid him of the Harpies.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.21"
+            }
+          ]
+        },
+        {
+          "text": "So the Argonauts laid a table of food beside him, and the Harpies shrieked and swooped down and snatched it away. Zetes and Calais, the sons of Boreas, who had wings, drew their swords and flew after them. It was fated that the Harpies should perish at the hands of the sons of Boreas, and that the sons of Boreas should die when they failed to catch a fugitive. One Harpy fell into the river Tigres in the Peloponnese, which is now called Harpys after her. The other fled across the Propontis to the Echinadian Islands, which are now called the Strophades after her, and fell there from weariness with her pursuer.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.21"
+            }
+          ]
+        },
+        {
+          "text": "In the Argonautica the Harpies are not killed. Apollodorus notes that Apollonius has them chased to the Strophades unharmed, after they swore an oath that they would never wrong Phineus again.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.21"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "Rid of the Harpies, Phineus told the Argonauts the course of their voyage and warned them about the Clashing Rocks. These were huge cliffs that were dashed together by the force of the winds and closed the sea passage. Thick mist swept over them and the crash was loud, and not even birds could pass between them. He told the Argonauts to let a dove fly between the rocks. If they saw it get through safely, they should take the narrows without fear, but if it perished, they should not force a passage. They put to sea, and near the rocks they let a dove fly from the prow, and as she flew the clash of the rocks nipped off the tip of her tail. So they waited until the rocks had recoiled, and with hard rowing and the help of Hera they passed through, though the end of the ship's ornamented stern was sheared away. From then on the Clashing Rocks stood still, for it was fated that as soon as a ship had made the passage, they should come to rest for good.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.22"
+            }
+          ]
+        },
+        {
+          "text": "The Argonauts then arrived among the Mariandynians, where King Lycus received them kindly. There the seer Idmon died of a wound from a boar, and Tiphys died too, and Ancaeus took over the steering. They sailed on past the Thermodon and the Caucasus and came to the river Phasis, in the Colchian land.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "When the ship was brought into port, Jason went to Aeetes, told him of the charge Pelias had laid on him, and asked him for the fleece. Aeetes said he would give it if Jason, single-handed, would yoke the brazen-footed bulls. These were two wild bulls of enormous size, a gift of Hephaestus, with brazen feet and fire puffing from their mouths. Aeetes ordered Jason to yoke them and then to sow dragon's teeth, for he had got from Athena half of the teeth that Cadmus sowed in Thebes.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "While Jason was puzzling over how to yoke the bulls, Medea conceived a passion for him. She was a witch, the daughter of Aeetes and Idyia, who was herself a daughter of Ocean. Fearing that he would be destroyed by the bulls, she kept it from her father and promised to help Jason yoke them and to deliver the fleece to him, if he would swear to have her as his wife and take her with him on the voyage to Greece. Jason swore that he would. She gave him a drug that would keep him from harm by fire or iron for a single day, and told him how to deal with the armed men who would spring from the sown teeth. With her help he yoked the bulls, sowed the teeth and killed the armed men. The contest is told in full in the story of the yoking of the bronze bulls.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "But though the bulls were yoked, Aeetes did not give up the fleece, for he wished to burn down the Argo and kill the crew. Before he could do it, Medea brought Jason by night to the fleece. She lulled to sleep with her drugs the dragon that guarded it, took the fleece, and went with Jason to the Argo. Her brother Apsyrtus went with her, and the Argonauts put to sea by night.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 576-608"
+            }
+          ]
+        },
+        {
+          "text": "When Aeetes found out what Medea had done, he set off in pursuit of the ship. When she saw him near, Medea murdered her brother, cut him limb from limb and threw the pieces into the sea. Aeetes stopped to gather up the limbs of his child, and so fell behind in the chase. He turned back, buried the pieces he had saved and named the place Tomi. He also sent many Colchians to search for the Argo, threatening that if they did not bring Medea back, they would suffer the punishment due to her. So they split up and searched in different places.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.24"
+            }
+          ]
+        },
+        {
+          "text": "As the Argonauts were sailing past the river Eridanus, Zeus sent a furious storm on them and drove them off their course, because he was angry at the murder of Apsyrtus. As they passed the Apsyrtides Islands, the ship spoke and said that the anger of Zeus would not cease unless they sailed to Ausonia and were purified by Circe for the murder. So they sailed past the Ligurian and Celtic peoples, crossed the Sardinian Sea, skirted Tyrrhenia and came to Aeaea, where they supplicated Circe and were purified.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.24"
+            },
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.24-1.9.25"
+            }
+          ]
+        },
+        {
+          "text": "As they sailed past the Sirens, Orpheus held the Argonauts back by chanting a counter-melody. Only Butes swam off to the Sirens, but Aphrodite carried him away and settled him at Lilybaeum. After the Sirens the ship met Charybdis, Scylla and the Wandering Rocks, with a great flame and smoke rising above them, but Thetis and the Nereids steered the ship through at Hera's summons. They passed the island of Thrinacia, where the cattle of the Sun graze, and came to Corcyra, the island of the Phaeacians, whose king was Alcinous.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.24-1.9.25"
+            }
+          ]
+        },
+        {
+          "text": "When the Colchians could not find the ship, some of them settled by the Ceraunian mountains, and some went to Illyria and colonised the Apsyrtides Islands. Some came to the Phaeacians, and finding the Argo there, they demanded that Alcinous give up Medea. He answered that if she already knew Jason he would give her to him, but if she were still a maiden he would send her back to her father. But Arete, the wife of Alcinous, anticipated the matter by marrying Medea to Jason. So the Colchians settled down among the Phaeacians, and the Argonauts put to sea with Medea.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.24-1.9.25"
+            }
+          ]
+        },
+        {
+          "text": "Sailing by night they met a violent storm, and Apollo took his stand on the Melantian ridges and flashed lightning down, shooting a shaft into the sea. Then they saw an island close at hand, and anchoring there they named it Anaphe, because it had loomed up unexpectedly. They founded an altar of Radiant Apollo and offered sacrifice and feasted, and twelve handmaids whom Arete had given to Medea jested merrily with the chiefs, which is why the women still jest at the sacrifice.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.26"
+            }
+          ]
+        },
+        {
+          "text": "Putting to sea from there, they were stopped from landing in Crete by Talos. Some say he was a man of the Brazen Race, others that Hephaestus gave him to Minos. He was a man of bronze, though some say a bull. He had a single vein running from his neck to his ankles, with a bronze nail driven in at the end of it. Talos kept guard by running three times a day round the island, so when he saw the Argo standing inshore he pelted it with stones as usual. His death came about through the wiles of Medea. Some say she drove him mad with drugs, others that she promised to make him immortal and then pulled out the nail, so that all the ichor gushed out and he died, and some say that Poeas shot him dead in the ankle. After a night there they put in at Aegina for water, and a contest arose among them about the drawing of it. From there they sailed between Euboea and Locris and came to Iolcus, having completed the whole voyage in four months.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.26"
+            }
+          ]
+        },
+        {
+          "text": "Meanwhile Pelias, despairing of the Argonauts' return, would have killed Aeson, but Aeson asked to be allowed to take his own life, and while offering a sacrifice he drank freely of the bull's blood and died. Jason's mother cursed Pelias and hanged herself, leaving an infant son, Promachus, whom Pelias also killed. When Jason came back he gave up the fleece, but though he longed to avenge his wrongs, he bided his time. He sailed with the chiefs to the Isthmus and dedicated the ship to Poseidon, and afterwards he urged Medea to devise a way to punish Pelias.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.27"
+            }
+          ]
+        },
+        {
+          "text": "Medea went to the palace of Pelias and persuaded his daughters to cut their father into pieces and boil him, promising to make him young again with her drugs. To win their trust she cut up a ram and boiled it, and made it into a lamb. They believed her, and cut up their father and boiled him. But Acastus buried his father with the help of the people of Iolcus, and he drove Jason and Medea out of Iolcus.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.27"
+            }
+          ]
+        },
+        {
+          "text": "They went to Corinth and lived there happily for ten years, until Creon, king of Corinth, betrothed his daughter Glauce to Jason, who married her and divorced Medea. Medea called on the gods by whom Jason had sworn, and after often reproaching him for his ingratitude, she sent the bride a robe steeped in poison. When Glauce put it on she was consumed by a fierce fire, together with her father, who went to her rescue. Medea killed the two children she had borne to Jason, Mermerus and Pheres, and fled to Athens in a chariot drawn by winged dragons which she had got from the Sun. Another tradition says that she left her children behind as infants, set as suppliants on the altar of Hera of the Height, and that the Corinthians took them away and killed them.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.28"
+            }
+          ]
+        },
+        {
+          "text": "At Athens Medea married Aegeus and bore him a son, Medus. Afterwards she plotted against Theseus and was driven out of Athens with her son. Medus conquered many barbarians and called the whole country he ruled Media, and he met his death while marching against the Indians. Medea came secretly to Colchis, and finding that Aeetes had been deposed by his brother Perses, she killed Perses and restored the kingdom to her father.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.28"
+            }
+          ]
+        },
+        {
+          "text": "The Theogony touches the end of the story in a few lines. The son of Aeson, Jason, by the will of the gods led Medea away from her father Aeetes, the heaven-nurtured king, after he had finished the many grievous labours that the overbearing Pelias, that outrageous and presumptuous doer of violence, put on him. He came to Iolcus after long toil, bringing the coy-eyed girl with him on his swift ship, and made her his wife. She bore a son, Medeus, whom Cheiron brought up in the mountains, and the will of great Zeus was fulfilled.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 993-1002"
+            }
+          ],
+          "kind": "note"
         }
       ]
     },
@@ -303,28 +2107,222 @@
       "title": "The yoking of the bronze bulls",
       "mythology": "greek",
       "participants": [
-        "jason",
-        "medea",
-        "aeetes",
-        "hephaestus",
-        "hera",
-        "athena",
-        "aphrodite"
+        {
+          "character_id": "jason",
+          "role": "protagonist",
+          "notes": "Yokes the fire-breathing bulls and kills the armed men that grow from the teeth."
+        },
+        {
+          "character_id": "medea",
+          "role": "helper",
+          "notes": "Falls in love with Jason and gives him the drug and the trick that win the contest."
+        },
+        {
+          "character_id": "aeetes",
+          "role": "antagonist",
+          "notes": "Sets the test, then keeps the fleece and plans to burn the Argo."
+        },
+        {
+          "character_id": "hephaestus",
+          "role": "mentioned",
+          "notes": "Gave Aeetes the brazen-footed bulls."
+        },
+        {
+          "character_id": "athena",
+          "role": "mentioned",
+          "notes": "Gave Aeetes half of the dragon's teeth that Cadmus sowed."
+        },
+        {
+          "character_id": "hera",
+          "role": "helper",
+          "notes": "In the Argonautica, asks Aphrodite to help Jason."
+        },
+        {
+          "character_id": "aphrodite",
+          "role": "helper",
+          "notes": "In the Argonautica, agrees to send Eros against Medea."
+        },
+        {
+          "character_id": "eros",
+          "role": "helper",
+          "notes": "In the Argonautica, his arrow strikes Medea with love for Jason."
+        }
       ],
       "sources": [
-        {
-          "source_id": "gr-argonautica",
-          "locator": "Book 3, ll. 1246-1407",
-          "relation": "attests",
-          "claim": "Jason anoints himself, yokes the fire-breathing bulls, sows the teeth and cuts down the Earthborn",
-          "verified": true
-        },
         {
           "source_id": "gr-bibliotheca",
           "locator": "Library 1.9.23",
           "relation": "attests",
-          "claim": "Jason yokes the bulls, sows the teeth and kills the armed men with Medea's advice",
+          "claim": "Aeetes sets Jason the task of yoking the bronze-footed bulls Hephaestus gave him and sowing Athena's dragon's teeth; Medea, in love, gives him a drug and a trick; he succeeds, but Aeetes still plans to burn the Argo",
           "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 6-110",
+          "relation": "attests",
+          "claim": "Hera and Athena ask Aphrodite to send Eros against Medea; she agrees to coax him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 55-75",
+          "relation": "attests",
+          "claim": "Pelias left Hera unhonoured; she loves Jason, who carried her across the river as an old woman",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 275-298",
+          "relation": "attests",
+          "claim": "Eros's arrow strikes Medea with love for Jason",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 396-421",
+          "relation": "attests",
+          "claim": "Aeetes promises Jason the fleece if he yokes the bronze-footed bulls and sows the teeth",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 210-267",
+          "relation": "attests",
+          "claim": "Hephaestus made the bronze-footed bulls and the plough for Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1163-1190",
+          "relation": "attests",
+          "claim": "Athena tore the dragon's teeth from its jaws and gave half to Aeetes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1008-1062",
+          "relation": "attests",
+          "claim": "Medea gives Jason the charm and tells him how to win the contest",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 1246-1407",
+          "relation": "attests",
+          "claim": "Jason anoints himself with the charm, yokes the bulls, sows the teeth and cuts down the Earthborn",
+          "verified": true
+        },
+        {
+          "source_id": "gr-argonautica",
+          "locator": "Book 3, ll. 576-608",
+          "relation": "attests",
+          "claim": "Aeetes plots to burn the ship and kill the Argonauts",
+          "verified": true
+        }
+      ],
+      "summary": "Aeetes promises Jason the Golden Fleece if he yokes two fire-breathing bronze-footed bulls and sows dragon's teeth. Medea, who has fallen in love with him, gives him a drug and a trick for the armed men that grow from the teeth, and Jason succeeds, but Aeetes still plans to burn the Argo.",
+      "locations": [
+        "Colchis"
+      ],
+      "body": [
+        {
+          "text": "When the Argo was brought into port in Colchis, Jason went to Aeetes, told him of the charge Pelias had laid on him, and asked him for the Golden Fleece. Aeetes said that he would give it if Jason, single-handed, would yoke the brazen-footed bulls. These were two wild bulls of enormous size that Aeetes owned, a gift of Hephaestus, with brazen feet, and fire puffed from their mouths. Aeetes ordered Jason to yoke them and to sow dragon's teeth, for he had got from Athena half of the dragon's teeth that Cadmus sowed in Thebes.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "While Jason was puzzling over how to yoke the bulls, Medea conceived a passion for him. She was a witch, the daughter of Aeetes and Idyia, a daughter of Ocean. Fearing that he would be destroyed by the bulls, she kept it from her father and promised to help Jason yoke them and to deliver the fleece to him, if he would swear to have her as his wife and take her with him on the voyage to Greece. Jason swore that he would.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "She gave him a drug and told him to anoint his shield, his spear and his body with it when he was about to yoke the bulls, for she said that, anointed with it, he could for a single day be harmed neither by fire nor by iron. She also warned him that when the teeth were sown, armed men would spring up from the ground against him. When he saw a knot of them together, she said, he was to throw stones into their midst from a distance, and when they fought each other over the stones, he would be able to kill them.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "On hearing this, Jason anointed himself with the drug, went to the grove of the temple and looked for the bulls. They charged him with a flame of fire, but he yoked them. When he had sown the teeth, armed men rose up out of the ground. Wherever he saw several together, he pelted them with stones without being seen, and when they began to fight each other, he drew near and killed them.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "But though the bulls were yoked, Aeetes did not give up the fleece, for he wanted to burn down the Argo and kill her crew.",
+          "basis": [
+            {
+              "source_id": "gr-bibliotheca",
+              "locator": "Library 1.9.23"
+            }
+          ]
+        },
+        {
+          "text": "The Argonautica tells how the love came about. Hera and Athena go to Aphrodite and ask her to send Eros against Medea, on Jason's behalf. Hera loves Jason, because he carried her across a river when she appeared as an old woman, and she holds a grudge against Pelias, who left her unhonoured. Aphrodite agrees to coax the boy, and Eros's arrow strikes Medea with love for Jason.",
+          "basis": [
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 6-110"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 55-75"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 275-298"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "There too the terms of the test are laid out. Aeetes promises Jason the fleece if he yokes the bronze-footed bulls and sows the teeth. The bulls and the plough had been made by Hephaestus, and the teeth are those that Athena tore from the dragon's jaws and gave half of to Aeetes.",
+          "basis": [
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 396-421"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 210-267"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 1163-1190"
+            }
+          ],
+          "kind": "variant"
+        },
+        {
+          "text": "In the Argonautica Medea gives Jason the charm and tells him how to win, and he follows her instructions: he anoints himself with the charm, yokes the bulls, sows the teeth and cuts down the Earthborn men. Aeetes, meanwhile, plots to burn the ship and kill the Argonauts.",
+          "basis": [
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 1008-1062"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 1246-1407"
+            },
+            {
+              "source_id": "gr-argonautica",
+              "locator": "Book 3, ll. 576-608"
+            }
+          ],
+          "kind": "variant"
         }
       ]
     },
@@ -333,27 +2331,487 @@
       "title": "The abduction of Persephone",
       "mythology": "greek",
       "participants": [
-        "persephone",
-        "demeter",
-        "hades",
-        "zeus",
-        "hermes",
-        "rhea"
+        {
+          "character_id": "persephone",
+          "role": "protagonist",
+          "notes": "Carried off from a meadow by Hades, she returns for part of each year."
+        },
+        {
+          "character_id": "demeter",
+          "role": "protagonist",
+          "notes": "Searches for her daughter, then withholds the harvest until Zeus yields."
+        },
+        {
+          "character_id": "hades",
+          "role": "abductor",
+          "notes": "Carries Persephone to the underworld and gives her a pomegranate seed."
+        },
+        {
+          "character_id": "zeus",
+          "role": "adviser",
+          "notes": "Gave Persephone to Hades; later sends Iris, the gods, Hermes and Rhea to end Demeter's anger."
+        },
+        {
+          "character_id": "hermes",
+          "role": "helper",
+          "notes": "Sent to Erebus to bring Persephone back to her mother."
+        },
+        {
+          "character_id": "rhea",
+          "role": "helper",
+          "notes": "Sent by Zeus to bring Demeter back to the gods."
+        },
+        {
+          "character_id": "hecate",
+          "role": "helper",
+          "notes": "Hears Persephone's cry and tells Demeter; becomes Persephone's companion."
+        },
+        {
+          "character_id": "helios",
+          "role": "witness",
+          "notes": "Tells Demeter who took her daughter."
+        },
+        {
+          "character_id": "iris",
+          "role": "helper",
+          "notes": "Sent by Zeus to call Demeter, who is not moved."
+        },
+        {
+          "character_id": "artemis",
+          "role": "mentioned",
+          "notes": "One of Persephone's companions in the meadow."
+        },
+        {
+          "character_id": "calypso",
+          "role": "mentioned",
+          "notes": "One of Persephone's companions in the meadow."
+        },
+        {
+          "character_id": "styx",
+          "role": "mentioned",
+          "notes": "One of Persephone's companions in the meadow."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-homeric-hymns",
-          "locator": "Hymn 2, ll. 1-495",
+          "locator": "Hymn 2, ll. 1-3",
           "relation": "attests",
-          "claim": "Hades carries off Persephone with Zeus's leave; Demeter withholds the crops; Hermes fetches Persephone; she spends part of the year below",
+          "claim": "Persephone is Demeter's daughter, carried off by Aidoneus, given to him by Zeus",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 4-18",
+          "relation": "attests",
+          "claim": "Persephone gathers flowers in a meadow; the narcissus Earth grows as a snare draws her; the earth opens at Nysa and the Host of Many springs out on her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 19-32",
+          "relation": "attests",
+          "claim": "Hades carries Persephone away on his chariot by leave of Zeus; only Hecate and Helios hear her cry",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 33-39",
+          "relation": "attests",
+          "claim": "While she can still see the world Persephone hopes to see her mother; the mountains and sea ring with her cry and Demeter hears",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 40-58",
+          "relation": "attests",
+          "claim": "Demeter searches for nine days with torches; on the tenth Hecate tells her she heard Persephone but saw no one",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 59-73",
+          "relation": "attests",
+          "claim": "Demeter asks Helios who took her daughter",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 74-89",
+          "relation": "attests",
+          "claim": "Helios tells her Zeus gave Persephone to Hades, and urges her to accept him as no unfitting husband",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 90-112",
+          "relation": "attests",
+          "claim": "Demeter, angry with Zeus, leaves Olympus, disguises herself and sits by the Maiden Well at Eleusis",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 113-168",
+          "relation": "attests",
+          "claim": "The daughters of Celeus meet Demeter at the well; she calls herself Doso and asks for work",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 169-211",
+          "relation": "attests",
+          "claim": "Metaneira welcomes her; Iambe's jokes make Demeter smile; she takes a drink of meal, water and mint",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 231-249",
+          "relation": "attests",
+          "claim": "Demeter nurses Demophoon, anointing him with ambrosia and hiding him in the fire by night; Metaneira spies and cries out",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 250-274",
+          "relation": "attests",
+          "claim": "Demeter snatches the child from the fire; he can no longer be made deathless; she demands a temple and promises to teach her rites",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 275-280",
+          "relation": "attests",
+          "claim": "Demeter reveals herself, shedding old age in a blaze of light",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 281-291",
+          "relation": "attests",
+          "claim": "Metaneira is struck speechless; the household tries to comfort the child",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 292-300",
+          "relation": "attests",
+          "claim": "Celeus calls the people together and they build the temple and altar",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 301-323",
+          "relation": "attests",
+          "claim": "Demeter makes the earth barren and threatens mankind with famine; Zeus sends Iris to call her",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 324-333",
+          "relation": "attests",
+          "claim": "All the gods offer gifts but Demeter vows to withhold the harvest until she sees her daughter",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 334-346",
+          "relation": "attests",
+          "claim": "Zeus sends Hermes to Erebus to bring Persephone back",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 347-356",
+          "relation": "attests",
+          "claim": "Hermes tells Hades that Demeter threatens to destroy mankind by hiding the seed",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 357-369",
+          "relation": "attests",
+          "claim": "Hades promises Persephone honour as his wife and queen of the dead",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 370-383",
+          "relation": "attests",
+          "claim": "Hades secretly gives her a pomegranate seed; Hermes drives her to Demeter's temple",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 384-404",
+          "relation": "attests",
+          "claim": "Mother and daughter meet; Demeter asks whether Persephone has eaten, and says that if she has she must spend a third of the year below",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 405-433",
+          "relation": "attests",
+          "claim": "Persephone tells Demeter how Hades made her eat the pomegranate seed and how she was taken from the meadow",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 434-440",
+          "relation": "attests",
+          "claim": "Mother and daughter are reunited; Hecate becomes Persephone's companion",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 441-458",
+          "relation": "attests",
+          "claim": "Zeus sends Rhea to Demeter with his offer and the agreement about Persephone's year",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 459-469",
+          "relation": "attests",
+          "claim": "Rhea calls Demeter her daughter and urges her to make the grain grow again",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 470-482",
+          "relation": "attests",
+          "claim": "Demeter restores the harvest and teaches her rites to the kings of Eleusis; the uninitiated have no share of good things after death",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 2, ll. 483-489",
+          "relation": "attests",
+          "claim": "Demeter and Persephone return to Olympus; those they love receive Plutus, giver of wealth",
           "verified": true
         },
         {
           "source_id": "gr-theogony",
           "locator": "ll. 912-914",
           "relation": "attests",
-          "claim": "Demeter bears Persephone to Zeus",
+          "claim": "Zeus lies with Demeter and she bears Persephone, whom Aidoneus carries off, though Zeus gave her to him",
           "verified": true
+        }
+      ],
+      "summary": "Hades carries Persephone off from a meadow with the consent of Zeus, and her mother Demeter searches the earth for her. When Demeter's grief starves the world, Zeus sends Hermes to fetch Persephone back, but because she has tasted a pomegranate seed she must spend a third of each year below.",
+      "tradition": "eleusinian",
+      "locations": [
+        "Nysa",
+        "Eleusis",
+        "Erebus",
+        "Olympus"
+      ],
+      "body": [
+        {
+          "text": "The hymn begins by naming both the victim and the one who took her: Demeter's trim-ankled daughter, whom Aidoneus carried away, given to him by all-seeing Zeus the loud-thunderer.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 1-3"
+            }
+          ]
+        },
+        {
+          "text": "She was playing apart from Demeter, with the deep-bosomed daughters of Oceanus, gathering flowers over a soft meadow: roses and crocuses and beautiful violets, irises and hyacinths, and the narcissus. Earth made that one grow, at the will of Zeus and to please the Host of Many, as a snare for the girl. It was a marvellous, radiant flower with a hundred blooms, so sweetly scented that all wide heaven above, the whole earth and the sea's salt swell laughed for joy. The girl was amazed and reached out with both hands to take the lovely toy. Then the wide-pathed earth yawned open in the plain of Nysa, and the lord, Host of Many, sprang out on her with his immortal horses, the other son of Cronus, he who has many names.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 4-18"
+            }
+          ]
+        },
+        {
+          "text": "He caught her up, unwilling, on his golden chariot and carried her off lamenting. She cried out shrilly, calling on her father, the Son of Cronus, who is most high and excellent. But no one among the deathless gods or mortal men heard her voice, nor did the olive trees heavy with fruit. Only tender-hearted Hecate, bright-coiffed daughter of Persaeus, heard the girl from her cave, and so did the lord Helios, Hyperion's bright son. Zeus was sitting apart from the gods in his temple where many pray, receiving sweet offerings from mortal men. So the Ruler of Many was bearing her away on his immortal chariot, by leave of Zeus, his own brother's child and all unwilling.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 19-32"
+            }
+          ]
+        },
+        {
+          "text": "As long as she could still see earth and starry heaven, and the strong-flowing sea where fish gather, and the rays of the sun, and still hoped to see her dear mother and the tribes of the eternal gods, hope calmed her great heart for all her trouble. The mountain heights and the depths of the sea rang with her immortal voice, and her queenly mother heard it.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 33-39"
+            }
+          ]
+        },
+        {
+          "text": "Bitter pain seized Demeter's heart. She tore the veil from her divine hair, threw her dark cloak from her shoulders, and sped like a wild bird over land and sea, looking for her child. But no one would tell her the truth, neither god nor mortal, and no bird of omen came to her with true news. For nine days queenly Deo wandered over the earth with flaming torches in her hands, so grieved that she never tasted ambrosia or nectar and never washed her body. On the tenth dawn Hecate met her with a torch in her hands and told her what she knew: she had heard Persephone's voice, but had not seen who it was.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 40-58"
+            }
+          ]
+        },
+        {
+          "text": "Together they went to Helios, who is watchman of gods and men, and Demeter asked him, as one who looks down over all the earth and sea with his beams, to tell her truly who had taken her daughter. He answered because he reverenced and pitied her. None of the other deathless gods was to blame, he said, only cloud-gathering Zeus, who had given Persephone to Hades, her father's brother, to be called his wife. Hades had seized her and carried her, crying aloud, down to his realm of mist and gloom. And he urged Demeter to cease her lament: Aidoneus, Ruler of Many, was no unfitting husband among the gods for her child, being Demeter's own brother, born of the same stock, and he had the third share of the world when it was divided at the first, and was lord of those among whom he lived.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 59-73"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 74-89"
+            }
+          ]
+        },
+        {
+          "text": "But a grief yet more terrible and savage came into Demeter's heart. From then on she was so angry with the dark-clouded Son of Cronus, Zeus, that she avoided the gathering of the gods and high Olympus, and went among the towns and rich fields of men, disguising her form for a long time. No man or deep-bosomed woman knew her when they saw her, until she came to the house of wise Celeus, who was lord of fragrant Eleusis. Vexed in her dear heart, she sat down by the wayside near the Maiden Well, where the women of the place drew water, in the shade of an olive shrub. She looked like an old woman who is past childbearing and the gifts of garland-loving Aphrodite.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 90-112"
+            }
+          ]
+        },
+        {
+          "text": "The four daughters of Celeus, Callidice, Cleisidice, lovely Demo and Callithoe, the eldest, came for water in bronze pitchers and kindly asked who she was and why she stayed away from the houses. She called herself Doso and said that pirates had carried her from Crete against her will, and that she had escaped them and wandered here; she asked for work as a nurse or housekeeper. The girls led her to their mother Metaneira, who rose in awe, for the goddess's head reached the roof and the doorway filled with a heavenly light. Demeter would not sit on a bright couch but stayed silent, eyes cast down, until careful Iambe set a seat for her and moved her with many a joke and jest to smile and laugh. She refused red wine and asked instead for a drink of barley meal and water with soft mint.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 113-168"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 169-211"
+            }
+          ]
+        },
+        {
+          "text": "Metaneira asked her to nurse her late-born son Demophoon, and Demeter agreed. She raised him like an immortal, anointing him with ambrosia and breathing on him as she held him in her bosom, and at night she hid him in the fire like a brand, unknown to his parents, so that he grew beyond his age; she would have made him deathless and ageless. But Metaneira, watching in secret, saw what she did and cried out in terror. Demeter was furious. She snatched the child from the fire and threw him to the ground, and told Metaneira that mortals are witless and dull to foresee their lot: she would have made the boy deathless and ageless for ever, but now he could not escape death, though honour would always rest on him because he had lain on her knees.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 231-249"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 250-274"
+            }
+          ]
+        },
+        {
+          "text": "Then she changed her stature and her looks and thrust old age away. Beauty spread around her, a lovely fragrance came from her robes, and a light shone from her body, so that the house was filled with brightness like lightning. She told the people to build her a great temple and an altar below the city on a hillock above Callichorus, and promised to teach her rites. Metaneira's knees gave way and she stayed speechless for a long time. When dawn came, Celeus called the people together and had the temple built, just as the goddess had ordered.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 275-280"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 281-291"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 292-300"
+            }
+          ]
+        },
+        {
+          "text": "When the temple was finished, golden-haired Demeter sat there apart from all the blessed gods, wasting with longing for her daughter. Then she caused a most dreadful and cruel year for mankind over the all-nourishing earth: the ground would not let the seed sprout, because Demeter kept it hidden. The oxen drew their curved ploughs in vain and much white barley was thrown on the land to no use. She would have destroyed the whole human race with cruel famine and robbed the Olympians of their glorious offerings and sacrifices, had Zeus not noticed. First he sent golden-winged Iris to call Demeter, but her heart was not moved. Then he sent all the blessed and eternal gods, one after another, offering her many beautiful gifts and whatever honour she liked among the deathless gods. No one could persuade her. She vowed that she would never set foot on fragrant Olympus, nor let fruit spring from the ground, until she saw her own fair-faced daughter.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 301-323"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 324-333"
+            }
+          ]
+        },
+        {
+          "text": "When Zeus heard this, he sent Hermes of the golden wand down to Erebus. Hermes was to win Hades over with soft words and lead chaste Persephone back to the light to join the gods, so that her mother might see her and give up her anger. Hermes obeyed, and sprang down to the hidden places of the earth. He found the lord Hades in his house, seated on a couch, with his shy wife beside him, very reluctant, because she longed for her mother. Hermes told him that Zeus commanded him to bring Persephone back, because Demeter was planning a dreadful deed: to destroy the weak tribes of earthborn men by keeping the seed hidden under the earth, and so to put an end to the honours of the undying gods.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 334-346"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 347-356"
+            }
+          ]
+        },
+        {
+          "text": "Aidoneus, ruler over the dead, smiled grimly and obeyed the command of Zeus the king. He told wise Persephone to go to her dark-robed mother and to think kindly of him: he would be no unfitting husband for her among the deathless gods, being own brother to father Zeus. While she was with him, he said, she would rule all that lives and moves and have the greatest rights among the deathless gods, and those who did not appease her power with offerings would be punished for ever. Persephone sprang up for joy. But he secretly gave her a sweet pomegranate seed to eat, taking care that she should not stay for ever with grave, dark-robed Demeter. Then he harnessed his deathless horses to the golden chariot, Persephone mounted it, and Hermes took the reins and whip and drove from the hall. Neither sea nor river water nor grassy glens nor mountain peaks checked the immortal horses; they cleft the deep air above them, and Hermes brought them to the place where rich-crowned Demeter waited, and stopped before her temple.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 357-369"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 370-383"
+            }
+          ]
+        },
+        {
+          "text": "When Demeter saw them she rushed out like a maenad down a wooded mountain, and Persephone leaped down from the chariot and ran to her and threw her arms around her neck. But while Demeter was still holding her dear child, her heart suddenly misgave her of some trick, and she asked at once whether Persephone had tasted any food below. If she had not, Demeter said, she could live with her mother and her father, the dark-clouded Son of Cronus, and be honoured by all the gods. But if she had tasted food, she must go back beneath the secret places of the earth and live there for a third part of the seasons every year; for the other two parts she would be with Demeter and the gods. And when the earth bloomed with fragrant spring flowers of every kind, she would come up again from the realm of darkness, a wonder to gods and mortals.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 384-404"
+            }
+          ]
+        },
+        {
+          "text": "Persephone told her everything. When luck-bringing Hermes came with her father's message, she said, she sprang up for joy; but Hades secretly put a pomegranate seed in her mouth, sweet food, and forced her to taste it against her will. She told how she had been playing with her companions, Leucippe, Phaeno, Electra, Ianthe, Calypso, Styx, Urania and the others, with Artemis who delights in arrows, gathering soft crocuses, irises, hyacinths, rose-blooms and lilies, and the narcissus that the wide earth made grow like a crocus. She picked it in her joy, the earth parted beneath her, and the strong lord, Host of Many, sprang out and carried her away in his golden chariot, beneath the earth, while she cried out shrilly.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 405-433"
+            }
+          ]
+        },
+        {
+          "text": "They spent the day comforting one another with many embraces, and their hearts had relief from their griefs. Bright-coiffed Hecate came near and often embraced the daughter of holy Demeter, and from that time on she was Persephone's minister and companion. Then all-seeing Zeus sent rich-haired Rhea to bring dark-cloaked Demeter back to the families of the gods. He promised her whatever honour she chose among the deathless gods, and agreed that her daughter should go down for a third part of the circling year to darkness and gloom, but for two parts should live with her mother and the other gods. Rhea called Demeter her daughter and urged her not to be angry for ever with the dark-clouded Son of Cronus, but to make the fruit that gives men life grow again.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 434-440"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 441-458"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 459-469"
+            }
+          ]
+        },
+        {
+          "text": "Demeter did not refuse. At once she made fruit spring up from the rich lands, so that the whole wide earth was laden with leaves and flowers. Then she went to the kings who deal justice, Triptolemus, Diocles the horse-driver, doughty Eumolpus and Celeus, leader of the people, and showed them the conduct of her rites and taught them all her mysteries. They are awful mysteries that no one may transgress, pry into or speak of, for deep awe of the gods checks the voice. Happy is the man on earth who has seen them; but whoever is uninitiated and has no part in them never has a share of the same good things once he is dead, down in the darkness and gloom. When the goddess had taught them all, she and Persephone went to Olympus to the gathering of the other gods, and there they dwell beside Zeus who delights in thunder, awful and venerable goddesses. Blessed is the man on earth whom they freely love: soon they send Plutus, giver of wealth, as a guest to his great house.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 470-482"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 2, ll. 483-489"
+            }
+          ]
+        },
+        {
+          "text": "The Theogony gives the same event in a single line. Zeus came to the bed of all-nourishing Demeter, and she bore white-armed Persephone, whom Aidoneus carried off from her mother; but wise Zeus gave her to him.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 912-914"
+            }
+          ],
+          "kind": "note"
         }
       ]
     },
@@ -362,26 +2820,275 @@
       "title": "The birth of Apollo",
       "mythology": "greek",
       "participants": [
-        "leto",
-        "apollo",
-        "artemis",
-        "zeus",
-        "hera"
+        {
+          "character_id": "leto",
+          "role": "protagonist",
+          "notes": "Roams the world in labour and bears Apollo on Delos."
+        },
+        {
+          "character_id": "apollo",
+          "role": "protagonist",
+          "notes": "Born on Delos; declares the lyre and the bow dear to him."
+        },
+        {
+          "character_id": "artemis",
+          "role": "mentioned",
+          "notes": "Twin of Apollo, born in Ortygia."
+        },
+        {
+          "character_id": "zeus",
+          "role": "adviser",
+          "notes": "Welcomes the grown Apollo into his house."
+        },
+        {
+          "character_id": "hera",
+          "role": "antagonist",
+          "notes": "Keeps Eileithyia on Olympus out of envy."
+        },
+        {
+          "character_id": "eileithyia",
+          "role": "helper",
+          "notes": "The birth goddess, whose arrival ends Leto's nine days of labour."
+        },
+        {
+          "character_id": "iris",
+          "role": "helper",
+          "notes": "Sent to bring Eileithyia from Olympus."
+        },
+        {
+          "character_id": "themis",
+          "role": "helper",
+          "notes": "Gives the newborn Apollo nectar and ambrosia."
+        },
+        {
+          "character_id": "rhea",
+          "role": "witness",
+          "notes": "One of the goddesses who gather around Leto."
+        },
+        {
+          "character_id": "amphitrite",
+          "role": "witness",
+          "notes": "One of the goddesses who gather around Leto."
+        }
       ],
       "sources": [
         {
           "source_id": "gr-homeric-hymns",
-          "locator": "Hymn 3, ll. 1-135",
+          "locator": "Hymn 3, ll. 1-18",
           "relation": "attests",
-          "claim": "Leto wanders to Delos and bears Apollo while Hera keeps Eilithyia away",
+          "claim": "Apollo enters the house of Zeus and the gods tremble; Leto alone stays by Zeus and unstrings his bow; Leto bore Apollo and Artemis, Artemis in Ortygia and Apollo in Delos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 30-50",
+          "relation": "attests",
+          "claim": "Leto in labour wanders through many lands looking for a home for Apollo; none dares receive him until she comes to Delos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 51-61",
+          "relation": "attests",
+          "claim": "Leto asks Delos to be Apollo's home and promises that a temple would bring her wealth through the offerings of strangers",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 62-82",
+          "relation": "attests",
+          "claim": "Delos fears that Apollo will scorn and overturn her, and asks Leto to swear that he will build his first temple there",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 83-88",
+          "relation": "attests",
+          "claim": "Leto swears by Earth, Heaven and the water of Styx that Apollo will have his altar and precinct on Delos",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 89-101",
+          "relation": "attests",
+          "claim": "Leto labours nine days and nights; the goddesses gather, but Hera keeps Eileithyia on Olympus out of envy",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 102-114",
+          "relation": "attests",
+          "claim": "The goddesses send Iris to bring Eileithyia with the promise of a golden necklace, and she comes",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 115-122",
+          "relation": "attests",
+          "claim": "Eileithyia arrives and Leto bears Apollo under a palm tree on Delos; the goddesses wash and swaddle him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 123-132",
+          "relation": "attests",
+          "claim": "Themis feeds Apollo nectar and ambrosia; he bursts his swaddling bands and declares that the lyre and bow will be dear to him",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 133-139",
+          "relation": "attests",
+          "claim": "Apollo walks on the earth, the goddesses are amazed, and Delos is laden with gold for joy",
+          "verified": true
+        },
+        {
+          "source_id": "gr-homeric-hymns",
+          "locator": "Hymn 3, ll. 140-164",
+          "relation": "attests",
+          "claim": "Apollo delights most in Delos, where the Ionians gather and the girls of Delos sing his praises",
           "verified": true
         },
         {
           "source_id": "gr-theogony",
           "locator": "ll. 918-920",
           "relation": "attests",
-          "claim": "Leto bears Apollo and Artemis to Zeus",
+          "claim": "Leto, joined in love with Zeus, bears Apollo and Artemis",
           "verified": true
+        },
+        {
+          "source_id": "gr-works-and-days",
+          "locator": "ll. 770-779",
+          "relation": "attests",
+          "claim": "The seventh of the month is holy because Leto bore Apollo on it",
+          "verified": true
+        }
+      ],
+      "summary": "Leto, in labour with Apollo, roams the Greek world looking for a land willing to receive him, until the island of Delos agrees, on an oath that he will build his first temple there. Hera keeps the birth goddess away for nine days and nights, until the goddesses lure her to Delos with a necklace.",
+      "locations": [
+        "Delos",
+        "Ortygia",
+        "Cynthus",
+        "Olympus"
+      ],
+      "body": [
+        {
+          "text": "The hymn begins with Apollo already grown. As he goes through the house of Zeus, the gods tremble before him and all spring up from their seats when he comes near and bends his bright bow. Only Leto stays by the side of Zeus, who delights in thunder. She unstrings his bow, closes his quiver, takes his archery from his strong shoulders and hangs it on a golden peg against a pillar of his father's house. She leads him to a seat, and the Father gives him nectar in a golden cup, welcoming his dear son, while the other gods make him sit down, and queenly Leto rejoices because she bore a mighty son and an archer.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 1-18"
+            }
+          ]
+        },
+        {
+          "text": "Then the poet turns back to the birth. Apollo's brother and sister were born at different places, the hymn says: Artemis in Ortygia and Apollo in rocky Delos, as Leto rested against the great mass of the Cynthian hill, beside a palm tree, by the streams of Inopus. But first, Leto had roamed far with the god in her womb, through Crete, Athens, Aegina, Euboea, Athos, Pelion, Samos, Lemnos, Lesbos, Chios, Cos, Naxos and Paros and many places besides, to see whether any land would be willing to make a dwelling for her son. They all trembled and were afraid, and not even the richest dared to receive Phoebus, until queenly Leto set foot on Delos and asked her.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 1-18"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 30-50"
+            }
+          ]
+        },
+        {
+          "text": "Would Delos be the home of her son Phoebus Apollo and build him a rich temple? No other place would touch him, Leto said. Delos would never be rich in oxen and sheep, nor bear vintage nor many plants. But if she had the temple of far-shooting Apollo, all men would bring hecatombs and gather there, the smoke of rich sacrifice would never cease, and she would feed her people from the hands of strangers, for her own soil was poor.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 51-61"
+            }
+          ]
+        },
+        {
+          "text": "Delos rejoiced at the offer, but she was afraid. She said she was ill spoken of among men and would be greatly honoured by this. But the saying was that Apollo would be very haughty and lord it greatly among gods and men. She feared that as soon as he saw the light of the sun he would scorn her, a hard, rocky island, overturn her and thrust her with his feet into the depths of the sea, where the great ocean would wash over her head for ever, and he would go to some other land to build his temple and groves. Sea creatures would make their lairs in her, and black seals their dwellings, because she had no people. So she asked Leto to swear a great oath that here first he would build a glorious temple, to be an oracle for men, and only afterwards make temples and groves among all men.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 62-82"
+            }
+          ]
+        },
+        {
+          "text": "Leto swore the great oath of the gods. Let Earth and wide Heaven above, she said, and the dropping water of Styx, the strongest and most awful oath for the blessed gods, witness that Phoebus would surely have his fragrant altar and precinct in Delos, and would honour her above all.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 83-88"
+            }
+          ]
+        },
+        {
+          "text": "When Leto had sworn and ended her oath, Delos was very glad. But Leto was racked nine days and nine nights with pangs beyond all custom. With her were the chiefest of the goddesses, Dione, Rhea, Ichnaea, Themis, loud-moaning Amphitrite and the other deathless goddesses, all except white-armed Hera, who sat in the halls of cloud-gathering Zeus. Only Eileithyia, goddess of sore travail, had not heard of Leto's trouble. She sat on the top of Olympus beneath golden clouds, by the contriving of white-armed Hera, who kept her close out of envy, because Leto of the lovely tresses was soon to bear a faultless and strong son.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 89-101"
+            }
+          ]
+        },
+        {
+          "text": "The goddesses sent Iris from the well-set isle to bring Eileithyia, promising her a great necklace strung with golden threads, nine cubits long. They told Iris to call her aside from white-armed Hera, in case Hera might afterwards turn her back with her words. Swift Iris, fleet as the wind, ran the whole way to sheer Olympus, called Eileithyia out of the hall to the door and told her all that the goddesses had bidden. So she moved the heart of Eileithyia in her breast, and the two of them went, like shy wild doves in their going.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 102-114"
+            }
+          ]
+        },
+        {
+          "text": "As soon as Eileithyia, goddess of sore travail, set foot on Delos, the pains of birth seized Leto and she longed to bring forth. She cast her arms around a palm tree and knelt on the soft meadow, and the earth laughed for joy beneath her. Then the child leaped out into the light, and all the goddesses washed him purely and cleanly with sweet water, wrapped him in a white garment of fine texture, newly woven, and fastened a golden band about him.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 115-122"
+            }
+          ]
+        },
+        {
+          "text": "Leto did not give Apollo, bearer of the golden blade, her breast. Themis poured nectar and ambrosia for him with her divine hands, and Leto was glad that she had borne a strong son and an archer. But as soon as he had tasted that divine food, he could no longer be held by golden cords or confined with bands; all their ends came undone. At once Phoebus Apollo spoke among the deathless goddesses: the lyre and the curved bow would always be dear to him, he said, and he would declare to men the unfailing will of Zeus. Then he began to walk on the wide-pathed earth, and all the goddesses were amazed. All Delos was laden with gold, as she looked at the child of Zeus and Leto, for joy that the god had chosen her above all the islands and the shore to make his home in her. She loved him yet more in her heart, and blossomed like a mountain top with woodland flowers.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 123-132"
+            },
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 133-139"
+            }
+          ]
+        },
+        {
+          "text": "Apollo walks now on craggy Cynthus and now wanders among the islands and the peoples. He has many temples and wooded groves, and all high peaks and rivers flowing to the sea are dear to him, but in Delos he most delights his heart. There the long-robed Ionians gather in his honour with their children and shy wives, and delight him with boxing, dancing and song, so that a man who came upon them would say they were deathless and unageing. And the girls of Delos, handmaids of the Far-shooter, first praise Apollo, then Leto and Artemis who delights in arrows, and then sing of men and women of past days, and charm the tribes of men.",
+          "basis": [
+            {
+              "source_id": "gr-homeric-hymns",
+              "locator": "Hymn 3, ll. 140-164"
+            }
+          ]
+        },
+        {
+          "text": "Hesiod gives only the genealogy. Leto was joined in love with Zeus, who holds the aegis, and bore Apollo and Artemis, who delights in arrows, children lovely above all the sons of Heaven.",
+          "basis": [
+            {
+              "source_id": "gr-theogony",
+              "locator": "ll. 918-920"
+            }
+          ],
+          "kind": "note"
+        },
+        {
+          "text": "Works and Days adds only a calendar detail. The seventh day of the month is holy because on it Leto bore Apollo of the golden blade.",
+          "basis": [
+            {
+              "source_id": "gr-works-and-days",
+              "locator": "ll. 770-779"
+            }
+          ],
+          "kind": "note"
         }
       ]
     }

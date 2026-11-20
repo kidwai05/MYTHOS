@@ -491,3 +491,40 @@ p.muted.summary { font-style: italic; }
 
 :root[data-theme='light'] .btn.ghost { background: transparent; color: var(--gold); border-color: var(--line-strong); box-shadow: none; }
 :root[data-theme='light'] .btn.ghost:hover { color: var(--gold-hi); border-color: var(--gold); }
+
+
+/* ---------- Written myths ---------- */
+.tale { max-width: 70ch; }
+.tale-intro { margin-top: -.4em; font-style: italic; }
+.para { margin: 0 0 .2em; }
+.para > p { font-size: 1.28rem; line-height: 1.85; margin: 0 0 .25em; color: var(--ink); }
+.para:not(:has(.cites)) { margin-bottom: 1.1em; }
+.tale-note > p { font-size: 1.12rem; font-style: italic; color: var(--ink-soft); }
+.tale-note { margin-top: 1.6em; }
+.cites { margin: 0 0 1.5em; }
+.cites > summary { cursor: pointer; list-style: none; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; font: 600 .64rem/1.6 var(--serif); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); transition: color .3s; }
+.cites > summary::-webkit-details-marker { display: none; }
+.cites > summary::before { content: ''; width: 6px; height: 6px; border-right: 1.5px solid var(--gold); border-bottom: 1.5px solid var(--gold); transform: rotate(-45deg); transition: transform .3s; align-self: center; }
+.cites[open] > summary::before { transform: rotate(45deg); }
+.cites > summary:hover { color: var(--gold-hi); }
+.cites .loc { font-size: .82rem; letter-spacing: .02em; text-transform: none; }
+.cites-more { letter-spacing: .12em; }
+.cites ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.cites li { display: grid; grid-template-columns: minmax(150px, 210px) 1fr auto; gap: 6px 14px; align-items: baseline; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(255, 255, 255, .02); font-size: .98rem; color: var(--ink-soft); }
+.cite-ref a { color: var(--gold-hi); text-decoration: none; } .cite-ref a:hover { text-decoration: underline; }
+.cite-claim { min-width: 0; }
+.variant-block { margin: 1.8em 0; padding: 16px 22px 4px; border: 1px solid rgba(var(--aura), .35); border-left: 3px solid var(--accent); border-radius: 8px; background: rgba(var(--aura), .06); }
+.variant-label { margin: 0 0 10px; }
+.variant-block .para > p { font-size: 1.16rem; line-height: 1.75; color: var(--ink-soft); }
+.chip.place { text-transform: none; letter-spacing: .04em; font-style: italic; font-size: .8rem; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font: 600 .74rem var(--serif); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); cursor: pointer; }
+.toggle input { accent-color: var(--gold); width: 16px; height: 16px; }
+.story-item .blurb { flex-basis: 100%; margin: 2px 0 0; }
+.story-actions { margin-top: 10px; }
+@media (max-width: 760px) { .cites li { grid-template-columns: 1fr; } .para > p { font-size: 1.16rem; } }
+@media print { .cites[open] { display: block; } #sky, .progress, .site-header { display: none !important; } }
+
+/* ---------- Narrow screens: keep every nav link reachable ---------- */
+@media (max-width: 860px) { nav { flex-wrap: wrap; row-gap: 2px; } }
+@media (max-width: 520px) { nav a { padding: .45rem .55rem; letter-spacing: .14em; } nav a::after { left: .55rem; right: .55rem; } }
+@media (max-width: 520px) { .foot-links { flex-wrap: wrap; gap: 8px 12px; letter-spacing: .14em; } }

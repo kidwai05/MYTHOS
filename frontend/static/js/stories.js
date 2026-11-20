@@ -4,33 +4,31 @@ const root = document.getElementById('stories-root');
 let allStories = [];
 let activeMyth = 'all';
 let searchQuery = '';
+let writtenOnly = false;
 
 function render() {
   const filtered = allStories.filter((s) => {
     if (activeMyth !== 'all' && s.mythology.slug !== activeMyth) return false;
+    if (writtenOnly && s.status !== 'written') return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
-      const text = `${s.title} ${s.mythology.name} ${s.summary || ''}`.toLowerCase();
+      const text = `${s.title} ${s.mythology.name} ${s.summary || ''} ${(s.cast || []).map((c) => c.name).join(' ')}`.toLowerCase();
       if (!text.includes(q)) return false;
     }
     return true;
   });
 
   const cards = filtered.map((s) => {
+    const written = s.status === 'written';
     return h('div', { class: 'card story-card', 'data-myth': s.mythology.slug },
-      h('span', { class: 'mono', 'aria-hidden': 'true' }, s.title[0]),
+      h('span', { class: 'mono', 'aria-hidden': 'true' }, s.title.replace(/^(the|a|an)\s+/i, '')[0].toUpperCase()),
       h('div', { class: 'story-card-body' },
         h('h3', {}, h('a', { href: `/stories/${s.slug}` }, s.title)),
-        h('p', { class: 'meta' }, [
-          s.mythology.name,
-          plural(s.participants, 'recorded participant')
-        ].join(' · ')),
+        h('p', { class: 'meta' }, [s.mythology.name, written ? `${s.reading_minutes} min read` : 'Not yet written', plural(s.participants, 'figure')].join(' · ')),
         s.summary ? h('p', { class: 'blurb' }, s.summary) : null,
+        s.cast && s.cast.length ? h('div', { class: 'chips' }, s.cast.slice(0, 4).map((c) => h('span', { class: 'chip' }, c.name.replace(/\s*\(.*\)/, '')))) : null,
         h('div', { class: 'story-actions' },
-          h('a', { class: 'btn sm ghost', href: `/stories/${s.slug}` }, 'Read Story & Sources →')
-        )
-      )
-    );
+          h('a', { class: 'btn sm ghost', href: `/stories/${s.slug}` }, written ? 'Read the myth →' : 'Sources & status →'))));
   });
 
   const counts = {
@@ -56,10 +54,11 @@ function render() {
           onclick: () => { activeMyth = m; render(); }
         }, `${m === 'all' ? 'All Traditions' : label(m)} (${counts[m] || 0})`))
       ),
+      h('label', { class: 'toggle' }, h('input', { type: 'checkbox', checked: writtenOnly || null, onchange: (e) => { writtenOnly = e.target.checked; render(); } }), ' Written myths only'),
       h('input', {
         class: 'input-search',
         type: 'search',
-        placeholder: 'Search story titles or participants…',
+        placeholder: 'Search titles, summaries or figures…',
         value: searchQuery,
         oninput: (e) => { searchQuery = e.target.value.trim(); render(); }
       })

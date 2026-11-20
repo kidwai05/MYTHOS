@@ -124,3 +124,19 @@ All 93 Greek characters have summaries.
 ## 14. Order of work for new Greek entities
 
 Add them from texts already read, so every link can be checked at once. The Theogony alone supplies a family tree from Chaos to the heroes, so it comes first. Add stories later, after the characters in them exist. Next candidates are the rest of the Theogony's catalogues (the Nereids, the rivers, the Hesperides) and the characters in the Iliad, Odyssey and Apollodorus passages not yet read.
+
+## 15. Writing a myth
+
+A story page has a summary, a written retelling, and the passages behind it. The retelling is the main content, so the rules are strict.
+
+1. **Read first, then write.** Open the passage in the named edition and write the retelling while it is in front of you. Do not write a myth from memory and look for citations afterwards.
+2. **Say only what the passages say.** Do not add events, motives or names that the texts do not give. If the text is silent, so is the retelling.
+3. **Close paraphrase, not a paste.** Follow the sequence of the source and keep what it says, in your own sentences. Many epithets will survive, so the page calls the result a close paraphrase. Do not paste the translation.
+4. **One paragraph, its own passages.** Each paragraph lists in `basis` the passages it rests on, with locators. Several paragraphs may rest on the same passage, as in the Theogony, whose line blocks are long. The page then shows the citation once, under the last of them.
+5. **Keep the disagreements.** When another poem or author tells the same event differently, add it as `kind: "variant"` paragraphs after the main telling and name the source ("In Works and Days ..."). Do not merge the versions. Variants that run together are shown as one callout.
+6. **Notes are short.** Use `kind: "note"` for a one-line version elsewhere, such as the Theogony's single line on Persephone.
+7. **Participants and places.** Give every participant a `role` and a one-sentence `notes` that follows from the text. List the places named. The validator checks that each name appears in the text.
+8. **Unread means unwritten.** A story whose texts have not been read has no `body`. It shows as "Not yet written", and its references stay unchecked. This is the case for the Norse and Egyptian stories.
+9. **Checks.** Run `python scripts/validate_data.py --require-verified greek --require-summary greek --require-story-text greek`.
+
+**Written so far.** All twelve Greek stories: the castration of Uranus, the birth and hiding of Zeus, the Titanomachy, Zeus and Typhoeus, the birth of Athena, Prometheus and the first woman, Perseus and Medusa, the Lernaean Hydra, the quest for the Golden Fleece, the yoking of the bronze bulls, the abduction of Persephone and the birth of Apollo. They draw on the Theogony, Works and Days, Homeric Hymns 2 and 3, Apollodorus (1.9.16-28, 2.4.2-3, 2.5.1-2) and, as variants and corroboration, Argonautica Books 1 and 3.

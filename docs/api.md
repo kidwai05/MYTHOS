@@ -60,10 +60,14 @@ Returns tradition details, mythology, description, associated deities/characters
 ## Stories
 
 `GET /stories`
+Each item has `status`, `reading_minutes`, `participants` (a count) and `cast` (the first figures, main ones first).
+
 Lists all narratives and myths with mythology, tradition, summary, and participant count.
 
 `GET /stories/{slug}`
-Returns story details: title, summary, mythology, tradition, supporting textual citations, and participants with explicit narrative roles (`protagonist`, `antagonist`, `victim`, `creator`, `participant`).
+Returns the story: `title`, `summary`, `status` (`written` or `unwritten`), `mythology`, `tradition`, `locations`, `notes`, `paragraphs`, `words`, `reading_minutes`, `participants` (each with `role` and `notes`), `sources` (every passage the story uses) and `related` (up to five stories that share figures, with the shared names).
+
+Each paragraph is `{position, kind, text, basis}`. `kind` is `narrative`, `variant` (another telling) or `note`. `basis` is the list of passages the paragraph rests on, each with `source`, `locator`, `claim`, `note` and `verified`, so a client can show where every paragraph comes from. An unwritten story has `paragraphs: []`.
 
 ## Multi-Entity Search & Autocomplete
 

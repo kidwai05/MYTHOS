@@ -67,6 +67,16 @@ CREATE TABLE myth (
   tradition_id INTEGER REFERENCES tradition(id) ON DELETE SET NULL,
   locations TEXT, episodes TEXT, notes TEXT);
 
+-- The written retelling of a myth: ordered paragraphs, each resting on verified passages of the same story.
+CREATE TABLE myth_paragraph (
+  id INTEGER PRIMARY KEY, myth_id INTEGER NOT NULL REFERENCES myth(id) ON DELETE CASCADE,
+  position INTEGER NOT NULL, kind TEXT NOT NULL DEFAULT 'narrative' CHECK (kind IN ('narrative','variant','note')),
+  text TEXT NOT NULL, UNIQUE (myth_id, position));
+CREATE TABLE myth_paragraph_basis (
+  paragraph_id INTEGER NOT NULL REFERENCES myth_paragraph(id) ON DELETE CASCADE,
+  source_link_id INTEGER NOT NULL REFERENCES source_link(id) ON DELETE CASCADE,
+  PRIMARY KEY (paragraph_id, source_link_id));
+
 CREATE TABLE character_myth (
   character_id INTEGER NOT NULL REFERENCES character(id) ON DELETE CASCADE,
   myth_id INTEGER NOT NULL REFERENCES myth(id) ON DELETE CASCADE,

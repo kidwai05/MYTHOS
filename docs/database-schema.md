@@ -70,7 +70,19 @@ These three files all load into the `character` table; `tradition` resolves to `
 
 ## stories.json
 
-`id`, `title`, `mythology`, `tradition` (optional), `summary` (optional), `participants` (character ids or `{character_id, role, notes}`), `sources`. Loads into `myth` and `character_myth` (with explicit participant `role`).
+`id`, `title`, `mythology`, `tradition` (optional), `summary`, `locations` (optional), `participants` (character ids or `{character_id, role, notes}`), `sources`, and `body` for a written myth.
+
+| Field | Type | Notes |
+|---|---|---|
+| `summary` | string | 60 to 420 characters. Required once there is a `body` |
+| `locations` | string[] | Places named in the story. Each must appear in the text |
+| `participants[].role` | string | `protagonist`, `antagonist`, `helper`, `parent`, `offspring`, `victim`, `adviser`, `instigator`, `abductor`, `companion`, `witness`, `setting` or `mentioned` |
+| `participants[].notes` | string | One sentence saying what the figure does in this story, drawn from the retelling |
+| `body` | Paragraph[] | The written retelling, in order |
+
+**Paragraph**: `{ "text": "...", "kind": "narrative" | "variant" | "note", "basis": [{ "source_id", "locator" }] }`. `kind` defaults to `narrative`. A `variant` is another telling of the same event that differs from the main one. A `note` is an aside, such as a one-line version in another poem. `basis` lists the passages the paragraph rests on, and each must be a verified link in the story's own `sources`.
+
+A story with no `body` is *unwritten*. The API reports `status: "unwritten"` and the page says so. Stories load into `myth`, `myth_paragraph`, `myth_paragraph_basis` and `character_myth` (with the participant `role` and `notes`).
 
 ## relationships.json
 
@@ -101,7 +113,7 @@ These three files all load into the `character` table; `tradition` resolves to `
 | `summary_basis` | `character_summary_basis` | Enforces that summaries rest exclusively on verified citations |
 | `tradition` in JSON | `tradition` | Independent theological / regional tradition entity |
 | `relationships.json` | `relationship`, `relationship_type` | Directed / reciprocal relationships with evidence |
-| `stories.json` | `myth`, `character_myth` | Story narratives with participant roles (`role`) |
+| `stories.json` | `myth`, `myth_paragraph`, `myth_paragraph_basis`, `character_myth` | Story summaries, written retellings (each paragraph tied to verified passages) and participant roles |
 
 ## Validation rules (`scripts/validate_data.py`)
 
@@ -115,3 +127,6 @@ These three files all load into the `character` table; `tradition` resolves to `
 8. Character traditions match valid recognized traditions for that mythology.
 9. Summaries require `summary_basis` pointing to verified links of that record.
 10. With `--require-verified greek`, every Greek character, story, and relationship has at least one verified link.
+11. A story `body` needs a summary, at least 180 words, a narrative first paragraph, and a `basis` on every paragraph. Every basis entry must be a verified link of that story, and every verified story link must be used by some paragraph.
+12. Every story participant is named in the text, and every entry in `locations` appears in the text.
+13. With `--require-story-text greek`, every Greek story must have a written `body`.

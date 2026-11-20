@@ -181,9 +181,15 @@ def build(dbfile=None, root=ROOT):
             db.execute('INSERT INTO character_myth(character_id,myth_id,role,notes) VALUES(?,?,?,?)',
                        (chars[p_slug], mid, p_role, p_note))
         links(r, 'myth_id', mid)
+        for pos, para in enumerate(r.get('body', []), 1):
+            pid = db.execute('INSERT INTO myth_paragraph(myth_id,position,kind,text) VALUES(?,?,?,?)', (mid, pos, para.get('kind', 'narrative'), para['text'])).lastrowid
+            for b in para['basis']:
+                row = db.execute('SELECT id FROM source_link WHERE myth_id=? AND source_id=? AND locator=? AND verified=1', (mid, src[b['source_id']], b['locator'])).fetchone()
+                if row is None: raise ValueError(f"{r['id']} paragraph {pos}: basis {b} is not a verified link of the story")
+                db.execute('INSERT INTO myth_paragraph_basis VALUES(?,?)', (pid, row[0]))
 
     db.commit()
-    counts = {t: one(f'SELECT COUNT(*) FROM {t}') for t in ('mythology', 'tradition', 'character', 'relationship', 'relationship_type', 'source', 'source_passage', 'source_link', 'myth')}
+    counts = {t: one(f'SELECT COUNT(*) FROM {t}') for t in ('mythology', 'tradition', 'character', 'relationship', 'relationship_type', 'source', 'source_passage', 'source_link', 'myth', 'myth_paragraph')}
     counts['verified_links'] = one('SELECT COUNT(*) FROM source_link WHERE verified=1')
     counts['verified_passages'] = one('SELECT COUNT(*) FROM source_passage WHERE verified=1')
     db.close()

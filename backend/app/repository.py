@@ -1,5 +1,5 @@
 """All SQL for the read API. Row dictionaries in, plain dictionaries out."""
-import re
+import json, re
 
 TIER_ORDER = {'primary': 0, 'supplementary': 1, 'scholarly': 2}
 
@@ -107,8 +107,9 @@ def character_profile(db, cat, slug):
         if g not in GROUP_ORDER:
             sorted_groups.append({'group': g, 'items': sorted(groups[g], key=lambda i: i['other']['name'])})
 
-    stories = [dict(slug=r['slug'], title=r['title'], role=r['role']) for r in db.execute(
-        'SELECT m.slug, m.title, cm.role FROM myth m JOIN character_myth cm ON cm.myth_id = m.id WHERE cm.character_id = ? ORDER BY m.title', (cid,))]
+    stories = [dict(slug=r['slug'], title=r['title'], role=r['role'], summary=r['summary'], status='written' if r['paras'] else 'unwritten') for r in db.execute(
+        '''SELECT m.slug, m.title, m.summary, cm.role, (SELECT COUNT(*) FROM myth_paragraph p WHERE p.myth_id = m.id) paras
+           FROM myth m JOIN character_myth cm ON cm.myth_id = m.id WHERE cm.character_id = ? ORDER BY m.title''', (cid,))]
     sources = _links(db, 'character_id', [cid])[cid]
     basis = [_link(r) for r in db.execute('''SELECT sl.*, s.slug sslug, s.title stitle, s.author sauthor, s.tier stier, s.edition_used sedition, s.url surl, s.license slicense
         FROM character_summary_basis b JOIN source_link sl ON sl.id = b.source_link_id JOIN source s ON s.id = sl.source_id WHERE b.character_id = ?''', (cid,))]
@@ -358,7 +359,7 @@ def mythology_detail(db, cat, slug):
             WHERE mm.slug = ? GROUP BY s.tier''', (slug,)):
         tiers[r['tier']] = r['n']
     traditions = [dict(slug=t['slug'], name=t['name'], description=t['description']) for t in cat.traditions.values() if t['mythology'] == slug]
-    stories = [dict(slug=r['slug'], title=r['title'], summary=r['summary']) for r in cat.stories if r['mythology']['slug'] == slug]
+    stories = [dict(slug=r['slug'], title=r['title'], summary=r['summary'], status=r['status']) for r in cat.stories if r['mythology']['slug'] == slug]
     return {
         **m,
         'character_count': len(chars),
@@ -570,6 +571,8 @@ def tradition_detail(db, slug):
         'story_count': len(stories)
     }
 
+def _words(paragraphs): return sum(len(p['text'].split()) for p in paragraphs)
+
 def story_detail(db, cat, slug):
     r = db.execute('''SELECT m.id, m.slug, m.title, m.summary, m.locations, m.episodes, m.notes,
                              mm.slug ms, mm.name mn, t.slug ts, t.name tn
@@ -578,21 +581,51 @@ def story_detail(db, cat, slug):
                       LEFT JOIN tradition t ON t.id = m.tradition_id
                       WHERE m.slug = ?''', (slug,)).fetchone()
     if not r: return None
+    mid = r['id']
     parts = [dict(slug=x['slug'], name=x['name'], role=x['role'], notes=x['notes']) for x in db.execute(
-        'SELECT c.slug, c.name, cm.role, cm.notes FROM character c JOIN character_myth cm ON cm.character_id = c.id WHERE cm.myth_id = ? ORDER BY c.name', (r['id'],))]
-    sources = _links(db, 'myth_id', [r['id']])[r['id']]
+        'SELECT c.slug, c.name, cm.role, cm.notes FROM character c JOIN character_myth cm ON cm.character_id = c.id WHERE cm.myth_id = ? ORDER BY c.name', (mid,))]
+    sources = _links(db, 'myth_id', [mid])[mid]
+    paras = [dict(id=p['id'], position=p['position'], kind=p['kind'], text=p['text'], basis=[]) for p in db.execute(
+        'SELECT id, position, kind, text FROM myth_paragraph WHERE myth_id = ? ORDER BY position', (mid,))]
+    for p in paras:
+        rows = db.execute('''SELECT sl.*, s.slug sslug, s.title stitle, s.author sauthor, s.tier stier, s.edition_used sedition, s.url surl, s.license slicense
+            FROM myth_paragraph_basis b JOIN source_link sl ON sl.id = b.source_link_id JOIN source s ON s.id = sl.source_id WHERE b.paragraph_id = ?''', (p.pop('id'),)).fetchall()
+        p['basis'] = sorted((_link(x) for x in rows), key=lambda l: (TIER_ORDER[l['source']['tier']], l['source']['title'], locator_key(l['locator'])))
+    related = [dict(slug=x['slug'], title=x['title'], summary=x['summary'], status='written' if x['paras'] else 'unwritten',
+                    mythology=dict(slug=x['ms'], name=x['mn']), shared=x['shared'].split('|'))
+               for x in db.execute('''SELECT m2.slug, m2.title, m2.summary, mm.slug ms, mm.name mn, GROUP_CONCAT(c.name, '|') shared, COUNT(*) n,
+                        (SELECT COUNT(*) FROM myth_paragraph p WHERE p.myth_id = m2.id) paras
+                    FROM character_myth a JOIN character_myth b ON b.character_id = a.character_id AND b.myth_id <> a.myth_id
+                    JOIN myth m2 ON m2.id = b.myth_id JOIN mythology mm ON mm.id = m2.mythology_id JOIN character c ON c.id = a.character_id
+                    WHERE a.myth_id = ? GROUP BY m2.id ORDER BY n DESC, m2.title LIMIT 5''', (mid,))]
+    words = _words(paras)
     return {
         'slug': r['slug'],
         'title': r['title'],
         'summary': r['summary'],
+        'status': 'written' if paras else 'unwritten',
         'mythology': {'slug': r['ms'], 'name': r['mn']},
         'tradition': {'slug': r['ts'], 'name': r['tn']} if r['ts'] else None,
+        'locations': json.loads(r['locations']) if r['locations'] else [],
+        'notes': r['notes'],
+        'paragraphs': paras,
+        'words': words,
+        'reading_minutes': max(1, round(words / 220)) if paras else 0,
         'participants': parts,
-        'sources': sources
+        'sources': sources,
+        'related': related,
     }
 
 def stories_list(db):
-    return [dict(slug=r['slug'], title=r['title'], summary=r['summary'],
-                 mythology=dict(slug=r['ms'], name=r['mn']), participants=r['n']) for r in db.execute(
-        '''SELECT m.slug, m.title, m.summary, mm.slug ms, mm.name mn, (SELECT COUNT(*) FROM character_myth cm WHERE cm.myth_id = m.id) n
-           FROM myth m JOIN mythology mm ON mm.id = m.mythology_id ORDER BY m.title''')]
+    out = []
+    for r in db.execute('''SELECT m.id, m.slug, m.title, m.summary, mm.slug ms, mm.name mn, t.slug ts, t.name tn,
+                (SELECT COUNT(*) FROM character_myth cm WHERE cm.myth_id = m.id) n,
+                (SELECT COALESCE(SUM(LENGTH(p.text) - LENGTH(REPLACE(p.text, ' ', '')) + 1), 0) FROM myth_paragraph p WHERE p.myth_id = m.id) words
+           FROM myth m JOIN mythology mm ON mm.id = m.mythology_id LEFT JOIN tradition t ON t.id = m.tradition_id ORDER BY mm.id, m.title'''):
+        cast = [dict(slug=x['slug'], name=x['name']) for x in db.execute(
+            '''SELECT c.slug, c.name FROM character c JOIN character_myth cm ON cm.character_id = c.id WHERE cm.myth_id = ?
+               ORDER BY CASE cm.role WHEN 'protagonist' THEN 0 WHEN 'antagonist' THEN 1 WHEN 'abductor' THEN 1 WHEN 'instigator' THEN 2 WHEN 'helper' THEN 3 ELSE 4 END, c.name''', (r['id'],))]
+        out.append(dict(slug=r['slug'], title=r['title'], summary=r['summary'], mythology=dict(slug=r['ms'], name=r['mn']),
+                        tradition={'slug': r['ts'], 'name': r['tn']} if r['ts'] else None, participants=r['n'], cast=cast,
+                        status='written' if r['words'] else 'unwritten', words=r['words'], reading_minutes=max(1, round(r['words'] / 220)) if r['words'] else 0))
+    return out

@@ -60,6 +60,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 134-138 | A Titan, born to Earth and Heaven | `deities:coeus` |
 | ll. 134-138 | A Titan, born to Earth and Heaven | `deities:phoebe` |
 | ll. 134-138 | A Titan, born to Earth and Heaven | `deities:iapetus` |
+| ll. 134-138 | Earth and Heaven bear the Titans, Cronus the youngest and most terrible, who hates his father | `stories:castration-of-uranus` |
 | ll. 134-138 | Cronus and Rhea are among the Titans born to Earth and Heaven | `relationships:gaia-parent-of-cronus` |
 | ll. 134-138 | Cronus and Rhea are among the Titans born to Earth and Heaven | `relationships:gaia-parent-of-rhea` |
 | ll. 134-138 | Cronus and Rhea are among the Titans born to Earth and Heaven | `relationships:uranus-parent-of-cronus` |
@@ -83,22 +84,28 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 134-138 | Named among the Titans born to Earth and Heaven | `relationships:gaia-parent-of-iapetus` |
 | ll. 134-138 | Named among the Titans born to Earth and Heaven | `relationships:uranus-parent-of-iapetus` |
 | ll. 139-146 | Three one-eyed sons of Earth and Heaven, Brontes, Steropes and Arges, who gave Zeus the thunder and made the thunderbolt | `creatures:cyclopes` |
+| ll. 139-146 | The Cyclopes, one-eyed sons of Earth and Heaven, who gave Zeus the thunder and made the thunderbolt | `stories:castration-of-uranus` |
 | ll. 139-146 | The Cyclopes gave Zeus the thunder and made the thunderbolt | `relationships:zeus-ally-of-cyclopes` |
 | ll. 139-146 | The Cyclopes are born of Earth and Heaven | `relationships:gaia-parent-of-cyclopes` |
 | ll. 139-146 | The Cyclopes are born of Earth and Heaven | `relationships:uranus-parent-of-cyclopes` |
 | ll. 147-162 | Cottus, Briareos and Gyes, sons of Earth and Heaven with a hundred arms and fifty heads each, hidden away by their father | `creatures:hundred-handers` |
+| ll. 147-162 | Cottus, Briareos and Gyes are hated by their father, who hides each one inside the earth at birth; Earth, straitened, makes a flint sickle and tells her sons her plan; Earth, straitened by the hidden children, makes a flint sickle and tells her sons her plan | `stories:castration-of-uranus` |
 | ll. 147-162 | Cottus, Briareos and Gyes are born of Earth and Heaven | `relationships:gaia-parent-of-hundred-handers` |
 | ll. 147-162 | Cottus, Briareos and Gyes are born of Earth and Heaven | `relationships:uranus-parent-of-hundred-handers` |
 | ll. 147-162 | Heaven hates the hundred-handers and hides them away as each is born | `relationships:uranus-rival-of-hundred-handers` |
 | ll. 147-175 | Plots the attack on Heaven and arms Cronos with the sickle | `deities:gaia` |
-| ll. 147-206 | Earth arms Cronos, who castrates Heaven; Aphrodite rises from the foam | `stories:castration-of-uranus` |
+| ll. 163-166 | Earth urges her sons to punish their father for his shameful outrage | `stories:castration-of-uranus` |
 | ll. 163-206 | Takes the sickle and castrates Heaven | `deities:cronus` |
 | ll. 163-206 | Cronos ambushes his father Heaven and castrates him | `relationships:cronus-rival-of-uranus` |
+| ll. 167-172 | Fear silences the Titans, but Cronus volunteers to do the deed | `stories:castration-of-uranus` |
+| ll. 173-175 | Earth hides Cronus in ambush, gives him the sickle and tells him the plot | `stories:castration-of-uranus` |
 | ll. 176-206 | Castrated by his son Cronos | `deities:uranus` |
 | ll. 176-206 | Rises from the foam around Heaven's severed members | `deities:aphrodite` |
 | ll. 176-206 | Goes with Aphrodite at her birth and joins the assembly of the gods | `deities:eros` |
+| ll. 176-206 | Cronus castrates Heaven; from the blood Earth bears the Erinyes, the Giants and the Meliae; Aphrodite rises from the foam around the severed parts | `stories:castration-of-uranus` |
 | ll. 176-206 | Aphrodite grows in the foam around the severed members of Heaven (Theogony version. Other sources give different parentage; compare the Iliad and the Bibliotheca before relying on this.) | `relationships:uranus-parent-of-aphrodite` |
 | ll. 176-206 | Eros goes with Aphrodite at her birth | `relationships:aphrodite-ally-of-eros` |
+| ll. 207-210 | Heaven names his sons the Titans in reproach and says vengeance will follow | `stories:castration-of-uranus` |
 | ll. 211-225 | Bears Doom, Fate, Death, Sleep and the Dreams, and, though she lay with none, Blame, Woe, the Hesperides, the Fates and Nemesis | `deities:nyx` |
 | ll. 211-225 | A child of Night | `deities:thanatos` |
 | ll. 211-225 | A child of Night | `deities:hypnos` |
@@ -129,7 +136,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 270-294 | Three-headed child of Chrysaor; Heracles kills him in Erythea for his oxen | `creatures:geryon` |
 | ll. 270-294 | The hound of Geryon, killed by Heracles | `creatures:orthus` |
 | ll. 270-294 | Cuts off Medusa's head | `heroes:perseus` |
-| ll. 270-294 | Perseus cuts off the head of Medusa | `stories:perseus-and-medusa` |
+| ll. 270-294 | The Gorgons, daughters of Ceto and Phorcys, live beyond Ocean; Medusa is mortal; the Dark-haired One lies with her; Pegasus and Chrysaor spring from her when Perseus beheads her; Chrysaor fathers Geryon | `stories:perseus-and-medusa` |
 | ll. 270-294 | Perseus cuts off Medusa's head | `relationships:perseus-killer-of-medusa` |
 | ll. 270-294 | The Dark-haired One lies with Medusa in a meadow (Evelyn-White's note on this line identifies the Dark-haired One as Poseidon.) | `relationships:poseidon-lover-of-medusa` |
 | ll. 270-294 | Ceto bears the Graiae and the Gorgons to Phorcys | `relationships:phorcys-lover-of-ceto` |
@@ -142,6 +149,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 270-294 | Heracles kills Geryon in Erythea for his oxen | `relationships:heracles-killer-of-geryon` |
 | ll. 270-294 | Heracles kills Orthus, the hound of Geryon | `relationships:heracles-killer-of-orthus` |
 | ll. 295-305 | Half nymph, half snake, living in a cave in Arima | `creatures:echidna` |
+| ll. 295-305 | Echidna, half nymph and half snake, lives in a cave in Arima | `stories:the-lernaean-hydra` |
 | ll. 306-332 | Nourishes the Hydra, angry beyond measure at Heracles | `deities:hera` |
 | ll. 306-332 | Said to be the mate of Echidna (The Theogony uses Typhaon here and Typhoeus at l. 821; this database treats them as one figure (editorial identification).) | `creatures:typhon` |
 | ll. 306-332 | Mother of Orthus, Cerberus, the Hydra, the Chimaera, the Sphinx and the Nemean lion | `creatures:echidna` |
@@ -155,7 +163,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 306-332 | Destroys the Hydra with Iolaus | `heroes:heracles` |
 | ll. 306-332 | With Pegasus he slays the Chimaera | `heroes:bellerophon` |
 | ll. 306-332 | Fights the Hydra together with Heracles | `heroes:iolaus` |
-| ll. 306-332 | Heracles and Iolaus destroy the Hydra | `stories:the-lernaean-hydra` |
+| ll. 306-332 | Echidna and Typhaon have Orthus, Cerberus and the Hydra of Lerna, whom Hera raised in anger at Heracles; Heracles and Iolaus destroy her with Athena's help | `stories:the-lernaean-hydra` |
 | ll. 306-332 | Echidna bears the Lernaean Hydra | `relationships:echidna-parent-of-hydra` |
 | ll. 306-332 | Echidna bears Cerberus | `relationships:echidna-parent-of-cerberus` |
 | ll. 306-332 | Typhaon is the mate of Echidna and father of her offspring (Editorial identification of Typhaon (l. 306) with Typhoeus (l. 821).) | `relationships:typhon-parent-of-hydra` |
@@ -223,6 +231,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 453-491 | Named among the children of Cronos and Rhea | `deities:hades` |
 | ll. 453-491 | Named among the children of Cronos and Rhea | `deities:demeter` |
 | ll. 453-491 | First-named child of Cronos and Rhea | `deities:hestia` |
+| ll. 453-491 | Rhea bears Hestia, Demeter, Hera, Hades, Poseidon and Zeus to Cronus, who swallows each child; Rhea hides the infant Zeus on Crete and Cronus swallows a stone | `stories:birth-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-zeus` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-hera` |
@@ -235,9 +244,9 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-demeter` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:cronus-parent-of-hestia` |
 | ll. 453-491 | Named among the children Rhea bore to Cronos | `relationships:rhea-parent-of-hestia` |
-| ll. 453-506 | Cronos swallows his children; Rhea hides Zeus on Crete and gives Cronos a stone | `stories:birth-of-zeus` |
 | ll. 492-506 | Is tricked into vomiting them up again | `deities:cronus` |
 | ll. 492-506 | Overcomes Cronos and receives the thunderbolt | `deities:zeus` |
+| ll. 492-506 | Zeus forces Cronus to bring up his children, sets the swallowed stone at Pytho, frees the brothers of his father and receives thunder and the thunderbolt | `stories:birth-of-zeus` |
 | ll. 492-506 | Cronos is bested by the arts and might of his own son Zeus | `relationships:zeus-rival-of-cronus` |
 | ll. 507-544 | Son of Iapetus and Clymene; bound by Zeus, later freed by Heracles | `deities:prometheus` |
 | ll. 507-544 | Marries Clymene; their sons are Atlas, Menoetius, Prometheus and Epimetheus | `deities:iapetus` |
@@ -245,23 +254,33 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 507-544 | Son of Iapetus; from the first a mischief to men, since he was the first to take from Zeus the woman he had formed | `deities:epimetheus` |
 | ll. 507-544 | Son of Iapetus; Zeus strikes him with a thunderbolt and sends him down to Erebus for his presumption | `deities:menoetius` |
 | ll. 507-544 | Kills the eagle and frees Prometheus | `heroes:heracles` |
+| ll. 507-544 | Clymene bears Atlas, Menoetius, Prometheus and Epimetheus to Iapetus; Zeus strikes down Menoetius, makes Atlas hold up the sky, chains Prometheus, and lets Heracles kill the eagle and free him | `stories:prometheus-and-the-first-woman` |
 | ll. 507-544 | Heracles kills the eagle and frees Prometheus, with the will of Zeus | `relationships:heracles-ally-of-prometheus` |
 | ll. 507-544 | Clymene bears Atlas to Iapetus | `relationships:iapetus-parent-of-atlas` |
 | ll. 507-544 | Clymene bears Epimetheus to Iapetus | `relationships:iapetus-parent-of-epimetheus` |
 | ll. 507-544 | Clymene bears Menoetius to Iapetus | `relationships:iapetus-parent-of-menoetius` |
 | ll. 507-544 | Clymene bears Prometheus to Iapetus | `relationships:iapetus-parent-of-prometheus` |
 | ll. 507-544 | Zeus strikes Menoetius with a thunderbolt and sends him to Erebus | `relationships:zeus-rival-of-menoetius` |
+| ll. 545-557 | At Mecone Prometheus divides an ox, hiding flesh under the paunch and bones under fat, to trick Zeus; Zeus sees through it but takes the fat | `stories:prometheus-and-the-first-woman` |
 | ll. 545-616 | Tricks Zeus over the sacrifice, steals fire, and is punished | `deities:prometheus` |
-| ll. 545-616 | The sacrifice trick, the theft of fire, and the woman made as its price | `stories:prometheus-and-the-first-woman` |
 | ll. 545-616 | Zeus punishes Prometheus after the sacrifice trick and the theft of fire | `relationships:zeus-rival-of-prometheus` |
+| ll. 558-559 | Zeus rebukes Prometheus for his cunning | `stories:prometheus-and-the-first-woman` |
 | ll. 560-584 | Dresses the first woman | `deities:athena` |
 | ll. 560-584 | Forms the first woman from earth | `deities:hephaestus` |
+| ll. 560-584 | Zeus withholds fire; Prometheus steals it in a fennel stalk; as the price of fire Hephaestus forms a maiden from earth and Athena clothes and adorns her | `stories:prometheus-and-the-first-woman` |
+| ll. 585-589 | The gods and men marvel at the beautiful evil made as the price for fire | `stories:prometheus-and-the-first-woman` |
+| ll. 590-612 | Hesiod draws his lesson that women are an evil made by Zeus as the price of fire, whether a man marries or not | `stories:prometheus-and-the-first-woman` |
+| ll. 613-616 | No one can deceive Zeus; even Prometheus was held by strong bands | `stories:prometheus-and-the-first-woman` |
 | ll. 617-653 | Freed from their bonds under the earth on Earth's advice; Zeus feeds them nectar and they promise to fight the Titans | `creatures:hundred-handers` |
+| ll. 617-653 | The Hundred-Handers are freed from their bonds beneath the earth on Earth's advice; Zeus feeds them nectar and ambrosia and they promise to fight the Titans (The text says "their father" was vexed with the Hundred-Handers. This is read as Heaven, who hides them at ll. 147-162.) | `stories:titanomachy` |
 | ll. 617-653 | Zeus frees the hundred-handers and they promise to fight the Titans | `relationships:zeus-ally-of-hundred-handers` |
 | ll. 617-735 | Leads the gods against the Titans | `deities:zeus` |
-| ll. 617-735 | Ten years of war ended by Zeus with the hundred-handed brothers | `stories:titanomachy` |
+| ll. 654-663 | Cottus answers for the Hundred-Handers and promises to fight the Titans for Zeus | `stories:titanomachy` |
+| ll. 664-686 | The gods and the Hundred-Handers face the Titans; sea, earth, heaven and Olympus shake and the quake reaches Tartarus | `stories:titanomachy` |
+| ll. 687-712 | Zeus joins the battle with thunder and lightning; the earth, the sea and Ocean seethe and the Titans are scorched and blinded | `stories:titanomachy` |
 | ll. 713-735 | The defeated Titans are bound beneath the earth as far down as Tartarus, behind a bronze fence and a triple line of night | `deities:tartarus` |
 | ll. 713-735 | Bury the Titans under rocks and become their warders in Tartarus | `creatures:hundred-handers` |
+| ll. 713-735 | The Hundred-Handers bury the Titans beneath the earth as far as Tartarus; Poseidon fixes gates of bronze and the Hundred-Handers become warders | `stories:titanomachy` |
 | ll. 713-735 | They bury the Titans and become warders of Zeus | `relationships:zeus-ally-of-hundred-handers` |
 | ll. 744-757 | Her house stands where Night and Day pass each other at the bronze threshold; she holds Sleep in her arms | `deities:nyx` |
 | ll. 744-757 | Sleep is called his brother | `deities:thanatos` |
@@ -283,13 +302,16 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 820-868 | Defeats Typhoeus | `deities:zeus` |
 | ll. 820-868 | Father of Typhoeus by Earth; Zeus hurls the monster into wide Tartarus | `deities:tartarus` |
 | ll. 820-868 | Hundred-headed child of Earth and Tartarus, struck down by Zeus | `creatures:typhon` |
-| ll. 820-868 | Zeus defeats the monster and throws him into Tartarus | `stories:typhonomachy` |
+| ll. 820-868 | Earth bears the hundred-headed Typhoeus by Tartarus; Zeus fights and defeats him with thunder and lightning and throws him into Tartarus | `stories:typhonomachy` |
 | ll. 820-868 | Earth bears Typhoeus, her youngest, by Tartarus | `relationships:gaia-parent-of-typhon` |
 | ll. 820-868 | Zeus strikes Typhoeus down and casts him into Tartarus | `relationships:zeus-rival-of-typhon` |
 | ll. 820-868 | Earth bears Typhoeus of the love of Tartarus | `relationships:tartarus-parent-of-typhon` |
+| ll. 869-880 | The harmful winds come from Typhoeus; Notus, Boreas and Zephyr are a blessing to men | `stories:typhonomachy` |
+| ll. 881-885 | After the Titans are beaten, the gods urge Zeus to rule, at Earth's prompting, and he divides their honours | `stories:titanomachy` |
+| ll. 881-885 | After the Titans are beaten, the gods urge Zeus to rule, at Earth's prompting, and he divides their honours | `stories:typhonomachy` |
 | ll. 886-900 | Her mother Metis is swallowed by Zeus before the birth | `deities:athena` |
 | ll. 886-900 | Zeus's first wife and the wisest of gods and mortals; he swallows her before she bears Athena, on the advice of Earth and Heaven | `deities:metis` |
-| ll. 886-900 | Zeus swallows Metis to prevent a stronger child | `stories:birth-of-athena` |
+| ll. 886-900 | Zeus makes Metis his first wife and swallows her before she bears Athena, on the advice of Earth and Heaven | `stories:birth-of-athena` |
 | ll. 886-900 | Zeus makes Metis his first wife | `relationships:zeus-spouse-of-metis` |
 | ll. 886-900 | Metis was about to bear Athena when Zeus swallowed her | `relationships:metis-parent-of-athena` |
 | ll. 886-929 | Marriages and children of Zeus | `deities:zeus` |
@@ -302,7 +324,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 912-914 | Carries off Persephone | `deities:hades` |
 | ll. 912-914 | Bears Persephone to Zeus | `deities:demeter` |
 | ll. 912-914 | Daughter of Demeter and Zeus; carried off by Hades | `deities:persephone` |
-| ll. 912-914 | Demeter bears Persephone to Zeus | `stories:abduction-of-persephone` |
+| ll. 912-914 | Zeus lies with Demeter and she bears Persephone, whom Aidoneus carries off, though Zeus gave her to him | `stories:abduction-of-persephone` |
 | ll. 912-914 | Demeter bears Persephone to Zeus | `relationships:zeus-parent-of-persephone` |
 | ll. 912-914 | Demeter bears Persephone to Zeus | `relationships:demeter-parent-of-persephone` |
 | ll. 912-914 | Zeus comes to the bed of Demeter | `relationships:zeus-lover-of-demeter` |
@@ -314,7 +336,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 918-920 | Son of Leto and Zeus | `deities:apollo` |
 | ll. 918-920 | Daughter of Leto and Zeus | `deities:artemis` |
 | ll. 918-920 | Bears Apollo and Artemis to Zeus | `deities:leto` |
-| ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `stories:birth-of-apollo` |
+| ll. 918-920 | Leto, joined in love with Zeus, bears Apollo and Artemis | `stories:birth-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:zeus-parent-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:leto-parent-of-apollo` |
 | ll. 918-920 | Leto bears Apollo and Artemis to Zeus | `relationships:zeus-parent-of-artemis` |
@@ -332,12 +354,13 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 921-923 | Hera bears Eileithyia to Zeus | `relationships:zeus-parent-of-eileithyia` |
 | ll. 921-923 | Hera bears Eileithyia to Zeus | `relationships:hera-parent-of-eileithyia` |
 | ll. 924-928 | Born from Zeus's own head | `deities:athena` |
-| ll. 924-928 | Athena is born from the head of Zeus | `stories:birth-of-athena` |
 | ll. 924-928 | Zeus gives birth to Athena from his own head | `relationships:zeus-parent-of-athena` |
 | ll. 924-929 | Bears Hephaestus without Zeus | `deities:hera` |
 | ll. 924-929 | Born to Hera without Zeus; the most skilled craftsman of the gods | `deities:hephaestus` |
+| ll. 924-929 | Zeus gives birth to Athena from his own head; Hera, quarrelling with Zeus, bears Hephaestus without him | `stories:birth-of-athena` |
 | ll. 924-929 | Hera bears Hephaestus without union with Zeus | `relationships:hera-parent-of-hephaestus` |
 | ll. 929a | She conceives Pallas Athene and stays inside Zeus, who gives birth to Athena through his head | `deities:metis` |
+| ll. 929a | In a longer recension, Zeus swallows Metis, who has already conceived Athena, and gives birth to Athena through his head by the river Trito, arrayed in arms (The lines are restored from a quotation by Chrysippus and are not in the main manuscripts.) | `stories:birth-of-athena` |
 | ll. 929a | Metis conceives Athena and Zeus gives birth to her through his head | `relationships:metis-parent-of-athena` |
 | ll. 930-932 | Husband of Amphitrite and father of Triton | `deities:poseidon` |
 | ll. 930-932 | Wife of Poseidon and mother of Triton | `deities:amphitrite` |
@@ -411,6 +434,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | ll. 993-1002 | Led away from Aeetes by Jason, who makes her his wife; she bears Medeus | `heroes:medea` |
 | ll. 993-1002 | The king from whom Jason takes Medea | `heroes:aeetes` |
 | ll. 993-1002 | The overbearing king who puts grievous labours on Jason | `heroes:pelias` |
+| ll. 993-1002 | Jason, by the will of the gods, takes Medea from Aeetes after the labours set by Pelias, brings her to Iolcus and makes her his wife; she bears Medeus, raised by Cheiron | `stories:quest-for-the-golden-fleece` |
 | ll. 993-1002 | Jason brings Medea to Iolcus and makes her his wife | `relationships:jason-spouse-of-medea` |
 | ll. 993-1002 | Pelias puts grievous labours on Jason | `relationships:pelias-rival-of-jason` |
 | ll. 1003-1007 | The silver-shod goddess, subject to Peleus, bears Achilles | `deities:thetis` |
@@ -819,12 +843,36 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `stories:birth-of-apollo` (verified)
 - `stories:birth-of-athena` (verified)
 - `stories:birth-of-athena` (verified)
+- `stories:birth-of-athena` (verified)
 - `stories:birth-of-zeus` (verified)
+- `stories:birth-of-zeus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
+- `stories:castration-of-uranus` (verified)
 - `stories:castration-of-uranus` (verified)
 - `stories:perseus-and-medusa` (verified)
 - `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:prometheus-and-the-first-woman` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:the-lernaean-hydra` (verified)
 - `stories:the-lernaean-hydra` (verified)
 - `stories:titanomachy` (verified)
+- `stories:titanomachy` (verified)
+- `stories:titanomachy` (verified)
+- `stories:titanomachy` (verified)
+- `stories:titanomachy` (verified)
+- `stories:titanomachy` (verified)
+- `stories:typhonomachy` (verified)
+- `stories:typhonomachy` (verified)
 - `stories:typhonomachy` (verified)
 
 ## Variants and disagreements

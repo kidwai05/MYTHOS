@@ -38,9 +38,11 @@ class Catalog:
             if r['claim']: c['_text'].append(r['claim'])
 
         stories = []
+        body = {}
+        for r in db.execute('SELECT myth_id, text FROM myth_paragraph ORDER BY myth_id, position'): body.setdefault(r['myth_id'], []).append(r['text'])
         for r in db.execute('SELECT m.id, m.slug, m.title, m.summary, mm.slug ms, mm.name mn FROM myth m JOIN mythology mm ON mm.id=m.mythology_id'):
-            stories.append(dict(id=r['id'], slug=r['slug'], title=r['title'], summary=r['summary'], mythology=dict(slug=r['ms'], name=r['mn']),
-                                _doc=dict(name=r['title'], aliases=[], text=r['summary'] or '')))
+            stories.append(dict(id=r['id'], slug=r['slug'], title=r['title'], summary=r['summary'], status='written' if body.get(r['id']) else 'unwritten', mythology=dict(slug=r['ms'], name=r['mn']),
+                                _doc=dict(name=r['title'], aliases=[], text=' '.join([r['summary'] or ''] + body.get(r['id'], [])))))
         self.stories = stories
 
         sources = []

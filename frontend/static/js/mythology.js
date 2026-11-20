@@ -32,6 +32,7 @@ try {
     h('h2', {}, `Narratives & Episodes (${m.stories.length})`),
     h('ul', { class: 'stories-list' }, m.stories.map((st) => h('li', { class: 'story-item' },
       h('a', { href: `/stories/${st.slug}`, class: 'story-link' }, st.title),
+      st.status === 'written' ? h('span', { class: 'badge ok' }, 'told in full') : h('span', { class: 'badge no' }, 'not yet written'),
       st.summary ? h('p', { class: 'blurb' }, st.summary) : null
     )))
   ) : null;

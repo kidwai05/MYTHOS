@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Check that data/ and research/ agree. Run from the repo root.
-Usage: python scripts/validate_data.py [--require-verified greek] [--require-summary greek]"""
+Usage: python scripts/validate_data.py [--require-verified greek] [--require-summary greek] [--require-story-text greek]"""
 import json, os, sys
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 args = sys.argv[1:]
 require = args[args.index('--require-verified') + 1] if '--require-verified' in args else None
 require_summary = args[args.index('--require-summary') + 1] if '--require-summary' in args else None
+require_story = args[args.index('--require-story-text') + 1] if '--require-story-text' in args else None
 load = lambda n: json.load(open(os.path.join(root, 'data', n + '.json'), encoding='utf-8'))['records']
 errors, info = [], []
 
@@ -75,6 +76,38 @@ def needs_verified(r):
 for f in ('deities', 'creatures', 'heroes'):
     for r in load(f): check_links(f, r); needs_verified(r); check_summary(r)
 
+import re
+def _pid(p): return (p.get('character_id') or p.get('id') or p.get('character')) if isinstance(p, dict) else p
+def _names(c):
+    out = {re.sub(r'\s*\(.*\)', '', c['name']).strip()} | set(c.get('aliases', []))
+    out |= {n[4:] for n in list(out) if n.lower().startswith('the ')}
+    return {n.lower() for n in out if len(n) > 2}
+def check_story(r):
+    """A written myth (a `body`) must be traceable: every paragraph rests on verified passages of the story, every participant is named."""
+    body, summary = r.get('body', []), r.get('summary')
+    if require_story and r['mythology'] == require_story and not body: errors.append(f"story {r['id']} ({require_story}) has no written text")
+    if not body: return
+    if not summary or not (60 <= len(summary) <= 420): errors.append(f"story {r['id']}: needs a summary of 60-420 characters")
+    verified = {(l['source_id'], l['locator']) for l in r['sources'] if l.get('verified')}
+    words = sum(len(p['text'].split()) for p in body)
+    if words < 180: errors.append(f"story {r['id']}: only {words} words; a written myth needs at least 180")
+    if body[0].get('kind', 'narrative') != 'narrative': errors.append(f"story {r['id']}: the first paragraph must be narrative")
+    for i, p in enumerate(body, 1):
+        if p.get('kind', 'narrative') not in ('narrative', 'variant', 'note'): errors.append(f"story {r['id']} paragraph {i}: unknown kind")
+        if len(p['text']) < 60: errors.append(f"story {r['id']} paragraph {i}: too short")
+        if not p.get('basis'): errors.append(f"story {r['id']} paragraph {i}: no basis")
+        for b in p.get('basis', []):
+            if (b['source_id'], b['locator']) not in verified: errors.append(f"story {r['id']} paragraph {i}: basis {b['source_id']} {b['locator']} is not a verified link of the story")
+    text = ' '.join(p['text'] for p in body).lower()
+    for part in r.get('participants', []):
+        c = chars.get(_pid(part))
+        if c and not any(n in text for n in _names(c)): errors.append(f"story {r['id']}: participant {_pid(part)} is never named in the text")
+    used = {(b['source_id'], b['locator']) for p in body for b in p.get('basis', [])}
+    for l in r['sources']:
+        if l.get('verified') and (l['source_id'], l['locator']) not in used: errors.append(f"story {r['id']}: verified link {l['source_id']} {l['locator']} is not used by any paragraph")
+    if r.get('locations') is not None and not isinstance(r['locations'], list): errors.append(f"story {r['id']}: locations must be a list")
+    for loc in r.get('locations', []):
+        if loc.lower() not in text: errors.append(f"story {r['id']}: location '{loc}' is never named in the text")
 stories = load('stories')
 for r in stories:
     check_links('stories', r); needs_verified(r)
@@ -86,6 +119,7 @@ for r in stories:
     for p in r.get('participants', []):
         p_id = p.get('character_id') or p.get('id') or p.get('character') if isinstance(p, dict) else p
         if p_id not in chars: errors.append(f"stories:{r['id']} unknown participant {p_id}")
+    check_story(r)
 
 seen, edges = set(), {}
 for r in load('relationships'):

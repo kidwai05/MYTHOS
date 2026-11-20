@@ -127,7 +127,11 @@ export function reveal(scope = document) {
   if (reduce.matches || !('IntersectionObserver' in window)) return;
   const fresh = [...scope.querySelectorAll(REVEAL)].filter((el) => !el.dataset.rv);
   for (const el of fresh) { el.dataset.rv = '0'; }
-  for (const el of fresh) io.observe(el);
+  for (const el of fresh) {
+    // An element far taller than the screen (a long myth) can never show 8% of itself, so it would stay hidden. Show it at once.
+    if (el.offsetHeight > innerHeight * 1.2) { el.dataset.rv = '1'; continue; }
+    io.observe(el);
+  }
 }
 const io = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
   let i = 0;

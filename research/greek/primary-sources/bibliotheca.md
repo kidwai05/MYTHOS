@@ -33,34 +33,46 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Library 1.9.16 | Listed among the Argonauts as a son of Zeus | `heroes:heracles` |
 | Library 1.9.16 | Loses a sandal crossing the river and is sent by Pelias to fetch the Golden Fleece; Athena advises on building the Argo | `heroes:jason` |
 | Library 1.9.16 | Sends Jason to fetch the Golden Fleece after he loses a sandal | `heroes:pelias` |
+| Library 1.9.16 | Pelias, warned by an oracle to beware of the man with one sandal, sees Jason arrive after losing a sandal in the Anaurus and sends him for the Golden Fleece; Jason and Argus build the Argo on Athena's advice, with a speaking timber from the oak of Dodona; the god gives leave to gather the nobles of Greece; The heroes assemble, among them Heracles, Peleus, Castor and Pollux, and sons of Poseidon, Hermes, Hephaestus and the Sun, with Jason as admiral | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.16 | Heracles is listed among the Argonauts | `relationships:heracles-ally-of-jason` |
 | Library 1.9.16 | Athena advises on the building of the Argo and fits its speaking timber | `relationships:athena-ally-of-jason` |
 | Library 1.9.16 | One reading has Hera prompting Jason's answer to Pelias (Apollodorus hedges: "whether at haphazard or instigated by the angry Hera".) | `relationships:hera-ally-of-jason` |
 | Library 1.9.16 | Pelias sends Jason for the Golden Fleece | `relationships:pelias-rival-of-jason` |
-| Library 1.9.16-1.9.28 | From Pelias's command through Colchis and Medea's help to the return and the murder of Pelias | `stories:quest-for-the-golden-fleece` |
+| Library 1.9.17 | At Lemnos, ruled by Hypsipyle after the women murdered the men for dishonouring Aphrodite, the Argonauts lie with the women and Hypsipyle bears Jason two sons | `stories:quest-for-the-golden-fleece` |
+| Library 1.9.18 | The Argonauts are received kindly by Cyzicus of the Doliones, blown back by night, fight them in mutual ignorance and kill Cyzicus, then bury him with honour | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.19 | Left behind in Mysia when Hylas is carried off by nymphs | `heroes:heracles` |
+| Library 1.9.19 | Hylas is carried off by nymphs in Mysia; Heracles and Polyphemus search for him and the ship sails without them; Other writers disagree about Heracles: he did not sail at all (Herodorus), was left at Aphetae because the Argo could not bear his weight (Pherecydes), or sailed to Colchis or even led the expedition (Demaratus, Dionysius) | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.19 | Heracles is left behind in Mysia and the ship sails on without him | `relationships:heracles-ally-of-jason` |
+| Library 1.9.20 | In the land of the Bebryces, Pollux boxes King Amycus, son of Poseidon, and kills him; the Argonauts rout the Bebryces | `stories:quest-for-the-golden-fleece` |
+| Library 1.9.21 | At Salmydessus the blind seer Phineus is plagued by the Harpies and offers the Argonauts advice if they rid him of them; Zetes and Calais chase the Harpies away; Apollodorus notes that in the Argonautica the Harpies are pursued to the Strophades unharmed after swearing not to wrong Phineus again | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.22 | Helps the Argo pass the Clashing Rocks | `deities:hera` |
+| Library 1.9.22 | Phineus advises the Argonauts about the Clashing Rocks; they test them with a dove, and with Hera's help the Argo passes through, after which the rocks stand still | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.22 | Hera helps the Argo through the Clashing Rocks | `relationships:hera-ally-of-jason` |
 | Library 1.9.23 | Wins the fleece with Medea's help after Aeetes sets the task of yoking the bulls | `heroes:jason` |
 | Library 1.9.23 | Witch and daughter of Aeetes and Idyia; falls for Jason and helps him win the fleece | `heroes:medea` |
 | Library 1.9.23 | King of Colchis; keeper of the fleece, who sets Jason the task of yoking the bulls; father of Medea by Idyia | `heroes:aeetes` |
-| Library 1.9.23 | Jason yokes the bulls, sows the teeth and kills the armed men with Medea's advice | `stories:yoking-of-the-bronze-bulls` |
+| Library 1.9.23 | The Argonauts lose Idmon and Tiphys among the Mariandynians, sail on to the Phasis in Colchis, and Jason asks Aeetes for the fleece; Aeetes sets Jason the task of yoking the bronze-footed bulls Hephaestus gave him and sowing Athena's dragon's teeth; Medea, in love, gives him a drug and a trick; he succeeds, but Aeetes still plans to burn the Argo | `stories:quest-for-the-golden-fleece` |
+| Library 1.9.23 | Aeetes sets Jason the task of yoking the bronze-footed bulls Hephaestus gave him and sowing Athena's dragon's teeth; Medea, in love, gives him a drug and a trick; he succeeds, but Aeetes still plans to burn the Argo | `stories:yoking-of-the-bronze-bulls` |
 | Library 1.9.23 | Medea is the daughter of Aeetes and Idyia | `relationships:aeetes-parent-of-medea` |
 | Library 1.9.23 | Aeetes withholds the fleece and plans to burn the Argo | `relationships:aeetes-rival-of-jason` |
 | Library 1.9.23 | Medea helps Jason win the fleece in return for his oath | `relationships:medea-ally-of-jason` |
 | Library 1.9.24 | Sends a storm on the Argo, angry at the murder of Apsyrtus | `deities:zeus` |
+| Library 1.9.24 | Aeetes pursues the Argo; Medea murders her brother Apsyrtus and throws the pieces into the sea so that Aeetes is delayed; Zeus sends a storm in anger, and the ship tells them to be purified by Circe | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.24-1.9.25 | Purifies the Argonauts of the murder of Apsyrtus at Aeaea | `heroes:circe` |
+| Library 1.9.24-1.9.25 | Circe purifies the Argonauts of the murder of Apsyrtus at Aeaea; Orpheus counters the Sirens; Thetis and the Nereids steer the Argo past the Wandering Rocks at Hera's summons; the Argo reaches the Phaeacians; Arete marries Medea to Jason among the Phaeacians before the Colchians can reclaim her | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.24-1.9.25 | Arete, wife of Alcinous, marries Medea to Jason among the Phaeacians | `relationships:jason-spouse-of-medea` |
 | Library 1.9.24-1.9.25 | Circe purifies the Argonauts at Aeaea (She purifies the whole crew; Jason and Medea are the guilty parties in the murder of Apsyrtus.) | `relationships:circe-ally-of-jason` |
 | Library 1.9.24-1.9.25 | Circe purifies the Argonauts, including Medea, at Aeaea | `relationships:circe-ally-of-medea` |
 | Library 1.9.26 | Flashes lightning from the Melantian ridges; the Argonauts found an altar to Radiant Apollo at Anaphe | `deities:apollo` |
+| Library 1.9.26 | In a storm Apollo flashes lightning to show the island of Anaphe, where the Argonauts found an altar of Radiant Apollo; Talos keeps them from Crete and Medea brings about his death; the Argo reaches Iolcus after four months | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.26 | Apollo lights the way to Anaphe, where the Argonauts found his altar | `relationships:apollo-ally-of-jason` |
 | Library 1.9.27 | Jason dedicates the Argo to him at the Isthmus | `deities:poseidon` |
 | Library 1.9.27 | Persuades the daughters of Pelias to boil their father | `heroes:medea` |
 | Library 1.9.27 | His daughters are persuaded by Medea to boil their father | `heroes:pelias` |
+| Library 1.9.27 | Pelias kills Jason's family; Jason gives up the fleece, dedicates the Argo to Poseidon, and Medea persuades the daughters of Pelias to boil their father; Acastus drives Jason and Medea out | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.27 | Medea persuades the daughters of Pelias to boil their father | `relationships:medea-rival-of-pelias` |
 | Library 1.9.28 | Marries Glauce at Corinth and divorces Medea | `heroes:jason` |
+| Library 1.9.28 | At Corinth Jason marries Glauce and divorces Medea, who kills Glauce and Creon with a poisoned robe, kills her sons by Jason, and flees to Athens, where she marries Aegeus; she later restores Aeetes to the throne of Colchis | `stories:quest-for-the-golden-fleece` |
 | Library 1.9.28 | Jason later marries Glauce and divorces Medea (The marriage ends: Medea kills Glauce and her own children by Jason (1.9.28).) | `relationships:jason-spouse-of-medea` |
 | Library 2.4.2 | Father of Pegasus and Chrysaor by Medusa | `deities:poseidon` |
 | Library 2.4.2 | Guides Perseus's hand as he beheads Medusa | `deities:athena` |
@@ -69,6 +81,7 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Library 2.4.2 | Begotten, with Chrysaor, by Poseidon | `creatures:pegasus` |
 | Library 2.4.2 | Begotten, with Pegasus, by Poseidon | `creatures:chrysaor` |
 | Library 2.4.2 | Sent by Polydectes; guided by Hermes and Athena, he beheads the sleeping Medusa | `heroes:perseus` |
+| Library 2.4.2 | Polydectes of Seriphus, in love with Danae, tricks Perseus into promising to fetch the Gorgon's head; Guided by Hermes and Athena, Perseus takes the one eye and tooth of the Phorcides and makes them show him the way to the nymphs; The nymphs give Perseus winged sandals, the kibisis and the cap of Hades, and Hermes gives him an adamantine sickle; Perseus finds the Gorgons asleep; only Medusa is mortal; Athena guides his hand as he beheads her, looking at her image in a bronze shield; Pegasus and Chrysaor spring from the beheaded Gorgon; she had them by Poseidon | `stories:perseus-and-medusa` |
 | Library 2.4.2 | Perseus beheads Medusa as she sleeps | `relationships:perseus-killer-of-medusa` |
 | Library 2.4.2 | Pegasus and Chrysaor spring from Medusa, begotten by Poseidon | `relationships:poseidon-lover-of-medusa` |
 | Library 2.4.2 | Athena guides Perseus and steadies his hand as he beheads Medusa | `relationships:athena-ally-of-perseus` |
@@ -77,8 +90,8 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Library 2.4.2 | Chrysaor springs from Medusa | `relationships:medusa-parent-of-chrysaor` |
 | Library 2.4.2 | Pegasus and Chrysaor are begotten by Poseidon | `relationships:poseidon-parent-of-pegasus` |
 | Library 2.4.2 | Pegasus and Chrysaor are begotten by Poseidon | `relationships:poseidon-parent-of-chrysaor` |
-| Library 2.4.2-2.4.3 | Perseus, guided by Hermes and Athena, beheads Medusa; Pegasus and Chrysaor are born; the head goes to Athena | `stories:perseus-and-medusa` |
 | Library 2.4.3 | Gives the Gorgon's head to Athena, who sets it in her shield | `heroes:perseus` |
+| Library 2.4.3 | Perseus escapes the Gorgons under the cap, finds Andromeda exposed to a sea monster sent by Poseidon, and wins her by killing it; Perseus turns Phineus and his fellow conspirators to stone with the Gorgon's head; Perseus turns Polydectes and his friends to stone on Seriphus, makes Dictys king, returns his gear through Hermes and gives the head to Athena for her shield; Some say Medusa was beheaded for Athena's sake because she wished to rival the goddess in beauty | `stories:perseus-and-medusa` |
 | Library 2.4.3 | Perseus gives her the Gorgon's head | `relationships:athena-ally-of-perseus` |
 | Library 2.4.5 | Declares that the descendant of Perseus about to be born will rule Mycenae | `deities:zeus` |
 | Library 2.4.5 | Has the Ilithyias delay Alcmena's labour so that Eurystheus is born first | `deities:hera` |
@@ -95,13 +108,14 @@ Licence: Public domain in the US (published before 1931). Check your own country
 | Library 2.5.1 | The first beast Heracles faces in the labours set by Eurystheus | `creatures:nemean-lion` |
 | Library 2.5.1 | Performs the labours set by Eurystheus, beginning with the Nemean lion | `heroes:heracles` |
 | Library 2.5.1 | Sets Heracles the labours | `heroes:eurystheus` |
+| Library 2.5.1 | Heracles serves Eurystheus; the first labour is the skin of the invulnerable Nemean lion, begotten by Typhon, which he strangles; Eurystheus forbids him the city and sends orders by a herald | `stories:the-lernaean-hydra` |
 | Library 2.5.1 | The Nemean lion is the first of the labours | `relationships:heracles-rival-of-nemean-lion` |
 | Library 2.5.1 | Eurystheus sets Heracles the labours | `relationships:eurystheus-rival-of-heracles` |
 | Library 2.5.2 | Nine-headed beast bred in the swamp of Lerna, with one immortal head; killed by Heracles and Iolaus | `creatures:hydra` |
 | Library 2.5.2 | Kills the Lernaean Hydra with Iolaus; Eurystheus refuses to count the labour | `heroes:heracles` |
 | Library 2.5.2 | Helps Heracles kill the Hydra; Eurystheus refuses to count the labour | `heroes:iolaus` |
 | Library 2.5.2 | Refuses to count the killing of the Hydra as a labour | `heroes:eurystheus` |
-| Library 2.5.2 | Heracles and Iolaus destroy the nine-headed Hydra at Lerna | `stories:the-lernaean-hydra` |
+| Library 2.5.2 | Eurystheus orders Heracles to kill the Lernaean Hydra, a nine-headed beast bred in the swamp of Lerna with one immortal head; Heracles and Iolaus overcome it and Eurystheus refuses to count the labour | `stories:the-lernaean-hydra` |
 | Library 2.5.2 | Heracles, helped by Iolaus, kills the Hydra | `relationships:heracles-killer-of-hydra` |
 | Library 2.5.2 | Iolaus helps Heracles kill the Hydra | `relationships:heracles-ally-of-iolaus` |
 | Library 2.5.2 | Eurystheus refuses to count the Hydra as a labour | `relationships:eurystheus-rival-of-heracles` |
@@ -189,7 +203,21 @@ Licence: Public domain in the US (published before 1931). Check your own country
 - `relationships:poseidon-parent-of-pegasus` (verified)
 - `relationships:zeus-parent-of-heracles` (verified)
 - `stories:perseus-and-medusa` (verified)
+- `stories:perseus-and-medusa` (verified)
 - `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:quest-for-the-golden-fleece` (verified)
+- `stories:the-lernaean-hydra` (verified)
 - `stories:the-lernaean-hydra` (verified)
 - `stories:yoking-of-the-bronze-bulls` (verified)
 
